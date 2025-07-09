@@ -48,36 +48,61 @@ The internet allows **devices and networks** to exchange data efficiently.
 Internet connections vary in **speed, reliability, and infrastructure**.
 
 <table class="notesTable">
-    <thead>
-        <tr class="tableHeader">
-            <th class="tableCellHeader">Connection Type</th>
-            <th class="tableCellHeader">Speed</th>
-            <th class="tableCellHeader">Common Usage</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="tableRow">
-            <td class="tableCell">Fiber Optic</td>
-            <td class="tableCell">1 Gbps or more</td>
-            <td class="tableCell">High-speed residential & business</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">DSL</td>
-            <td class="tableCell">1–100 Mbps</td>
-            <td class="tableCell">Home broadband</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">Satellite</td>
-            <td class="tableCell">Up to 100 Mbps</td>
-            <td class="tableCell">Rural areas</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">5G Wireless</td>
-            <td class="tableCell">Up to 10 Gbps</td>
-            <td class="tableCell">Mobile internet</td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Connection Type</th>
+      <th class="tableCellHeader">Speed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Fiber Optic</td>
+      <td class="tableCell">1 Gbps or more</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">DSL</td>
+      <td class="tableCell">1–100 Mbps</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Satellite</td>
+      <td class="tableCell">Up to 100 Mbps</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">5G Wireless</td>
+      <td class="tableCell">Up to 10 Gbps</td>
+    </tr>
+  </tbody>
 </table>
+
+<br>
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Connection Type</th>
+      <th class="tableCellHeader">Common Usage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Fiber Optic</td>
+      <td class="tableCell">High-speed residential & business</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">DSL</td>
+      <td class="tableCell">Home broadband</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Satellite</td>
+      <td class="tableCell">Rural areas</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">5G Wireless</td>
+      <td class="tableCell">Mobile internet</td>
+    </tr>
+  </tbody>
+</table>
+
 <br><br>
 
 ### **For More on Speed Evolution**

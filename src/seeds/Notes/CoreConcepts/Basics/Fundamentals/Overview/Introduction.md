@@ -20,35 +20,59 @@ Devices in a network take on one of two main roles:
 ## Network Types Overview
 ---
 
-Different network types are used depending on the **size, coverage area, and purpose** of the network.
+Different network types are used depending on the **size, coverage area, and purpose** of the network.  
+
+<br>
 
 <table class="notesTable">
-    <thead>
-        <tr class="tableHeader">
-            <th class="tableCellHeader">Network Type</th>
-            <th class="tableCellHeader">Coverage Area</th>
-            <th class="tableCellHeader">Example Use</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="tableRow">
-            <td class="tableCell">LAN (Local Area Network)</td>
-            <td class="tableCell">Within a home, school, or office</td>
-            <td class="tableCell">Connecting computers in a school</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">WAN (Wide Area Network)</td>
-            <td class="tableCell">Covers large geographical areas</td>
-            <td class="tableCell">The internet, a corporate global network</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">MAN (Metropolitan Area Network)</td>
-            <td class="tableCell">Covers a city or large campus</td>
-            <td class="tableCell">University networks, municipal networks</td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Network Type</th>
+      <th class="tableCellHeader">Coverage Area</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">LAN (Local Area Network)</td>
+      <td class="tableCell">Within a home, school, or office</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">WAN (Wide Area Network)</td>
+      <td class="tableCell">Covers large geographical areas</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">MAN (Metropolitan Area Network)</td>
+      <td class="tableCell">Covers a city or large campus</td>
+    </tr>
+  </tbody>
 </table>
-<br><br>
+
+<br>
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Network Type</th>
+      <th class="tableCellHeader">Example Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">LAN (Local Area Network)</td>
+      <td class="tableCell">Connecting computers in a school</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">WAN (Wide Area Network)</td>
+      <td class="tableCell">The internet, a corporate global network</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">MAN (Metropolitan Area Network)</td>
+      <td class="tableCell">University networks, municipal networks</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
 
 ---
 ## The Client-Server Model
