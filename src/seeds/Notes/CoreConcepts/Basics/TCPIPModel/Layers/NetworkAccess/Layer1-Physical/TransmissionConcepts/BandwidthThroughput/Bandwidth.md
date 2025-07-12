@@ -26,6 +26,8 @@ Different physical media (like copper, fiber, or wireless) support different tra
 
 Bandwidth is measured in <span class="emphasis">bits per second (bps)</span> and its larger units. The tables below outline the most common units used in networking:
 
+<br>
+
 <table class="notesTable">
   <thead>
     <tr class="tableHeader">
@@ -56,6 +58,8 @@ Bandwidth is measured in <span class="emphasis">bits per second (bps)</span> and
     </tr>
   </tbody>
 </table>
+
+<br>
 
 <table class="notesTable">
   <thead>
