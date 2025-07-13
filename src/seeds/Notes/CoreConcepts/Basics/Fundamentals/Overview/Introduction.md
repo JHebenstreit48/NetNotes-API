@@ -1,5 +1,5 @@
 # Introduction to Networking
-<br><br>
+<br>
 
 ---
 ## What is Networking?
@@ -7,14 +7,23 @@
 Networking is the process of **connecting devices** to share <span class="emphasis">data</span> and <span class="secondEmphasis">resources</span>. It enables **communication and collaboration** between users and systems across small or large distances.
 
 Devices in a network take on one of two main roles:
-- <span class="emphasis">Client</span>: Requests <span class="secondEmphasis">services</span> or <span class="secondEmphasis">data</span>.
-- <span class="emphasis">Server</span>: Provides <span class="secondEmphasis">services</span> or <span class="secondEmphasis">data</span>.
+
+<div class="bullet4">
+
+- <span class="emphasis">Client</span>: Requests <span class="secondEmphasis">services</span> or <span class="secondEmphasis">data</span>.  
+- <span class="emphasis">Server</span>: Provides <span class="secondEmphasis">services</span> or <span class="secondEmphasis">data</span>.  
+
+</div>
 
 **Real-World Examples:**
+
+<div class="bullet1">
+
 - A **printer** on a home network allows multiple devices to send print jobs wirelessly.
 - A **company network** enables employees to share files and access cloud-based applications.
 - **Online gaming servers** connect players from around the world.
-<br><br>
+
+</div>
 
 ---
 ## Network Types Overview
