@@ -1,5 +1,4 @@
-# Local Networks and Connectivity  
-<br><br>
+<br>
 
 ---
 ## **What Are Local Networks?**
