@@ -1,5 +1,4 @@
-# The Internet and Global Networks
-<br><br>
+<br>
 
 ---
 ## Who Owns the Internet?
