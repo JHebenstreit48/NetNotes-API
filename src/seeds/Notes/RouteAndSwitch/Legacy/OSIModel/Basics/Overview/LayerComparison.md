@@ -1,4 +1,3 @@
-# OSI Model — Layers Comparison  
 <br>
 
 ---
