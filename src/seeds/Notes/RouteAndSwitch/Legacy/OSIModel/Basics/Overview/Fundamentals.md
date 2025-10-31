@@ -104,5 +104,5 @@ This OSI section is your <span class="emphasis">conceptual on-ramp</span>. All p
 
 <div class="xrefBox">
   <span class="emphasis">Next:</span>
-  <a href="/coreconcepts/basics/osimodel/layercomparison">OSI Layers &amp; TCP/IP Comparison</a>
+  <a href="/legacy/osi-model/basics/overview/layer-comparison">OSI Layers &amp; TCP/IP Comparison</a>
 </div>
