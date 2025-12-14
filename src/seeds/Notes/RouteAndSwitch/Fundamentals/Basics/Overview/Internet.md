@@ -119,3 +119,9 @@ The internet continues to evolve with new technologies:
 - **Edge Computing:** Improves speed and reduces latency.
 
 ---
+
+<div>  
+Next:
+  
+<a href="/fundamentals/basics/overview/local-networks"><span class="emphasis">Routing & Switching → Basics → Overview → Local Networks</span></a>
+</div>

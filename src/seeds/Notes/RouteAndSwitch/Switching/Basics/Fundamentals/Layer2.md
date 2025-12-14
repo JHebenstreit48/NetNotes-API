@@ -46,3 +46,8 @@
     - Older switches or specialized designs may use 0 to align with legacy conventions.
 - **Why Most Switch Ports Start at 1**:
   - User-facing ports generally start at 1 to provide clear, intuitive numbering for configurations like VLANs or spanning tree protocols.
+
+<div>  
+Next:  
+<a href="/switching/basics/fundamentals/mac-address-table"><span class="emphasis">Switching → Basics → Fundamentals → MAC Address Table</span></a>
+</div>

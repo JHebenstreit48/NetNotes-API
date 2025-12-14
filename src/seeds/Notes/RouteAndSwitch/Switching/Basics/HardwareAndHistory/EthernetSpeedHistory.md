@@ -1,8 +1,12 @@
 # Evolution of Ethernet Speeds  
 <br>
 
-> 📘 Need a refresher on what Mbps, Gbps, or Tbps mean?  
-> See: [Bandwidth](/corenetworking/tcpipmodel/networkaccess/physical/transmission/bandwidththroughput/bandwidth)
+Need a refresher on what Mbps, Gbps, or Tbps mean?
+
+<div class="xrefBox">
+> <span class="emphasis">See:</span>
+<a href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Bandwidth</a>
+</div>
 
 ## Original Ethernet  
 ---
@@ -84,3 +88,8 @@
 - Under development by the IEEE P802.3dj Task Force.
 - Expected to be completed by <span class="emphasis">Spring 2026</span>.
 - Will use 200 Gbps lanes for ultra-high-performance networking.
+
+<div class="xrefBox">  
+<span class="emphasis">Next Topic:</span>
+<a href="/switching/basics/glossary/hosts-and-ports">Glossary → Hosts & Ports</a>
+</div>
