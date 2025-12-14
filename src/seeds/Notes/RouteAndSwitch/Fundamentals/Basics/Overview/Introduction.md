@@ -93,3 +93,9 @@ Different network types are used depending on the **size, coverage area, and pur
 - A **company laptop** accesses a shared document from a **file server**.
 
 ---
+
+<div>  
+Next:
+  
+<a href="/fundamentals/basics/overview/internet"><span class="emphasis">Routing & Switching → Basics → Overview → Internet & Networks</span></a>
+</div>
