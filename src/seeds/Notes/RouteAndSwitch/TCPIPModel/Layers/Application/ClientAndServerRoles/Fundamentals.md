@@ -3,80 +3,74 @@
 ---
 ### Role-Based Communication
 ---
-"In modern networks computer hosts can act as a client, a server, or both. The software installed on the computer determines which role the computer plays."
 
-In modern networks, a host is not locked into one job forever. A host can act as a <span class="emphasis">client</span>, a <span class="emphasis">server</span>, or <span class="secondEmphasis">both</span> depending on the <span class="emphasis">software installed</span> and what the host is doing at that moment.
+In modern networks, a host can operate as a <span class="emphasis">client</span>, a <span class="emphasis">server</span>, or <span class="secondEmphasis">both</span>.  
+The <span class="emphasis">software installed</span> on the device determines which role it performs at any moment.
 
 ---
 ### Client vs Server (Core Definitions)
 ---
-"Servers are hosts that have software installed, which enable them to provide information to other hosts on the network, like email or webpages."
-
-"Clients are computer hosts that have software installed that enables the host to request and display the information obtained from the server."
 
 <table class="notesTable">
   <thead>
     <tr class="tableHeader">
       <th class="tableCellHeader">Role</th>
-      <th class="tableCellHeader">Definition</th>
+      <th class="tableCellHeader">What It Does</th>
     </tr>
   </thead>
   <tbody>
     <tr class="tableRow">
       <td class="tableCell"><span class="emphasis">Client</span></td>
-      <td class="tableCell">A host running software that can <span class="emphasis">request</span> and <span class="emphasis">display</span> information obtained from a server.</td>
+      <td class="tableCell">Runs software that can <span class="emphasis">request</span> and use information or services from another host.</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell"><span class="emphasis">Server</span></td>
-      <td class="tableCell">A host running software that can <span class="emphasis">provide</span> information or services to other hosts on the network.</td>
+      <td class="tableCell">Runs software that can <span class="emphasis">provide</span> information or services to requesting hosts.</td>
     </tr>
   </tbody>
 </table>
-
----
-### What Determines the Role?
----
-"The software installed on the computer determines which role the computer plays."
-
-The same physical device can behave differently based on what it is running:
-- If it is <span class="emphasis">requesting</span> a service, it is acting as a <span class="emphasis">client</span>.
-- If it is <span class="emphasis">providing</span> a service, it is acting as a <span class="emphasis">server</span>.
-- If it does <span class="secondEmphasis">both</span>, it may act as a client for one service and a server for another.
 
 ---
 ### Services Require Separate Server Software
 ---
-"Each service requires separate server software."
 
-A server provides resources through <span class="emphasis">server software</span>. Different services typically require different server applications.
+Each network service is usually delivered by its own <span class="emphasis">server application</span>.  
+For example, providing web content is a different function than handling email, even if both run on the same machine.
 
-<table class="notesTable">
-  <thead>
-    <tr class="tableHeader">
-      <th class="tableCellHeader">Service Example</th>
-      <th class="tableCellHeader">What the Server Provides</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="tableRow">
-      <td class="tableCell"><span class="emphasis">Webpages</span></td>
-      <td class="tableCell">Website content and web resources to clients that request them.</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell"><span class="emphasis">Email</span></td>
-      <td class="tableCell">Email sending/receiving and mailbox access for clients.</td>
-    </tr>
-  </tbody>
-</table>
+---
+### Examples of Client Software
+---
+
+A familiar example of client software is a <span class="emphasis">web browser</span>.
+
+Common examples include:
+- Google Chrome  
+- Microsoft Edge  
+- Safari  
+- Firefox  
+- Brave  
+- Vivaldi  
+
+Using this software, the client sends a <span class="emphasis">request</span> and the server sends back a <span class="emphasis">response</span> containing the webpage.
+
+When accessing content on the internet, it is important to remember that <span class="emphasis">every destination</span> you visit is delivered by a <span class="emphasis">server</span> located somewhere on a network connected to the <span class="emphasis">global internet</span>.  
+Websites, downloads, videos, and cloud services all come from systems designed to respond to client requests.
+
+Another example is <span class="emphasis">email</span>.  
+An email application (such as Microsoft Outlook) acts as the client and communicates with a mail server so users can <span class="emphasis">send</span> and <span class="emphasis">receive</span> messages.
+
+A third common service is <span class="emphasis">file storage</span>.  
+A file server keeps data in a <span class="emphasis">central location</span>, and client devices access those files using operating system tools or file management software.
 
 ---
 ### Summary
 ---
-- Hosts can act as a <span class="emphasis">client</span>, a <span class="emphasis">server</span>, or <span class="secondEmphasis">both</span>.
-- A host’s role depends on the <span class="emphasis">software installed</span> and the job it is performing.
-- <span class="emphasis">Servers</span> provide services (such as <span class="emphasis">email</span> or <span class="emphasis">webpages</span>).
-- <span class="emphasis">Clients</span> request and display the information they obtain from servers.
-- Each service typically requires separate <span class="emphasis">server software</span>.
+
+- A device’s role is defined by the <span class="emphasis">software</span> it runs.
+- <span class="emphasis">Clients</span> request services.
+- <span class="emphasis">Servers</span> provide services.
+- A host may perform <span class="secondEmphasis">multiple roles</span>.
+- Different services normally require different server applications.
 
 ---
 

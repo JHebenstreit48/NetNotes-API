@@ -3,50 +3,74 @@
 ---
 ### Peer-to-Peer vs Client/Server
 ---
-Client/server communication uses clear roles: one host <span class="emphasis">requests</span> and another host <span class="emphasis">provides</span>.  
-Peer-to-peer (P2P) is different: hosts can share resources more <span class="secondEmphasis">directly</span> with each other rather than relying on one central server for everything.
+
+In a <span class="emphasis">client/server</span> design, responsibilities are clearly separated: one host <span class="emphasis">requests</span> and another host <span class="emphasis">provides</span>.
+
+In a <span class="emphasis">peer-to-peer (P2P)</span> model, hosts can exchange resources more <span class="secondEmphasis">directly</span> without depending on one central system.
+
+A single device may even perform <span class="secondEmphasis">both roles</span> at the same time depending on what it is doing.
 
 <table class="notesTable">
   <thead>
     <tr class="tableHeader">
       <th class="tableCellHeader">Model</th>
-      <th class="tableCellHeader">How It Works</th>
+      <th class="tableCellHeader">How Communication Happens</th>
     </tr>
   </thead>
   <tbody>
     <tr class="tableRow">
       <td class="tableCell"><span class="emphasis">Client/Server</span></td>
-      <td class="tableCell">Clients <span class="emphasis">request</span> information/services; servers <span class="emphasis">respond</span> and provide them.</td>
+      <td class="tableCell">Clients send <span class="emphasis">requests</span>; servers send <span class="emphasis">responses</span>.</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><span class="emphasis">Peer-to-Peer (P2P)</span></td>
-      <td class="tableCell">Hosts share resources <span class="secondEmphasis">directly</span> between each other with less centralization.</td>
+      <td class="tableCell"><span class="emphasis">Peer-to-Peer</span></td>
+      <td class="tableCell">Hosts share resources <span class="secondEmphasis">directly</span> with one another.</td>
     </tr>
   </tbody>
 </table>
 
 ---
-### Quick Examples of Roles
+### How P2P Networks Are Built
 ---
+
+The simplest P2P network can consist of just <span class="emphasis">two computers</span> connected by a wired or wireless link.  
+Both systems can then exchange data and services, acting as either a client or a server when needed.
+
+As more devices are added, a network device such as a <span class="emphasis">switch</span> is typically required to interconnect them.
+
+---
+### Performance Considerations
+---
+
+A major drawback of P2P networking is that a host’s performance may be reduced when it must function as both a <span class="emphasis">client</span> and a <span class="emphasis">server</span> simultaneously.
+
+When many requests occur, the workload can overwhelm normal user machines.
+
+Because of this, larger organizations often deploy <span class="emphasis">dedicated servers</span> whose only job is to provide services.
+
+---
+### Real-World Examples
+---
+
 <table class="notesTable">
   <thead>
     <tr class="tableHeader">
-      <th class="tableCellHeader">Scenario</th>
+      <th class="tableCellHeader">Activity</th>
       <th class="tableCellHeader">Typical Roles</th>
     </tr>
   </thead>
   <tbody>
     <tr class="tableRow">
       <td class="tableCell"><span class="emphasis">Viewing a webpage</span></td>
-      <td class="tableCell">A web <span class="emphasis">browser</span> acts as the client; a <span class="emphasis">web server</span> acts as the server.</td>
+      <td class="tableCell">Browser = <span class="emphasis">client</span>, web server = <span class="emphasis">server</span></td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><span class="emphasis">Using email</span></td>
-      <td class="tableCell">A mail application acts as the client; a <span class="emphasis">mail server</span> provides the service.</td>
+      <td class="tableCell"><span class="emphasis">Sending or receiving email</span></td>
+      <td class="tableCell">Mail app = <span class="emphasis">client</span>, mail system = <span class="emphasis">server</span></td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><span class="emphasis">Direct file sharing</span></td>
-      <td class="tableCell">Often feels <span class="secondEmphasis">P2P-like</span>; roles can shift depending on who is sharing vs requesting.</td>
+      <td class="tableCell"><span class="emphasis">Sharing files between PCs</span></td>
+      <td class="tableCell">Often resembles <span class="secondEmphasis">P2P</span>; roles may change depending on who is requesting.</td>
     </tr>
   </tbody>
 </table>
@@ -54,9 +78,11 @@ Peer-to-peer (P2P) is different: hosts can share resources more <span class="sec
 ---
 ### Key Takeaways
 ---
-- In <span class="emphasis">client/server</span>, roles are clear: a client <span class="emphasis">requests</span> and a server <span class="emphasis">provides</span>.
-- In <span class="emphasis">P2P</span>, hosts can share resources more <span class="secondEmphasis">directly</span> with each other.
-- A host can still act as a <span class="emphasis">client</span>, a <span class="emphasis">server</span>, or <span class="secondEmphasis">both</span> depending on software and context.
+
+- <span class="emphasis">Client/server</span> separates who <span class="emphasis">asks</span> from who <span class="emphasis">answers</span>.
+- <span class="emphasis">P2P</span> enables more <span class="secondEmphasis">direct</span> resource sharing.
+- A device can perform <span class="secondEmphasis">multiple roles</span>.
+- As networks grow, performance demands often require <span class="emphasis">dedicated servers</span>.
 
 ---
 
