@@ -7,6 +7,8 @@
 In modern networks, a host can operate as a <span class="emphasis">client</span>, a <span class="emphasis">server</span>, or <span class="secondEmphasis">both</span>.  
 The <span class="emphasis">software installed</span> on the device determines which role it performs at any moment.
 
+Client and server software often run on <span class="emphasis">separate computers</span>, but a single machine can run both simultaneously.
+
 ---
 ### Client vs Server (Core Definitions)
 ---
@@ -31,11 +33,33 @@ The <span class="emphasis">software installed</span> on the device determines wh
 </table>
 
 ---
+### One Computer, Many Services
+---
+
+A single computer can run <span class="emphasis">multiple server programs</span>.
+
+For example, in a home or small office, one device might operate as:
+- a <span class="emphasis">file server</span>  
+- a <span class="emphasis">web server</span>  
+- an <span class="emphasis">email server</span>
+
+At the same time, that same machine may run several <span class="emphasis">client applications</span>.
+
+A user could:
+- check email  
+- browse the web  
+- send messages  
+- stream audio  
+
+all at once, connecting to multiple servers simultaneously.
+
+---
 ### Services Require Separate Server Software
 ---
 
-Each network service is usually delivered by its own <span class="emphasis">server application</span>.  
-For example, providing web content is a different function than handling email, even if both run on the same machine.
+Each network service is typically delivered by its own <span class="emphasis">server application</span>.
+
+Providing web pages is different from handling email or storing files, even when they run on the same physical system.
 
 ---
 ### Examples of Client Software
@@ -51,26 +75,25 @@ Common examples include:
 - Brave  
 - Vivaldi  
 
-Using this software, the client sends a <span class="emphasis">request</span> and the server sends back a <span class="emphasis">response</span> containing the webpage.
+The client sends a <span class="emphasis">request</span> and the server returns a <span class="emphasis">response</span>.
 
-When accessing content on the internet, it is important to remember that <span class="emphasis">every destination</span> you visit is delivered by a <span class="emphasis">server</span> located somewhere on a network connected to the <span class="emphasis">global internet</span>.  
-Websites, downloads, videos, and cloud services all come from systems designed to respond to client requests.
+Every site, download, or cloud service you reach comes from a <span class="emphasis">server</span> somewhere on the <span class="emphasis">internet</span>.
 
 Another example is <span class="emphasis">email</span>.  
-An email application (such as Microsoft Outlook) acts as the client and communicates with a mail server so users can <span class="emphasis">send</span> and <span class="emphasis">receive</span> messages.
+A mail client communicates with a server so users can <span class="emphasis">send</span> and <span class="emphasis">receive</span> messages.
 
-A third common service is <span class="emphasis">file storage</span>.  
-A file server keeps data in a <span class="emphasis">central location</span>, and client devices access those files using operating system tools or file management software.
+File access is similar.  
+A file server stores data in a <span class="emphasis">central location</span>, and clients retrieve it when needed.
 
 ---
 ### Summary
 ---
 
-- A device’s role is defined by the <span class="emphasis">software</span> it runs.
-- <span class="emphasis">Clients</span> request services.
-- <span class="emphasis">Servers</span> provide services.
-- A host may perform <span class="secondEmphasis">multiple roles</span>.
-- Different services normally require different server applications.
+- Roles depend on the <span class="emphasis">software</span>.
+- A device may be a client, server, or <span class="secondEmphasis">both</span>.
+- Servers can support <span class="emphasis">many clients</span>.
+- One computer can run <span class="emphasis">multiple services</span>.
+- Clients often connect to <span class="emphasis">multiple servers</span> at the same time.
 
 ---
 
