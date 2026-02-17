@@ -1,43 +1,47 @@
 import type { Subpage } from '@/types/navigation';
 
 const Basics: Subpage = {
-  name: "Basics",
+  name: 'Basics',
   subpages: [
     {
-      name: "Fundamentals",
+      name: 'Fundamentals',
       subpages: [
         {
-          name: "Introduction",
-          path: "/foundations/basics/fundamentals/introduction"
+          name: 'Introduction',
+          path: '/foundations/basics/fundamentals/introduction',
         },
         {
-          name: "Internet/Networks",
-          path: "/foundations/basics/fundamentals/internet"
+          name: 'Internet/Networks',
+          path: '/foundations/basics/fundamentals/internet',
         },
         {
-          name: "Local Networks",
-          path: "/foundations/basics/fundamentals/local-networks"
+          name: 'Local Networks',
+          path: '/foundations/basics/fundamentals/local-networks',
         },
         {
-          name: "Connected Devices",
-          path: "/foundations/basics/fundamentals/connected-devices"
-        }
-      ]
+          name: 'Connected Devices',
+          path: '/foundations/basics/fundamentals/connected-devices',
+        },
+      ],
     },
     {
-      name: "Devices & Models",
+      name: 'Devices & Models',
       subpages: [
         {
-          name: "Networking Devices",
-          path: "/foundations/basics/devices-and-models/network-devices"
+          name: 'Network Infrastructure',
+          path: '/foundations/basics/devices-and-models/network-infrastructure',
         },
         {
-          name: "Networking Models",
-          path: "/foundations/basics/devices-and-models/network-models"
-        }
-      ]
-    }
-  ]
+          name: 'Networking Devices',
+          path: '/foundations/basics/devices-and-models/network-devices',
+        },
+        {
+          name: 'Networking Models',
+          path: '/foundations/basics/devices-and-models/network-models',
+        },
+      ],
+    },
+  ],
 };
 
 export default Basics;

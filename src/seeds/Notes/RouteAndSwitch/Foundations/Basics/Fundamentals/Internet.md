@@ -28,8 +28,6 @@ The internet allows **devices and networks** to exchange data efficiently.
 2. **Packets of data** travel across interconnected networks, passing through multiple routing points.
 3. **Websites, cloud applications, and databases** are hosted on **remote servers**.
 
-<br><br>
-
 ### **Example: How a Webpage Loads**
 1. A user enters www.example.com in a web browser.
 2. The browser contacts a **DNS server** to retrieve the **IP address** of the website.
@@ -38,7 +36,24 @@ The internet allows **devices and networks** to exchange data efficiently.
 
 *(For details on DNS, refer to the **DNS and Name Resolution** section.)*
 
-<br><br>
+### **The Role of ISPs and the Internet Backbone**
+
+An <span class="emphasis">Internet Service Provider (ISP)</span> connects home and business networks to the global internet.
+
+ISPs may be:
+- Cable providers
+- Telephone companies
+- Cellular providers
+- Independent providers leasing infrastructure
+
+ISPs interconnect with other ISPs in a <span class="emphasis">hierarchical structure</span> to form the global internet.
+
+At the highest level, major providers are connected through the <span class="emphasis">internet backbone</span> — a high-capacity network of fiber-optic links that connect major metropolitan areas worldwide.
+
+Fiber-optic cables:
+- Run underground across continents
+- Run under oceans between continents
+- Provide extremely high bandwidth and reliability
 
 ---
 ## Internet Connection Types
@@ -106,8 +121,12 @@ Internet connections vary in **speed, reliability, and infrastructure**.
 
 ### **For More on Speed Evolution**
 
-See **[Ethernet Speed History](./ethernetspeedshistory.md)** for advancements in **network speeds**.
-<br><br>
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">
+    TCP/IP Model → Network Access → Physical → Bandwidth
+  </a>
+</div>
 
 ---
 ### **Future of the Internet**

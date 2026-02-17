@@ -4,29 +4,29 @@
 
 ### From Bits to Signals
 
-Once data is broken down into bits, it needs to be turned into signals that can travel across a network.
+Once data is broken down into bits, it must be converted into signals that can travel across a network.
 
-These signals travel over a medium, which could be:
-- Copper wire
-- Fiber-optic cable
+Signals travel over a <span class="emphasis">transmission medium</span>, such as:
+- Copper cabling
+- Fiber-optic cabling
 - Wireless airwaves (radio, infrared, etc.)
-
-Each method changes the data into a different kind of signal.
 
 ---
 
 ### What Is a Signal?
 
-A **signal** is a pattern (electrical, optical, or wireless) that represents digital data.  
-It moves from one device to another using a transmission medium.
+A <span class="emphasis">signal</span> is the physical pattern that represents digital data as it moves from one device to another.
 
-Each signal type has its own way of carrying bits from source to destination.
+Depending on the medium, signals may be:
+- <span class="emphasis">electrical</span> (copper)
+- <span class="emphasis">optical</span> (fiber)
+- <span class="emphasis">wireless</span> (radio / infrared / microwave)
 
 ---
 
 ### Common Signal Transmission Methods
 
-Networks typically use one of three main transmission methods:
+Networks typically rely on three main signal types:
 
 <table class="notesTable">
   <thead>
@@ -38,58 +38,120 @@ Networks typically use one of three main transmission methods:
   <tbody>
     <tr class="tableRow">
       <td class="tableCell">Electrical Signals</td>
-      <td class="tableCell">Bits are sent as electrical pulses across copper cables.</td>
+      <td class="tableCell">Bits are sent as electrical pulses across copper-based media.</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Optical Signals</td>
-      <td class="tableCell">Bits are turned into light pulses and sent through fiber-optic cables.</td>
+      <td class="tableCell">Bits are converted into light pulses and sent through fiber-optic strands.</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Wireless Signals</td>
-      <td class="tableCell">Bits are sent as radio waves, infrared, or microwaves through the air.</td>
+      <td class="tableCell">Bits are transmitted through the air using radio, infrared, or microwave energy.</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-### Signal Changes in Transit
+### Comparing Common Media Types
 
-Signals may change type several times during transmission.
+Different media types support different speeds, distances, and reliability.
 
-For example:
-- A message might start as electrical on copper,
-- Convert to light in a fiber core,
-- Then switch to wireless before reaching the end device.
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Medium</th>
+      <th class="tableCellHeader">Key Characteristics</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Twisted Pair (Copper Ethernet)</td>
+      <td class="tableCell">Electrical signaling. Common and affordable for LANs. More susceptible to interference over long distances.</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Coaxial (Cable Internet)</td>
+      <td class="tableCell">Copper-based and electrically signaled, with strong shielding. Often used by cable ISPs for the “last mile”.</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Fiber-Optic</td>
+      <td class="tableCell">Light signaling through glass or plastic strands. Very high bandwidth, long distance, and strong resistance to electromagnetic interference.</td>
+    </tr>
+  </tbody>
+</table>
 
-This happens because different segments of the network use different media.
+In general, fiber is preferred for:
+- very high bandwidth
+- long-distance links
+- environments where interference is a concern
+
+This is why fiber is commonly used for ISP backbone and high-capacity links.
 
 ---
 
-### Common Transmission Types
+### Signal Changes in Transit
 
-In everyday networks:
+A signal may change form multiple times before reaching its destination.
 
-- **Homes and small offices** often use:
-  - **Copper cables** (Ethernet)
-  - **Wi-Fi** (wireless)
+For example:
+- A message might start as <span class="emphasis">electrical</span> on copper,
+- Convert to <span class="emphasis">optical</span> on fiber,
+- Then switch to <span class="emphasis">wireless</span> for the final hop.
 
-- **Large networks and data centers** often use:
-  - **Fiber-optic** connections for speed and distance
+This happens because different segments of a network use different media.
 
-Each method is chosen based on:
-- **Distance**
-- **Speed requirements**
-- **Cost**
-- **Environment**
+---
+
+### Common Usage Patterns
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Environment</th>
+      <th class="tableCellHeader">Common Media Used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Homes / Small Offices</td>
+      <td class="tableCell">Ethernet (copper) and Wi-Fi (wireless)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Enterprise / Data Centers</td>
+      <td class="tableCell">Fiber for backbone links, plus copper and Wi-Fi at the edge</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Service Providers (ISPs)</td>
+      <td class="tableCell">Fiber for high-capacity backbone, plus various “last mile” options</td>
+    </tr>
+  </tbody>
+</table>
+
+Media choices are usually driven by:
+- distance
+- speed requirements
+- cost
+- environment and interference conditions
 
 ---
 
 ### Summary
 
-- Data is sent as signals over a medium (cable or air).
+- Data is transmitted as signals over a medium (cable or air).
 - Signals can be electrical, optical, or wireless.
-- Networks choose the signal type based on performance needs.
-- Signals may change forms multiple times before reaching their final destination.
+- Networks often convert between signal types across different segments.
+- Media selection is based on distance, bandwidth needs, cost, and reliability.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards">← Back</a>
+    <div class="xrefTitle">Transmission Concepts → Communication Standards</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Next →</a>
+    <div class="xrefTitle">Next Section: Bandwidth & Throughput → Bandwidth</div>
+  </div>
+</div>
