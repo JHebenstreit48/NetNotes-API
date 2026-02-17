@@ -1,121 +1,195 @@
-# Core Networking Devices  
-<br><br>
+# Core Networking Devices
 
 ---
-## **Networking Devices Overview**
+
+## Networking Devices Overview
 ---
-Every network requires **specific hardware** to function properly. These devices handle **data transmission, security, and network management**.
+
+Networking devices are <span class="emphasis">intermediate devices</span> that connect end devices and control how traffic flows across a network.
+
+They do not usually generate user data themselves. Instead, they:
+- move traffic
+- direct traffic
+- filter traffic
+- manage connectivity
+
+These devices operate at different <span class="emphasis">OSI layers</span> depending on their function.
+
+---
+
+## Switch
+---
+
+A <span class="emphasis">switch</span> connects devices within the same local network (LAN).
 
 <table class="notesTable">
-    <thead>
-        <tr class="tableHeader">
-            <th class="tableCellHeader">Device</th>
-            <th class="tableCellHeader">Function</th>
-            <th class="tableCellHeader">OSI Layer</th>
-            <th class="tableCellHeader">Common Use Case</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="tableRow">
-            <td class="tableCell">Switch</td>
-            <td class="tableCell">Connects devices in a LAN</td>
-            <td class="tableCell">Layer 2</td>
-            <td class="tableCell">Office or home network</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">Router</td>
-            <td class="tableCell">Routes traffic between networks</td>
-            <td class="tableCell">Layer 3</td>
-            <td class="tableCell">Connecting to the internet</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">Firewall</td>
-            <td class="tableCell">Filters network traffic for security</td>
-            <td class="tableCell">Layers 3-7</td>
-            <td class="tableCell">Protecting internal networks</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">Access Point</td>
-            <td class="tableCell">Extends wireless connectivity</td>
-            <td class="tableCell">Layer 2</td>
-            <td class="tableCell">Wi-Fi in homes and businesses</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">Modem</td>
-            <td class="tableCell">Converts signals for ISP communication</td>
-            <td class="tableCell">Layer 1-2</td>
-            <td class="tableCell">Connecting a home to an ISP</td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Switch</th>
+      <th class="tableCellHeader">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Primary Function</td>
+      <td class="tableCell">Forwards frames between devices on a LAN</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">OSI Layer</td>
+      <td class="tableCell">Layer 2 (Data Link)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Common Use</td>
+      <td class="tableCell">Internal communication inside homes or offices</td>
+    </tr>
+  </tbody>
 </table>
 
 ---
-## **How These Devices Work Together**
----
-Networking devices work together to ensure **efficient communication and connectivity** within a network.
 
-- **Switches**: Enable devices to communicate within the same network.
-- **Routers**: Direct data between different networks.
-- **Firewalls**: Help secure networks by controlling traffic flow.
-
-Each device plays a key role in managing **network traffic, connectivity, and security**.  
-For more in-depth details, see the **Switching, Routing, and Security sections**.
-
+## Router
 ---
-## **Enterprise vs. Home Networking**
----
+
+A <span class="emphasis">router</span> connects different networks together.
+
 <table class="notesTable">
-    <thead>
-        <tr class="tableHeader">
-            <th class="tableCellHeader">Feature</th>
-            <th class="tableCellHeader">Home Networks</th>
-            <th class="tableCellHeader">Enterprise Networks</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="tableRow">
-            <td class="tableCell">Scale</td>
-            <td class="tableCell">Small (few devices)</td>
-            <td class="tableCell">Large (hundreds/thousands)</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">Devices Used</td>
-            <td class="tableCell">Modem, Router, Wi-Fi AP</td>
-            <td class="tableCell">Switches, Routers, Firewalls, APs</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">Traffic</td>
-            <td class="tableCell">Light (basic browsing, streaming)</td>
-            <td class="tableCell">Heavy (VoIP, cloud computing, databases)</td>
-        </tr>
-        <tr class="tableRow">
-            <td class="tableCell">Security Needs</td>
-            <td class="tableCell">Basic (firewall, WPA2 Wi-Fi)</td>
-            <td class="tableCell">Advanced (firewalls, VLANs, IPS)</td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Router</th>
+      <th class="tableCellHeader">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Primary Function</td>
+      <td class="tableCell">Routes packets between networks</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">OSI Layer</td>
+      <td class="tableCell">Layer 3 (Network)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Common Use</td>
+      <td class="tableCell">Connecting a LAN to the internet</td>
+    </tr>
+  </tbody>
 </table>
 
 ---
-## **Future Networking Trends**
+
+## Firewall
 ---
-Networking technology is evolving with **faster speeds, better security, and automation**:
-- **AI-driven networks**: Intelligent traffic optimization.
-- **Wi-Fi 6 & 7**: Higher speeds and better multi-device handling.
-- **5G Integration**: Expanding connectivity beyond traditional broadband.
+
+A <span class="emphasis">firewall</span> controls and filters traffic for security.
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Firewall</th>
+      <th class="tableCellHeader">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Primary Function</td>
+      <td class="tableCell">Filters traffic based on rules</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">OSI Layers</td>
+      <td class="tableCell">Layers 3–7 (depending on type)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Common Use</td>
+      <td class="tableCell">Protecting internal networks from threats</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
+
+## Access Point (AP)
+---
+
+An <span class="emphasis">access point</span> provides wireless connectivity to a network.
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Access Point</th>
+      <th class="tableCellHeader">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Primary Function</td>
+      <td class="tableCell">Extends network access via Wi-Fi</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">OSI Layer</td>
+      <td class="tableCell">Layer 2 (Data Link)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Common Use</td>
+      <td class="tableCell">Wireless connectivity in homes and offices</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Modem
+---
+
+A <span class="emphasis">modem</span> connects a local network to an internet service provider (ISP).
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Modem</th>
+      <th class="tableCellHeader">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Primary Function</td>
+      <td class="tableCell">Converts signals between ISP and local network</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">OSI Layers</td>
+      <td class="tableCell">Layer 1–2</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Common Use</td>
+      <td class="tableCell">Home or business ISP connection</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## How These Devices Work Together
+---
+
+In a small network:
+
+1. End devices connect to a <span class="emphasis">switch</span> or <span class="emphasis">access point</span>.
+2. The switch forwards traffic internally.
+3. The <span class="emphasis">router</span> sends traffic to external networks.
+4. The <span class="emphasis">firewall</span> filters traffic.
+5. The <span class="emphasis">modem</span> connects the network to the ISP.
+
+Each device performs a specialized function in ensuring traffic moves efficiently and securely.
 
 ---
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/connected-devices">← Back</a>
-    <div class="xrefTitle">Previous Section: Foundations Basics → Devices & Models → Connected Devices</div>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/network-infrastructure">← Back</a>
+    <div class="xrefTitle">Foundations → Devices & Models → Network Infrastructure</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/devices-and-models/network-models">Next →</a>
-    <div class="xrefTitle">Foundations Basics → Devices & Models → Networking Models</div>
+    <div class="xrefTitle">Foundations → Devices & Models → Networking Models</div>
   </div>
 </div>
