@@ -1,4 +1,3 @@
-<br>
 
 ---
 ## What is Networking?
