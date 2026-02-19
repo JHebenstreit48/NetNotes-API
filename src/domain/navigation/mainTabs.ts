@@ -1,10 +1,10 @@
 import { Subpage } from "@/types/navigation";
 
-import routeSwitch from "@/Navigation/Combined/Topics/routeAndSwitch";
-import networkSecurity from "@/Navigation/Combined/Topics/networkSecurity";
-import voip from "@/Navigation/Combined/Topics/voip";
-import certifications from "@/Navigation/Combined/Topics/certifications";
-import tools from "@/Navigation/Combined/Topics/tools";
+import routeSwitch from "@/navigation/Combined/Topics/networking";
+import networkSecurity from "@/navigation/Combined/Topics/networkSecurity";
+import voip from "@/navigation/Combined/Topics/voip";
+import certifications from "@/navigation/Combined/Topics/certifications";
+import tools from "@/navigation/Combined/Topics/tools";
 
 const pages: Subpage[] = [
   routeSwitch,
