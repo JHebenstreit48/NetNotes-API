@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation';
+import type { Subpage } from "@/types/navigation";
 
 const Basics: Subpage = {
   name: "Basics",
@@ -13,6 +13,10 @@ const Basics: Subpage = {
         {
           name: "Radios at a Glance",
           path: "/mobile/basics/fundamentals/radios-at-a-glance",
+        },
+        {
+          name: "Network Selection & Wi-Fi Behavior",
+          path: "/mobile/basics/fundamentals/network-selection",
         },
       ],
     },
