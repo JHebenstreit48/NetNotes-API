@@ -216,7 +216,7 @@ In many homes, the router is an <span class="emphasis">integrated wireless route
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/network-devices">Next →</a>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-devices">Next →</a>
     <div class="xrefTitle">Foundations → Devices & Models → Networking Devices</div>
   </div>
 </div>

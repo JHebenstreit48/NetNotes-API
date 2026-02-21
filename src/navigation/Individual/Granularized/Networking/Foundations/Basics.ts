@@ -28,20 +28,46 @@ const Basics: Subpage = {
       name: "Devices & Models",
       subpages: [
         {
-          name: "Network Infrastructure",
-          path: "/foundations/basics/devices-and-models/network-infrastructure",
+          name: "Fundamentals",
+          subpages: [
+            {
+              name: "Network Infrastructure",
+              path: "/foundations/basics/devices-and-models/fundamentals/network-infrastructure",
+            },
+            {
+              name: "Networking Devices",
+              path: "/foundations/basics/devices-and-models/fundamentals/network-devices",
+            },
+            {
+              name: "Home Network Architecture",
+              path: "/foundations/basics/devices-and-models/fundamentals/home-network-architecture",
+            },
+            {
+              name: "Networking Models",
+              path: "/foundations/basics/devices-and-models/fundamentals/network-models",
+            },
+          ],
         },
         {
-          name: "Networking Devices",
-          path: "/foundations/basics/devices-and-models/network-devices",
-        },
-        {
-          name: "Home Network Architecture",
-          path: "/foundations/basics/devices-and-models/home-network-architecture",
-        },
-        {
-          name: "Networking Models",
-          path: "/foundations/basics/devices-and-models/network-models",
+          name: "Routers",
+          subpages: [
+            {
+              name: "Roles & Types",
+              path: "/foundations/basics/devices-and-models/routers/roles-and-types",
+            },
+            {
+              name: "Interfaces",
+              path: "/foundations/basics/devices-and-models/routers/interfaces",
+            },
+            {
+              name: "Port Types",
+              path: "/foundations/basics/devices-and-models/routers/port-types",
+            },
+            {
+              name: "Routing vs Switching",
+              path: "/foundations/basics/devices-and-models/routers/routing-vs-switching",
+            },
+          ],
         },
       ],
     },

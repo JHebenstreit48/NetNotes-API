@@ -156,12 +156,12 @@ Mesh systems improve coverage without changing core network architecture.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/network-devices">← Back</a>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-devices">← Back</a>
     <div class="xrefTitle">Foundations → Devices & Models → Networking Devices</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/network-models">Next →</a>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-models">Next →</a>
     <div class="xrefTitle">Foundations → Devices & Models → Networking Models</div>
   </div>
 </div>
