@@ -17,15 +17,15 @@ const Basics: Subpage = {
       ]
     },
     {
-      name: "Hardware & History",
+      name: "Hardware & Port Types",
       subpages: [
         {
           name: "Switches and Connectors",
-          path: "/switching/basics/hardware-and-history/switches-and-connectors"
+          path: "/switching/basics/hardware-and-port-types/switches-and-connectors"
         },
         {
           name: "Ethernet Speed History",
-          path: "/switching/basics/hardware-and-history/ethernet-speed-history"
+          path: "/switching/basics/hardware-and-port-types/ethernet-speed-history"
         }
       ]
     },

@@ -184,12 +184,12 @@ Each device performs a specialized function in ensuring traffic moves efficientl
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/network-infrastructure">← Back</a>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-infrastructure">← Back</a>
     <div class="xrefTitle">Foundations → Devices & Models → Network Infrastructure</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/network-models">Next →</a>
-    <div class="xrefTitle">Foundations → Devices & Models → Networking Models</div>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-architecture">Next →</a>
+    <div class="xrefTitle">Foundations → Devices & Models → Networking Architecture</div>
   </div>
 </div>
