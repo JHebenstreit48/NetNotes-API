@@ -1,53 +1,125 @@
-# Switching Basics
+# Introduction
+
+---
+
+### What Is Layer 2 Switching?
+
+---
+
+A Layer 2 switch forwards frames based on the **destination MAC address** inside the Ethernet frame header.
+
+It operates within a single broadcast domain unless VLANs are configured.
+
+---
 
 ## Physical Ports on a Layer 2 Switch
----  
 
-- Layer 2 switches feature a variety of physical ports:
-  - **Ethernet Ports**, **LAN Ports**, **Switch Ports**, and **RJ-45 Ports** are common terms used for these ports.
-  - For detailed descriptions of these terms, refer to:  
-  [Switching Glossary](/corenetworking/l2switching/switching/glossary).
-- These ports connect devices (hosts) and enable communication between switches, routers, and other network components.
+---
 
-## Practical Example Setup
-- **Switch to Router Connection**:
-  - In a possible setup, the **g 0/0** port on the switch is connected to the **g 0/0** port on the router (referred to as **Router 1** or **R1**).
-  - This connection allows traffic to flow between the local network (handled by the switch) and external networks (managed by the router).
-- **Connecting Hosts to the Switch**:
-  - Devices such as PCs or Macs (hosts) can be connected to the switch via **patch cables**.
-  - Example:
-    - PC #1 connected to **g 0/1**.
-    - PC #2 connected to **g 0/2**.
-    - Each host is identified by its **MAC address** (Layer 2) and **IP address** (Layer 3).
+Layer 2 switches provide physical interfaces such as:
 
-## Port Naming and Numbering
-- Example: **GigabitEthernet0/1**, where:
-  - **GigabitEthernet** indicates the port’s speed and type.
-  - **0/1** is the unique port number.
-- **Port Names Reflect Speed and Type**:
-  - **FastEthernet0/1**:
-    - Supports speeds up to **100 Mbps**.
-  - **GigabitEthernet0/1**:
-    - Supports speeds up to **1 Gbps (Gigabit)**.
-  - **TenGigabitEthernet0/1**:
-    - Supports speeds up to **10 Gbps**.
-- **Purpose of Naming**:
-  - **Ease of Identification**: Quickly identify a port’s capabilities.
-  - **Consistency**: Standardized naming conventions across switch models.
-  - **Logical Grouping**: Groups ports with similar speeds/types for easier management.
+- Ethernet (RJ45) ports
+- SFP fiber ports
+- Console ports
 
-## Special Cases in Port Numbering
-- **When the Number After the Slash Starts with 0**:
-  - **High-Density Modular Switches**:
-    - Some modular switches use 0 for the first port on certain line cards or modules to align with internal architecture.
-  - **Internal or Backplane Ports**:
-    - Ports used for internal communication between modules (e.g., backplane ports) may start at 0.
-  - **Legacy Compatibility**:
-    - Older switches or specialized designs may use 0 to align with legacy conventions.
-- **Why Most Switch Ports Start at 1**:
-  - User-facing ports generally start at 1 to provide clear, intuitive numbering for configurations like VLANs or spanning tree protocols.
+These ports connect:
 
-<div>  
-Next:  
-<a href="/switching/basics/fundamentals/mac-address-table"><span class="emphasis">Switching → Basics → Fundamentals → MAC Address Table</span></a>
+- Hosts (PCs, servers, IoT devices)
+- Routers
+- Other switches
+
+<div class="xrefBox">
+  <span class="emphasis">Terminology:</span>
+  <a href="/switching/basics/glossary/hosts-and-ports">
+    See Glossary → Hosts & Ports
+  </a>
+</div>
+
+---
+
+## Example Topology
+
+---
+
+### Switch to Router
+
+- Switch **GigabitEthernet0/0**
+- Connected to Router **GigabitEthernet0/0**
+
+This provides Layer 3 connectivity beyond the local LAN.
+
+### Hosts to Switch
+
+- PC1 → g0/1
+- PC2 → g0/2
+
+Switches learn each host’s MAC address and store it in the MAC address table.
+
+---
+
+## Port Naming and Speed Indicators
+
+---
+
+Examples:
+
+- FastEthernet0/1 → 100 Mbps
+- GigabitEthernet0/1 → 1 Gbps
+- TenGigabitEthernet0/1 → 10 Gbps
+
+The name reflects:
+
+- Interface type
+- Maximum speed
+- Logical port position
+
+---
+
+## How Switching Works
+
+---
+
+Layer 2 switches perform three primary actions:
+
+1. **Learning**
+   - Reads source MAC address
+   - Adds it to the MAC address table
+
+2. **Forwarding**
+   - Sends frame only to the port matching the destination MAC
+
+3. **Flooding**
+   - If destination is unknown, frame is sent to all ports except the source
+
+---
+
+## Collision and Broadcast Domains
+
+---
+
+- Each switch port = separate collision domain
+- Entire switch (without VLANs) = one broadcast domain
+
+---
+
+## Limitations of Layer 2 Switching
+
+---
+
+- Cannot route between IP networks
+- Cannot break broadcast domains without VLANs
+- Broadcast storms can impact performance
+
+---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/advanced/physical/noise-and-distance/crosstalk-and-emi">← Back</a>
+    <div class="xrefTitle">TCP/IP Model → Advanced → Physical → Crosstalk & EMI</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/switching/basics/fundamentals/mac-address-table">Next →</a>
+    <div class="xrefTitle">Switching → Basics → Fundamentals → MAC Address Table</div>
+  </div>
 </div>

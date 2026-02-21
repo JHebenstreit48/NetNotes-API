@@ -184,12 +184,12 @@ In residential deployments:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors">← Previous Section</a>
-    <div class="xrefTitle">TCP/IP Model → Network Access → Copper Interfaces</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors">← Back</a>
+    <div class="xrefTitle">Physical → Cabling & Interfaces → Copper Connectors</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b">Next Section →</a>
-    <div class="xrefTitle">TCP/IP Model → Network Access → Wiring Standards</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b">Next →</a>
+    <div class="xrefTitle">Next Section: Physical → Wiring Standards → T568A vs T568B</div>
   </div>
 </div>
