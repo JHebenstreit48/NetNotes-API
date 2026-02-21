@@ -115,11 +115,11 @@ Layer 2 switches perform three primary actions:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/advanced/physical/noise-and-distance/crosstalk-and-emi">← Back</a>
-    <div class="xrefTitle">TCP/IP Model → Advanced → Physical → Crosstalk & EMI</div>
+    <div class="xrefTitle">TCP/IP Model - Advanced - Physical - Crosstalk & EMI</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/fundamentals/mac-address-table">Next →</a>
-    <div class="xrefTitle">Switching → Basics → Fundamentals → MAC Address Table</div>
+    <div class="xrefTitle">Switching - Basics - Fundamentals - MAC Address Table</div>
   </div>
 </div>

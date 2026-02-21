@@ -68,11 +68,11 @@ Mobile devices automatically switch between radios depending on:
 
 Each technology is optimized for a different communication model:
 
-- Long-range communication → Cellular  
-- Local networking → Wi-Fi  
-- Short-range pairing → Bluetooth  
-- Very short-range secure exchange → NFC  
-- Global positioning → GPS  
+- Long-range communication - Cellular  
+- Local networking - Wi-Fi  
+- Short-range pairing - Bluetooth  
+- Very short-range secure exchange - NFC  
+- Global positioning - GPS  
 
 ---
 ### Relationship to Wireless Spectrum
@@ -85,7 +85,7 @@ These bands are shared by many devices, which can lead to congestion and interfe
 <div class="xrefBox">
   <span class="emphasis">See:</span>
   <a href="/wireless/basics/80211/frequencies-and-channels">
-    Wireless → 802.11 Fundamentals → Frequencies & Channels
+    Wireless - 802.11 Fundamentals - Frequencies & Channels
   </a>
 </div>
 
@@ -94,11 +94,11 @@ These bands are shared by many devices, which can lead to congestion and interfe
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/fundamentals/introduction">← Back</a>
-    <div class="xrefTitle">Mobile → Fundamentals → Introduction</div>
+    <div class="xrefTitle">Mobile - Fundamentals - Introduction</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/fundamentals/network-selection">Next →</a>
-    <div class="xrefTitle">Mobile → Fundamentals → Network Selection & Wi-Fi</div>
+    <div class="xrefTitle">Mobile - Fundamentals - Network Selection & Wi-Fi</div>
   </div>
 </div>

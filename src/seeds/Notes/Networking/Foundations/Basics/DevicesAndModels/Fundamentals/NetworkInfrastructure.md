@@ -73,7 +73,7 @@ They provide:
 
 <div class="xrefBox">
   <span class="emphasis">For deeper detail, see:</span>
-  <a href="/foundations/basics/devices-and-models/network-devices">Foundations → Devices & Models → Networking Devices</a>
+  <a href="/foundations/basics/devices-and-models/network-devices">Foundations - Devices & Models - Networking Devices</a>
 </div>
 
 ---
@@ -212,11 +212,11 @@ In many homes, the router is an <span class="emphasis">integrated wireless route
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/fundamentals/connected-devices">← Back</a>
-    <div class="xrefTitle">Previous Topic: Foundations Fundamentals → Connected Devices</div>
+    <div class="xrefTitle">Previous Topic: Foundations - Fundamentals - Connected Devices</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-devices">Next →</a>
-    <div class="xrefTitle">Foundations → Devices & Models → Networking Devices</div>
+    <div class="xrefTitle">Foundations - Devices & Models - Networking Devices</div>
   </div>
 </div>

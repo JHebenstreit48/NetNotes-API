@@ -268,11 +268,11 @@ The internet continues to evolve with new technologies:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/fundamentals/introduction">← Back</a>
-    <div class="xrefTitle">Foundations Fundamentals → Introduction</div>
+    <div class="xrefTitle">Foundations - Fundamentals - Introduction</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/fundamentals/local-networks">Next →</a>
-    <div class="xrefTitle">Foundations Fundamentals → Local Networks</div>
+    <div class="xrefTitle">Foundations - Fundamentals - Local Networks</div>
   </div>
 </div>

@@ -135,11 +135,11 @@ Virtual switches perform Layer 2 forwarding but operate entirely in software.
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/fundamentals/mac-address-table">← Back</a>
-    <div class="xrefTitle">Previous Section: Switching → Basics → Fundamentals → MAC Address Table</div>
+    <div class="xrefTitle">Previous Section: Switching - Basics - Fundamentals - MAC Address Table</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/hardware-and-port-types/ethernet-speed-history">Next →</a>
-    <div class="xrefTitle">Switching → Basics → Hardware & Port Types → Ethernet Speed History</div>
+    <div class="xrefTitle">Switching - Basics - Hardware & Port Types - Ethernet Speed History</div>
   </div>
 </div>

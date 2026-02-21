@@ -92,11 +92,11 @@ Online manuals for every type of device are usually available from the manufactu
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/fundamentals/radios-at-a-glance">← Back</a>
-    <div class="xrefTitle">Fundamentals → Radios at a Glance</div>
+    <div class="xrefTitle">Fundamentals - Radios at a Glance</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/cellular/introduction">Next →</a>
-    <div class="xrefTitle">Next Section: Cellular → Introduction</div>
+    <div class="xrefTitle">Next Section: Cellular - Introduction</div>
   </div>
 </div>

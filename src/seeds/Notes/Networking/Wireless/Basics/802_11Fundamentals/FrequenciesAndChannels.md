@@ -137,11 +137,11 @@ Modern routers often support <span class="emphasis">band steering</span>, which 
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireless/basics/80211/wireless-standards">← Back</a>
-    <div class="xrefTitle">Previous Section: Wireless → 802.11 Fundamentals → Wireless Standards</div>
+    <div class="xrefTitle">Previous Section: Wireless - 802.11 Fundamentals - Wireless Standards</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireless/basics/architecture/bss-ess-ssid">Next →</a>
-    <div class="xrefTitle">Next Section: Wireless → WLAN Architecture → BSS / ESS / SSID</div>
+    <div class="xrefTitle">Next Section: Wireless - WLAN Architecture - BSS / ESS / SSID</div>
   </div>
 </div>

@@ -44,11 +44,11 @@ Cellular networks provide wide-area connectivity but may be affected by:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/cellular/introduction">← Back</a>
-    <div class="xrefTitle">Cellular → Introduction</div>
+    <div class="xrefTitle">Cellular - Introduction</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/bluetooth/introduction">Next →</a>
-    <div class="xrefTitle">Next Section: Bluetooth → Introduction</div>
+    <div class="xrefTitle">Next Section: Bluetooth - Introduction</div>
   </div>
 </div>

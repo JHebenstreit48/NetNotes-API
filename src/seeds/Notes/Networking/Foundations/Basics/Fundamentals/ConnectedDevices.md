@@ -148,11 +148,11 @@ Wireless devices:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/fundamentals/local-networks">← Back</a>
-    <div class="xrefTitle">Foundations → Fundamentals → Local Networks</div>
+    <div class="xrefTitle">Foundations - Fundamentals - Local Networks</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-devices">Next →</a>
-    <div class="xrefTitle">Next Section: Foundations → Devices & Models → Networking Devices</div>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-infrastructure">Next →</a>
+    <div class="xrefTitle">Next Section: Foundations - Devices & Models - Networking Infrastructure</div>
   </div>
 </div>

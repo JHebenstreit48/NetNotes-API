@@ -75,8 +75,8 @@ The name reflects:
 
 Types:
 
-- **Standard SFP** → Up to 1 Gbps
-- **SFP+** → Up to 10 Gbps
+- **Standard SFP** - Up to 1 Gbps
+- **SFP+** - Up to 10 Gbps
 
 ---
 
@@ -118,11 +118,11 @@ Types:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/hardware-and-port-types/ethernet-speed-history">← Back</a>
-    <div class="xrefTitle">Previous Section: Switching → Hardware & Port Types → Ethernet Speed History</div>
+    <div class="xrefTitle">Previous Section: Switching - Hardware & Port Types - Ethernet Speed History</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/glossary/l2-concepts-and-architecture">Next →</a>
-    <div class="xrefTitle">Switching → Glossary → L2 Concepts & Architecture</div>
+    <div class="xrefTitle">Switching - Glossary - L2 Concepts & Architecture</div>
   </div>
 </div>

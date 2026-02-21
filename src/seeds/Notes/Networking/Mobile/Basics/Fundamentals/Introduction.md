@@ -93,11 +93,11 @@ Understanding which radio is used for each service helps explain how mobile devi
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireless/advanced/controller/capwap-join-and-tunnel">← Back</a>
-    <div class="xrefTitle">Previous Topic: Wireless → Controller Ops → CAPWAP Join & Tunnel</div>
+    <div class="xrefTitle">Previous Topic: Wireless - Controller Ops - CAPWAP Join & Tunnel</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/fundamentals/radios-at-a-glance">Next →</a>
-    <div class="xrefTitle">Fundamentals → Radios at a Glance</div>
+    <div class="xrefTitle">Fundamentals - Radios at a Glance</div>
   </div>
 </div>

@@ -63,11 +63,11 @@
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/glossary/hosts-and-ports">← Back</a>
-    <div class="xrefTitle">Switching → Basics → Glossary → Hosts & Ports</div>
+    <div class="xrefTitle">Switching - Basics - Glossary - Hosts & Ports</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/advanced/vlans/concepts/vlan-concepts">Next →</a>
-    <div class="xrefTitle">Next Topic: Switching → VLANs → VLAN Concepts</div>
+    <div class="xrefTitle">Next Topic: Switching - VLANs - VLAN Concepts</div>
   </div>
 </div>
