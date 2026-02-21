@@ -89,7 +89,16 @@ Need a refresher on what Mbps, Gbps, or Tbps mean?
 - Expected to be completed by <span class="emphasis">Spring 2026</span>.
 - Will use 200 Gbps lanes for ultra-high-performance networking.
 
-<div class="xrefBox">  
-<span class="emphasis">Next Topic:</span>
-<a href="/switching/basics/glossary/hosts-and-ports">Glossary → Hosts & Ports</a>
+---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/switching/basics/hardware-and-history/switches-and-connectors">← Back</a>
+    <div class="xrefTitle">Hardware & History → Switches and Connectors</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/switching/basics/glossary/hosts-and-ports">Next →</a>
+    <div class="xrefTitle">Next Section: Glossary → Hosts & Ports</div>
+  </div>
 </div>
