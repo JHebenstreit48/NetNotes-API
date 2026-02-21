@@ -1,4 +1,6 @@
 
+# Introduction
+
 ---
 ## Mobile Devices & Wireless Communication
 ---
@@ -16,8 +18,8 @@ Wireless facilities (such as internet cafés) and wireless networks on college c
 With mobile devices becoming more powerful, many tasks that once required large computers connected to physical networks can now be completed using mobile devices on wireless networks.
 
 ---
-
-### Multiple Radios, Multiple Networks
+## Multiple Radios, Multiple Networks
+---
 
 Modern smartphones contain multiple built-in radios that allow them to connect to different types of networks.
 
@@ -35,8 +37,8 @@ These radios enable the phone to:
 Each function uses a different wireless technology.
 
 ---
-
-### Radios Inside a Smartphone
+## Radios Inside a Smartphone
+---
 
 A typical smartphone includes:
 
@@ -49,8 +51,8 @@ A typical smartphone includes:
 These radios operate independently but may function simultaneously.
 
 ---
-
-### Wi-Fi vs Cellular Data (Practical Tip)
+## Wi-Fi vs Cellular Data
+---
 
 Almost all mobile devices are capable of connecting to Wi-Fi networks.
 
@@ -60,8 +62,8 @@ It is advisable to connect to Wi-Fi when possible because:
 - Wi-Fi radios usually use **less power** than cellular radios, which helps conserve battery life
 
 ---
-
-### Wi-Fi Security on Mobile Devices
+## Wi-Fi Security on Mobile Devices
+---
 
 Like other Wi-Fi-enabled devices, it is important to use security when connecting to Wi-Fi networks.
 
@@ -73,8 +75,8 @@ Precautions to protect Wi-Fi communications include:
 - Use WPA2 or higher encryption for security.
 
 ---
-
-### Why Multiple Radios?
+## Why Multiple Radios?
+---
 
 Different wireless technologies are optimized for different purposes:
 
@@ -96,6 +98,6 @@ Understanding which radio is used for each service helps explain how mobile devi
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/fundamentals/radios-at-a-glance">Next →</a>
-    <div class="xrefTitle">Next Section: Fundamentals → Radios at a Glance</div>
+    <div class="xrefTitle">Fundamentals → Radios at a Glance</div>
   </div>
 </div>

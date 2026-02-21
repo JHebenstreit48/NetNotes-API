@@ -1,4 +1,3 @@
-
 ---
 ## Radios at a Glance
 ---
@@ -77,11 +76,11 @@ Each technology is optimized for:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/fundamentals/introduction">← Back</a>
-    <div class="xrefTitle">Previous Section: Fundamentals → Introduction</div>
+    <div class="xrefTitle">Fundamentals → Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/mobile/basics/cellular/introduction">Next →</a>
-    <div class="xrefTitle">Next Section: Cellular → Introduction</div>
+    <a class="xrefBtn" href="/mobile/basics/fundamentals/network-selection">Next →</a>
+    <div class="xrefTitle">Fundamentals → Network Selection & Wi-Fi Connection Behavior</div>
   </div>
 </div>
