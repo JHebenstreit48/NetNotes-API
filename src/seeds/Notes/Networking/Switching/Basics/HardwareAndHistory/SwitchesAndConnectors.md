@@ -116,3 +116,15 @@ This document provides an in-depth look at the various ports and connectors used
    - Basic switch for managing VM network connections on individual hosts.
 2. **Distributed Switch (vDS)**:
    - Centralized switch for managing networking across multiple hosts in a vSphere environment.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/switching/basics/fundamentals/mac-address-table">← Back</a>
+    <div class="xrefTitle">Previous Section: Switching Fundamentals → MAC Address Table</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/switching/basics/hardware-and-port-types/ethernet-speed-history">Next →</a>
+    <div class="xrefTitle">Hardware & Port Types → Ethernet Speed History</div>
+  </div>
+</div>

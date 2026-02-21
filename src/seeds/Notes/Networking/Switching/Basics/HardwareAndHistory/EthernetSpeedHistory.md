@@ -93,8 +93,8 @@ Need a refresher on what Mbps, Gbps, or Tbps mean?
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/switching/basics/hardware-and-history/switches-and-connectors">← Back</a>
-    <div class="xrefTitle">Hardware & History → Switches and Connectors</div>
+    <a class="xrefBtn" href="/switching/basics/hardware-and-port-types/switches-and-connectors">← Back</a>
+    <div class="xrefTitle">Hardware & Port Types → Switches and Connectors</div>
   </div>
 
   <div class="xrefItem">
