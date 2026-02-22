@@ -19,7 +19,7 @@ Encapsulation is the process of wrapping data with the protocol information requ
 
 🔹 <span class="emphasis">Application Layer</span> → user data (HTTP request, email, etc.)  
 🔹 <span class="emphasis">Transport Layer</span> → adds ports and reliability (TCP/UDP header)  
-🔹 <span class="emphasis">Internet Layer</span> → adds logical addressing (IP header)  
+🔹 <span class="emphasis">Internet Layer</span> - adds logical addressing (IP header)  
 🔹 <span class="emphasis">Data Link Layer</span> → adds physical addressing (MAC header + FCS)  
 🔹 <span class="emphasis">Physical Layer</span> → converts frame into bits on the medium  
 

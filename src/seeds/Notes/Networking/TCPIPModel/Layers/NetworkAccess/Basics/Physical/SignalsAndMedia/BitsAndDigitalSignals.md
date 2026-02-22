@@ -69,3 +69,15 @@ Without reliable bit transmission:
 All networking depends on stable digital signaling at Layer 1.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/signals-and-media/introduction">← Back</a>
+    <div class="xrefTitle">Signals & Media - Introduction</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards">Next →</a>
+    <div class="xrefTitle">Next Section: Transmission Concepts - Communication Standards</div>
+  </div>
+</div>

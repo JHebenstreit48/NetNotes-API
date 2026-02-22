@@ -83,11 +83,11 @@ Always refer to the documentation of the manufacturer for your specific model de
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/bluetooth/introduction">← Back</a>
-    <div class="xrefTitle">Bluetooth → Introduction</div>
+    <div class="xrefTitle">Bluetooth - Introduction</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/nfc/introduction">Next →</a>
-    <div class="xrefTitle">Next Section: NFC → Introduction</div>
+    <div class="xrefTitle">Next Section: NFC - Introduction</div>
   </div>
 </div>

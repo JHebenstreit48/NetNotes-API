@@ -153,11 +153,11 @@ While **local networks** operate **independently**, they often connect to the **
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/fundamentals/internet">← Back</a>
-    <div class="xrefTitle">Foundations Fundamentals → Internet/Networks</div>
+    <div class="xrefTitle">Foundations - Fundamentals - Internet/Networks</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/fundamentals/connected-devices">Next →</a>
-    <div class="xrefTitle">Foundations Fundamentals → Connected Devices</div>
+    <div class="xrefTitle">Foundations - Fundamentals - Connected Devices</div>
   </div>
 </div>

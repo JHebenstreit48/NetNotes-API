@@ -96,6 +96,6 @@ Different network types are used depending on the **size, coverage area, and pur
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/fundamentals/internet">Next →</a>
-    <div class="xrefTitle">Foundations Fundamentals → Internet/Networks</div>
+    <div class="xrefTitle">Foundations - Fundamentals - Internet/Networks</div>
   </div>
 </div>

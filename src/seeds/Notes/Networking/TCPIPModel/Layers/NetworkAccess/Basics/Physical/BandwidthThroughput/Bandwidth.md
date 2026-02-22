@@ -107,5 +107,30 @@ Bandwidth is measured in <span class="emphasis">bits per second (bps)</span> and
 ## 📎 Related Topics  
 ---
 
-- <span class="emphasis">[Ethernet Speed History](/corenetworking/l2switching/switching/ethernetspeedshistory)</span>: Explore how Ethernet standards evolved alongside increasing bandwidth.
-- <span class="emphasis">[Data Transmission Methods](/corenetworking/tcpipmodel/networkaccess/physical/transmission/datatransmission)</span>: Learn how bits are actually transmitted across a network.
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/switching/basics/hardware-and-port-types/ethernet-speed-history">
+  Switching → Hardware & Port Types → Ethernet Speed History
+  </a>
+</div>
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">
+    TCP/IP Model → Network Access → Physical → Data Transmission Methods
+  </a>
+</div>
+
+---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/wiring-standards/terminating-ethernet">← Back</a>
+    <div class="xrefTitle">Previous Section: Physical - Wiring Standards - Terminating Ethernet (Crimp & Punchdown)</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput">Next →</a>
+    <div class="xrefTitle">Physical - Bandwidth & Throughput - Throughput</div>
+  </div>
+</div>

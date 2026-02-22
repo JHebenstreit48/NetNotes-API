@@ -147,11 +147,11 @@ Media choices are usually driven by:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards">← Back</a>
-    <div class="xrefTitle">Transmission Concepts → Communication Standards</div>
+    <div class="xrefTitle">Transmission Concepts - Communication Standards</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Next →</a>
-    <div class="xrefTitle">Next Section: Bandwidth & Throughput → Bandwidth</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories">Next →</a>
+    <div class="xrefTitle">Next Section: Cabling & Interfaces - Ethernet Cabling Categories</div>
   </div>
 </div>

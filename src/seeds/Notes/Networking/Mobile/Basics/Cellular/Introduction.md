@@ -40,11 +40,11 @@ Each generation improves speed, reliability, and network efficiency.
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/fundamentals/network-selection">← Back</a>
-    <div class="xrefTitle">Previous Section: Fundamentals → Network Selection & Wi-Fi Connection Behavior</div>
+    <div class="xrefTitle">Previous Section: Fundamentals - Network Selection & Wi-Fi Connection Behavior</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/cellular/coverage-and-data-plans">Next →</a>
-    <div class="xrefTitle">Cellular → Coverage & Data Plans</div>
+    <div class="xrefTitle">Cellular - Coverage & Data Plans</div>
   </div>
 </div>
