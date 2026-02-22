@@ -14,24 +14,26 @@ Copper Ethernet cables use a standardized connector commonly referred to as:
 RJ45 is the common physical connector used for twisted-pair Ethernet cabling.
 
 ---
-
 ### Plug vs Jack
-
 ---
 
-<table>
-  <tr>
-    <th>Component</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>Plug</td>
-    <td>The male connector crimped onto the end of a patch cable</td>
-  </tr>
-  <tr>
-    <td>Jack</td>
-    <td>The female connector found on switches, routers, wall plates, and patch panels</td>
-  </tr>
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Component</th>
+      <th class="tableCellHeader">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Plug</td>
+      <td class="tableCell">The male connector crimped onto the end of a patch cable</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Jack</td>
+      <td class="tableCell">The female connector found on switches, routers, wall plates, and patch panels</td>
+    </tr>
+  </tbody>
 </table>
 
 Plugs insert into jacks to complete the connection.

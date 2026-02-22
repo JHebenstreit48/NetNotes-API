@@ -22,27 +22,31 @@ Fiber is commonly used in:
 
 A fiber optic cable consists of:
 
-<table>
-  <tr>
-    <th>Component</th>
-    <th>Purpose</th>
-  </tr>
-  <tr>
-    <td>Core</td>
-    <td>Glass or plastic strand that carries light signals</td>
-  </tr>
-  <tr>
-    <td>Cladding</td>
-    <td>Reflects light back into the core</td>
-  </tr>
-  <tr>
-    <td>Buffer Coating</td>
-    <td>Protects the fiber strand</td>
-  </tr>
-  <tr>
-    <td>Outer Jacket</td>
-    <td>Physical protection</td>
-  </tr>
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Component</th>
+      <th class="tableCellHeader">Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Core</td>
+      <td class="tableCell">Glass or plastic strand that carries light signals</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Cladding</td>
+      <td class="tableCell">Reflects light back into the core</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Buffer Coating</td>
+      <td class="tableCell">Protects the fiber strand</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Outer Jacket</td>
+      <td class="tableCell">Physical protection</td>
+    </tr>
+  </tbody>
 </table>
 
 Light is kept inside the core through <span class="emphasis">total internal reflection</span>.
@@ -51,19 +55,23 @@ Light is kept inside the core through <span class="emphasis">total internal refl
 ### Single-Mode vs Multi-Mode Fiber
 ---
 
-<table>
-  <tr>
-    <th>Type</th>
-    <th>Characteristics</th>
-  </tr>
-  <tr>
-    <td>Single-Mode (SMF)</td>
-    <td>Long-distance transmission using a narrow core</td>
-  </tr>
-  <tr>
-    <td>Multi-Mode (MMF)</td>
-    <td>Shorter-distance transmission with wider core</td>
-  </tr>
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Type</th>
+      <th class="tableCellHeader">Characteristics</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Single-Mode (SMF)</td>
+      <td class="tableCell">Long-distance transmission using a narrow core</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Multi-Mode (MMF)</td>
+      <td class="tableCell">Shorter-distance transmission with wider core</td>
+    </tr>
+  </tbody>
 </table>
 
 Single-mode fiber:
@@ -104,23 +112,27 @@ Fiber interfaces typically require pluggable transceivers.
 
 Common module types:
 
-<table>
-  <tr>
-    <th>Module</th>
-    <th>Typical Speed</th>
-  </tr>
-  <tr>
-    <td>SFP</td>
-    <td>1 Gbps</td>
-  </tr>
-  <tr>
-    <td>SFP+</td>
-    <td>10 Gbps</td>
-  </tr>
-  <tr>
-    <td>SFP28</td>
-    <td>25 Gbps</td>
-  </tr>
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Module</th>
+      <th class="tableCellHeader">Typical Speed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">SFP</td>
+      <td class="tableCell">1 Gbps</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">SFP+</td>
+      <td class="tableCell">10 Gbps</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">SFP28</td>
+      <td class="tableCell">25 Gbps</td>
+    </tr>
+  </tbody>
 </table>
 
 The transceiver converts:
