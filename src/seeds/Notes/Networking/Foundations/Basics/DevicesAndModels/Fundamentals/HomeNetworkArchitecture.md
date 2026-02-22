@@ -55,8 +55,11 @@ Each delivery type requires a device that converts the ISP signal into standard 
 ## Signal Conversion: Modem vs ONT
 ---
 
----
+<hr class="dividerSubsection1" />
+
 ### Cable (DOCSIS)
+
+<hr class="dividerSubsection1" />
 
 Cable internet uses a <span class="emphasis">cable modem</span>.
 

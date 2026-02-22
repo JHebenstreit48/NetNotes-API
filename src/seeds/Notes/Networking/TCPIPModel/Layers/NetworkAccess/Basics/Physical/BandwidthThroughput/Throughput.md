@@ -16,45 +16,82 @@ Unlike bandwidth, throughput is often **lower than the maximum bandwidth** due t
 Latency refers to the time, including delays, it takes for data to travel from one point to another.
 
 ---
-
-## Throughput vs Bandwidth
+### Throughput vs Bandwidth
 ---
 
-While **bandwidth** is the maximum potential of the channel, **throughput** is what you actually get. Throughput does not account for the validity or usefulness of data — it simply measures how much is sent and received, regardless of whether that data is useful.
+While **bandwidth** is the maximum potential capacity of a connection, **throughput** is what you actually get in real-world performance.
+
+- Bandwidth describes the size of the “pipe.”  
+- Throughput describes how much data successfully flows through that pipe.
+
+Throughput measures the total amount of data transferred, including:
+
+- Useful application content  
+- Background network traffic  
 
 For example:
-- Control messages, error corrections, and retransmissions all count toward throughput.
-- A high-bandwidth network may still have poor throughput if delays or congestion exist.
+
+- Control messages  
+- Error corrections  
+- Retransmitted packets  
+
+All count toward throughput.
+
+This means a high-bandwidth network may still experience poor throughput if congestion, delays, or errors are present.
 
 ---
-
-## Practical Limitations
+### Practical Limitations
 ---
 
 In networks with multiple segments or paths, throughput is ultimately limited by the **slowest segment** — the weakest link in the chain.
 
-Even if most parts of the route have high bandwidth, a single low-capacity segment can reduce overall throughput for the entire path.
+Even if most parts of the route support high bandwidth, a single lower-capacity segment can reduce overall end-to-end throughput.
 
 ---
-
-## Measuring Throughput
+### Measuring Throughput
 ---
 
-Throughput is commonly measured in **megabits per second (Mbps)** or **gigabits per second (Gbps)**, just like bandwidth.
+Throughput is commonly measured in **megabits per second (Mbps)** or **gigabits per second (Gbps)** — the same units used for bandwidth.
 
-A good real-world tool to check your network’s throughput is:
-- <span class="emphasis">[speedtest.net](https://www.speedtest.net)</span>
+A common real-world tool to check network throughput is:
+
+- <span class="emphasis">speedtest.net</span>
 
 It measures both:
-- <span class="emphasis">Download speed</span>: The rate at which data is received.
-- <span class="emphasis">Upload speed</span>: The rate at which data is sent.
 
-Typically, home internet services provide **faster download speeds than upload speeds**.
+- <span class="emphasis">Download speed</span> — how fast data is received  
+- <span class="emphasis">Upload speed</span> — how fast data is sent  
+
+Most home internet services provide faster download speeds than upload speeds.
 
 ---
-
 ## 📎 Related Topics
 ---
 
-- <span class="emphasis">[Bandwidth](/corenetworking/tcpipmodel/networkaccess/physical/transmission/bandwidththroughput/bandwidth)</span>: Understand maximum data capacity.
-- <span class="emphasis">[Data Transmission Methods](/corenetworking/tcpipmodel/networkaccess/physical/transmission/datatransmission)</span>: Learn how data moves across physical media.
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">
+    Physical - Bandwidth & Throughput - Bandwidth
+  </a>
+</div>
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">
+    Physical - Transmission Concepts - Data Transmission Methods
+  </a>
+</div>
+
+---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">← Back</a>
+    <div class="xrefTitle">Physical - Bandwidth & Throughput - Bandwidth</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/encap-deencap/encapsulation">Next →</a>
+    <div class="xrefTitle">Next Section: Physical - Encap/De-encap - Encapsulation</div>
+  </div>
+</div>
