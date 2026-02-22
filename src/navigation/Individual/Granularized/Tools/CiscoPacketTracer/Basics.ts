@@ -4,15 +4,15 @@ const Basics: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Getting Started",
+      name: "Fundamentals",
       subpages: [
         {
           name: "Install & Interface",
-          path: "/packettracer/basics/getting-started/install-and-interface"
+          path: "/packettracer/basics/fundamentals/install-and-interface"
         },
         {
           name: "Projects & Saves",
-          path: "/packettracer/basics/getting-started/projects-and-saves"
+          path: "/packettracer/basics/fundamentals/projects-and-saves"
         }
       ]
     },

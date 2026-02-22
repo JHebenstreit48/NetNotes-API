@@ -4,15 +4,15 @@ const Basics: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Getting Started",
+      name: "Fundamentals",
       subpages: [
         {
           name: "Install & Profiles",
-          path: "/wireshark/basics/getting-started/install-and-profiles"
+          path: "/wireshark/basics/fundamentals/install-and-profiles"
         },
         {
           name: "Capture Interfaces",
-          path: "/wireshark/basics/getting-started/capture-interfaces"
+          path: "/wireshark/basics/fundamentals/capture-interfaces"
         }
       ]
     },
@@ -20,12 +20,12 @@ const Basics: Subpage = {
       name: "Filters",
       subpages: [
         {
-          name: "Display Filters",
-          path: "/wireshark/basics/filters/display-filters"
+          name: "Display",
+          path: "/wireshark/basics/filters/display"
         },
         {
-          name: "Capture Filters",
-          path: "/wireshark/basics/filters/capture-filters"
+          name: "Capture",
+          path: "/wireshark/basics/filters/capture"
         }
       ]
     },
