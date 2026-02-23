@@ -7,16 +7,25 @@ const Basics: Subpage = {
       name: "IP Addressing",
       subpages: [
         {
-          name: "Addressing Overview",
-          path: "/tcpip-model/layers/internet/basics/ip-addressing/overview"
-        },
-        {
-          name: "IPv4",
-          path: "/tcpip-model/layers/internet/basics/ip-addressing/ipv4"
-        },
-        {
-          name: "IPv4 vs IPv6 Comparison",
-          path: "/tcpip-model/layers/internet/basics/ip-addressing/ipv4-vs-ipv6-comparison"
+          name: "Fundamentals",
+          subpages: [
+            {
+              name: "Introduction",
+              path: "/tcpip-model/layers/internet/basics/ip-addressing/fundamentals/introduction"
+            },
+            {
+              name: "IPv4",
+              path: "/tcpip-model/layers/internet/basics/ip-addressing/fundamentals/ipv4"
+            },
+            {
+              name: "DHCP (Address Assignment)",
+              path: "/tcpip-model/layers/internet/basics/ip-addressing/fundamentals/dhcp"
+            },
+            {
+              name: "IPv4 vs IPv6 Comparison",
+              path: "/tcpip-model/layers/internet/basics/ip-addressing/fundamentals/ipv4-vs-ipv6-comparison"
+            }
+          ]
         },
         {
           name: "IPv6",
@@ -30,11 +39,11 @@ const Basics: Subpage = {
               path: "/tcpip-model/layers/internet/basics/ip-addressing/ipv6/address-types-and-scope"
             },
             {
-              name: "ND/RA • SLAAC/DAD",
+              name: "ND/RA & SLAAC/DAD",
               path: "/tcpip-model/layers/internet/basics/ip-addressing/ipv6/nd-ra-slaac-dad"
             }
           ]
-        },
+        }
       ]
     },
     {
@@ -54,8 +63,8 @@ const Basics: Subpage = {
       name: "ICMP & Diagnostics",
       subpages: [
         {
-          name: "ICMP Basics",
-          path: "/tcpip-model/layers/internet/basics/icmp-and-diagnostics/icmp-basics"
+          name: "Introduction",
+          path: "/tcpip-model/layers/internet/basics/icmp-and-diagnostics/introduction"
         },
         {
           name: "Ping & Traceroute",

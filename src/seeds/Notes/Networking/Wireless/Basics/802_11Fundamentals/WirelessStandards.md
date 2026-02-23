@@ -83,7 +83,30 @@ Understanding wireless standards helps with:
 
 - Router selection  
 - Network upgrades  
-- Troubleshooting compatibility issues  
+- Troubleshooting compatibility issues
+
+<hr class="dividerSection" />
+
+### Network Mode (Single vs Mixed)
+
+<hr class="dividerSection" />
+
+Wireless access points can be configured to support specific 802.11 standards.
+
+Examples include:
+
+- 802.11b  
+- 802.11g  
+- 802.11n  
+- Mixed mode  
+
+If all wireless devices use the same 802.11 standard, maximum performance for that standard can be achieved.
+
+If the access point is configured to allow only one standard, devices that do not support that standard cannot connect.
+
+A <span class="emphasis">mixed mode</span> environment allows older and newer wireless devices to connect to the same network.
+
+This improves compatibility but may reduce overall efficiency depending on device behavior.
 
 <hr class="dividerSubsection1" />
 
@@ -122,6 +145,6 @@ Knowing this information helps evaluate performance limits and upgrade opportuni
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireless/basics/80211/frequencies-and-channels">Next →</a>
-    <div class="xrefTitle">Next Section: Wireless - 802.11 Fundamentals - Frequencies & Channels</div>
+    <div class="xrefTitle"> Wireless - 802.11 Fundamentals - Frequencies & Channels</div>
   </div>
 </div>
