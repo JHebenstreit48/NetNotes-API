@@ -24,7 +24,7 @@ const Advanced: Subpage = {
           path: "/foundations/advanced/planes-and-traffic/data-vs-control-vs-management"
         },
         {
-          name: "Unicast • Multicast • Broadcast",
+          name: "Unicast/Multicast/Broadcast",
           path: "/foundations/advanced/planes-and-traffic/unicast-multicast-broadcast"
         }
       ]
