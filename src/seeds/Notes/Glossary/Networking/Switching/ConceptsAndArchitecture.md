@@ -62,12 +62,12 @@
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/switching/basics/glossary/hosts-and-ports">← Back</a>
-    <div class="xrefTitle">Switching - Basics - Glossary - Hosts & Ports</div>
+    <a class="xrefBtn" href="/glossary/networking/switching/hosts-and-ports">← Back</a>
+    <div class="xrefTitle">Glossary - Switching - Hosts & Ports</div>
   </div>
 
-  <div class="xrefItem">
-    <a class="xrefBtn" href="/switching/advanced/vlans/concepts/vlan-concepts">Next →</a>
-    <div class="xrefTitle">Topic: Switching - VLANs - VLAN Concepts</div>
-  </div>
+  <!-- <div class="xrefItem">
+    <a class="xrefBtn" href="">Next →</a>
+    <div class="xrefTitle"></div>
+  </div> -->
 </div>

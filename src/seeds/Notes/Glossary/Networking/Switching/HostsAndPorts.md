@@ -116,13 +116,13 @@ Types:
 ---
 
 <div class="xrefNav">
-  <div class="xrefItem">
+  <!-- <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/hardware-and-port-types/ethernet-speed-history">← Back</a>
     <div class="xrefTitle">Section: Switching - Hardware & Port Types - Ethernet Speed History</div>
-  </div>
+  </div> -->
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/switching/basics/glossary/l2-concepts-and-architecture">Next →</a>
-    <div class="xrefTitle">Switching - Glossary - L2 Concepts & Architecture</div>
+    <a class="xrefBtn" href="/glossary/networking/switching/l2-concepts-and-architecture">Next →</a>
+    <div class="xrefTitle">Glossary - Switching - L2 Concepts & Architecture</div>
   </div>
 </div>
