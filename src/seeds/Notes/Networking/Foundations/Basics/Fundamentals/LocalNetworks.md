@@ -1,8 +1,6 @@
-<br>
+# **What Are Local Networks?**
+---
 
----
-## **What Are Local Networks?**
----
 A <span class="emphasis">local</span> network is a <span class="emphasis">private</span> network that connects <span class="emphasis">devices</span> within a <span class="emphasis">limited area</span>, such as a <span class="secondEmphasis">home</span>, <span class="secondEmphasis">office</span>, or <span class="secondEmphasis">campus</span>.
 
 - <span class="emphasis">Devices</span> within a <span class="emphasis">local</span> network can communicate <span class="secondEmphasis">without</span> using the <span class="emphasis">public</span> internet.

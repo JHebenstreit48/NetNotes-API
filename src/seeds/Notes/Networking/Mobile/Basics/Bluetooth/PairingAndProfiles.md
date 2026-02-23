@@ -88,6 +88,6 @@ Always refer to the documentation of the manufacturer for your specific model de
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/nfc/introduction">Next →</a>
-    <div class="xrefTitle">Next Section: NFC - Introduction</div>
+    <div class="xrefTitle">Section: NFC - Introduction</div>
   </div>
 </div>

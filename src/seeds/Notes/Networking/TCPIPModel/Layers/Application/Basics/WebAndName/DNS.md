@@ -85,6 +85,6 @@ The **Domain Name System (DNS)** is like a phonebook for the internet. It transl
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/application/basics/client-and-server-roles/fundamentals">Next →</a>
-    <div class="xrefTitle">Next Section: Application Layer - Client & Server Roles - Fundamentals</div>
+    <div class="xrefTitle">Section: Application Layer - Client & Server Roles - Fundamentals</div>
   </div>
 </div>

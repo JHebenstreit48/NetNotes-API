@@ -62,6 +62,6 @@ If you are learning or doing general analysis, it is often better to:
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireshark/basics/views-and-tools/packet-bytes-tree">Next →</a>
-    <div class="xrefTitle">Next Section: Wireshark - Views & Tools - Packet/Bytes/Tree</div>
+    <div class="xrefTitle">Section: Wireshark - Views & Tools - Packet/Bytes/Tree</div>
   </div>
 </div>

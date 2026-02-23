@@ -67,7 +67,7 @@ Filters help you:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireshark/basics/fundamentals/capture-interfaces">← Back</a>
-    <div class="xrefTitle">Previous Section: Wireshark - Fundamentals - Capture Interfaces</div>
+    <div class="xrefTitle">Section: Wireshark - Fundamentals - Capture Interfaces</div>
   </div>
 
   <div class="xrefItem">

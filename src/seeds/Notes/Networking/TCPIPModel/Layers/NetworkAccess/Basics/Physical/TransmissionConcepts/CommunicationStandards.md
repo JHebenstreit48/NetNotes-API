@@ -55,7 +55,7 @@ Communication standards provide:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals">← Back</a>
-    <div class="xrefTitle">Previous Section: Signals & Media - Bit/Digital Signals</div>
+    <div class="xrefTitle">Section: Signals & Media - Bit/Digital Signals</div>
   </div>
 
   <div class="xrefItem">

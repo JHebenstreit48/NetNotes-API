@@ -93,7 +93,7 @@ Understanding which radio is used for each service helps explain how mobile devi
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireless/advanced/controller/capwap-join-and-tunnel">← Back</a>
-    <div class="xrefTitle">Previous Topic: Wireless - Controller Ops - CAPWAP Join & Tunnel</div>
+    <div class="xrefTitle">Topic: Wireless - Controller Ops - CAPWAP Join & Tunnel</div>
   </div>
 
   <div class="xrefItem">

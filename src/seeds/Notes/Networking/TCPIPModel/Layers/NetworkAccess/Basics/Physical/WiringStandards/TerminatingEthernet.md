@@ -10,6 +10,6 @@
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Next →</a>
-    <div class="xrefTitle">Next Section: Physical - Bandwidth & Throughput - Bandwidth</div>
+    <div class="xrefTitle">Section: Physical - Bandwidth & Throughput - Bandwidth</div>
   </div>
 </div>

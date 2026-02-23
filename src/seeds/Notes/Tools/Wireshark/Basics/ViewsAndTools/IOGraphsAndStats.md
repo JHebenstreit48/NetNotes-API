@@ -62,6 +62,6 @@ Wireshark stats can help diagnose:
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireshark/advanced/analysis/follow-streams-and-rtt">Next →</a>
-    <div class="xrefTitle">Next Section: Wireshark - Analysis - Follow Streams & RTT</div>
+    <div class="xrefTitle">Section: Wireshark - Analysis - Follow Streams & RTT</div>
   </div>
 </div>

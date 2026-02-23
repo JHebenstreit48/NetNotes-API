@@ -69,6 +69,6 @@ Wireshark can open previously captured traffic (commonly .pcap or .pcapng files)
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireshark/basics/filters/display">Next →</a>
-    <div class="xrefTitle">Next Section: Wireshark - Filters - Display Filters</div>
+    <div class="xrefTitle">Section: Wireshark - Filters - Display Filters</div>
   </div>
 </div>

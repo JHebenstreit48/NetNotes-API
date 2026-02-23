@@ -34,6 +34,6 @@ The gateway routes traffic beyond the local network.
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/icmp-and-diagnostics/introduction">Next →</a>
-    <div class="xrefTitle">Next Section: Internet Layer - ICMP & Diagnostics - Introduction</div>
+    <div class="xrefTitle">Section: Internet Layer - ICMP & Diagnostics - Introduction</div>
   </div>
 </div>

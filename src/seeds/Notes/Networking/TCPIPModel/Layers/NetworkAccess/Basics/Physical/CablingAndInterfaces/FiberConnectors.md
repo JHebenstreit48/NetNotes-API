@@ -202,6 +202,6 @@ In residential deployments:
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b">Next →</a>
-    <div class="xrefTitle">Next Section: Physical - Wiring Standards - T568A vs T568B</div>
+    <div class="xrefTitle">Section: Physical - Wiring Standards - T568A vs T568B</div>
   </div>
 </div>

@@ -39,6 +39,6 @@ This helps identify where latency or packet loss may be occurring along the rout
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/internet/advanced/fragmentation-and-mtu/ipv4-df-mf-and-reassembly">Next →</a>
-    <div class="xrefTitle">Next Section: Internet Layer - Fragmentation & MTU - IPv4 DF/MF & Reassembly</div>
+    <div class="xrefTitle">Section: Internet Layer - Fragmentation & MTU - IPv4 DF/MF & Reassembly</div>
   </div>
 </div>

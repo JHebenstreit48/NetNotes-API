@@ -4,15 +4,15 @@ const Basics: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Concepts",
+      name: "Fundamentals",
       subpages: [
         {
-          name: "Routing Protocol Overview",
-          path: "/routing-protocols/basics/concepts/overview"
+          name: "Introduction",
+          path: "/routing-protocols/basics/fundamentals/introduction"
         },
         {
           name: "Static vs Dynamic",
-          path: "/routing-protocols/basics/concepts/static-vs-dynamic"
+          path: "/routing-protocols/basics/fundamentals/static-vs-dynamic"
         }
       ]
     },

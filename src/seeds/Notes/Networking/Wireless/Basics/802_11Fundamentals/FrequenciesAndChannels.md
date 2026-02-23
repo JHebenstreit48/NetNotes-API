@@ -157,6 +157,6 @@ Modern wireless routers may support <span class="emphasis">band steering</span>,
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireless/basics/architecture/bss-ess-ssid">Next →</a>
-    <div class="xrefTitle">Next Section: Wireless - WLAN Architecture - BSS/ESS/SSID</div>
+    <div class="xrefTitle">Section: Wireless - WLAN Architecture - BSS/ESS/SSID</div>
   </div>
 </div>

@@ -68,6 +68,6 @@
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/advanced/vlans/concepts/vlan-concepts">Next →</a>
-    <div class="xrefTitle">Next Topic: Switching - VLANs - VLAN Concepts</div>
+    <div class="xrefTitle">Topic: Switching - VLANs - VLAN Concepts</div>
   </div>
 </div>

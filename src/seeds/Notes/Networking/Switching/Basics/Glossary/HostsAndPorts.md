@@ -118,7 +118,7 @@ Types:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/hardware-and-port-types/ethernet-speed-history">← Back</a>
-    <div class="xrefTitle">Previous Section: Switching - Hardware & Port Types - Ethernet Speed History</div>
+    <div class="xrefTitle">Section: Switching - Hardware & Port Types - Ethernet Speed History</div>
   </div>
 
   <div class="xrefItem">

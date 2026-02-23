@@ -70,7 +70,7 @@ These are common examples of how devices use Bluetooth:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/cellular/coverage-and-data-plans">← Back</a>
-    <div class="xrefTitle">Previous Section: Cellular - Coverage & Data Plans</div>
+    <div class="xrefTitle">Section: Cellular - Coverage & Data Plans</div>
   </div>
 
   <div class="xrefItem">

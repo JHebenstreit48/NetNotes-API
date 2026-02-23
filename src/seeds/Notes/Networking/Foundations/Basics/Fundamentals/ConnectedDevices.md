@@ -1,6 +1,4 @@
-
 # Introduction
-
 ---
 
 ### What Are Connected Devices?
@@ -152,7 +150,7 @@ Wireless devices:
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-infrastructure">Next →</a>
-    <div class="xrefTitle">Next Section: Foundations - Devices & Models - Networking Infrastructure</div>
+    <a class="xrefBtn" href="/foundations/basics/fundamentals/communication-protocols">Next →</a>
+    <div class="xrefTitle">Section: Foundations - Communication Protocols</div>
   </div>
 </div>

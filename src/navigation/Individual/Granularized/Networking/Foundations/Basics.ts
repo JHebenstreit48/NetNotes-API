@@ -22,6 +22,14 @@ const Basics: Subpage = {
           name: 'Connected Devices',
           path: '/foundations/basics/fundamentals/connected-devices',
         },
+        {
+          name: 'Communication Protocols',
+          path: '/foundations/basics/fundamentals/communication-protocols',
+        },
+        {
+          name: 'Standards & Organizations',
+          path: '/foundations/basics/fundamentals/standards-and-organizations',
+        },
       ],
     },
     {

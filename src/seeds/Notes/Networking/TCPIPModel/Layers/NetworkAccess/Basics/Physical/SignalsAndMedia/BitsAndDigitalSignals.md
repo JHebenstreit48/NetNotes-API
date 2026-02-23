@@ -78,6 +78,6 @@ All networking depends on stable digital signaling at Layer 1.
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards">Next →</a>
-    <div class="xrefTitle">Next Section: Transmission Concepts - Communication Standards</div>
+    <div class="xrefTitle">Section: Transmission Concepts - Communication Standards</div>
   </div>
 </div>
