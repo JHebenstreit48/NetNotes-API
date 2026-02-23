@@ -25,26 +25,31 @@ When Wi-Fi is on, the device automatically reconnects to any Wi-Fi network it ha
 If the network is new, the device may display a list of available networks or ask if it should connect.
 
 ---
-
-### What Is an SSID?
-
+### SSID and Passphrase Basics
 ---
 
-**SSID** stands for **Service Set Identifier**.
+A mobile device connects to a Wi-Fi network using two main pieces of information:
 
-An SSID is the name assigned to a wireless network.
+- <span class="emphasis">SSID</span> (the wireless network name)
+- <span class="emphasis">Passphrase</span> (the wireless password)
 
-A **passphrase** is what is commonly referred to as the “wireless password.”
+Both must be entered exactly as configured on the wireless router.
 
-SSIDs and passphrases must be typed exactly as configured on the wireless router.  
 If they are entered incorrectly, the device will not connect properly.
 
 If a mobile device does not prompt to connect to a Wi-Fi network:
 
-- the SSID broadcast may be turned off
-- the device may not be set to connect automatically
+- the SSID broadcast may be turned off  
+- the device may not be set to connect automatically  
 
-In these cases, manually configure the Wi-Fi settings on the device.
+In these cases, you may need to manually configure the Wi-Fi settings on the device.
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/wireless/basics/architecture/bss-ess-ssid">
+    Wireless → WLAN Architecture → BSS/ESS/SSID
+  </a>
+</div>
 
 ---
 

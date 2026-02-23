@@ -1,71 +1,75 @@
-import type { Subpage } from "@/types/navigation";
+import type { Subpage } from '@/types/navigation';
 
 const Basics: Subpage = {
-  name: "Basics",
+  name: 'Basics',
   subpages: [
     {
-      name: "Fundamentals",
+      name: 'Fundamentals',
       subpages: [
         {
-          name: "Introduction",
-          path: "/foundations/basics/fundamentals/introduction",
+          name: 'Introduction',
+          path: '/foundations/basics/fundamentals/introduction',
         },
         {
-          name: "Internet/Networks",
-          path: "/foundations/basics/fundamentals/internet",
+          name: 'Internet/Networks',
+          path: '/foundations/basics/fundamentals/internet',
         },
         {
-          name: "Local Networks",
-          path: "/foundations/basics/fundamentals/local-networks",
+          name: 'Local Networks',
+          path: '/foundations/basics/fundamentals/local-networks',
         },
         {
-          name: "Connected Devices",
-          path: "/foundations/basics/fundamentals/connected-devices",
+          name: 'Connected Devices',
+          path: '/foundations/basics/fundamentals/connected-devices',
         },
       ],
     },
     {
-      name: "Devices & Models",
+      name: 'Devices & Models',
       subpages: [
         {
-          name: "Fundamentals",
+          name: 'Fundamentals',
           subpages: [
             {
-              name: "Network Infrastructure",
-              path: "/foundations/basics/devices-and-models/fundamentals/network-infrastructure",
+              name: 'Network Infrastructure',
+              path: '/foundations/basics/devices-and-models/fundamentals/network-infrastructure',
             },
             {
-              name: "Networking Devices",
-              path: "/foundations/basics/devices-and-models/fundamentals/network-devices",
+              name: 'Networking Devices',
+              path: '/foundations/basics/devices-and-models/fundamentals/network-devices',
             },
             {
-              name: "Home Network Architecture",
-              path: "/foundations/basics/devices-and-models/fundamentals/home-network-architecture",
+              name: 'Home Network Architecture',
+              path: '/foundations/basics/devices-and-models/fundamentals/home-network-architecture',
             },
             {
-              name: "Networking Models",
-              path: "/foundations/basics/devices-and-models/fundamentals/network-models",
+              name: 'Networking Models',
+              path: '/foundations/basics/devices-and-models/fundamentals/network-models',
             },
           ],
         },
         {
-          name: "Routers",
+          name: 'Routers',
           subpages: [
             {
-              name: "Roles & Types",
-              path: "/foundations/basics/devices-and-models/routers/roles-and-types",
+              name: 'Basic Router Setup',
+              path: '/foundations/basics/devices-and-models/routers/basic-router-setup',
             },
             {
-              name: "Interfaces",
-              path: "/foundations/basics/devices-and-models/routers/interfaces",
+              name: 'Roles & Types',
+              path: '/foundations/basics/devices-and-models/routers/roles-and-types',
             },
             {
-              name: "Port Types",
-              path: "/foundations/basics/devices-and-models/routers/port-types",
+              name: 'Interfaces',
+              path: '/foundations/basics/devices-and-models/routers/interfaces',
             },
             {
-              name: "Routing vs Switching",
-              path: "/foundations/basics/devices-and-models/routers/routing-vs-switching",
+              name: 'Port Types',
+              path: '/foundations/basics/devices-and-models/routers/port-types',
+            },
+            {
+              name: 'Routing vs Switching',
+              path: '/foundations/basics/devices-and-models/routers/routing-vs-switching',
             },
           ],
         },

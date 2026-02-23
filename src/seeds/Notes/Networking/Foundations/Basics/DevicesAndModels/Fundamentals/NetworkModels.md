@@ -118,7 +118,7 @@ They provide a logical way to:
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/roles-and-types">Next →</a>
-    <div class="xrefTitle">Next Subtopic: Devices & Models - Routers - Roles & Types</div>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/basic-router-setup">Next →</a>
+    <div class="xrefTitle">Next Subtopic: Devices & Models - Routers - Basic Router Setup</div>
   </div>
 </div>

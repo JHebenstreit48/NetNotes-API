@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "IPv4 DF/MF & Reassembly",
-          path: "/tcpip-model/layers/internet/fragmentation-and-mtu/ipv4-df-mf-and-reassembly"
+          path: "/tcpip-model/layers/internet/advanced/fragmentation-and-mtu/ipv4-df-mf-and-reassembly"
         },
         {
           name: "Path MTU Discovery",
-          path: "/tcpip-model/layers/internet/fragmentation-and-mtu/path-mtu-discovery"
+          path: "/tcpip-model/layers/internet/advanced/fragmentation-and-mtu/path-mtu-discovery"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Concepts & Types",
-          path: "/tcpip-model/layers/internet/nat-and-pat/concepts-and-types"
+          path: "/tcpip-model/layers/internet/advanced/nat-and-pat/concepts-and-types"
         },
         {
           name: "Use Cases & Limits",
-          path: "/tcpip-model/layers/internet/nat-and-pat/use-cases-and-limits"
+          path: "/tcpip-model/layers/internet/advanced/nat-and-pat/use-cases-and-limits"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "IGMP & MLD",
-          path: "/tcpip-model/layers/internet/multicast-fundamentals/igmp-and-mld"
+          path: "/tcpip-model/layers/internet/advanced/multicast-fundamentals/igmp-and-mld"
         },
         {
           name: "PIM SM/DM (Concepts)",
-          path: "/tcpip-model/layers/internet/multicast-fundamentals/pim-sm-dm-concepts"
+          path: "/tcpip-model/layers/internet/advanced/multicast-fundamentals/pim-sm-dm-concepts"
         }
       ]
     }
