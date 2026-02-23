@@ -4,10 +4,6 @@
 
 <hr class="dividerMain">
 
-**Part of the Application Layer**
-
-<hr class="dividerSection" />
-
 ### What is DNS?
 
 <hr class="dividerSection" />
