@@ -99,6 +99,6 @@ Need a refresher on what Mbps, Gbps, or Tbps mean?
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/glossary/hosts-and-ports">Next →</a>
-    <div class="xrefTitle">Next Section: Glossary - Hosts & Ports</div>
+    <div class="xrefTitle">Section: Glossary - Hosts & Ports</div>
   </div>
 </div>

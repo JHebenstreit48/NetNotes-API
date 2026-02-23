@@ -143,6 +143,6 @@ For larger networks, a dedicated switch may connect to one of the LAN ports to e
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/routing-vs-switching">Next →</a>
-    <div class="xrefTitle">Next Section: Routers - Routing vs Switching</div>
+    <div class="xrefTitle">Section: Routers - Routing vs Switching</div>
   </div>
 </div>

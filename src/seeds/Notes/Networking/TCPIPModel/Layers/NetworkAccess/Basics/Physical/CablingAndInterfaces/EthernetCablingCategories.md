@@ -151,7 +151,7 @@ Wired links provide:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">← Back</a>
-    <div class="xrefTitle">Previous Section: Physical - Transmission - Transmission Methods</div>
+    <div class="xrefTitle">Section: Physical - Transmission - Transmission Methods</div>
   </div>
 
   <div class="xrefItem">

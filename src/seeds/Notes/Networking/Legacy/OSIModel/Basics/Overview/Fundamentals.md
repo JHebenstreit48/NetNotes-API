@@ -1,8 +1,6 @@
-<br>
+# Why Two Models?
+---
 
----
-## Why Two Models?
----
 In the early days of networking, vendors shipped <span class="emphasis">proprietary systems</span> that couldn’t talk to each other. The push for <span class="secondEmphasis">standardized communication</span> created two influential frameworks:
 
 <div class="bullet1">

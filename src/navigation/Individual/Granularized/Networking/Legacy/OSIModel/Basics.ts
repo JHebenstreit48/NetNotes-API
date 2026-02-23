@@ -34,11 +34,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "PDU Names by Layer",
-          path: "/coreconcepts/osimodel/basics/pdus-and-sap/pdu-names-by-layer"
+          path: "/legacy/osi-model/basics/pdus-and-sap/pdu-names-by-layer"
         },
         {
           name: "SAP/SDU/PCI",
-          path: "/coreconcepts/osimodel/basics/pdus-and-sap/sap-sdu-pci"
+          path: "/legacy/osi-model/basics/pdus-and-sap/sap-sdu-pci"
         }
       ]
     },
@@ -47,11 +47,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Req/Ind/Resp/Conf",
-          path: "/coreconcepts/osimodel/basics/service-primitives/req-ind-resp-conf"
+          path: "/legacy/osi-model/basics/service-primitives/req-ind-resp-conf"
         },
         {
           name: "Encapsulation Path",
-          path: "/coreconcepts/osimodel/basics/service-primitives/encapsulation-path"
+          path: "/legacy/osi-model/basics/service-primitives/encapsulation-path"
         }
       ]
     },
@@ -60,11 +60,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "ASN.1 & BER/DER",
-          path: "/coreconcepts/osimodel/basics/presentation/asn1-and-ber-der"
+          path: "/legacy/osi-model/basics/presentation/asn1-and-ber-der"
         },
         {
           name: "Transfer Syntax",
-          path: "/coreconcepts/osimodel/basics/presentation/transfer-syntax"
+          path: "/legacy/osi-model/basics/presentation/transfer-syntax"
         }
       ]
     },
@@ -73,11 +73,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Dialog & Tokens",
-          path: "/coreconcepts/osimodel/basics/session/dialog-and-tokens"
+          path: "/legacy/osi-model/basics/session/dialog-and-tokens"
         },
         {
           name: "Sync & Recovery",
-          path: "/coreconcepts/osimodel/basics/session/sync-and-recovery"
+          path: "/legacy/osi-model/basics/session/sync-and-recovery"
         }
       ]
     },
@@ -86,11 +86,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Glossary",
-          path: "/coreconcepts/basics/osimodel/glossaryandresources/glossary"
+          path: "/legacy/osi-model/basics/glossary-and-resources/glossary"
         },
         {
           name: "Resources",
-          path: "/coreconcepts/basics/osimodel/glossaryandresources/resources"
+          path: "/legacy/osi-model/basics/glossary-and-resources/resources"
         }
       ]
     }

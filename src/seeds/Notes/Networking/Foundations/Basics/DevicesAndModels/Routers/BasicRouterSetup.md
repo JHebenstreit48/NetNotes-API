@@ -130,7 +130,7 @@ Mixed/legacy mode improves compatibility but can reduce overall efficiency depen
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-models">← Back</a>
-    <div class="xrefTitle">Previous Section: Foundations - Devices & Models - Networking Models</div>
+    <div class="xrefTitle">Section: Foundations - Devices & Models - Networking Models</div>
   </div>
 
   <div class="xrefItem">

@@ -144,6 +144,6 @@ Practical collaboration tip:
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/packettracer/basics/workspace-and-views/logical-vs-physical">Next →</a>
-    <div class="xrefTitle">Next Section: Packet Tracer - Workspace & Views - Logical vs Physical</div>
+    <div class="xrefTitle">Section: Packet Tracer - Workspace & Views - Logical vs Physical</div>
   </div>
 </div>

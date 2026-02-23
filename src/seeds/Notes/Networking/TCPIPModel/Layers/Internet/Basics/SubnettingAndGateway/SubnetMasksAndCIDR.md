@@ -25,7 +25,7 @@ This mask indicates that the first three octets identify the network, and the la
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv6/nd-ra-slaac-dad">← Back</a>
-    <div class="xrefTitle">Previous Section: IP Addressing - IPv6 - ND/RA & SLAAC/DAD</div>
+    <div class="xrefTitle">Section: IP Addressing - IPv6 - ND/RA & SLAAC/DAD</div>
   </div>
 
   <div class="xrefItem">

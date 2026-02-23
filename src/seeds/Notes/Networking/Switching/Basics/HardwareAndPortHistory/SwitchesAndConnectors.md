@@ -135,7 +135,7 @@ Virtual switches perform Layer 2 forwarding but operate entirely in software.
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/switching/basics/fundamentals/mac-address-table">← Back</a>
-    <div class="xrefTitle">Previous Section: Switching - Basics - Fundamentals - MAC Address Table</div>
+    <div class="xrefTitle">Section: Switching - Basics - Fundamentals - MAC Address Table</div>
   </div>
 
   <div class="xrefItem">

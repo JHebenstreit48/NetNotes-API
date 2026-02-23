@@ -152,6 +152,6 @@ Media choices are usually driven by:
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories">Next →</a>
-    <div class="xrefTitle">Next Section: Cabling & Interfaces - Ethernet Cabling Categories</div>
+    <div class="xrefTitle">Section: Cabling & Interfaces - Ethernet Cabling Categories</div>
   </div>
 </div>

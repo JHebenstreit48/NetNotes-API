@@ -95,7 +95,7 @@ All wireless networks should use the strongest available encryption to restrict 
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireless/basics/80211/frequencies-and-channels">← Back</a>
-    <div class="xrefTitle">Previous Topic: Wireless - 802.11 Fundamentals - Frequencies & Channels</div>
+    <div class="xrefTitle">Topic: Wireless - 802.11 Fundamentals - Frequencies & Channels</div>
   </div>
 
   <div class="xrefItem">

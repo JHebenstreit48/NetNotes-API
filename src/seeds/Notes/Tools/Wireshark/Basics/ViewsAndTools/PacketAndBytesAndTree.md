@@ -78,7 +78,7 @@ Helpful navigation patterns:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireshark/basics/filters/capture">← Back</a>
-    <div class="xrefTitle">Previous Section: Wireshark - Filters - Capture Filters</div>
+    <div class="xrefTitle">Section: Wireshark - Filters - Capture Filters</div>
   </div>
 
   <div class="xrefItem">

@@ -140,7 +140,7 @@ Knowing this information helps evaluate performance limits and upgrade opportuni
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/routing-protocols/advanced/egps/policy-and-path-selection">← Back</a>
-    <div class="xrefTitle">Previous Topic: Routing Protocols - Advanced - EGPs - Policy & Path Selection</div>
+    <div class="xrefTitle">Topic: Routing Protocols - Advanced - EGPs - Policy & Path Selection</div>
   </div>
 
   <div class="xrefItem">

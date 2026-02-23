@@ -92,6 +92,6 @@ Most home internet services provide faster download speeds than upload speeds.
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/encap-deencap/encapsulation">Next →</a>
-    <div class="xrefTitle">Next Section: Physical - Encap/De-encap - Encapsulation</div>
+    <div class="xrefTitle">Section: Physical - Encap/De-encap - Encapsulation</div>
   </div>
 </div>

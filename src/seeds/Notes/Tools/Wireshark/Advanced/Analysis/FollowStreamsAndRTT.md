@@ -62,7 +62,7 @@ Common troubleshooting goals:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/wireshark/basics/views-and-tools/io-graphs-and-stats">← Back</a>
-    <div class="xrefTitle">Previous Section: Wireshark - Views & Tools - IO Graphs & Stats</div>
+    <div class="xrefTitle">Section: Wireshark - Views & Tools - IO Graphs & Stats</div>
   </div>
 
   <div class="xrefItem">

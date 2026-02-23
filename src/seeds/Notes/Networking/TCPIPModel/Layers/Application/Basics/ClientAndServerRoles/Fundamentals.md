@@ -100,7 +100,7 @@ A file server stores data in a <span class="emphasis">central location</span>, a
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/application/basics/legacy-lab-and-capture/wireshark-profiles">← Back</a>
-    <div class="xrefTitle">Previous Topic: Legacy Lab & Capture - Wireshark Profiles</div>
+    <div class="xrefTitle">Topic: Legacy Lab & Capture - Wireshark Profiles</div>
   </div>
 
   <div class="xrefItem">

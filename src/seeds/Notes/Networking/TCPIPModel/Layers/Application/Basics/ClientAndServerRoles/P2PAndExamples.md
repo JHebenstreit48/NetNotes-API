@@ -117,6 +117,6 @@ After peers discover each other, some communication or data transfer may happen 
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/application/basics/email-and-communication/smtp">Next →</a>
-    <div class="xrefTitle">Next Topic: Email & Communication - SMTP</div>
+    <div class="xrefTitle">Topic: Email & Communication - SMTP</div>
   </div>
 </div>

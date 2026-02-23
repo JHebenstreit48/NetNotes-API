@@ -1,8 +1,4 @@
-## MAC Addressing
-
----
-
-### What Is MAC Addressing?
+# What Is MAC Addressing?
 
 MAC addressing is the mechanism Layer 2 uses to identify **source and destination devices** on a local network.
 

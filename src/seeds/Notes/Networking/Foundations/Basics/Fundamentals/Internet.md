@@ -1,6 +1,4 @@
-
----
-## Who Owns the Internet?
+# Who Owns the Internet?
 ---
 
 The **internet is not owned by any single individual or organization.** It is a **global collection of interconnected networks** that follow standardized communication protocols.

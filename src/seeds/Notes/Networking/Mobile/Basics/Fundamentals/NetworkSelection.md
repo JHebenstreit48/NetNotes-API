@@ -102,6 +102,6 @@ Online manuals for every type of device are usually available from the manufactu
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mobile/basics/cellular/introduction">Next →</a>
-    <div class="xrefTitle">Next Section: Cellular - Introduction</div>
+    <div class="xrefTitle">Section: Cellular - Introduction</div>
   </div>
 </div>

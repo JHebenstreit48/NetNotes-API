@@ -70,7 +70,7 @@ A simple starter set (optional):
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/gns3/advanced/automation-and-apis/gns3-rest-api">← Back</a>
-    <div class="xrefTitle">Previous Topic: GNS3 - Advanced - Automation & APIs - GNS3 REST API</div>
+    <div class="xrefTitle">Topic: GNS3 - Advanced - Automation & APIs - GNS3 REST API</div>
   </div>
 
   <div class="xrefItem">

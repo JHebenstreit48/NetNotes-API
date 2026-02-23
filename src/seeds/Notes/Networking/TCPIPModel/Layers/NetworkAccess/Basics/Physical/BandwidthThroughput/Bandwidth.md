@@ -126,7 +126,7 @@ Bandwidth is measured in <span class="emphasis">bits per second (bps)</span> and
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/wiring-standards/terminating-ethernet">← Back</a>
-    <div class="xrefTitle">Previous Section: Physical - Wiring Standards - Terminating Ethernet (Crimp & Punchdown)</div>
+    <div class="xrefTitle">Section: Physical - Wiring Standards - Terminating Ethernet (Crimp & Punchdown)</div>
   </div>
 
   <div class="xrefItem">

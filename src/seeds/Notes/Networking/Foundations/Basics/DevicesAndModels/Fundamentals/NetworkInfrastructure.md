@@ -1,5 +1,4 @@
 # Introduction
-
 ---
 
 ### What Is Network Infrastructure?
@@ -211,8 +210,8 @@ In many homes, the router is an <span class="emphasis">integrated wireless route
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/connected-devices">← Back</a>
-    <div class="xrefTitle">Previous Topic: Foundations - Fundamentals - Connected Devices</div>
+    <a class="xrefBtn" href="/foundations/basics/fundamentals/communication-protocols">← Back</a>
+    <div class="xrefTitle">Section: Foundations - Fundamentals - Communication Protocols</div>
   </div>
 
   <div class="xrefItem">

@@ -122,6 +122,6 @@ Both identify devices on networks, but they differ in structure, capacity, and d
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv6/fundamentals">Next →</a>
-    <div class="xrefTitle">Next Section: IP Addressing - IPv6 - Fundamentals</div>
+    <div class="xrefTitle">Section: IP Addressing - IPv6 - Fundamentals</div>
   </div>
 </div>

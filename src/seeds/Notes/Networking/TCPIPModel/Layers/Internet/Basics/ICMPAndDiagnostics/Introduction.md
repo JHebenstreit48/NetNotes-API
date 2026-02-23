@@ -17,7 +17,7 @@ ICMP is commonly used to help determine:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/subnetting-and-gateways/default-gateway-and-routing-tables">← Back</a>
-    <div class="xrefTitle">Previous Section: Internet Layer - Subnetting & Gateways - Default Gateway & Routing Tables</div>
+    <div class="xrefTitle">Section: Internet Layer - Subnetting & Gateways - Default Gateway & Routing Tables</div>
   </div>
 
   <div class="xrefItem">
