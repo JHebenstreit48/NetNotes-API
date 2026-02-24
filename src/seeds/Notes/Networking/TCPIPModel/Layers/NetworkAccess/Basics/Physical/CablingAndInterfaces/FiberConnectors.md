@@ -179,6 +179,7 @@ Compared to copper-based media:
 - Fiber experiences lower signal attenuation over long distances
 - Fiber is more secure against signal tapping
 - Fiber does not suffer from electrical interference
+- <span class="emphasis">Distance</span>: copper Ethernet is typically limited to <span class="emphasis">100 meters</span>, while fiber can span <span class="secondEmphasis">kilometers</span> depending on type.
 
 In residential deployments:
 

@@ -28,9 +28,14 @@ Wireless networking commonly uses **Wi-Fi**, standardized by the IEEE under the 
 
 At the Physical layer, wireless uses the **air (RF)** as the transmission medium.
 
-For deeper Wi-Fi concepts (802.11 details), see:
+For deeper Wi-Fi concepts (802.11 details)
 
-<a href="/wireless/basics/80211/wireless-standards">Wireless Standards (802.11)</a>
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/wireless/basics/80211/wireless-standards">
+    Wireless → Basics → 802.11 Fundamentals → Wireless Standards
+  </a>
+</div>
 
 ---
 

@@ -48,8 +48,8 @@ To explore ARP tables and command-line tools, see:
 
 Layer 2 supports common protocols like:
 
-- <span class="emphasis">Ethernet (IEEE 802.3)</span> — <span class="seondEmphasis">wired</span> networks  
-- <span class="emphasis">Wi-Fi (IEEE 802.11)</span> — <span class="seondEmphasis">wireless</span> networks
+- <span class="emphasis">Ethernet (IEEE 802.3)</span> — <span class="secondEmphasis">wired</span> networks  
+- <span class="emphasis">Wi-Fi (IEEE 802.11)</span> — <span class="secondEmphasis">wireless</span> networks
 
 These define how devices frame and transmit data at Layer 2.
 
@@ -61,3 +61,15 @@ Layer 2 defines the rules for **local communication**.
 It wraps data, labels it with addresses, and ensures it arrives intact — all without needing a router.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/advanced/multicast-fundamentals/pim-sm-dm-concepts">← Back</a>
+    <div class="xrefTitle">Topic: TCP/IP Model - Internet - Advanced - Multicast Fundamentals - PIM SM/DM (Concepts)</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp">Next →</a>
+    <div class="xrefTitle">Data Link - Core Concepts - Address Resolution Protocol (ARP)</div>
+  </div>
+</div>

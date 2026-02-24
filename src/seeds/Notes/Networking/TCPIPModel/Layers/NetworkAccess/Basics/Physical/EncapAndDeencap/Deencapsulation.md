@@ -40,3 +40,15 @@ De-encapsulation is the reverse process of encapsulation. It occurs when data is
 See <span class="emphasis">Encapsulation</span> for the send-side process.  
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/encap-deencap/encapsulation">← Back</a>
+    <div class="xrefTitle">Physical - Encap/De-encap - Encapsulation</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/advanced/data-link/checks-and-errors/fcs-crc">Next →</a>
+    <div class="xrefTitle">Section: Network Access - Advanced - Data Link - Checks & Errors - FCS/CRC</div>
+  </div>
+</div>

@@ -6,6 +6,7 @@
 ---
 
 Bandwidth is the amount of data that can move through a communication medium over a specific period of time — usually measured in bits per second.
+Bandwidth represents the theoretical maximum capacity of a link under ideal conditions.
 
 A <span class="emphasis">higher bandwidth</span> means <span class="secondEmphasis">more data can be transmitted at once</span>, which is essential for things like:
 
