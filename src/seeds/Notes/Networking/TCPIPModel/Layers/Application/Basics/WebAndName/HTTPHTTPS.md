@@ -30,10 +30,10 @@
    - HTTPS ensures these stateless requests are secure.
 
 3. **Common HTTP Methods**:
-   - **GET**: Retrieve resources.
-   - **POST**: Submit data to the server.
-   - **PUT**: Update resources on the server.
-   - **DELETE**: Remove resources.
+- <span class="emphasis">GET</span>: retrieve resources  
+- <span class="emphasis">POST</span>: submit data to the server  
+- <span class="emphasis">PUT</span>: update resources  
+- <span class="emphasis">DELETE</span>: remove resources
 
 ---
 
@@ -52,15 +52,27 @@
 
 ### Advantages of HTTPS
 
-- **Encryption**: Prevents unauthorized access to data.  
-- **Authentication**: Ensures communication is with the intended server.  
-- **Integrity**: Detects any tampering of the data in transit.  
+- <span class="emphasis">Encryption</span>: prevents unauthorized access to data in transit  
+- <span class="emphasis">Authentication</span>: verifies the server identity via certificates  
+- <span class="emphasis">Integrity</span>: detects tampering of data between client and server
 
 ---
 
 ### Additional Tools for HTTP/HTTPS
 
-- **curl**: Command-line tool to make HTTP/HTTPS requests.  
-- **Postman**: GUI tool for testing API requests.  
+- <span class="emphasis">curl</span>: CLI tool to make HTTP/HTTPS requests  
+- <span class="emphasis">Postman</span>: GUI tool for testing API requests 
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/introduction">← Back</a>
+    <div class="xrefTitle">Application Layer - Web & Name Resolution - Introduction</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/dns">Next →</a>
+    <div class="xrefTitle">Application Layer - Web & Name Resolution - DNS</div>
+  </div>
+</div>
