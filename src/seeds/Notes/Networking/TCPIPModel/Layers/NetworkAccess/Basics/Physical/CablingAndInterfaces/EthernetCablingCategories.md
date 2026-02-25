@@ -4,6 +4,8 @@
 
 Most wired Ethernet networks use <span class="emphasis">twisted-pair copper cabling</span>.
 
+Because Ethernet is the foundation of most local area networks (LANs), twisted-pair cabling is the most commonly deployed network medium.
+
 This cabling is categorized using a <span class="emphasis">Category (Cat)</span> rating, which defines performance characteristics such as:
 
 - Supported signaling frequency
@@ -151,11 +153,11 @@ Wired links provide:
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">← Back</a>
-    <div class="xrefTitle">Section: Physical - Transmission - Transmission Methods</div>
+    <div class="xrefTitle">Section: Physical - Transmission - Data Transmission Methods</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors">Next →</a>
-    <div class="xrefTitle">Physical - Cabling & Interfaces - Copper Connectors</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">Next →</a>
+    <div class="xrefTitle"> Physical - Cabling & Interfaces - Coaxial Cable</div>
   </div>
 </div>

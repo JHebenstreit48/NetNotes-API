@@ -75,6 +75,10 @@ const Basics: Subpage = {
               path: "/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories",
             },
             {
+              name: "Coaxial Cable",
+              path: "/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable",
+            },
+            {
               name: "Copper Connectors (RJ45 / 8P8C)",
               path: "/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors",
             },
