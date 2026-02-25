@@ -82,3 +82,15 @@ It ensures reliable local delivery and is foundational to Ethernet and Wi-Fi net
 Without it, no device would know who’s who on the local segment.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields">← Back</a>
+    <div class="xrefTitle">Data Link - Frames & Addressing - Ethernet Frame Fields</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/signals-and-media/introduction">Next →</a>
+    <div class="xrefTitle">Section: Physical - Signals & Media - Introduction</div>
+  </div>
+</div>

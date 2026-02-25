@@ -60,3 +60,17 @@ Both are required for successful communication.
 MAC addressing enables **local device identification**.
 
 Without MAC addresses, switches would have no way to forward frames inside a network.
+
+---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp">← Back</a>
+    <div class="xrefTitle">Section: Data Link - Core Concepts - Address Resolution Protocol (ARP)</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields">Next →</a>
+    <div class="xrefTitle">Data Link - Frames & Addressing - Ethernet Frame Fields</div>
+  </div>
+</div>

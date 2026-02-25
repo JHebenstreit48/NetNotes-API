@@ -69,3 +69,15 @@ ARP is the behind-the-scenes translator that helps your machine say:
 It’s essential for local packet delivery and Layer 2 accuracy.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/introduction">← Back</a>
+    <div class="xrefTitle">Data Link - Core Concepts - Introduction</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing">Next →</a>
+    <div class="xrefTitle">Section: Data Link - Frames & Addressing - MAC Addressing</div>
+  </div>
+</div>

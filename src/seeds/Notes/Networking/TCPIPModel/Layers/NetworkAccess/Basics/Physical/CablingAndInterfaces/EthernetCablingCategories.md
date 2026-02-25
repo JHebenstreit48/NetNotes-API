@@ -13,11 +13,11 @@ This cabling is categorized using a <span class="emphasis">Category (Cat)</span>
 
 Category ratings define electrical performance standards — not the Ethernet protocol itself.
 
-<hr class="dividerSection">
+<hr class="dividerSection" />
 
 ## Cable Construction
 
-<hr class="dividerSection">
+<hr class="dividerSection" />
 
 <hr class="dividerSubsection1">
 
@@ -66,11 +66,11 @@ This improves reliability over distance.
 
 Most residential installations use UTP.
 
-<hr class="dividerSection">
+<hr class="dividerSection" />
 
 ## Common Cable Categories
 
-<hr class="dividerSection">
+<hr class="dividerSection" />
 
 <table class="notesTable">
   <thead>
@@ -101,11 +101,11 @@ Most residential installations use UTP.
 
 Cable category influences maximum reliable speed over standard Ethernet distances (commonly up to 100 meters).
 
-<hr class="dividerSection">
+<hr class="dividerSection" />
 
 ## Patch Cables vs Structured Cabling
 
-<hr class="dividerSection">
+<hr class="dividerSection" />
 
 A <span class="emphasis">patch cable</span> is a short, pre-terminated Ethernet cable used to connect devices.
 
