@@ -1,4 +1,10 @@
-# What Is MAC Addressing?
+# Identifying Devices with MAC Addresses
+
+<hr class="dividerSection" />
+
+### What Is MAC Addressing?
+
+<hr class="dividerSection" />
 
 MAC addressing is the mechanism Layer 2 uses to identify **source and destination devices** on a local network.
 
@@ -6,62 +12,80 @@ Every frame includes:
 - A **source MAC address**
 - A **destination MAC address**
 
-These addresses determine how switches forward frames.
+These addresses determine how switches forward frames within a local segment.
 
----
+<hr class="dividerSection" />
 
 ### MAC Address Usage in Frames
+
+<hr class="dividerSection" />
 
 When a device sends data:
 - The source MAC identifies the sender
 - The destination MAC identifies the next hop
 
-Switches examine only MAC addresses to make forwarding decisions.
+Switches examine MAC addresses to make forwarding decisions.  
+They do not inspect IP addresses when operating at Layer 2.
 
----
+<hr class="dividerSection" />
 
 ### Viewing MAC Addresses
+
+<hr class="dividerSection" />
 
 You can view MAC addresses using operating system tools:
 
 #### Windows
-- ipconfig /all
+
+shell  
+ipconfig /all  
 
 Displays:
-- Network interface details
+- Network interface details  
 - MAC address (Physical Address)
 
 #### Linux / Ubuntu
-- ip link show
-- ifconfig -a
+
+```shell  
+ip link show  
+```
+
+```shell  
+ifconfig -a  
+```
 
 MAC addresses appear as:
 - link/ether
 
 #### macOS
-- ifconfig
+
+```shell  
+ifconfig  
+```
 
 MAC addresses appear as:
 - ether
 
----
+<hr class="dividerSection" />
 
 ### MAC Address vs IP Address
 
-- MAC address → Local delivery (Layer 2)
-- IP address → Network delivery (Layer 3)
+<hr class="dividerSection" />
 
-Both are required for successful communication.
+- MAC address → Local delivery (Layer 2)  
+- IP address → Network delivery (Layer 3)  
 
----
+Both are required for complete communication across networks.
+
+<hr class="dividerSection" />
 
 ### Summary
 
+<hr class="dividerSection" />
+
 MAC addressing enables **local device identification**.
 
-Without MAC addresses, switches would have no way to forward frames inside a network.
-
----
+Without MAC addresses, switches would have no way to forward frames within a network.
 
 <div class="xrefNav">
   <div class="xrefItem">

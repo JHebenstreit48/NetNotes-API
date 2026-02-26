@@ -14,6 +14,14 @@ const Basics: Subpage = {
               path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/introduction",
             },
             {
+              name: "Encapsulation",
+              path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/encapsulation",
+            },
+            {
+              name: "De-encapsulation",
+              path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation",
+            },
+            {
               name: "Address Resolution Protocol (ARP)",
               path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp",
             },
@@ -115,19 +123,6 @@ const Basics: Subpage = {
             {
               name: "Throughput",
               path: "/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput",
-            },
-          ],
-        },
-        {
-          name: "Encap/De-encap",
-          subpages: [
-            {
-              name: "Encapsulation",
-              path: "/tcpip-model/layers/network-access/basics/physical/encap-deencap/encapsulation",
-            },
-            {
-              name: "De-encapsulation",
-              path: "/tcpip-model/layers/network-access/basics/physical/encap-deencap/de-encapsulation",
             },
           ],
         },
