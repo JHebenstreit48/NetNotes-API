@@ -87,9 +87,24 @@ In general, fiber is preferred for:
 
 This is why fiber is commonly used for ISP backbone and high-capacity links.
 
----
+<hr class="dividerSection" />
 
+### Choosing the Right Network Media
+
+<hr class="dividerSection" />
+
+When designing or selecting network media, four primary criteria should be evaluated:
+
+- <span class="emphasis">Maximum Distance</span> – How far can the signal travel reliably?
+- <span class="emphasis">Environment</span> – Will the cable be installed in a noisy electrical area, outdoors, underground, or in a data center?
+- <span class="emphasis">Data Requirements</span> – How much data must be transmitted and at what speed?
+- <span class="emphasis">Cost</span> – What is the cost of the media and installation?
+
+Media choice is rarely about one factor alone — it is a balance between performance, environment, and budget.
+
+---
 ### Signal Changes in Transit
+---
 
 A signal may change form multiple times before reaching its destination.
 

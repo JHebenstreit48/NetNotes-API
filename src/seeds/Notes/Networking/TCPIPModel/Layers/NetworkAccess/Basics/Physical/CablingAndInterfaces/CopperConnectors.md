@@ -112,8 +112,8 @@ Because copper carries electrical current, it is:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories">← Back</a>
-    <div class="xrefTitle">Physical - Cabling & Interfaces - Ethernet Cabling Categories</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">← Back</a>
+    <div class="xrefTitle">Physical - Cabling & Interfaces - Coaxial Cable</div>
   </div>
 
   <div class="xrefItem">

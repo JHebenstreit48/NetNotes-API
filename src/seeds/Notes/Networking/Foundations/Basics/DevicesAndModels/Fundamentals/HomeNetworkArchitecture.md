@@ -67,6 +67,13 @@ Cable internet uses a <span class="emphasis">cable modem</span>.
 - The modem converts radio-frequency electrical signals into Ethernet.
 - Ethernet connects to the router.
 
+<div class="xrefBox">
+  <span class="emphasis">Physical Media Details:</span>
+  <a href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">
+    TCP/IP Model → Network Access → Physical → Cabling & Interfaces → Coaxial Cable
+  </a>
+</div>
+
 ---
 ### Fiber (GPON / FTTH)
 

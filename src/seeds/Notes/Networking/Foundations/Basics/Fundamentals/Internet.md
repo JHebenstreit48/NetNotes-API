@@ -147,6 +147,13 @@ Cable internet is typically offered by cable television service providers.
 
 Cable is widely available in suburban and urban areas.
 
+<div class="xrefBox">
+  <span class="emphasis">Physical Media Details:</span>
+  <a href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">
+    TCP/IP Model → Network Access → Physical → Cabling & Interfaces → Coaxial Cable
+  </a>
+</div>
+
 ---
 ### DSL (Digital Subscriber Line)
 ---

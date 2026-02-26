@@ -118,20 +118,14 @@ Encapsulation is the process of wrapping data with the protocol information requ
 
 ---
 
-### Related Topic
-
-See <span class="emphasis">De-encapsulation</span> for the reverse process.  
-
----
-
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput">← Back</a>
-    <div class="xrefTitle">Section: Physical - Bandwidth & Throughput - Throughput</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/introduction">← Back</a>
+    <div class="xrefTitle">Data Link - Core Concepts - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/encap-deencap/de-encapsulation">Next →</a>
-    <div class="xrefTitle">Physical - Encap/De-encap - De-encapsulation</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation">Next →</a>
+    <div class="xrefTitle">Data Link - Core Concepts  De-encapsulation</div>
   </div>
 </div>

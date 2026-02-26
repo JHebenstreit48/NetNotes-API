@@ -72,8 +72,8 @@ It’s essential for local packet delivery and Layer 2 accuracy.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/introduction">← Back</a>
-    <div class="xrefTitle">Data Link - Core Concepts - Introduction</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation">← Back</a>
+    <div class="xrefTitle">Data Link - Core Concepts De-encapsulation</div>
   </div>
 
   <div class="xrefItem">
