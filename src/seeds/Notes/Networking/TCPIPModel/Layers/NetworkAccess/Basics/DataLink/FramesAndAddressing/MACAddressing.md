@@ -8,11 +8,22 @@
 
 MAC addressing is the mechanism Layer 2 uses to identify **source and destination devices** on a local network.
 
+MAC stands for <span class="emphasis">Media Access Control</span>, the sublayer of the Data Link layer responsible for physical addressing.
+
 Every frame includes:
 - A **source MAC address**
 - A **destination MAC address**
 
 These addresses determine how switches forward frames within a local segment.
+
+Switches store learned MAC addresses in a hardware table:
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/switching/basics/fundamentals/mac-address-table">
+    Switching → Basics → Fundamentals → MAC Address Table
+  </a>
+</div>
 
 <hr class="dividerSection" />
 
@@ -37,8 +48,9 @@ You can view MAC addresses using operating system tools:
 
 #### Windows
 
-shell  
+```shell  
 ipconfig /all  
+```
 
 Displays:
 - Network interface details  

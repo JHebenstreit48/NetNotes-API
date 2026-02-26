@@ -1,5 +1,5 @@
-# Evolution of Ethernet Speeds  
-<br>
+# Evolution of Ethernet Speeds
+---
 
 Need a refresher on what Mbps, Gbps, or Tbps mean?
 
