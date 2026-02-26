@@ -16,7 +16,9 @@ export const config = {
 
   // Optional: override topic folder names when needed
   topicNameMap: {
-    // 'IDS & IPS': 'IDSIPS',
+  } as Record<string, string>,
+
+   groupFolderNameMap: {
   } as Record<string, string>,
 
   // Optional safety cap default (can be overridden by CLI --limit)
