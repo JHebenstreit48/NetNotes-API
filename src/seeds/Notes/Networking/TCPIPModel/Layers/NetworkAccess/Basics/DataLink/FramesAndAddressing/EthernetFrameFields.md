@@ -17,9 +17,9 @@ To convert bytes to bits, multiply by 8.
 
 #### Example:
 
-7 bytes × 8 = 56 bits
-
 <hr class="dividerExample" />
+
+7 bytes × 8 = 56 bits
 
 <hr class="dividerSection" />
 
@@ -151,6 +151,68 @@ If the calculated value does not match the FCS value:
 This mechanism helps ensure reliable communication at Layer 2.
 
 The FCS is calculated using a Cyclic Redundancy Check (CRC) algorithm.
+
+<hr class="dividerSection" />
+
+### Understanding Frame Structure Through a Letter Analogy
+
+<hr class="dividerSection" />
+
+To better understand how an Ethernet frame works, imagine sending a letter through the mail.
+
+Just like a physical letter must follow a specific format to be delivered correctly, an Ethernet frame must follow a structured format to be delivered across a network.
+
+<hr class="dividerSubsection1" />
+
+### Envelope vs Frame Header
+
+<hr class="dividerSubsection1" />
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Letter Element</th>
+      <th class="tableCellHeader">Ethernet Equivalent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Recipient address on envelope</td>
+      <td class="tableCell">Destination MAC Address</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Sender address on envelope</td>
+      <td class="tableCell">Source MAC Address</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Start of message indicator</td>
+      <td class="tableCell">Start Frame Delimiter (SFD)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Content of letter</td>
+      <td class="tableCell">Data (Payload)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">End of message indicator</td>
+      <td class="tableCell">Frame Check Sequence (FCS)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr class="dividerSubsection1" />
+
+### Step-by-Step Analogy
+
+<hr class="dividerSubsection1" />
+
+1. The sender writes the message → This represents the payload.  
+2. The sender places the message inside an envelope → This represents encapsulation into a frame.  
+3. The envelope is labeled with the destination and sender addresses → These are the MAC addresses.  
+4. The postal system delivers the envelope → Switches forward the frame based on MAC addresses.  
+5. The recipient verifies the envelope and removes the letter → The receiving NIC checks the FCS and processes the payload.  
+
+If the envelope is damaged or incorrectly addressed, the letter may not be delivered.  
+Similarly, if a frame fails the FCS check or has incorrect addressing, it is discarded.
 
 <hr class="dividerSection" />
 
