@@ -121,3 +121,15 @@ The MAC address table enables efficient Layer 2 switching:
 - Ages out stale entries
 
 It is the core mechanism that makes Ethernet switching intelligent instead of broadcast-based.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/switching/basics/fundamentals/layer-2-switching">← Back</a>
+    <div class="xrefTitle">Switching - Basics - Fundamentals - Layer 2 Switching</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/switching/basics/hardware-and-port-types/switches-and-connectors">Next →</a>
+    <div class="xrefTitle">Section: Switching - Basics - Hardware & Port Types - Switches and Connectors</div>
+  </div>
+</div>

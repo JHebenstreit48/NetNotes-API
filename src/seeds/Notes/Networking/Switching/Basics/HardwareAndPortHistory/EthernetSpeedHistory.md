@@ -4,7 +4,7 @@
 Need a refresher on what Mbps, Gbps, or Tbps mean?
 
 <div class="xrefBox">
-> <span class="emphasis">See:</span>
+<span class="emphasis">See:</span>
 <a href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Bandwidth</a>
 </div>
 
@@ -98,7 +98,7 @@ Need a refresher on what Mbps, Gbps, or Tbps mean?
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/switching/basics/glossary/hosts-and-ports">Next →</a>
-    <div class="xrefTitle">Section: Glossary - Hosts & Ports</div>
+    <a class="xrefBtn" href="/switching/advanced/vlans/concepts/vlan-concepts">Next →</a>
+    <div class="xrefTitle">Section: Switching - Advanced - VLANs - VLAN Concepts</div>
   </div>
 </div>
