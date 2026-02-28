@@ -1,16 +1,11 @@
-<br>
-
----
-
 ### What Is De-encapsulation?
-
 ---
 
 De-encapsulation is the reverse process of encapsulation. It occurs when data is <span class="emphasis">received</span> and must be reconstructed for the application.
 
-- Starts at the <span class="emphasis">Physical Layer</span> and moves upward.
-- Each layer removes its header/trailer, leaving the payload for the next layer.
-- Ends at the <span class="emphasis">Application Layer</span>, where the original data is presented.
+🔹 Starts at the <span class="emphasis">Physical Layer</span> and moves upward.
+🔹 Each layer removes its header/trailer, leaving the payload for the next layer.
+🔹 Ends at the <span class="emphasis">Application Layer</span>, where the original data is presented.
 
 ---
 
@@ -34,10 +29,10 @@ De-encapsulation is the reverse process of encapsulation. It occurs when data is
 
 ---
 
-- <span class="emphasis">MTU mismatch</span> → fragmentation or dropped packets.
-- <span class="emphasis">Stale ARP cache</span> → wrong MAC resolution.
-- <span class="emphasis">Incorrect default gateway</span> → packets never leave subnet.
-- <span class="emphasis">Header corruption</span> → fails checksum, dropped at layer.
+🔹 <span class="emphasis">MTU mismatch</span> → fragmentation or dropped packets.
+🔹 <span class="emphasis">Stale ARP cache</span> → wrong MAC resolution.
+🔹 <span class="emphasis">Incorrect default gateway</span> → packets never leave subnet.
+🔹 <span class="emphasis">Header corruption</span> → fails checksum, dropped at layer.
 
 ---
 

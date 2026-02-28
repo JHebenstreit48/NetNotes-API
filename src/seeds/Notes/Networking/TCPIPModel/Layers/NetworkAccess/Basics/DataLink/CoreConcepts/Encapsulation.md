@@ -26,13 +26,13 @@ Encapsulation is the process of wrapping data with the protocol information requ
 
 ### Example: HTTP Request Encapsulation
 
+<hr class="dividerExample" />
+
 <span class="codeSnip">App:</span> HTTP GET /index.html  
 <span class="codeSnip">L4:</span> TCP src:51532 dst:80  SEQ=1000 ACK=0  Flags=SYN  
 <span class="codeSnip">L3:</span> IPv4 src:10.0.1.10 dst:93.184.216.34  TTL=64  
 <span class="codeSnip">L2:</span> Eth dst:00:11:22:33:44:55 src:66:77:88:99:aa:bb type=0x0800  
-<span class="codeSnip">L1:</span> Bits transmitted on the medium…  
-
-<hr class="dividerExample" />
+<span class="codeSnip">L1:</span> Bits transmitted on the medium…
 
 ---
 ## OSI vs TCP/IP Mapping

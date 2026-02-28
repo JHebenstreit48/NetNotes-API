@@ -58,38 +58,79 @@ It allows the switch to quickly look up a destination MAC address and determine 
 
 <hr class="dividerSection" />
 
-When a frame arrives on a switch port, the switch performs the following steps:
+When a frame arrives on a switch port, the switch follows a strict order of operations:
 
-1. **Read the Source MAC Address**  
-   - The switch learns that this MAC is reachable through the incoming port.  
-   - It adds or updates the entry in the MAC address table.
+<div class="centeredNumberedList">
 
-2. **Read the Destination MAC Address**  
-   - The switch searches the MAC address table.
+1. **Learn (Always Happens First)**
 
-3. **If the Destination Is Found (Table Hit)**  
-   - The frame is forwarded only out the matching port.
+<div class="centeredBullet">
 
-4. **If the Destination Is Not Found (Table Miss)**  
-   - The switch floods the frame out all ports except the one it arrived on.
+<ul class="diamondBullets fullWidthBullet">
+  <li>The switch reads the source MAC address.</li>
+  <li>It adds or updates the MAC → Port mapping.</li>
+  <li>This learning occurs on every received frame.</li>
+  <li>Even if the destination is unknown.</li>
+  <li>Even if the frame will be flooded.</li>
+</ul>
+
+</div>
+
+2. **Forward Decision**
+
+<div class="centeredBullet">
+
+<ul class="diamondBullets fullWidthBullet">
+  <li>The switch reads the destination MAC address.</li>
+  <li>It searches the MAC address table.</li>
+</ul>
+
+</div>
+
+3. **If the Destination Is Found (Table Hit)**
+
+<div class="centeredBullet">
+
+<ul class="diamondBullets fullWidthBullet">
+  <li>The frame is forwarded only out the matching port.</li>
+  <li>This is called filtering.</li>
+</ul>
+
+</div>
+
+4. **If the Destination Is Not Found (Unknown Unicast)**
+
+<div class="centeredBullet">
+
+<ul class="diamondBullets fullWidthBullet">
+  <li>The switch floods the frame out all ports except the one it arrived on.</li>
+  <li>During flooding, the switch temporarily behaves like a hub.</li>
+</ul>
+
+</div>
+
+</div>
 
 This process allows the switch to intelligently forward traffic inside a local network.
 
-<hr class="dividerSection" />
+<hr class="dividerExample" />
 
 ### Example Scenario
 
-<hr class="dividerSection" />
+<hr class="dividerExample" />
 
 Suppose Host A (MAC AA-AA) sends a frame to Host D (MAC DD-DD).
 
-- Frame arrives on <span class="codeSnip">Fa0/1</span>
-- Source MAC AA-AA is learned on Fa0/1
-- Switch looks up DD-DD in its table
-- If DD-DD maps to <span class="codeSnip">Fa0/4</span>, the frame is forwarded only out Fa0/4
+<ul class="diamondBullets fullWidthBullet">
+  <li>Frame arrives on <span class="codeSnip">Fa0/1</span></li>
+  <li>Source <span class="emphasis">MAC</span> <span class="secondEmphasis">AA-AA</span> is learned on <span class="emphasis">Fa0/1</span></li>
+  <li>Switch looks up <span class="secondEmphasis">DD-DD</span> in its table</li>
+  <li>If <span class="emphasis">DD-DD</span> maps to <span class="codeSnip">Fa0/4</span>, the frame is forwarded only out <span class="codeSnip">Fa0/4</span></li>
+  <li>If <span class="emphasis">DD-DD</span> is not yet in the table, the frame is flooded (unknown unicast).</li>
+</ul>
 
-The switch does not examine IP addresses.  
-It makes decisions entirely based on Layer 2 information in the Ethernet header.
+The switch <span class="emphasis">does not examine</span> <span class="secondEmphasis">IP addresses</span>.  
+It makes <span class="emphasis">decisions</span> entirely <span class="emphasis">based on</span> <span class="secondEmphasis">Layer 2</span> information in the <span class="emphasis">Ethernet header</span>.
 
 <hr class="dividerSection" />
 
@@ -99,13 +140,62 @@ It makes decisions entirely based on Layer 2 information in the Ethernet header.
 
 Switches automatically remove MAC entries after a period of inactivity.
 
+On many enterprise switches, the default aging time is approximately <span class="emphasis">300 seconds (5 minutes)</span>.
+
+If no frames are received from a learned MAC address within that time, the entry is removed from the table.
+
+If a known MAC address sends traffic again, the switch refreshes the aging timer for that entry.
+
 This prevents incorrect forwarding if:
 
-- A device disconnects
-- A device moves to another port
-- A cable is reconnected elsewhere
+<ul class="diamondBullets fullWidthBullet">
+  <li>A device disconnects</li>
+  <li>A device moves to another port</li>
+  <li>A cable is reconnected elsewhere</li>
+  <li>A topology change occurs</li>
+</ul>
 
-Aging ensures the MAC address table stays accurate.
+The aging timer is configurable and may vary by vendor.
+
+Aging ensures the MAC address table stays accurate and adaptive.
+
+<hr class="dividerSection" />
+
+### Learning Is Continuous
+
+<hr class="dividerSection" />
+
+A switch’s MAC address table is not preconfigured.
+
+It builds dynamically based on observed traffic.
+
+<div class="fullWidthBullet">
+
+<ul class="diamondBullets fullWidthBullet">
+  <li>Every received frame contributes learning.</li>
+  <li>Active devices continuously refresh their entries.</li>
+  <li>Inactive devices eventually age out.</li>
+</ul>
+
+</div>
+
+This makes the switch a self-adjusting Layer 2 forwarding system.
+
+<hr class="dividerSection" />
+
+### Analogy: Reception Desk
+
+<hr class="dividerSection" />
+
+A switch behaves similarly to a reception desk:
+
+1. A visitor walks in → The receptionist notes who they are (learn source MAC).
+2. The visitor asks for someone → The receptionist checks the directory (destination lookup).
+3. If found → The visitor is directed to the correct office (forwarding).
+4. If not found → An announcement is made to the whole building (flooding).
+5. If the visitor keeps returning → The receptionist remembers them (aging refresh).
+
+This illustrates how switches learn, verify, and adapt over time.
 
 <hr class="dividerSection" />
 
@@ -115,12 +205,20 @@ Aging ensures the MAC address table stays accurate.
 
 The MAC address table enables efficient Layer 2 switching:
 
-- Learns from **source MAC addresses**
-- Forwards based on **destination MAC addresses**
-- Floods only when necessary
-- Ages out stale entries
+<div class="fullWidthBullet">
+
+<ul class="diamondBullets fullWidthBullet">
+  <li>Learns from <strong>source MAC addresses</strong></li>
+  <li>Forwards based on <strong>destination MAC addresses</strong></li>
+  <li>Floods only when necessary</li>
+  <li>Ages out stale entries</li>
+</ul>
+
+</div>
 
 It is the core mechanism that makes Ethernet switching intelligent instead of broadcast-based.
+
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
