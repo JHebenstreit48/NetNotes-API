@@ -190,6 +190,6 @@ Each device performs a specialized function in ensuring traffic moves efficientl
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/home-network-architecture">Next →</a>
-    <div class="xrefTitle">Foundations - Devices & Models - Networking Architecture</div>
+    <div class="xrefTitle">Foundations - Devices & Models - Home Network Architecture</div>
   </div>
 </div>
