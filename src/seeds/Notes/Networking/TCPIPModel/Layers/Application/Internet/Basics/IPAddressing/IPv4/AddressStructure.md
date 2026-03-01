@@ -75,7 +75,7 @@ This is known as hierarchical addressing — routers only need to know how to re
 <div class="xrefBox">
   <span class="emphasis">See Glossary for full details:</span>
   <a href="/glossary/networking/tcpipmodel/internet/ipv4-and-ipv6-addressing">
-    Glossary - IPv4 & IPv6 Addressing
+    Glossary - IPv4 & IPv6 Addressing → Hierarchical Addressing
   </a>
 </div>
 

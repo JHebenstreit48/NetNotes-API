@@ -75,3 +75,20 @@ Shorthand for subnet masks (e.g., /24 = 255.255.255.0).
 <hr class="dividerSection" />
 
 Process of dividing a network into smaller subnetworks by borrowing bits from the host portion.
+
+### Unicast
+
+One-to-one communication between a single source and single destination.
+
+### Broadcast
+
+One-to-all communication on the local network.
+
+- Directed broadcast: to all hosts on a specific network (e.g., 192.168.1.255).
+- Limited broadcast: to all hosts on local LAN (255.255.255.255).
+
+### Multicast
+
+One-to-many communication for a group of devices (addresses in range 224.0.0.0–239.255.255.255).
+
+Used for routing protocols, video streaming, etc.
