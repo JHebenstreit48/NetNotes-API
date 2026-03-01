@@ -116,8 +116,8 @@ Both identify devices on networks, but they differ in structure, capacity, and d
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/fundamentals/dhcp">← Back</a>
-    <div class="xrefTitle">IP Addressing - Fundamentals - DHCP (Address Assignment)</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses">← Back</a>
+    <div class="xrefTitle">Internet Layer - IP Addressing - IPv4 - Types of Addresses</div>
   </div>
 
   <div class="xrefItem">
