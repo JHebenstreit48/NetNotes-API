@@ -7,7 +7,12 @@ import NetworkAccess from "@/navigation/Individual/Granularized/Networking/TCPIP
 
 const Layers: Subpage = {
   name: "Layers",
-  subpages: [Application, Transport, Internet, NetworkAccess],
+  subpages: [
+    Application,
+    Transport,
+    Internet,
+    NetworkAccess
+  ],
 };
 
 export default Layers;

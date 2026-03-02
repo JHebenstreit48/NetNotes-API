@@ -64,7 +64,7 @@ The subnet mask is what makes this separation possible by marking which bits bel
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables">Next →</a>
-    <div class="xrefTitle">Internet Layer - IP Addressing - Subnetting & Gateways - Default Gateway & Routing Tables</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">Next →</a>
+    <div class="xrefTitle">Internet Layer - IP Addressing - Subnetting & Gateways - Broadcast Domains & Segmentation</div>
   </div>
 </div>

@@ -28,12 +28,12 @@ The gateway routes traffic beyond the local network.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/subnetting-and-gateways/subnet-masks-and-cidr">← Back</a>
-    <div class="xrefTitle">Internet Layer - Subnetting & Gateways - Subnet Masks & CIDR</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">← Back</a>
+    <div class="xrefTitle">Internet Layer - Subnetting & Gateways - Broadcast Domains & Segmentation</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/icmp-and-diagnostics/introduction">Next →</a>
-    <div class="xrefTitle">Section: Internet Layer - ICMP & Diagnostics - Introduction</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv4-subnetting">Next →</a>
+    <div class="xrefTitle">Internet Layer - Subnetting & Gateways - IPv4 Subnetting</div>
   </div>
 </div>
