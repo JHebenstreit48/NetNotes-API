@@ -91,12 +91,12 @@ In most home and small office networks:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/fundamentals/ipv4">← Back</a>
-    <div class="xrefTitle">IP Addressing - Fundamentals - IPv4</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/fundamentals/introduction">← Back</a>
+    <div class="xrefTitle">Internet Layer - Fundamentals - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/fundamentals/ipv4-vs-ipv6-comparison">Next →</a>
-    <div class="xrefTitle">IP Addressing - Fundamentals - IPv4 vs IPv6 Comparison</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure">Next →</a>
+    <div class="xrefTitle">Section: IP Addressing - IPv4 - Address Structure</div>
   </div>
 </div>
