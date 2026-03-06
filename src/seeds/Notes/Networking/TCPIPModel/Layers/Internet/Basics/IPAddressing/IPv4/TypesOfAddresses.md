@@ -123,7 +123,7 @@ IPv4 addresses can be assigned in two main ways:
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison">Next →</a>
-    <div class="xrefTitle">Internet Layer - Basics - IP Addressing - IPv4 - IPv4 vs IPv6 Comparison</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition">Next →</a>
+    <div class="xrefTitle">Internet Layer - Basics - IP Addressing - IPv4 - IPv4 Exhaustion and Transition</div>
   </div>
 </div>

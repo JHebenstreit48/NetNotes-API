@@ -10,14 +10,6 @@
 
 <hr class="dividerSubsection1" />
 
-### IPv6
-
-<hr class="dividerSubsection1" />
-
-128-bit logical address written in hexadecimal, with groups separated by colons (e.g., 2001:0db8::1).
-
-<hr class="dividerSubsection1" />
-
 ### Octets
 
 <hr class="dividerSubsection1" />
@@ -31,14 +23,6 @@ Four 8-bit groups (0–255 each) that make up an IPv4 address.
 <hr class="dividerSubsection1" />
 
 Human-readable format for IPv4 addresses (four decimal numbers separated by dots).
-
-<hr class="dividerSubsection1" />
-
-### Hexadecimal Notation
-
-<hr class="dividerSubsection1" />
-
-Human-readable format for IPv6 addresses (groups of four hex digits separated by colons).
 
 <hr class="dividerSubsection1" />
 

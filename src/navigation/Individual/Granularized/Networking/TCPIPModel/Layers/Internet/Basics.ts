@@ -35,6 +35,10 @@ const Basics: Subpage = {
               path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses',
             },
             {
+              name: 'IPv4 Exhaustion & Transition',
+              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition',
+            },
+            {
               name: 'IPv4 vs IPv6 Comparison',
               path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison',
             },
