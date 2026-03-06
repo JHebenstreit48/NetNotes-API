@@ -72,7 +72,7 @@ Two primary IP versions exist:
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/fundamentals/ipv4">Next →</a>
-    <div class="xrefTitle">IP Addressing - Fundamentals - IPv4</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/fundamentals/dhcp">Next →</a>
+    <div class="xrefTitle">Internet Layer - Fundamentals - DHCP</div>
   </div>
 </div>

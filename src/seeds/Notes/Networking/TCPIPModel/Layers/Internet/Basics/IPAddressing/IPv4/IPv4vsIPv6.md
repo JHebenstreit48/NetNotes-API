@@ -112,12 +112,14 @@ Both identify devices on networks, but they differ in structure, capacity, and d
   </tbody>
 </table>
 
+
+
 <hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses">← Back</a>
-    <div class="xrefTitle">Internet Layer - IP Addressing - IPv4 - Types of Addresses</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition">← Back</a>
+    <div class="xrefTitle">Internet Layer - IP Addressing - IPv4 - IPv4 Exhaustion and Transition</div>
   </div>
 
   <div class="xrefItem">

@@ -1,3 +1,0 @@
-
-<hr class="dividerSection" />
-
