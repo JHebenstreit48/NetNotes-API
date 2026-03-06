@@ -1,8 +1,8 @@
-# Glossary - Internet - IPv4 & IPv6 Addressing
+# Glossary - Internet - IPv4 Addressing
 
 <hr class="dividerSection" />
 
-### IPv4
+### IPv4 (Internet Protocol version 4)
 
 <hr class="dividerSection" />
 
@@ -52,6 +52,16 @@ Part of the IP address that identifies the specific device on that network.
 
 <hr class="dividerSubsection1" />
 
+### Subnet
+
+<hr class="dividerSubsection1" />
+
+Smaller network created by dividing a larger network using subnet masks or CIDR notation.
+
+Reduces broadcast traffic and improves performance/security.
+
+<hr class="dividerSubsection1" />
+
 ### Subnet Mask
 
 <hr class="dividerSubsection1" />
@@ -94,8 +104,14 @@ Used for normal host-to-host traffic (web browsing, email, file transfer).
 
 One-to-all communication on the local network.
 
-- Directed broadcast: to all hosts on a specific network (e.g., 192.168.1.255)
-- Limited broadcast: to all hosts on local LAN (255.255.255.255)
+<div class="centeredBullet">
+
+<ul class="diamondBullets fullWidthBullet">
+  <li>Directed broadcast: to all hosts on a specific network (e.g., 192.168.1.255)</li>
+  <li>Limited broadcast: to all hosts on local LAN (255.255.255.255)</li>
+</ul>
+
+</div>
 
 Routers do not forward broadcast packets.
 
@@ -117,7 +133,7 @@ Common use: routing protocols (e.g., OSPF uses 224.0.0.5).
 
 Only subscribed devices process the packet.
 
-<hr class="dividerSection" />
+<hr class="dividerSubsection1" />
 
 ### Public IPv4 Addresses
 
@@ -136,9 +152,16 @@ Allocated by regional Internet registries and used for devices that must be dire
 Addresses reserved for internal networks (defined in RFC 1918) that are not routable on the public Internet.
 
 Common ranges:
-- 10.0.0.0 – 10.255.255.255 (/8)
-- 172.16.0.0 – 172.31.255.255 (/12)
-- 192.168.0.0 – 192.168.255.255 (/16)
+
+<div class="centeredBullet">
+
+<ul class="diamondBullets fullWidthBullet">
+  <li>10.0.0.0 – 10.255.255.255 (/8)</li>
+  <li>172.16.0.0 – 172.31.255.255 (/12)</li>
+  <li>192.168.0.0 – 192.168.255.255 (/16)</li>
+</ul>
+
+</div>
 
 Used widely in home and enterprise networks, often with NAT to access the Internet.
 
@@ -162,3 +185,4 @@ Detailed NAT concepts are covered in Advanced → NAT & PAT.
 </div>
 
 <hr class="dividerSection" />
+
