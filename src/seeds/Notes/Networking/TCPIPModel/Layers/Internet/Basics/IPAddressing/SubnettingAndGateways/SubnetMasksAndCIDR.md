@@ -44,10 +44,6 @@ The host portion must be unique within that network (e.g., no two devices can ha
 
 If a device is moved to a different network without updating its IP address, it will not be able to communicate — the network portion will not match the local network.
 
-The subnet mask tells devices which bits are the network portion and which are the host portion.
-
-The subnet mask is what makes this separation possible by marking which bits belong to the network portion.
-
 <div class="xrefBox">
   <span class="emphasis">See also:</span>
   <a href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure">
