@@ -135,7 +135,9 @@ With most medium to large networks, the DHCP server is usually a local dedicated
 
 <hr class="dividerSubsection1" />
 
-Many <span class="emphasis">home</span> and <span class="emphasis">small businesses</span> networks use a <span class="emphasis">wireless router</span> and <span class="emphasis">modem</span>. In this case, the <span class="emphasis">wireless router</span> is both a <span class="emphasis">DHCP client</span> and a <span class="emphasis">server</span>.
+Many <span class="emphasis">home</span> and <span class="emphasis">small businesses</span> networks use a <span class="emphasis">wireless router</span> and <span class="emphasis">modem</span>.  
+
+In this case, the <span class="emphasis">wireless router</span> is both a <span class="emphasis">DHCP client</span> and a <span class="emphasis">server</span>.
 
 The wireless router acts as a client to receive its IPv4 configuration from the ISP and then acts as a DHCP server for internal hosts on the local network.
 
@@ -154,6 +156,26 @@ The process starts when a client needs an IP address:
 <div class="centeredNumberedList">
 
 1. The client sends a <span class="emphasis">DHCP Discover</span> packet — a broadcast message looking for any DHCP server on the network. It includes the client's MAC address.
+
+<div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>
+      Source IP: 0.0.0.0 (the client has no IP yet).
+      </li>
+      <li>
+      Destination IP: 255.255.255.255 (the limited broadcast address, which reaches all devices on the local subnet).
+      </li>
+      <li>
+      It includes the client's MAC address (in the CHADDR field) and is sent over UDP ports 67/68. (RFC 2131)
+      </li>
+      <li>
+      It is a <span class="emphasis">limited broadcast</span> (reaches all devices on the local subnet; routers do not forward it unless DHCP relay is configured).
+      </li>
+      <li>
+      The client may set the <span class="emphasis">broadcast flag</span> (the leftmost bit in the 16-bit <span class="emphasis">flags</span> field) to 1 to request that the server reply via broadcast instead of unicast (useful if the client's IP stack cannot yet accept unicast packets before full configuration; per RFC 2131 §4.1).
+      </li>
+    </ul>
+  </div>
 
 2. The DHCP server responds with a <span class="emphasis">DHCP Offer</span> packet — offering an available IP address, subnet mask, default gateway, and other settings.
 

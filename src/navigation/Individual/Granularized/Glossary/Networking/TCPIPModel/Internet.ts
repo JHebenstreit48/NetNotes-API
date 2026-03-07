@@ -15,6 +15,10 @@ const Internet: Subpage = {
       name: 'IPv6 Addressing',
       path: '/glossary/networking/tcpipmodel/internet/ipv6-addressing',
     },
+    {
+      name: 'NAT & PAT',
+      path: '/glossary/networking/tcpipmodel/internet/nat-and-pat',
+    },
   ],
 };
 
