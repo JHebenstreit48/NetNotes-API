@@ -32,15 +32,6 @@ In modern switched Ethernet:
 
 - Each switch port is typically its own collision domain.
 
-### Broadcast Domain
-<hr class="dividerSubsection1" />
-
-- A network segment where broadcast traffic is received by all devices.
-
-Without VLANs:
-
-- A switch typically operates as a single broadcast domain.
-
 <hr class="dividerSection" />
 
 ## Switches and Internal Architecture
