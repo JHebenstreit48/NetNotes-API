@@ -9,24 +9,6 @@
 <span class="emphasis">ARP</span> maps <span class="emphasis">IP addresses</span> (Layer 3) to <span class="emphasis">MAC addresses</span> (Layer 2).  
 When a device wants to send data to an IP on the same network, it uses ARP to find the matching MAC address.
 
-<hr class="dividerSubsection1" />
-
-### MAC vs IP Addresses
-
-<hr class="dividerSubsection1" />
-
-MAC addresses are physical (Layer 2), assigned to hardware, and used for local network delivery.
-
-IP addresses are logical (Layer 3), assigned to devices, and used for end-to-end routing across networks.
-
-<div class="centeredBullet">
-  <ul class="diamondBullets fullWidthBullet">
-    <li>MAC: Fixed (burned-in), 48-bit hexadecimal (e.g., 00:11:22:33:44:55).</li>
-    <li>IP: Configurable, 32-bit decimal for IPv4 (e.g., 192.168.1.10).</li>
-    <li>ARP bridges them for local Ethernet framing.</li>
-  </ul>
-</div>
-
 <hr class="dividerSection" />
 
 ## ARP Process
@@ -51,7 +33,7 @@ ARP resolves IP to MAC using a request-reply mechanism with broadcast containmen
   <ul class="diamondBullets fullWidthBullet">
     <li>Broadcast ARP request: "Who has 192.168.1.10? Tell 192.168.1.1".</li>
     <li>Destination MAC: FF:FF:FF:FF:FF:FF (Ethernet broadcast).</li>
-    <li>Contained to broadcast domain (switches forward to all ports in VLAN, routers do not forward).</li>
+    <li>Contained to broadcast domain.</li>
   </ul>
 </div>
 

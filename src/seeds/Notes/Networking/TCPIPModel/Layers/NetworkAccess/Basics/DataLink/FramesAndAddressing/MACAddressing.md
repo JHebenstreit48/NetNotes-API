@@ -11,8 +11,13 @@ MAC addressing is the mechanism Layer 2 uses to identify <span class="emphasis">
 MAC stands for <span class="emphasis">Media Access Control</span>, the sublayer of the Data Link layer responsible for physical addressing.
 
 Every frame includes:
-- A **source MAC address**
-- A **destination MAC address**
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>A <span class="emphasis">source MAC address</span></li>
+    <li>A <span class="emphasis">destination MAC address</span></li>
+  </ul>
+</div>
 
 These addresses determine how switches forward frames within a local segment.
 
@@ -25,18 +30,25 @@ Switches store learned MAC addresses in a hardware table:
   </a>
 </div>
 
+<hr class="dividerSection" />
+
 ## MAC Address vs IP Address
 
 <hr class="dividerSection" />
 
+MAC addresses are physical (Layer 2), assigned to hardware, and used for local network delivery.
+
+IP addresses are logical (Layer 3), assigned to devices, and used for end-to-end routing across networks.
+
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
-    <li>MAC (physical address): Layer 2, hardware-assigned, for NIC-to-NIC on same Ethernet network.</li>
-    <li>IP (logical address): Layer 3, for end-to-end delivery (local or remote).</li>
+    <li>MAC: Fixed (burned-in), 48-bit hexadecimal (e.g., 00:11:22:33:44:55).</li>
+    <li>IP: Configurable, 32-bit decimal for IPv4 (e.g., 192.168.1.10).</li>
+    <li>ARP bridges them for local Ethernet framing.</li>
   </ul>
 </div>
 
-Both are required for complete communication.
+Both are required for complete communication across networks.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
@@ -52,8 +64,14 @@ Both are required for complete communication.
 <hr class="dividerSection" />
 
 When a device sends data:
-- The source MAC identifies the sender
-- The destination MAC identifies the next hop
+
+When a device sends data:
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The source MAC identifies the sender</li>
+    <li>The destination MAC identifies the next hop</li>
+  </ul>
+</div>
 
 Switches examine MAC addresses to make forwarding decisions.  
 They do not inspect IP addresses when operating at Layer 2.
@@ -153,8 +171,13 @@ ipconfig /all
 ```
 
 Displays:
-- Network interface details  
-- MAC address (Physical Address)
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Network interface details</li>
+    <li>MAC address (Physical Address)</li>
+  </ul>
+</div>
 
 #### Linux / Ubuntu
 
@@ -167,7 +190,12 @@ ifconfig -a
 ```
 
 MAC addresses appear as:
-- link/ether
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>link/ether</li>
+  </ul>
+</div>
 
 #### macOS
 
@@ -176,7 +204,11 @@ ifconfig
 ```
 
 MAC addresses appear as:
-- ether
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>ether</li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 
@@ -195,7 +227,7 @@ Both are required for complete communication across networks.
 
 <hr class="dividerSection" />
 
-MAC addressing enables **local device identification**.
+MAC addressing enables <span class="emphasis">local device identification</span>.
 
 Without MAC addresses, switches would have no way to forward frames within a network.
 
