@@ -2,6 +2,34 @@
 
 <hr class="dividerSection" />
 
+### Reasons to Divide Networks
+
+<hr class="dividerSection" />
+
+As networks grow in size and complexity, dividing a single large local network into multiple smaller segments becomes necessary for several important reasons.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Control Broadcast Traffic</span>: In a large switched network, every broadcast is flooded to all devices, forcing unnecessary processing and potential performance degradation. Smaller segments reduce the size of broadcast domains.</li>
+    <li><span class="emphasis">Improve Security</span>: Isolating departments or functional groups prevents unauthorized access (e.g., sales department devices cannot reach accounting servers or printers, and network management tools remain protected).</li>
+    <li><span class="emphasis">Support <span class="emphasis">Geographical</span> and <span class="emphasis">Organizational</span> <span class="secondEmphasis">Separation</span>: Different floors, buildings, or relocated departments may be physically too far apart for a single local network to serve efficiently.</li>
+  </ul>
+</div>
+
+Routers are the primary devices used to create this division. Each router interface connects to a separate network, establishing independent broadcast domains and distinct IP subnets. Traffic between these segments requires routing.
+
+<div class="xrefBox">
+  <span class="emphasis">See also:</span><br />
+  <a href="/foundations/basics/devices-and-models/routers/roles-and-types">
+    Routers → Roles & Types (router as gateway between networks)
+  </a><br />
+  <a href="/foundations/basics/devices-and-models/routers/interfaces">
+    Routers → Interfaces (each interface defines a separate network)
+  </a>
+</div>
+
+<hr class="dividerSection" />
+
 ### What Is a Broadcast Domain?
 
 <hr class="dividerSection" />
@@ -96,7 +124,7 @@ Subnetting is a fundamental skill for network administrators — various methods
 
 Network administrators can create subnets using any logical division that makes sense for the network.
 
-Examples of subnetting strategies (see illustrations below):
+Examples of subnetting strategies:
 
 <div class="centeredBullet">
 

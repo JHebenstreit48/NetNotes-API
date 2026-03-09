@@ -2,11 +2,11 @@
 
 # Default Gateway & Routing Tables
 
-<hr class="dividerMain">
+<hr class="dividerSection" />
 
-A <span class="emphasis">Default Gateway</span> is typically the router on a local network.
+A <span class="emphasis">default gateway</span> is the router interface on a local network that forwards packets to destinations outside the local subnet.
 
-It forwards packets to other networks when the destination is not on the local subnet.
+It serves as the exit point for traffic destined for remote networks or the Internet.
 
 <hr class="dividerSection" />
 
@@ -16,13 +16,123 @@ It forwards packets to other networks when the destination is not on the local s
 
 If a device has the IP address:
 
-- <span class="examples">192.168.1.10</span>
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>
+    <span class="examples">192.168.1.10</span>
+    </li>
+  </ul>
+</div>
 
-The Default Gateway may be:
+Then the default gateway is typically:
 
-- <span class="examples">192.168.1.1</span>
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>
+    <span class="examples">192.168.1.1</span>
+    </li>
+  </ul>
+</div>
 
-The gateway routes traffic beyond the local network.
+Packets addressed to remote destinations are sent to this gateway address.
+
+<hr class="dividerSection" />
+
+<hr class="dividerSection" />
+
+### Local vs Remote Destination Determination
+
+<hr class="dividerSection" />
+
+A host determines whether a destination is local or remote by comparing the network portions of the source and destination IP addresses.
+
+<div class="centeredNumberedList">
+
+1. **AND Operation on Source**
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The host performs a binary AND operation between its own IP address and subnet mask.</li>
+  </ul>
+</div>
+
+2. **AND Operation on Destination**
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>It performs the same AND operation on the destination IP address and subnet mask.</li>
+  </ul>
+</div>
+
+3. **Compare Results**
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>If the results match → destination is local (direct Layer 2 delivery using ARP).</li>
+    <li>If the results differ → destination is remote (packet sent to default gateway).</li>
+  </ul>
+</div>
+
+</div>
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/foundations/basics/devices-and-models/routers/roles-and-types">
+    Routers → Roles & Types (detailed local/remote ANDing and gateway operation)
+  </a>
+</div>
+
+<hr class="dividerSection" />
+
+### Role of the Default Gateway
+
+<hr class="dividerSection" />
+
+When the destination is remote, the host:
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Encapsulates the IP packet with the default gateway's MAC address as the destination MAC (obtained via ARP).</li>
+    <li>Sends the frame to the router interface.</li>
+    <li>The router receives the frame, de-encapsulates it, reads the destination IP, and forwards it toward the remote network.</li>
+  </ul>
+</div>
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation">
+    De-encapsulation (router forwarding process: de-encap, routing decision, re-encap)
+  </a><br />
+  <a href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp">
+    ARP (how host resolves gateway MAC)
+  </a>
+</div>
+
+<hr class="dividerSection" />
+
+### Basic Routing Table Function
+
+<hr class="dividerSection" />
+
+The <span class="emphasis">routing table</span> is the router's <span class="emphasis">map</span> for deciding where to <span class="emphasis">forward packets</span>.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Contains entries with destination networks, subnet masks, next-hop addresses or exit interfaces, and administrative distance/metrics.</li>
+    <li>The router examines the destination IP address in the packet and performs a longest prefix match against the table.</li>
+    <li>If a match is found → packet is forwarded out the specified interface or to the next-hop router.</li>
+    <li>If no match → packet is dropped or sent to a default route (gateway of last resort) if configured.</li>
+  </ul>
+</div>
+
+The routing table enables routers to connect multiple IP networks and direct traffic between them.
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/foundations/basics/devices-and-models/routers/interfaces">
+    Routers → Interfaces (interface IP as default gateway for connected hosts)
+  </a>
+</div>
 
 <hr class="dividerSection" />
 
