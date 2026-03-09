@@ -39,6 +39,7 @@ In modern switched Ethernet:
 <hr class="dividerSection" />
 
 ### Switch
+
 <hr class="dividerSubsection1" />
 
 - A Layer 2 device that forwards frames using MAC address learning.
