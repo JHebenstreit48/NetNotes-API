@@ -38,8 +38,6 @@ Packets addressed to remote destinations are sent to this gateway address.
 
 <hr class="dividerSection" />
 
-<hr class="dividerSection" />
-
 ### Local vs Remote Destination Determination
 
 <hr class="dividerSection" />
@@ -122,6 +120,35 @@ The <span class="emphasis">routing table</span> is the router's <span class="emp
     <li>The router examines the destination IP address in the packet and performs a longest prefix match against the table.</li>
     <li>If a match is found → packet is forwarded out the specified interface or to the next-hop router.</li>
     <li>If no match → packet is dropped or sent to a default route (gateway of last resort) if configured.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+### Basic Routing Table Function
+
+<hr class="dividerSection" />
+
+The <span class="emphasis">routing table</span> is the router's map for deciding where to forward packets. Routing tables are not concerned with individual host addresses — they contain addresses of networks and the best path to reach those networks.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Entries can be added dynamically (from other routers) or statically (manually by administrator).</li>
+    <li>The router examines the destination IP address in the packet and performs a longest prefix match against the table.</li>
+    <li>If a match is found → packet is forwarded out the specified interface or to the next-hop router.</li>
+    <li>If no match → packet is dropped unless a default route is configured.</li>
+  </ul>
+</div>
+
+A <span class="emphasis">default route</span> (gateway of last resort) forwards packets with unknown destination networks. It is often the interface to another router or the Internet.
+
+Typical routing table entry fields include:
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Type</span> — Connection type (e.g., C for directly connected).</li>
+    <li><span class="emphasis">Network</span> — Destination network address.</li>
+    <li><span class="emphasis">Port/Interface</span> — Outgoing interface used to forward packets.</li>
   </ul>
 </div>
 
