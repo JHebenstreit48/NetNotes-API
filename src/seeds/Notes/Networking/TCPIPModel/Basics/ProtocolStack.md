@@ -105,7 +105,7 @@ This structured interaction is what allows complex communication to function rel
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/introduction">Next →</a>
+    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/introduction">Next →</a>
     <div class="xrefTitle">Section: TCP/IP Model - Layers - Application - Introduction</div>
   </div>
 </div>
