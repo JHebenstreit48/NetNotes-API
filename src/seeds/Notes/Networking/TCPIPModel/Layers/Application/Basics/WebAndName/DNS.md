@@ -1,18 +1,23 @@
-<hr class="dividerMain">
-
 # DNS Basics
 
-<hr class="dividerMain">
+<hr class="dividerSection" />
 
 ### What is DNS?
 
 <hr class="dividerSection" />
 
-The **Domain Name System (DNS)** is like a phonebook for the internet. It translates **human-readable domain names** into machine-readable IP addresses.
+The <span class="emphasis">Domain Name System (DNS)</span> is like a phonebook for the internet. It translates <span class="emphasis">human-readable domain names</span> into machine-readable IP addresses.
 
-- Example:
-  - Domain Name: **www.example.com**
-  - IP Address: **192.0.2.1**
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Example:
+      <ul class="nestedHollowBullets">
+        <li>Domain Name: <span class="emphasis">www.example.com</span></li>
+        <li>IP Address: <span class="emphasis">192.0.2.1</span></li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 
@@ -20,15 +25,32 @@ The **Domain Name System (DNS)** is like a phonebook for the internet. It transl
 
 <hr class="dividerSection" />
 
-1. **Query Process**:
-   - The client (e.g., browser) sends a query to a DNS resolver.
-   - The resolver contacts DNS servers in a hierarchy:
-     - **Root Servers**: Handle top-level domains (TLDs) like .com, .org.
-     - **TLD Servers**: Manage specific domain extensions.
-     - **Authoritative Servers**: Provide the IP address for a specific domain.
+<div class="centeredNumberedList">
 
-2. **Response**:
-   - The resolver returns the IP address to the client.
+1. **Query Process**
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The client (e.g., browser) sends a query to a DNS resolver.</li>
+    <li>The resolver contacts DNS servers in a hierarchy:
+      <ul class="nestedHollowBullets">
+        <li><span class="emphasis">Root Servers</span>: Handle top-level domains (TLDs) like .com, .org.</li>
+        <li><span class="emphasis">TLD Servers</span>: Manage specific domain extensions.</li>
+        <li><span class="emphasis">Authoritative Servers</span>: Provide the IP address for a specific domain.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+2. **Response**
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The resolver returns the IP address to the client.</li>
+  </ul>
+</div>
+
+</div>
 
 <hr class="dividerSection" />
 
@@ -36,16 +58,35 @@ The **Domain Name System (DNS)** is like a phonebook for the internet. It transl
 
 <hr class="dividerSection" />
 
-1. **DNS Records**:
-   - **A Record**: Maps domain names to IPv4 addresses.
-   - **AAAA Record**: Maps domain names to IPv6 addresses.
-   - **MX Record**: Specifies mail servers for a domain.
+<div class="centeredNumberedList">
 
-2. **Resolvers**:
-   - DNS resolvers are responsible for querying DNS servers on behalf of clients.
+1. **DNS Records**
 
-3. **Caching**:
-   - DNS resolvers cache query results to improve speed and reduce server load.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">A Record</span>: Maps domain names to IPv4 addresses.</li>
+    <li><span class="emphasis">AAAA Record</span>: Maps domain names to IPv6 addresses.</li>
+    <li><span class="emphasis">MX Record</span>: Specifies mail servers for a domain.</li>
+  </ul>
+</div>
+
+2. **Resolvers**
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>DNS resolvers are responsible for querying DNS servers on behalf of clients.</li>
+  </ul>
+</div>
+
+3. **Caching**
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>DNS resolvers cache query results to improve speed and reduce server load.</li>
+  </ul>
+</div>
+
+</div>
 
 <hr class="dividerSection" />
 
@@ -53,8 +94,13 @@ The **Domain Name System (DNS)** is like a phonebook for the internet. It transl
 
 <hr class="dividerSection" />
 
-1. **Client**: "What is the IP of www.example.com?"  
+<div class="centeredNumberedList">
+
+1. **Client**: "What is the IP of www.example.com?"
+
 2. **DNS Resolver**: "The IP is 192.0.2.1"
+
+</div>
 
 <hr class="dividerSection" />
 
@@ -62,18 +108,21 @@ The **Domain Name System (DNS)** is like a phonebook for the internet. It transl
 
 <hr class="dividerSection" />
 
-- **nslookup**:  
-  Queries DNS servers for specific information.  
-  Example:  
-  **nslookup www.example.com**
-
-- **dig**:  
-  Retrieves detailed DNS query results.  
-  Example:  
-  **dig www.example.com**
-
-- **ipconfig /displaydns**:  
-  Shows cached DNS records on Windows.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">nslookup</span>: Queries DNS servers for specific information.
+      <ul class="nestedHollowBullets">
+        <li>Example: <span class="emphasis">nslookup www.example.com</span></li>
+      </ul>
+    </li>
+    <li><span class="emphasis">dig</span>: Retrieves detailed DNS query results.
+      <ul class="nestedHollowBullets">
+        <li>Example: <span class="emphasis">dig www.example.com</span></li>
+      </ul>
+    </li>
+    <li><span class="emphasis">ipconfig /displaydns</span>: Shows cached DNS records on Windows.</li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 
