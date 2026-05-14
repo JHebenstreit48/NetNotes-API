@@ -1,7 +1,6 @@
 
 # Introduction
-
----
+<hr class="dividerSection" />
 
 ### What Is the TCP/IP Model?
 
