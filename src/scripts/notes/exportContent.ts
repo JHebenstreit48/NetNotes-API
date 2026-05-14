@@ -9,21 +9,25 @@ export type ExportedNote = {
   bodyMd: string;
 };
 
+export type SitemapEntry = {
+  path: string;
+  title: string;
+  category: string;
+};
+
 export async function exportContentJson(
   files: string[],
   baseDir: string,
   outPath: string = path.join(process.cwd(), "content.json")
 ): Promise<void> {
   const content: Record<string, ExportedNote> = {};
+  const sitemap: SitemapEntry[] = [];
 
   for (const abs of files) {
     const fullPath = toFullPath(baseDir, abs);
 
     try {
       const raw = fs.readFileSync(abs, "utf8");
-
-      // Reuse gray-matter inline to avoid re-importing parseNotes
-      // and duplicating the ParsedNote type
       const matter = (await import("gray-matter")).default;
       const { data, content: body } = matter(raw);
 
@@ -43,11 +47,20 @@ export async function exportContentJson(
         category,
         bodyMd: body,
       };
+
+      sitemap.push({ path: fullPath, title, category });
+
     } catch (err) {
       console.warn(`⚠️ Export skipped: ${fullPath}`, err);
     }
   }
 
+  // Write content.json
   fs.writeFileSync(outPath, JSON.stringify(content, null, 2), "utf8");
   console.log(`\n📦 Exported ${Object.keys(content).length} notes → ${outPath}`);
+
+  // Write sitemap.json alongside content.json
+  const sitemapPath = path.join(path.dirname(outPath), "sitemap.json");
+  fs.writeFileSync(sitemapPath, JSON.stringify(sitemap, null, 2), "utf8");
+  console.log(`🗺️  Sitemap written → ${sitemapPath}`);
 }
