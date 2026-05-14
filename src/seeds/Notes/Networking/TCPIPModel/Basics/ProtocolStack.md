@@ -1,10 +1,4 @@
-
-# Introduction
-
----
-
-### Understanding the Protocol Stack
-
+# Understanding the Protocol Stack
 <hr class="dividerSection" />
 
 A <span class="emphasis">protocol stack</span> refers to multiple protocols operating together across different layers of the TCP/IP Model to deliver a complete communication.
