@@ -1,7 +1,6 @@
 # Core Networking Devices
 
 ---
-
 ## Networking Devices Overview
 ---
 
@@ -16,7 +15,6 @@ They do not usually generate user data themselves. Instead, they:
 These devices operate at different <span class="emphasis">OSI layers</span> depending on their function.
 
 ---
-
 ## Switch
 ---
 
