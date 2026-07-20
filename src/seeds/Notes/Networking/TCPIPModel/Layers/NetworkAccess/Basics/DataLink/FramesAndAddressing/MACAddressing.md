@@ -25,11 +25,8 @@ Switches store learned MAC addresses in a hardware table:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/switching/basics/fundamentals/mac-address-table">
-    Switching → Basics → Fundamentals → MAC Address Table
-  </a>
+  <a href="/switching/basics/fundamentals/mac-address-table" target="_blank" rel="noopener noreferrer">Switching → Basics → Fundamentals → MAC Address Table</a>
 </div>
-
 <hr class="dividerSection" />
 
 ## MAC Address vs IP Address
@@ -52,9 +49,7 @@ Both are required for complete communication across networks.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure">
-    Internet Layer → Basics → IP Addressing → IPv4 → Address Structure
-  </a>
+  <a href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → IP Addressing → IPv4 → Address Structure</a>
 </div>
 
 <hr class="dividerSection" />
@@ -62,8 +57,6 @@ Both are required for complete communication across networks.
 ### MAC Address Usage in Frames
 
 <hr class="dividerSection" />
-
-When a device sends data:
 
 When a device sends data:
 <div class="centeredBullet">
@@ -74,6 +67,7 @@ When a device sends data:
 </div>
 
 Switches examine MAC addresses to make forwarding decisions.  
+
 They do not inspect IP addresses when operating at Layer 2.
 
 <hr class="dividerSubsection1" />
@@ -147,13 +141,9 @@ Example (PC1 to PC2 on remote network):
 MAC changes hop-by-hop; IP remains constant.
 
 <div class="xrefBox">
-  <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation">
-    Data Link - Core Concepts - De-encapsulation (router behavior)
-  </a><br />
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables">
-    Internet Layer → Basics → IP Addressing → Subnetting & Gateways → Default Gateway & Routing Tables
-  </a>
+  <span class="emphasis">See:</span><br />
+  <a href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation" target="_blank" rel="noopener noreferrer">Data Link - Core Concepts - De-encapsulation (router behavior)</a><br />
+  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → IP Addressing → Subnetting & Gateways → Default Gateway & Routing Tables</a>
 </div>
 
 <hr class="dividerSection" />
@@ -170,7 +160,7 @@ You can view MAC addresses using operating system tools:
 ipconfig /all  
 ```
 
-Displays:
+Displays network interface details and the MAC address (Physical Address).
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
@@ -188,6 +178,13 @@ ip link show
 ```shell  
 ifconfig -a  
 ```
+
+For more information on ipconfig:
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/tcpip-model/layers/internet/basics/icmp-and-commands/ipconfig" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → ICMP & Commands → ipconfig (Viewing & Renewing IP Configuration)</a>
+</div>
 
 MAC addresses appear as:
 
@@ -216,8 +213,12 @@ MAC addresses appear as:
 
 <hr class="dividerSection" />
 
-- MAC address → Local delivery (Layer 2)  
-- IP address → Network delivery (Layer 3)  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>MAC address, local delivery (Layer 2)</li>
+    <li>IP address, network delivery (Layer 3)</li>
+  </ul>
+</div>
 
 Both are required for complete communication across networks.
 
