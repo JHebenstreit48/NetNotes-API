@@ -21,7 +21,7 @@ ICMP is commonly used to help determine:
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/icmp-and-diagnostics/ping-and-traceroute">Next →</a>
-    <div class="xrefTitle">Internet Layer - ICMP & Diagnostics - Ping & Traceroute</div>
+    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/icmp-and-commands/ipconfig">Next →</a>
+    <div class="xrefTitle">Internet Layer - ICMP & Diagnostics - ipconfig</div>
   </div>
 </div>
