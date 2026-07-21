@@ -74,11 +74,15 @@ Multicast is one-to-many communication — a single source sends a packet to a s
 
 IPv4 multicast range: 224.0.0.0 to 239.255.255.255.
 
+The <span class="emphasis">source address</span> of a <span class="secondEmphasis">multicast packet</span> is always a normal <span class="emphasis">unicast address</span>, the multicast range above applies only to the destination.
+
 Benefits: reduces traffic (one packet instead of multiple unicast copies).
 
 Hosts subscribe to a group via a client program → process packets sent to the multicast address (plus their own unicast address).
 
-Common use: routing protocols like OSPF (uses 224.0.0.5). Only OSPF-enabled devices process these packets — others ignore them.
+<span class="emphasis">Multicast transmission</span> can be used by <span class="emphasis">routers</span> to <span class="secondEmphasis">exchange</span> <span class="emphasis">routing information</span>.
+
+Common use: routing protocols like <span class="emphasis">OSPF</span> (uses 224.0.0.5). Only <span class="emphasis">OSPF-enabled devices</span> process these packets — others ignore them.
 
 Example:
 

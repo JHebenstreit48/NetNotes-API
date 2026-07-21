@@ -14,7 +14,7 @@ These services support efficient network use and infrastructure management.
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
-    <li><span class="emphasis">DHCP</span> (Dynamic Host Configuration Protocol) — enables automatic assignment of IP addresses and network parameters to hosts.</li>
+    <li><span class="emphasis">DHCP</span> (Dynamic Host Configuration Protocol) — enables automatic assignment of IP addresses and network parameters to hosts. Covered in depth as part of IP Addressing fundamentals, rather than as a separate Network Services page.</li>
     <li><span class="emphasis">NTP</span> (Network Time Protocol) — synchronizes clocks across devices for accurate timekeeping.</li>
     <li><span class="emphasis">SNMP</span> (Simple Network Management Protocol) — allows monitoring and management of network devices and performance.</li>
     <li><span class="emphasis">FTP/SFTP</span> (File Transfer Protocol / Secure File Transfer Protocol) — provides mechanisms for transferring files between systems.</li>
@@ -33,18 +33,10 @@ For in-depth explanations, message formats, and operation:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/layers/internet/basics/fundamentals/dhcp">
-    TCP/IP Model → Layers → Internet → Basics → Fundamentals → DHCP (Address Assignment)
-  </a><br />
-  <a href="/tcpip-model/layers/application/advanced/network-services/ntp">
-    Network Services → NTP
-  </a><br />
-  <a href="/tcpip-model/layers/application/advanced/network-services/snmp">
-    Network Services → SNMP
-  </a><br />
-  <a href="/tcpip-model/layers/application/advanced/network-services/ftp">
-    Network Services → FTP/SFTP
-  </a>
+  <a href="/tcpip-model/layers/internet/basics/fundamentals/dhcp" target="_blank" rel="noopener noreferrer">TCP/IP Model → Internet Layer → Basics → Fundamentals → DHCP</a><br />
+  <a href="/tcpip-model/layers/application/advanced/network-services/ntp" target="_blank" rel="noopener noreferrer">Network Services → NTP</a><br />
+  <a href="/tcpip-model/layers/application/advanced/network-services/snmp" target="_blank" rel="noopener noreferrer">Network Services → SNMP</a><br />
+  <a href="/tcpip-model/layers/application/advanced/network-services/ftp" target="_blank" rel="noopener noreferrer">Network Services → FTP/SFTP</a>
 </div>
 
 These services illustrate how the Application layer supports broader network functionality and user needs.
