@@ -1,25 +1,34 @@
 # What Is Encapsulation?
----
 
-Encapsulation is the process of wrapping data with the protocol information required at each layer of the TCP/IP model. It occurs when data is <span class="emphasis">sent</span> from a client or host.
+<hr class="dividerSection" />
 
-- Begins at the <span class="emphasis">Application Layer</span>.  
-- Passes through the <span class="emphasis">Transport, Internet, Data Link, and Physical layers</span>.  
-- Each layer adds its own <span class="emphasis">header</span> (and sometimes trailer).  
-- Ensures the data can be properly delivered and interpreted by the destination.
+Encapsulation is the process of wrapping data with the protocol information required at each layer of the TCP/IP model.
 
----
+It occurs when data is <span class="emphasis">sent</span> from a client or host.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Begins at the <span class="emphasis">Application Layer</span>.</li>
+    <li>Passes through the <span class="emphasis">Transport, Internet, Data Link, and Physical layers</span>.</li>
+    <li>Each layer adds its own <span class="emphasis">header</span> (and sometimes trailer).</li>
+    <li>Ensures the data can be properly delivered and interpreted by the destination.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
 
 ## Encapsulation Flow (Send Path)
 
-<div class="fullWidthBullet">
+<hr class="dividerSection" />
 
-🔹 <span class="emphasis">Application Layer</span> → user data (HTTP request, email, etc.)  
-🔹 <span class="emphasis">Transport Layer</span> → adds ports and reliability (TCP/UDP header)  
-🔹 <span class="emphasis">Internet Layer</span> → adds logical addressing (IP header)  
-🔹 <span class="emphasis">Data Link Layer</span> → adds physical addressing (MAC header + FCS)  
-🔹 <span class="emphasis">Physical Layer</span> → converts frame into bits on the medium  
-
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Application Layer</span>, user data (HTTP request, email, etc.)</li>
+    <li><span class="emphasis">Transport Layer</span>, adds ports and reliability (TCP/UDP header)</li>
+    <li><span class="emphasis">Internet Layer</span>, adds logical addressing (IP header)</li>
+    <li><span class="emphasis">Data Link Layer</span>, adds physical addressing (MAC header + FCS)</li>
+    <li><span class="emphasis">Physical Layer</span>, converts frame into bits on the medium</li>
+  </ul>
 </div>
 
 <hr class="dividerExample" />
@@ -28,19 +37,23 @@ Encapsulation is the process of wrapping data with the protocol information requ
 
 <hr class="dividerExample" />
 
-<span class="codeSnip">App:</span> HTTP GET /index.html  
-<span class="codeSnip">L4:</span> TCP src:51532 dst:80  SEQ=1000 ACK=0  Flags=SYN  
-<span class="codeSnip">L3:</span> IPv4 src:10.0.1.10 dst:93.184.216.34  TTL=64  
-<span class="codeSnip">L2:</span> Eth dst:00:11:22:33:44:55 src:66:77:88:99:aa:bb type=0x0800  
-<span class="codeSnip">L1:</span> Bits transmitted on the medium…
+```shell
+App: HTTP GET /index.html
+L4: TCP src:51532 dst:80  SEQ=1000 ACK=0  Flags=SYN
+L3: IPv4 src:10.0.1.10 dst:93.184.216.34  TTL=64
+L2: Eth dst:00:11:22:33:44:55 src:66:77:88:99:aa:bb type=0x0800
+L1: Bits transmitted on the medium...
+```
 
----
+<hr class="dividerSection" />
+
 ## OSI vs TCP/IP Mapping
----
+
+<hr class="dividerSection" />
 
 <hr class="dividerSubsection1" />
 
-### TCP/IP ↔ OSI equivalence
+### TCP/IP to OSI equivalence
 
 <hr class="dividerSubsection1" />
 
@@ -116,7 +129,7 @@ Encapsulation is the process of wrapping data with the protocol information requ
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
@@ -126,6 +139,6 @@ Encapsulation is the process of wrapping data with the protocol information requ
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation">Next →</a>
-    <div class="xrefTitle">Data Link - Core Concepts  De-encapsulation</div>
+    <div class="xrefTitle">Data Link - Core Concepts - De-encapsulation</div>
   </div>
 </div>

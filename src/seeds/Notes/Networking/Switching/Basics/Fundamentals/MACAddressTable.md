@@ -65,14 +65,12 @@ When a frame arrives on a switch port, the switch follows a strict order of oper
 1. **Learn (Always Happens First)**
 
 <div class="centeredBullet">
-
-<ul class="diamondBullets fullWidthBullet">
-  <li>The switch reads the source MAC address.</li>
-  <li>It adds or updates the MAC → Port mapping.</li>
-  <li>This learning occurs on every received frame.</li>
-  <li>Even if the destination is unknown.</li>
-  <li>Even if the frame will be flooded.</li>
-</ul>
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The switch reads the source MAC address.</li>
+    <li>It adds or updates the MAC → Port mapping.</li>
+    <li>This learning occurs on every received frame, even if the destination is unknown or the frame will be flooded.</li>
+  </ul>
+</div>
 
 </div>
 

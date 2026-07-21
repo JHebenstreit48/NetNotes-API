@@ -1,19 +1,23 @@
-
 # Ethernet Twisted Pair Cabling
----
+
+<hr class="dividerSection" />
 
 Most wired Ethernet networks use <span class="emphasis">twisted-pair copper cabling</span>.
 
-Because Ethernet is the foundation of most local area networks (LANs), twisted-pair cabling is the most commonly deployed network medium.
+Because Ethernet is the foundation of most local area networks (LANs), twisted-pair cabling is the most commonly deployed network medium, particularly for connecting PC workstations and other end devices in an office or home LAN.
 
 This cabling is categorized using a <span class="emphasis">Category (Cat)</span> rating, which defines performance characteristics such as:
 
-- Supported signaling frequency
-- Crosstalk tolerance
-- Distance limitations
-- Typical Ethernet speeds
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Supported signaling frequency</li>
+    <li>Crosstalk tolerance</li>
+    <li>Distance limitations</li>
+    <li>Typical Ethernet speeds</li>
+  </ul>
+</div>
 
-Category ratings define electrical performance standards — not the Ethernet protocol itself.
+Category ratings define electrical performance standards, not the Ethernet protocol itself.
 
 <hr class="dividerSection" />
 
@@ -21,31 +25,38 @@ Category ratings define electrical performance standards — not the Ethernet pr
 
 <hr class="dividerSection" />
 
-<hr class="dividerSubsection1">
+<hr class="dividerSubsection1" />
 
 ### Why the Wires Are Twisted
 
-<hr class="dividerSubsection1">
-
+<hr class="dividerSubsection1" />
 
 Ethernet twisted-pair cable contains:
 
-- <span class="emphasis">4 wire pairs</span>
-- Each pair twisted at specific intervals
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">4 wire pairs</span></li>
+    <li>Each pair twisted at specific intervals</li>
+  </ul>
+</div>
 
 Twisting reduces:
 
-- Electromagnetic interference (EMI)
-- Crosstalk between pairs
-- Signal distortion
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Electromagnetic interference (EMI)</li>
+    <li>Crosstalk between pairs</li>
+    <li>Signal distortion</li>
+  </ul>
+</div>
 
 This improves reliability over distance.
 
-<hr class="dividerSubsection1">
+<hr class="dividerSubsection1" />
 
 ### UTP vs STP
 
-<hr class="dividerSubsection1">
+<hr class="dividerSubsection1" />
 
 <table class="notesTable">
   <thead>
@@ -113,42 +124,56 @@ A <span class="emphasis">patch cable</span> is a short, pre-terminated Ethernet 
 
 Examples:
 
-- PC → Switch
-- Switch → Router
-- Switch → Patch panel
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>PC to Switch</li>
+    <li>Switch to Router</li>
+    <li>Switch to Patch panel</li>
+  </ul>
+</div>
 
 <div class="xrefBox">
   <span class="emphasis">Definition:</span>
-  <a href="/switching/basics/glossary/hosts-and-ports">
-    See Glossary → Patch Cable
-  </a>
+  <a href="/switching/basics/glossary/hosts-and-ports" target="_blank" rel="noopener noreferrer">See Glossary → Patch Cable</a>
 </div>
 
 In contrast, structured cabling refers to permanent in-wall installations terminated at:
 
-- Wall jacks
-- Patch panels
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Wall jacks</li>
+    <li>Patch panels</li>
+  </ul>
+</div>
 
-<hr class="dividerSubsection1">
+<hr class="dividerSubsection1" />
 
 ### When Wired Connections Are Preferred
 
-<hr class="dividerSubsection1">
+<hr class="dividerSubsection1" />
 
 Even in wireless homes, wired Ethernet is commonly used for:
 
-- Gaming consoles
-- Smart TVs
-- Desktop PCs
-- Network storage devices
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Gaming consoles</li>
+    <li>Smart TVs</li>
+    <li>Desktop PCs</li>
+    <li>Network storage devices</li>
+  </ul>
+</div>
 
 Wired links provide:
 
-- Lower latency
-- More consistent throughput
-- Reduced wireless congestion
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Lower latency</li>
+    <li>More consistent throughput</li>
+    <li>Reduced wireless congestion</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
@@ -158,6 +183,6 @@ Wired links provide:
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">Next →</a>
-    <div class="xrefTitle"> Physical - Cabling & Interfaces - Coaxial Cable</div>
+    <div class="xrefTitle">Physical - Cabling & Interfaces - Coaxial Cable</div>
   </div>
 </div>
