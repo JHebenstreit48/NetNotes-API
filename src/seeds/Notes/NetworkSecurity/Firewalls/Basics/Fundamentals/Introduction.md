@@ -14,6 +14,16 @@ Routers may provide some basic security features, but the best way to protect a 
 
 <hr class="dividerSection" />
 
+### Where Firewalls Are Placed
+
+<hr class="dividerSection" />
+
+A firewall can sit outside the router, between the router and the internet, or inside the network, closer to the devices it protects.
+
+What matters most is not the exact position, but that the firewall protects the actual <span class="emphasis">end hosts</span>, devices like PCs and servers, from unwanted traffic reaching them.
+
+<hr class="dividerSection" />
+
 ### What This Section Covers
 
 <hr class="dividerSection" />
