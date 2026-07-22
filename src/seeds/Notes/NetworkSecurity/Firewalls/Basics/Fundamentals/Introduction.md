@@ -10,6 +10,8 @@ A <span class="emphasis">firewall</span> is a device or piece of software that c
 
 Its core job is to decide what traffic is allowed to pass and what traffic should be blocked, protecting a network or device from unwanted or malicious connections.
 
+Routers may provide some basic security features, but the best way to protect a network is with a dedicated firewall.
+
 <hr class="dividerSection" />
 
 ### What This Section Covers
