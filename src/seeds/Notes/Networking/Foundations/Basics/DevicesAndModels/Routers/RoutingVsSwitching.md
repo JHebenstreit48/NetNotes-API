@@ -34,8 +34,8 @@ This is why every host needing to reach a remote network relies on its <span cla
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/port-types">← Back</a>
-    <div class="xrefTitle">Foundations - Basics - Devices & Models - Routers - Port Types</div>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/router-models">← Back</a>
+    <div class="xrefTitle">Foundations - Basics - Devices & Models - Routers - Router Models</div>
   </div>
 
   <div class="xrefItem">

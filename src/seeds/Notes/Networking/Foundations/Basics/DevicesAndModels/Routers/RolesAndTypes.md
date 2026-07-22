@@ -80,7 +80,7 @@ Accurate IP address, subnet mask, and default gateway configuration is essential
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/interfaces">Next →</a>
-    <div class="xrefTitle">Foundations - Basics - Devices & Models - Routers - Interfaces</div>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/interfaces-and-port-types">Next →</a>
+    <div class="xrefTitle">Foundations - Basics - Devices & Models - Routers - Interfaces and Port Types</div>
   </div>
 </div>
