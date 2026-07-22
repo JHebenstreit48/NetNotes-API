@@ -1,116 +1,173 @@
-# Introduction
+# How Layer 2 Switches Forward Frames
 
----
+<hr class="dividerSection" />
 
-### What Is Layer 2 Switching?
+## What Is Layer 2 Switching?
 
----
+<hr class="dividerSection" />
 
-A Layer 2 switch forwards frames based on the **destination MAC address** inside the Ethernet frame header.
+A Layer 2 switch forwards frames based on the <span class="emphasis">destination MAC address</span> inside the Ethernet frame header.
 
 It operates within a single broadcast domain unless VLANs are configured.
 
----
+Switches are used specifically to forward traffic within a LAN (Local Area Network). A company with multiple branch offices would have each office running its own separate LAN.
+
+<hr class="dividerSection" />
 
 ## Physical Ports on a Layer 2 Switch
 
----
+<hr class="dividerSection" />
 
 Layer 2 switches provide physical interfaces such as:
 
-- Ethernet (RJ45) ports
-- SFP fiber ports
-- Console ports
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Ethernet (RJ45) ports</li>
+    <li>SFP fiber ports</li>
+    <li>Console ports</li>
+  </ul>
+</div>
 
 These ports connect:
 
-- Hosts (PCs, servers, IoT devices)
-- Routers
-- Other switches
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Hosts (PCs, servers, IoT devices)</li>
+    <li>Routers</li>
+    <li>Other switches</li>
+  </ul>
+</div>
 
 <div class="xrefBox">
   <span class="emphasis">Terminology:</span>
-  <a href="/switching/basics/glossary/hosts-and-ports">
-    See Glossary → Hosts & Ports
-  </a>
+  <a href="/switching/basics/glossary/hosts-and-ports" target="_blank" rel="noopener noreferrer">See Glossary → Hosts & Ports</a>
 </div>
 
----
+<hr class="dividerSection" />
 
-## Example Topology
+## Topology Walkthrough
 
----
+<hr class="dividerSection" />
+
+<hr class="dividerSubsection1" />
 
 ### Switch to Router
 
-- Switch **GigabitEthernet0/0**
-- Connected to Router **GigabitEthernet0/0**
+<hr class="dividerSubsection1" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Switch <span class="codeSnip">GigabitEthernet0/0</span></li>
+    <li>Connected to Router <span class="codeSnip">GigabitEthernet0/0</span></li>
+  </ul>
+</div>
 
 This provides Layer 3 connectivity beyond the local LAN.
 
+<hr class="dividerSubsection1" />
+
 ### Hosts to Switch
 
-- PC1 → g0/1
-- PC2 → g0/2
+<hr class="dividerSubsection1" />
 
-Switches learn each host’s MAC address and store it in the MAC address table.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>PC1 to <span class="codeSnip">g0/1</span></li>
+    <li>PC2 to <span class="codeSnip">g0/2</span></li>
+  </ul>
+</div>
 
----
+Switches learn each host's MAC address and store it in the MAC address table.
+
+<hr class="dividerSection" />
 
 ## Port Naming and Speed Indicators
 
----
+<hr class="dividerSection" />
 
 Examples:
 
-- FastEthernet0/1 → 100 Mbps
-- GigabitEthernet0/1 → 1 Gbps
-- TenGigabitEthernet0/1 → 10 Gbps
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="codeSnip">FastEthernet0/1</span>, 100 Mbps</li>
+    <li><span class="codeSnip">GigabitEthernet0/1</span>, 1 Gbps</li>
+    <li><span class="codeSnip">TenGigabitEthernet0/1</span>, 10 Gbps</li>
+  </ul>
+</div>
 
 The name reflects:
 
-- Interface type
-- Maximum speed
-- Logical port position
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Interface type</li>
+    <li>Maximum speed</li>
+    <li>Logical port position</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
 
 ## How Switching Works
 
----
+<hr class="dividerSection" />
 
 Layer 2 switches perform three primary actions:
 
-1. **Learning**
-   - Reads source MAC address
-   - Adds it to the MAC address table
+<div class="centeredNumberedList">
+  1. **Learning**
 
-2. **Forwarding**
-   - Sends frame only to the port matching the destination MAC
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Reads source MAC address</li>
+      <li>Adds it to the MAC address table</li>
+    </ul>
+  </div>
 
-3. **Flooding**
-   - If destination is unknown, frame is sent to all ports except the source
+  2. **Forwarding**
 
----
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Sends frame only to the port matching the destination MAC</li>
+    </ul>
+  </div>
+
+  3. **Flooding**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>If destination is unknown, frame is sent to all ports except the source</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="dividerSection" />
 
 ## Collision and Broadcast Domains
 
----
+<hr class="dividerSection" />
 
-- Each switch port = separate collision domain
-- Entire switch (without VLANs) = one broadcast domain
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Each switch port is a separate collision domain</li>
+    <li>The entire switch (without VLANs) is one broadcast domain</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
 
 ## Limitations of Layer 2 Switching
 
----
+<hr class="dividerSection" />
 
-- Cannot route between IP networks
-- Cannot break broadcast domains without VLANs
-- Broadcast storms can impact performance
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Cannot route between IP networks</li>
+    <li>Cannot break broadcast domains without VLANs</li>
+    <li>Broadcast storms can impact performance</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
