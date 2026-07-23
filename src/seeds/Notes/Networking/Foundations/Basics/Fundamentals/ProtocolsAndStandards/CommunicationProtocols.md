@@ -63,8 +63,8 @@ Note: these organizations are referenced again in specific sections (Ethernet, W
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/protocols-and-standards/communication-protocols">← Back</a>
-    <div class="xrefTitle">Foundations - Fundamentals - Protocols & Standards - Communication Protocols</div>
+    <a class="xrefBtn" href="/foundations/basics/fundamentals/network-scope-and-devices/connected-devices">← Back</a>
+    <div class="xrefTitle">Section: Foundations - Fundamentals - Network Scope & Devices - Connected Devices</div>
   </div>
 
   <div class="xrefItem">
