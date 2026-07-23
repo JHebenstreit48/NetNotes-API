@@ -231,11 +231,8 @@ Within a LAN, hosts can be placed on a single local network or divided across mu
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables">
-    Default Gateway & Routing Tables (local/remote determination and routing process)
-  </a>
+  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables" target="_blank" rel="noopener noreferrer">Default Gateway & Routing Tables (local/remote determination and routing process)</a>
 </div>
-
 <hr class="dividerSection" />
 
 ## The Role of Local Networks in the Internet
@@ -255,12 +252,12 @@ While local networks operate independently, they often connect to the internet f
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/internet">← Back</a>
-    <div class="xrefTitle">Foundations - Fundamentals - Internet/Networks</div>
+    <a class="xrefBtn" href="/foundations/basics/fundamentals/network-scope-and-devices/internet">← Back</a>
+    <div class="xrefTitle">Foundations - Fundamentals - Network Scope & Devices - Internet/Networks</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/connected-devices">Next →</a>
-    <div class="xrefTitle">Foundations - Fundamentals - Connected Devices</div>
+    <a class="xrefBtn" href="/foundations/basics/fundamentals/network-scope-and-devices/connected-devices">Next →</a>
+    <div class="xrefTitle">Foundations - Fundamentals - Network Scope & Devices - Connected Devices</div>
   </div>
 </div>
