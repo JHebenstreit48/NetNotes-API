@@ -10,7 +10,7 @@ Firewalls generally come in two forms:
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
-    <li><span class="emphasis">Software firewalls</span>, run as a program on an individual device, filtering traffic for that device specifically.</li>
+    <li><span class="emphasis">Software firewalls</span> (also called <span class="secondEmphasis">host-based firewalls</span>), run as a program on an individual device, filtering traffic for that device specifically.</li>
     <li><span class="emphasis">Hardware firewalls</span>, dedicated physical devices that filter traffic for an entire network, typically sitting at the network's edge.</li>
   </ul>
 </div>
