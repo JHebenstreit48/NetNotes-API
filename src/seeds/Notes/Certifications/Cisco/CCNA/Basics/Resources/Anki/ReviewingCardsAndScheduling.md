@@ -1,4 +1,4 @@
-# Reviewing Cards
+# Reviewing Cards and How Scheduling Works
 
 <hr class="dividerSection" />
 
@@ -57,14 +57,54 @@ After seeing the answer, you rate how well you knew it. This rating determines h
 
 <hr class="dividerSection" />
 
+### How Spaced Repetition Adjusts Over Time
+
+<hr class="dividerSection" />
+
+With SRS apps like Anki, the flashcard interval increases with the number of times you answer correctly.
+
+As you answer correctly more and more times, the interval increases, spacing reviews further and further apart the better you know the material.
+
+<hr class="dividerSection" />
+
+### Card Status Colors
+
+<hr class="dividerSection" />
+
+Anki uses color to indicate what stage a card is in:
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">New cards</span> are indicated in <span class="secondEmphasis">blue</span>.</li>
+    <li><span class="emphasis">Learning cards</span> are indicated in <span class="secondEmphasis">red</span>.</li>
+    <li><span class="emphasis">Review cards</span> are indicated in <span class="secondEmphasis">green</span>.</li>
+  </ul>
+</div>
+
+A new card starts out blue, moves to red while it is still being learned, then moves to green once it graduates and is shown again for future review.
+
+<hr class="dividerSection" />
+
+### Learning Steps and Graduation
+
+<hr class="dividerSection" />
+
+By default, a new card must be answered correctly (Good) twice before it graduates into a review card.
+
+For example, with Anki's default learning steps, the first correct answer schedules the card again in a short delay, and the second correct answer graduates the card into review status.
+
+Once a card graduates, if Good is selected, the interval before it is shown again moves to <span class="emphasis">1 day</span> by default. This is known as the <span class="emphasis">graduating interval</span>.
+
+<hr class="dividerSection" />
+
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tools/anki/basics/introduction">← Back</a>
-    <div class="xrefTitle">Tools - Anki - Basics - Introduction</div>
+    <a class="xrefBtn" href="/certifications/cisco/ccna/basics/resources/anki/introduction">← Back</a>
+    <div class="xrefTitle">Resources - Anki - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tools/anki/advanced/decks-and-importing-flashcards">Next →</a>
-    <div class="xrefTitle">Section: Tools - Anki - Advanced - Decks & Importing Flashcards</div>
+    <a class="xrefBtn" href="/certifications/cisco/ccna/basics/resources/anki/decks-and-settings">Next →</a>
+    <div class="xrefTitle">Resources - Anki - Decks & Review Settings</div>
   </div>
 </div>

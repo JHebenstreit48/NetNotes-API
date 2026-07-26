@@ -1,25 +1,4 @@
-<hr class="dividerMain">
-
-# Cisco Packet Tracer - Install & Interface
-
-<hr class="dividerMain">
-
-Cisco Packet Tracer is a <span class="emphasis">network simulation</span> and <span class="emphasis">visualization</span> tool used to <span class="emphasis">practice configuration</span> and <span class="emphasis">troubleshooting</span> without needing physical equipment.
-
-It is designed for:
-
-- Students with <span class="emphasis">no networking background</span>  
-- Students with <span class="emphasis">some networking experience</span>  
-- Learners enrolled in courses that require Packet Tracer labs  
-
-Packet Tracer lets you:
-
-- Build a network from scratch  
-- Use pre-built sample networks  
-- Complete guided lab activities and assignments  
-- Practice introductory <span class="emphasis">IoT</span> and <span class="emphasis">Cybersecurity</span> workflows (depending on the activity)  
-
-Packet Tracer is <span class="emphasis">not a replacement</span> for real hardware practice, but it is extremely useful for learning concepts, testing ideas, and building confidence before touching physical gear.
+# Downloading, Installing, and Touring the Interface
 
 <hr class="dividerSection" />
 
@@ -27,15 +6,42 @@ Packet Tracer is <span class="emphasis">not a replacement</span> for real hardwa
 
 <hr class="dividerSection" />
 
-Packet Tracer is available for multiple platforms (commonly Windows, macOS, and Linux).
+Packet Tracer is distributed through <span class="emphasis">Cisco NetAcad</span> rather than as a plain public download.
 
-General install flow:
+<div class="centeredNumberedList">
+  1. **Create a Cisco NetAcad account**
 
-- Download the installer for your platform from Cisco Networking Academy resources  
-- Run the installer  
-- Launch Packet Tracer from your installed applications  
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>A free Cisco/NetAcad account is required to access downloads.</li>
+    </ul>
+  </div>
 
-If prompted to authenticate on first launch, you may be asked to sign in using a Cisco / NetAcad / Skills For All workflow depending on your access method.
+  2. **Access the Resource Hub**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Once logged in, the Resource Hub (Resources → Lab Downloads) provides the Packet Tracer installer for your platform (commonly Windows, macOS, and Linux), alongside other course resources such as virtual machines.</li>
+    </ul>
+  </div>
+
+  3. **Install and launch**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Run the installer, then launch Packet Tracer from your installed applications.</li>
+      <li>If prompted on first launch, you may be asked to sign in using your Cisco / NetAcad / Skills For All credentials, depending on your access method.</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="dividerSubsection1" />
+
+### Display Considerations on Larger Monitors
+
+<hr class="dividerSubsection1" />
+
+Packet Tracer's interface can appear incorrectly on monitors larger than 24 inches, particularly when using dark mode. Settings may need to be manually adjusted to correct this.
 
 <hr class="dividerSubsection1" />
 
@@ -45,14 +51,14 @@ If prompted to authenticate on first launch, you may be asked to sign in using a
 
 If you get stuck during download, install, or first launch, these official resources are usually the fastest path to a working setup:
 
-- NetAcad Help / FAQs: https://www.netacad.com/help  
-- NetAcad Lab Downloads / Packet Tracer downloads: https://www.netacad.com/resources/lab-downloads  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>NetAcad Help / FAQs</li>
+    <li>NetAcad Resource Hub / Lab Downloads</li>
+  </ul>
+</div>
 
-Some NetAcad pages include a virtual assistant (often shown as a chat widget) that can help with:
-
-- Packet Tracer questions  
-- Certificates and badging questions  
-- Common troubleshooting paths  
+Some NetAcad pages include a virtual assistant (often shown as a chat widget) that can help with Packet Tracer questions, certificates and badging questions, and common troubleshooting paths.
 
 <hr class="dividerSubsection1" />
 
@@ -62,15 +68,23 @@ Some NetAcad pages include a virtual assistant (often shown as a chat widget) th
 
 Exact requirements can vary by version, but typical considerations include:
 
-- A supported operating system version  
-- Sufficient RAM for simulations  
-- Adequate disk space for the application and saved labs  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>A supported operating system version</li>
+    <li>Sufficient RAM for simulations</li>
+    <li>Adequate disk space for the application and saved labs</li>
+  </ul>
+</div>
 
 If Packet Tracer feels sluggish, the most common causes are:
 
-- Very large topologies (many devices/links)  
-- Low system memory  
-- Running multiple heavy apps while simulating  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Very large topologies (many devices/links)</li>
+    <li>Low system memory</li>
+    <li>Running multiple heavy apps while simulating</li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 
@@ -80,30 +94,38 @@ If Packet Tracer feels sluggish, the most common causes are:
 
 Packet Tracer is built around a few core interface areas:
 
-- <span class="emphasis">Menu bar</span>: file actions, preferences, and tools  
-- <span class="emphasis">Workspace</span>: where you build the topology  
-- <span class="emphasis">Device palette</span>: routers, switches, end devices, cables, and more  
-- <span class="emphasis">Device configuration panel</span>: physical/config/CLI tabs (depends on device)  
-- <span class="emphasis">Mode controls</span>: Realtime vs Simulation (used heavily in troubleshooting labs)  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Menu bar</span>, file actions, preferences, and tools</li>
+    <li><span class="emphasis">Workspace</span>, where you build the topology</li>
+    <li><span class="emphasis">Device palette</span>, routers, switches, end devices, cables, and more</li>
+    <li><span class="emphasis">Device configuration panel</span>, physical/config/CLI tabs (depends on device)</li>
+    <li><span class="emphasis">Mode controls</span>, Realtime vs Simulation (used heavily in troubleshooting labs)</li>
+  </ul>
+</div>
 
 A simple first goal is to learn where to:
 
-- Place devices  
-- Add cables  
-- Open device tabs  
-- Access the CLI  
-- Save and reopen projects  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Place devices</li>
+    <li>Add cables</li>
+    <li>Open device tabs</li>
+    <li>Access the CLI</li>
+    <li>Save and reopen projects</li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/gns3/advanced/automation-and-apis/gns3-rest-api">← Back</a>
-    <div class="xrefTitle">Topic: GNS3 - Advanced - Automation & APIs - GNS3 REST API</div>
+    <a class="xrefBtn" href="/tools/cisco-packet-tracer/basics/fundamentals/introduction">← Back</a>
+    <div class="xrefTitle">Fundamentals - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/wireshark/basics/getting-started/capture-interfaces">Next →</a>
-    <div class="xrefTitle">Wireshark - Fundamentals - Capture Interfaces</div>
+    <a class="xrefBtn" href="/tools/cisco-packet-tracer/basics/fundamentals/projects-and-saves">Next →</a>
+    <div class="xrefTitle">Fundamentals - Projects & Saves</div>
   </div>
 </div>

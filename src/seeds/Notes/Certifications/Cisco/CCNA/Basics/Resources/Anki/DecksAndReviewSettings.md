@@ -1,4 +1,4 @@
-# Decks and Importing Flashcards
+# Decks and Review Settings
 
 <hr class="dividerSection" />
 
@@ -45,14 +45,54 @@ Clicking the <span class="emphasis">+</span> icon expands the parent deck to sho
 
 <hr class="dividerSection" />
 
+### Changing Daily Limits
+
+<hr class="dividerSection" />
+
+By default, Anki limits how many cards you see each day:
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">New cards/day</span>, default is 20</li>
+    <li><span class="emphasis">Maximum reviews/day</span>, default is 200</li>
+  </ul>
+</div>
+
+These defaults can throttle how much you're able to study in a single session, especially when working through a large deck.
+
+To adjust them:
+
+<div class="centeredNumberedList">
+  1. **Open deck options**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Click the gear icon to the right of the deck, then click <span class="emphasis">Options</span>.</li>
+    </ul>
+  </div>
+
+  2. **Increase the limits**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Set <span class="emphasis">New cards/day</span> to a much higher number, such as 999.</li>
+      <li>Set <span class="emphasis">Maximum reviews/day</span> to a much higher number, such as 9999.</li>
+    </ul>
+  </div>
+</div>
+
+Raising these limits removes the default daily caps so your reviews are not artificially restricted.
+
+<hr class="dividerSection" />
+
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tools/anki/basics/downloading-and-installing">← Back</a>
-    <div class="xrefTitle">Section: Tools - Anki - Basics - Downloading & Installing</div>
+    <a class="xrefBtn" href="/certifications/cisco/ccna/basics/resources/anki/reviewing-and-scheduling">← Back</a>
+    <div class="xrefTitle">Resources - Anki - Reviewing Cards & Scheduling</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tools/anki/advanced/adjusting-review-settings">Next →</a>
-    <div class="xrefTitle">Tools - Anki - Advanced - Adjusting Review Settings</div>
+    <a class="xrefBtn" href="/certifications/cisco/ccna/basics/exam-day-prep/pearson-vue-checklist">Next →</a>
+    <div class="xrefTitle">Section: Exam Day Prep - Pearson/VUE Checklist</div>
   </div>
 </div>

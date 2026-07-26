@@ -1,149 +1,131 @@
-<hr class="dividerMain">
-
-# Packet Tracer - Projects & Saves
-
-<hr class="dividerMain">
-
-Packet Tracer files are how you store topologies, configurations, and activity work so you can reopen them later or share them with others.
+# Downloading, Installing, and Touring the Interface
 
 <hr class="dividerSection" />
 
-### Common File Types
+### Download and Install
 
 <hr class="dividerSection" />
 
-<table class="notesTable">
-  <thead>
-    <tr class="tableHeader">
-      <th class="tableCellHeader">File Type</th>
-      <th class="tableCellHeader">What It Is Used For</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="tableRow">
-      <td class="tableCell">.pkt</td>
-      <td class="tableCell">Standard project file (topology + device configs + saved state)</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">.pka</td>
-      <td class="tableCell">Packet Tracer activity file (often includes instructions + grading logic)</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">.pkz</td>
-      <td class="tableCell">Compressed project bundle used for sharing collections of Packet Tracer content</td>
-    </tr>
-  </tbody>
-</table>
+Packet Tracer is distributed through <span class="emphasis">Cisco NetAcad</span> rather than as a plain public download.
 
-<hr class="dividerSection" />
+<div class="centeredNumberedList">
+  1. **Create a Cisco NetAcad account**
 
-### Saving Best Practices
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>A free Cisco/NetAcad account is required to access downloads.</li>
+    </ul>
+  </div>
 
-<hr class="dividerSection" />
+  2. **Access the Resource Hub**
 
-Recommended habits:
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Once logged in, the Resource Hub (Resources → Lab Downloads) provides the Packet Tracer installer for your platform (commonly Windows, macOS, and Linux), alongside other course resources such as virtual machines.</li>
+    </ul>
+  </div>
 
-- Save early, then save often  
-- Use meaningful names so older versions are easy to identify  
-- Keep one folder per lab or concept to avoid mixing unrelated files  
+  3. **Install and launch**
 
-A simple naming pattern that stays readable:
-
-- <span class="emphasis">topic-shortname</span> + <span class="emphasis">lab-number</span> + <span class="emphasis">version</span>  
-- Example idea (pattern only): routing-lab01-v1, routing-lab01-v2, routing-lab02-v1  
-
-If you are following a guided activity (.pka), consider saving your work as a separate .pkt copy as well (when allowed), so you can reuse the topology later without the activity wrapper.
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Run the installer, then launch Packet Tracer from your installed applications.</li>
+      <li>If prompted on first launch, you may be asked to sign in using your Cisco / NetAcad / Skills For All credentials, depending on your access method.</li>
+    </ul>
+  </div>
+</div>
 
 <hr class="dividerSubsection1" />
 
-### Version Compatibility Tips
+### Display Considerations on Larger Monitors
 
 <hr class="dividerSubsection1" />
 
-Packet Tracer versions can differ in:
+Packet Tracer's interface can appear incorrectly on monitors larger than 24 inches, particularly when using dark mode. Settings may need to be manually adjusted to correct this.
 
-- Device availability  
-- Features and menus  
-- Activity grading behavior  
+<hr class="dividerSubsection1" />
 
-If someone says “this file won’t open,” the most common causes are:
+### Where to Get Help
 
-- The project was created in a newer Packet Tracer version  
-- The activity expects a specific version  
-- Missing device support in the older installation  
+<hr class="dividerSubsection1" />
 
-Best practice when sharing:
+If you get stuck during download, install, or first launch, these official resources are usually the fastest path to a working setup:
 
-- Include your Packet Tracer version in a README note  
-- Keep a copy exported/saved in the version your class or group is using  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>NetAcad Help / FAQs</li>
+    <li>NetAcad Resource Hub / Lab Downloads</li>
+  </ul>
+</div>
 
-<hr class="dividerSection" />
+Some NetAcad pages include a virtual assistant (often shown as a chat widget) that can help with Packet Tracer questions, certificates and badging questions, and common troubleshooting paths.
 
-### Organizing Labs Like a Pro
+<hr class="dividerSubsection1" />
 
-<hr class="dividerSection" />
+### System Requirements
 
-A clean folder structure makes reviewing labs later much easier:
+<hr class="dividerSubsection1" />
 
-- Group by <span class="emphasis">topic</span> (switching, routing, ACLs, VLANs, etc.)  
-- Inside each topic, group by <span class="emphasis">lab</span> or <span class="emphasis">lesson</span>  
-- Keep a short README note describing what the lab demonstrates  
+Exact requirements can vary by version, but typical considerations include:
 
-This also makes it easier to sync to cloud storage or GitHub without losing context.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>A supported operating system version</li>
+    <li>Sufficient RAM for simulations</li>
+    <li>Adequate disk space for the application and saved labs</li>
+  </ul>
+</div>
 
-<hr class="dividerSection" />
+If Packet Tracer feels sluggish, the most common causes are:
 
-### Saving Packet Tracer Files to GitHub
-
-<hr class="dividerSection" />
-
-Packet Tracer files (.pkt/.pka/.pkz) are typically <span class="emphasis">binary files</span>, which means:
-
-- Git can store them, but it cannot show meaningful line-by-line diffs  
-- You should rely on versioning, commit messages, and documentation  
-
-Recommended workflow:
-
-- Store Packet Tracer files inside a dedicated folder in your repo  
-- Add a README next to them describing:
-  - Lab goal  
-  - Key commands used  
-  - What the topology demonstrates  
-  - Any assumptions (IP plan, VLANs, routing protocol, etc.)  
-
-If files become large or you have many versions, consider using <span class="emphasis">Git LFS</span> so your repository stays manageable.
-
-Practical collaboration tip:
-
-- Treat Packet Tracer files like “build artifacts” and document the changes in the README:
-  - “Added VLAN 10/20 and trunk ports”
-  - “Converted static routes to OSPF”
-  - “Fixed default gateway on PCs”
-  - “Validated with simulation PDU tests”
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Very large topologies (many devices/links)</li>
+    <li>Low system memory</li>
+    <li>Running multiple heavy apps while simulating</li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 
-### 📎 Related Topics
+### Interface Overview
 
 <hr class="dividerSection" />
 
-<div class="xrefBox">
-  <span class="emphasis">See:</span>
-  <a href="/packettracer/basics/workspace-and-views/logical-vs-physical">
-    Packet Tracer → Basics → Workspace & Views → Logical vs Physical
-  </a>
+Packet Tracer is built around a few core interface areas:
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Menu bar</span>, file actions, preferences, and tools</li>
+    <li><span class="emphasis">Workspace</span>, where you build the topology</li>
+    <li><span class="emphasis">Device palette</span>, routers, switches, end devices, cables, and more</li>
+    <li><span class="emphasis">Device configuration panel</span>, physical/config/CLI tabs (depends on device)</li>
+    <li><span class="emphasis">Mode controls</span>, Realtime vs Simulation (used heavily in troubleshooting labs)</li>
+  </ul>
+</div>
+
+A simple first goal is to learn where to:
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Place devices</li>
+    <li>Add cables</li>
+    <li>Open device tabs</li>
+    <li>Access the CLI</li>
+    <li>Save and reopen projects</li>
+  </ul>
 </div>
 
 <hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/packettracer/basics/fundamentals/install-and-interface">← Back</a>
-    <div class="xrefTitle">Packet Tracer - Fundamentals - Install & Interface</div>
+    <a class="xrefBtn" href="/tools/cisco-packet-tracer/basics/fundamentals/introduction">← Back</a>
+    <div class="xrefTitle">Fundamentals - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/packettracer/basics/workspace-and-views/logical-vs-physical">Next →</a>
-    <div class="xrefTitle">Section: Packet Tracer - Workspace & Views - Logical vs Physical</div>
+    <a class="xrefBtn" href="/tools/cisco-packet-tracer/basics/fundamentals/projects-and-saves">Next →</a>
+    <div class="xrefTitle">Fundamentals - Projects & Saves</div>
   </div>
 </div>

@@ -1,4 +1,18 @@
-# Downloading and Installing Anki
+# Getting Started with Anki
+
+<hr class="dividerSection" />
+
+### Spaced Repetition Software
+
+<hr class="dividerSection" />
+
+<span class="emphasis">Anki</span> is an example of <span class="emphasis">SRS</span>, <span class="secondEmphasis">Spaced Repetition Software</span>.
+
+It allows you to create flashcards, as well as import pre-made flashcards, such as ones provided by an instructor or course.
+
+Anki's algorithm schedules flashcard reviews for you each day to help information stay in your long-term memory.
+
+Using flashcards is optional, it is not a required study method for any particular course.
 
 <hr class="dividerSection" />
 
@@ -53,12 +67,12 @@ Anki's website includes a Docs tab with official documentation on how to use the
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tools/anki/basics/what-is-anki">← Back</a>
-    <div class="xrefTitle">Tools - Anki - Basics - What Is Anki?</div>
+    <a class="xrefBtn" href="/certifications/cisco/ccna/basics/resources/study-materials/study-templates">← Back</a>
+    <div class="xrefTitle">Section: Resources - Study Materials - Study Templates</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tools/anki/advanced/decks-and-importing-flashcards">Next →</a>
-    <div class="xrefTitle">Section: Tools - Anki - Advanced - Decks & Importing Flashcards</div>
+    <a class="xrefBtn" href="/certifications/cisco/ccna/basics/resources/anki/reviewing-and-scheduling">Next →</a>
+    <div class="xrefTitle">Resources - Anki - Reviewing Cards & Scheduling</div>
   </div>
 </div>
