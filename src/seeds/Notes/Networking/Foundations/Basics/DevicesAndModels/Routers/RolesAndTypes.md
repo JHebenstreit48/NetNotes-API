@@ -6,7 +6,7 @@
 
 <hr class="dividerSection" />
 
-A router serves as a **gateway** — the exit point for traffic leaving one local network to reach remote networks or the Internet.
+A router serves as a <span class="emphasis">gateway</span>, the exit point for traffic leaving one local network to reach remote networks or the Internet.
 
 It acts as the boundary between networks, connecting local hosts to destinations beyond their own subnet.
 
@@ -24,7 +24,7 @@ It acts as the boundary between networks, connecting local hosts to destinations
 
 <hr class="dividerSubsection1" />
 
-The **default gateway** is the IPv4 address of the router interface connected to the host's local network.
+The <span class="emphasis">default gateway</span> is the IPv4 address of the router interface connected to the host's local network.
 
 Hosts send packets to this address when the destination is not on the local subnet.
 
@@ -80,7 +80,7 @@ Accurate IP address, subnet mask, and default gateway configuration is essential
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/interfaces">Next →</a>
-    <div class="xrefTitle">Foundations - Basics - Devices & Models - Routers - Interfaces</div>
+    <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/interfaces-and-port-types">Next →</a>
+    <div class="xrefTitle">Foundations - Basics - Devices & Models - Routers - Interfaces and Port Types</div>
   </div>
 </div>

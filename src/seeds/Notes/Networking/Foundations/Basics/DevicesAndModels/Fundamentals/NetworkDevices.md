@@ -1,22 +1,43 @@
 # Core Networking Devices
 
----
+<hr class="dividerSection" />
+
+## What Is a Computer Network?
+
+<hr class="dividerSection" />
+
+A <span class="emphasis">computer network</span> is a digital telecommunications network that allows nodes to share resources.
+
+The simplest possible network is just two PCs connected together.
+
+Typically, end devices are not connected directly to each other. Instead, their connections are aggregated through a device called a <span class="emphasis">switch</span>.
+
+<hr class="dividerSection" />
+
 ## Networking Devices Overview
----
+
+<hr class="dividerSection" />
 
 Networking devices are <span class="emphasis">intermediate devices</span> that connect end devices and control how traffic flows across a network.
 
 They do not usually generate user data themselves. Instead, they:
-- move traffic
-- direct traffic
-- filter traffic
-- manage connectivity
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>move traffic</li>
+    <li>direct traffic</li>
+    <li>filter traffic</li>
+    <li>manage connectivity</li>
+  </ul>
+</div>
 
 These devices operate at different <span class="emphasis">OSI layers</span> depending on their function.
 
----
-## Switch
----
+<hr class="dividerSection" />
+
+### Switch
+
+<hr class="dividerSection" />
 
 A <span class="emphasis">switch</span> connects devices within the same local network (LAN).
 
@@ -43,10 +64,11 @@ A <span class="emphasis">switch</span> connects devices within the same local ne
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
-## Router
----
+### Router
+
+<hr class="dividerSection" />
 
 A <span class="emphasis">router</span> connects different networks together.
 
@@ -73,10 +95,11 @@ A <span class="emphasis">router</span> connects different networks together.
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
-## Firewall
----
+### Firewall
+
+<hr class="dividerSection" />
 
 A <span class="emphasis">firewall</span> controls and filters traffic for security.
 
@@ -94,7 +117,7 @@ A <span class="emphasis">firewall</span> controls and filters traffic for securi
     </tr>
     <tr class="tableRow">
       <td class="tableCell">OSI Layers</td>
-      <td class="tableCell">Layers 3–7 (depending on type)</td>
+      <td class="tableCell">Layers 3-7 (depending on type)</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Common Use</td>
@@ -103,10 +126,11 @@ A <span class="emphasis">firewall</span> controls and filters traffic for securi
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
-## Access Point (AP)
----
+### Access Point (AP)
+
+<hr class="dividerSection" />
 
 An <span class="emphasis">access point</span> provides wireless connectivity to a network.
 
@@ -133,10 +157,11 @@ An <span class="emphasis">access point</span> provides wireless connectivity to 
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
-## Modem
----
+### Modem
+
+<hr class="dividerSection" />
 
 A <span class="emphasis">modem</span> connects a local network to an internet service provider (ISP).
 
@@ -154,7 +179,7 @@ A <span class="emphasis">modem</span> connects a local network to an internet se
     </tr>
     <tr class="tableRow">
       <td class="tableCell">OSI Layers</td>
-      <td class="tableCell">Layer 1–2</td>
+      <td class="tableCell">Layer 1-2</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Common Use</td>
@@ -163,22 +188,59 @@ A <span class="emphasis">modem</span> connects a local network to an internet se
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
 ## How These Devices Work Together
----
+
+<hr class="dividerSection" />
 
 In a small network:
 
-1. End devices connect to a <span class="emphasis">switch</span> or <span class="emphasis">access point</span>.
-2. The switch forwards traffic internally.
-3. The <span class="emphasis">router</span> sends traffic to external networks.
-4. The <span class="emphasis">firewall</span> filters traffic.
-5. The <span class="emphasis">modem</span> connects the network to the ISP.
+<div class="centeredNumberedList">
+  1. **End devices connect**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>End devices connect to a <span class="emphasis">switch</span> or <span class="emphasis">access point</span>.</li>
+    </ul>
+  </div>
+
+  2. **Internal forwarding**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>The switch forwards traffic internally.</li>
+    </ul>
+  </div>
+
+  3. **External traffic**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>The <span class="emphasis">router</span> sends traffic to external networks.</li>
+    </ul>
+  </div>
+
+  4. **Filtering**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>The <span class="emphasis">firewall</span> filters traffic.</li>
+    </ul>
+  </div>
+
+  5. **ISP connection**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>The <span class="emphasis">modem</span> connects the network to the ISP.</li>
+    </ul>
+  </div>
+</div>
 
 Each device performs a specialized function in ensuring traffic moves efficiently and securely.
 
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
