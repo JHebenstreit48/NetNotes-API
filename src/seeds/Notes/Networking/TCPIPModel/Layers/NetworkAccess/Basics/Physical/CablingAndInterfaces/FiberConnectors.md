@@ -294,6 +294,43 @@ In residential deployments:
 
 <hr class="dividerSection" />
 
+### UTP vs Fiber Optic: Side-by-Side Comparison
+
+<hr class="dividerSection" />
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">UTP (Copper)</th>
+      <th class="tableCellHeader">Fiber Optic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">Less expensive cable and ports (RJ45)</td>
+      <td class="tableCell">More expensive cable and ports (SFP)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Maximum distance of 100 meters</td>
+      <td class="tableCell">Supports much longer distances (hundreds of meters to kilometers)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Vulnerable to EMI, though twisting helps reduce it</td>
+      <td class="tableCell">Immune to electromagnetic interference (EMI)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Emits a faint signal that could be intercepted</td>
+      <td class="tableCell">Does not emit any signal, no risk of signal interception</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">RJ45 ports are cheaper than SFP ports</td>
+      <td class="tableCell">SFP ports are more expensive, single-mode more so than multimode</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr class="dividerSection" />
+
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors">← Back</a>

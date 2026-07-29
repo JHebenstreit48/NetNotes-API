@@ -24,9 +24,14 @@ Without standardized rules, devices from different manufacturers would not be ab
 
 <hr class="dividerSection" />
 
-The primary organization responsible for developing wireless technical standards is the <span class="emphasis">Institute of Electrical and Electronics Engineers (IEEE)</span>.
+The primary organization responsible for developing wireless technical standards is <span class="emphasis">IEEE</span>.
 
-The IEEE 802.11 standard governs the <span class="emphasis">Wireless LAN (WLAN)</span> environment.
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/networking/foundations/basics/fundamentals/protocols-and-standards/standards-and-organizations" target="_blank" rel="noopener noreferrer">Foundations → Protocols & Standards → Standards & Organizations</a>
+</div>
+
+The <span class="emphasis">IEEE 802.11</span> standard governs the <span class="emphasis">Wireless LAN (WLAN)</span> environment.
 
 The 802.11 standard includes multiple amendments that define:
 

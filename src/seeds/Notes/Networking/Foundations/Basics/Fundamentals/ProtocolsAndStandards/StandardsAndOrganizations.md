@@ -1,8 +1,4 @@
-# Standards & Organizations
-
-<hr class="dividerSection" />
-
-### Why Standards Matter
+# Why Standards Matter
 
 <hr class="dividerSection" />
 
@@ -22,7 +18,7 @@ If one person sends an email via a personal computer, another person can use a m
 
 <hr class="dividerSection" />
 
-### How Internet Standards Are Created (RFCs)
+## How Internet Standards Are Created (RFCs)
 
 <hr class="dividerSection" />
 
@@ -34,7 +30,7 @@ RFCs for internet standards are published and managed by the <span class="emphas
 
 <hr class="dividerSection" />
 
-### Common Standards Bodies (High-Level)
+## Common Standards Bodies (High-Level)
 
 <hr class="dividerSection" />
 
@@ -43,7 +39,7 @@ Different organizations support standards across different parts of networking.
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
     <li><span class="emphasis">IETF</span> — publishes RFCs and standardizes many core internet protocols.</li>
-    <li><span class="emphasis">IEEE</span> — defines many LAN/WLAN technical standards (ex: 802.3 Ethernet, 802.11 Wi-Fi).</li>
+    <li><span class="emphasis">IEEE</span> (<span class="secondEmphasis">Institute of Electrical and Electronics Engineers</span>) — defines many LAN/WLAN technical standards (ex: 802.3 Ethernet, 802.11 Wi-Fi).</li>
     <li><span class="emphasis">ICANN</span> — coordinates global domain names and IP-related resources.</li>
     <li><span class="emphasis">IANA</span> — manages core internet registries (IP allocations, protocol parameters, etc.).</li>
     <li><span class="emphasis">ITU</span> — develops global telecom standards (especially carrier and international telecom space).</li>
@@ -71,7 +67,7 @@ This page provides the high-level overview, while other pages cover how each sta
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/communication-protocols">← Back</a>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/protocols-and-standards/communication-protocols">← Back</a>
     <div class="xrefTitle">Foundations - Fundamentals - Communication Protocols</div>
   </div>
 
