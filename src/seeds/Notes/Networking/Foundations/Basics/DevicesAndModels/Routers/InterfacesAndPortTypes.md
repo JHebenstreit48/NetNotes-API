@@ -50,7 +50,7 @@ All devices plugged into LAN ports:
   </ul>
 </div>
 
-Wired devices typically connect using RJ45 Ethernet cables.
+Wired devices typically connect using RJ-45 Ethernet cables.
 
 <hr class="dividerSubsection1" />
 

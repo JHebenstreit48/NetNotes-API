@@ -43,7 +43,7 @@ This layer serves as the **interface between network services and applications**
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/basics/fundamentals/protocol-stack">← Back</a>
+    <a class="xrefBtn" href="/tcp-ip-model/basics/fundamentals/protocol-stack">← Back</a>
     <div class="xrefTitle">Section: TCP/IP Model - Basics - Fundamentals - Protocol Stack</div>
   </div>
 

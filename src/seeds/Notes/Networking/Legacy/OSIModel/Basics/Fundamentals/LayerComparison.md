@@ -111,7 +111,7 @@ Study the TCP/IP pages for real protocol behavior, headers, ports, timers, and t
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/basics/fundamentals/introduction" target="_blank" rel="noopener noreferrer">TCP/IP Model → Basics → Fundamentals → Introduction</a><br />
+  <a href="/tcp-ip-model/basics/fundamentals/introduction" target="_blank" rel="noopener noreferrer">TCP/IP Model → Basics → Fundamentals → Introduction</a><br />
   <a href="/networking/tcp-ip-model/layers/application/basics/web-and-name/introduction" target="_blank" rel="noopener noreferrer">TCP/IP Model → Layers → Application → Web & Name Resolution → Introduction</a><br />
   <a href="/networking/tcp-ip-model/layers/transport/basics/fundamentals/introduction" target="_blank" rel="noopener noreferrer">TCP/IP Model → Layers → Transport → Fundamentals → Introduction</a><br />
   <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/fundamentals/introduction" target="_blank" rel="noopener noreferrer">TCP/IP Model → Layers → Internet → IP Addressing → Fundamentals → Introduction</a><br />

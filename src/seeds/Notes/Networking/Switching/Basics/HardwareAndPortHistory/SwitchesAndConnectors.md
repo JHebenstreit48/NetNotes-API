@@ -126,7 +126,7 @@ Many enterprise switches include:
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
-    <li>RJ45 Ethernet ports (copper)</li>
+    <li>RJ-45 Ethernet ports (copper)</li>
     <li>SFP, SFP+, or SFP28 ports (fiber or copper modules)</li>
   </ul>
 </div>

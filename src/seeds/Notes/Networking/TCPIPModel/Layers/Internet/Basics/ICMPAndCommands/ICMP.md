@@ -1,16 +1,18 @@
-<hr class="dividerMain">
-
 # ICMP & Diagnostics - Introduction
 
-<hr class="dividerMain">
+<hr class="dividerSection" />
 
 The <span class="emphasis">Internet Control Message Protocol (ICMP)</span> is used for network diagnostics and error reporting.
 
 ICMP is commonly used to help determine:
 
-- whether a destination is reachable
-- whether packets are being dropped
-- how a path behaves under basic testing
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Whether a destination is reachable</li>
+    <li>Whether packets are being dropped</li>
+    <li>How a path behaves under basic testing</li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 

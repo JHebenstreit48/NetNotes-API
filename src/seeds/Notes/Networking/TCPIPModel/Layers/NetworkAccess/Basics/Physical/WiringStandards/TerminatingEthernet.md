@@ -34,7 +34,7 @@ Typical steps for terminating an Ethernet cable:
 2. Untwist wire pairs
 3. Arrange wires in the correct order
 4. Trim wires evenly
-5. Insert into RJ45 connector
+5. Insert into RJ-45 connector
 6. Crimp connector
 7. Test the cable
 

@@ -1,74 +1,124 @@
-## Layer 1: Physical Layer — Bit & Digital Signals
+# Layer 1: Bits and Digital Signals
 
----
+<hr class="dividerSection" />
 
 ### What Is a Bit?
 
+<hr class="dividerSection" />
+
 A <span class="emphasis">bit</span> (binary digit) is the smallest unit of data in a network.
 
-At the physical layer, a bit is represented by a **physical state**, such as:
+At the physical layer, a bit is represented by a physical state, such as:
 
-- High or low voltage (electrical)
-- Light on or off (fiber)
-- Presence or absence of radio energy (wireless)
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>High or low voltage (electrical)</li>
+    <li>Light on or off (fiber)</li>
+    <li>Presence or absence of radio energy (wireless)</li>
+  </ul>
+</div>
 
-Bits do not exist as numbers at this layer — they exist as measurable physical changes.
+Bits do not exist as numbers at this layer, they exist as measurable physical changes.
 
----
+When communicating across a copper network cable, a variation in the electrical signal is interpreted by the receiving device as a <span class="emphasis">0</span> or a <span class="emphasis">1</span>.
+
+<hr class="dividerSection" />
+
+### Bits vs Bytes
+
+<hr class="dividerSection" />
+
+A series of <span class="emphasis">8 bits</span> is equal to <span class="emphasis">1 byte</span>.
+
+Data sent along a wire arrives one <span class="emphasis">bit</span> at a time, not one byte at a time.
+
+Network speed is measured in <span class="emphasis">bits per second</span>, not bytes per second, for example kilobits, megabits, or gigabits per second.
+
+Data storage (such as on a hard drive) is measured in <span class="emphasis">bytes</span> instead. Because a byte is 8 bits, a gigabyte is 8 times larger than a gigabit.
+
+<hr class="dividerSection" />
 
 ### Digital Signaling
+
+<hr class="dividerSection" />
 
 Most modern networks use <span class="emphasis">digital signaling</span>.
 
 Digital signals use discrete states to represent:
 
-- 0
-- 1
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>0</li>
+    <li>1</li>
+  </ul>
+</div>
 
 This differs from analog signaling, which uses continuously varying signals.
 
----
+<hr class="dividerSection" />
 
 ### How Devices Interpret Bits
 
+<hr class="dividerSection" />
+
 To interpret bits correctly, devices must agree on:
 
-- Voltage or light thresholds
-- Timing (clock synchronization)
-- Signal encoding format
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Voltage or light thresholds</li>
+    <li>Timing (clock synchronization)</li>
+    <li>Signal encoding format</li>
+  </ul>
+</div>
 
 If timing or voltage levels are misaligned, errors can occur.
 
----
+<hr class="dividerSection" />
 
 ### Signal Challenges
 
+<hr class="dividerSection" />
+
 Physical signals can degrade due to:
 
-- Distance
-- Interference (noise)
-- Crosstalk
-- Attenuation
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Distance</li>
+    <li>Interference (noise)</li>
+    <li>Crosstalk</li>
+    <li>Attenuation</li>
+  </ul>
+</div>
 
 Because of this, physical layer standards define limits for:
 
-- Cable length
-- Transmission power
-- Shielding requirements
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Cable length</li>
+    <li>Transmission power</li>
+    <li>Shielding requirements</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
 
 ### Why This Matters
 
+<hr class="dividerSection" />
+
 Without reliable bit transmission:
 
-- Frames cannot form
-- Addresses cannot be read
-- Higher-layer protocols cannot function
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Frames cannot form</li>
+    <li>Addresses cannot be read</li>
+    <li>Higher-layer protocols cannot function</li>
+  </ul>
+</div>
 
 All networking depends on stable digital signaling at Layer 1.
 
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">

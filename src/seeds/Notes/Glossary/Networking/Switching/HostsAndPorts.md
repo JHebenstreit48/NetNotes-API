@@ -66,7 +66,7 @@
 - A port type and/or pluggable transceiver system used for flexible media choices.
 - Common media options:
   - Fiber optic modules
-  - Copper modules (including RJ45-based modules, depending on platform)
+  - Copper modules (including RJ-45-based modules, depending on platform)
 
 #### Types:
 
@@ -101,7 +101,7 @@
 
 - Used for direct device management and initial configuration.
 - Common connector types:
-  - <span class="codeSnip">RJ45</span>
+  - <span class="codeSnip">RJ-45</span>
   - <span class="codeSnip">USB</span> (USB-A or USB-C)
 
 ---

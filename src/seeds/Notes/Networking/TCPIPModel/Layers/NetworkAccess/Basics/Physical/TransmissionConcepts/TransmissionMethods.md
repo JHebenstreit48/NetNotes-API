@@ -1,30 +1,46 @@
-## Data Transmission Methods
+# Data Transmission Methods
 
----
+<hr class="dividerSection" />
 
 ### From Bits to Signals
+
+<hr class="dividerSection" />
 
 Once data is broken down into bits, it must be converted into signals that can travel across a network.
 
 Signals travel over a <span class="emphasis">transmission medium</span>, such as:
-- Copper cabling
-- Fiber-optic cabling
-- Wireless airwaves (radio, infrared, etc.)
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Copper cabling</li>
+    <li>Fiber-optic cabling</li>
+    <li>Wireless airwaves (radio, infrared, etc.)</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
 
 ### What Is a Signal?
+
+<hr class="dividerSection" />
 
 A <span class="emphasis">signal</span> is the physical pattern that represents digital data as it moves from one device to another.
 
 Depending on the medium, signals may be:
-- <span class="emphasis">electrical</span> (copper)
-- <span class="emphasis">optical</span> (fiber)
-- <span class="emphasis">wireless</span> (radio / infrared / microwave)
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Electrical</span> (copper)</li>
+    <li><span class="emphasis">Optical</span> (fiber)</li>
+    <li><span class="emphasis">Wireless</span> (radio, infrared, or microwave)</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
 
 ### Common Signal Transmission Methods
+
+<hr class="dividerSection" />
 
 Networks typically rely on three main signal types:
 
@@ -51,9 +67,11 @@ Networks typically rely on three main signal types:
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
 ### Comparing Common Media Types
+
+<hr class="dividerSection" />
 
 Different media types support different speeds, distances, and reliability.
 
@@ -71,7 +89,7 @@ Different media types support different speeds, distances, and reliability.
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Coaxial (Cable Internet)</td>
-      <td class="tableCell">Copper-based and electrically signaled, with strong shielding. Often used by cable ISPs for the “last mile”.</td>
+      <td class="tableCell">Copper-based and electrically signaled, with strong shielding. Often used by cable ISPs for the last mile.</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Fiber-Optic</td>
@@ -81,9 +99,14 @@ Different media types support different speeds, distances, and reliability.
 </table>
 
 In general, fiber is preferred for:
-- very high bandwidth
-- long-distance links
-- environments where interference is a concern
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Very high bandwidth</li>
+    <li>Long-distance links</li>
+    <li>Environments where interference is a concern</li>
+  </ul>
+</div>
 
 This is why fiber is commonly used for ISP backbone and high-capacity links.
 
@@ -95,29 +118,42 @@ This is why fiber is commonly used for ISP backbone and high-capacity links.
 
 When designing or selecting network media, four primary criteria should be evaluated:
 
-- <span class="emphasis">Maximum Distance</span> – How far can the signal travel reliably?
-- <span class="emphasis">Environment</span> – Will the cable be installed in a noisy electrical area, outdoors, underground, or in a data center?
-- <span class="emphasis">Data Requirements</span> – How much data must be transmitted and at what speed?
-- <span class="emphasis">Cost</span> – What is the cost of the media and installation?
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Maximum Distance</span> — How far can the signal travel reliably?</li>
+    <li><span class="emphasis">Environment</span> — Will the cable be installed in a noisy electrical area, outdoors, underground, or in a data center?</li>
+    <li><span class="emphasis">Data Requirements</span> — How much data must be transmitted and at what speed?</li>
+    <li><span class="emphasis">Cost</span> — What is the cost of the media and installation?</li>
+  </ul>
+</div>
 
-Media choice is rarely about one factor alone — it is a balance between performance, environment, and budget.
+Media choice is rarely about one factor alone, it is a balance between performance, environment, and budget.
 
----
+<hr class="dividerSection" />
+
 ### Signal Changes in Transit
----
+
+<hr class="dividerSection" />
 
 A signal may change form multiple times before reaching its destination.
 
 For example:
-- A message might start as <span class="emphasis">electrical</span> on copper,
-- Convert to <span class="emphasis">optical</span> on fiber,
-- Then switch to <span class="emphasis">wireless</span> for the final hop.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>A message might start as <span class="emphasis">electrical</span> on copper</li>
+    <li>Convert to <span class="emphasis">optical</span> on fiber</li>
+    <li>Then switch to <span class="emphasis">wireless</span> for the final hop</li>
+  </ul>
+</div>
 
 This happens because different segments of a network use different media.
 
----
+<hr class="dividerSection" />
 
 ### Common Usage Patterns
+
+<hr class="dividerSection" />
 
 <table class="notesTable">
   <thead>
@@ -137,27 +173,38 @@ This happens because different segments of a network use different media.
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Service Providers (ISPs)</td>
-      <td class="tableCell">Fiber for high-capacity backbone, plus various “last mile” options</td>
+      <td class="tableCell">Fiber for high-capacity backbone, plus various last mile options</td>
     </tr>
   </tbody>
 </table>
 
 Media choices are usually driven by:
-- distance
-- speed requirements
-- cost
-- environment and interference conditions
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Distance</li>
+    <li>Speed requirements</li>
+    <li>Cost</li>
+    <li>Environment and interference conditions</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
 
 ### Summary
 
-- Data is transmitted as signals over a medium (cable or air).
-- Signals can be electrical, optical, or wireless.
-- Networks often convert between signal types across different segments.
-- Media selection is based on distance, bandwidth needs, cost, and reliability.
+<hr class="dividerSection" />
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Data is transmitted as signals over a medium (cable or air)</li>
+    <li>Signals can be electrical, optical, or wireless</li>
+    <li>Networks often convert between signal types across different segments</li>
+    <li>Media selection is based on distance, bandwidth needs, cost, and reliability</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">

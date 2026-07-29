@@ -22,7 +22,7 @@ Layer 2 switches provide physical interfaces such as:
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
-    <li>Ethernet (RJ45) ports</li>
+    <li>Ethernet (RJ-45) ports</li>
     <li>SFP fiber ports</li>
     <li>Console ports</li>
   </ul>

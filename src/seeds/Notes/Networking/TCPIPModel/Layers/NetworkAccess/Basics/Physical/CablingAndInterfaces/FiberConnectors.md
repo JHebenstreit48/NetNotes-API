@@ -1,9 +1,10 @@
+# Fiber Optic Media, Connectors, and Transceivers
 
-# Introduction
+<hr class="dividerSection" />
 
----
 ### Fiber Optic Media
----
+
+<hr class="dividerSection" />
 
 Fiber optic cable is a transmission medium that carries data using <span class="emphasis">light pulses</span> rather than electrical signals.
 
@@ -11,14 +12,20 @@ Unlike copper-based media, fiber does not conduct electricity.
 
 Fiber is commonly used in:
 
-- Enterprise backbone links  
-- Data centers  
-- ISP infrastructure  
-- Fiber-to-the-Home (FTTH) deployments  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Enterprise backbone links</li>
+    <li>Data centers</li>
+    <li>ISP infrastructure</li>
+    <li>Fiber-to-the-Home (FTTH) deployments</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
+
 ### Structure of Fiber Cable
----
+
+<hr class="dividerSection" />
 
 A fiber optic cable consists of:
 
@@ -51,9 +58,11 @@ A fiber optic cable consists of:
 
 Light is kept inside the core through <span class="emphasis">total internal reflection</span>.
 
----
+<hr class="dividerSection" />
+
 ### Single-Mode vs Multi-Mode Fiber
----
+
+<hr class="dividerSection" />
 
 <table class="notesTable">
   <thead>
@@ -65,48 +74,114 @@ Light is kept inside the core through <span class="emphasis">total internal refl
   <tbody>
     <tr class="tableRow">
       <td class="tableCell">Single-Mode (SMF)</td>
-      <td class="tableCell">Long-distance transmission using a narrow core</td>
+      <td class="tableCell">Long-distance transmission using a narrow core and laser-based transmitters</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Multi-Mode (MMF)</td>
-      <td class="tableCell">Shorter-distance transmission with wider core</td>
+      <td class="tableCell">Shorter-distance transmission with a wider core and LED-based transmitters</td>
     </tr>
   </tbody>
 </table>
 
 Single-mode fiber:
 
-- Supports longer distances  
-- Used in ISP and long-haul links  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Supports longer distances</li>
+    <li>Used in ISP and long-haul links</li>
+    <li>More expensive due to laser-based transmitters</li>
+  </ul>
+</div>
 
 Multi-mode fiber:
 
-- Used in buildings and data centers  
-- Lower cost optics for shorter runs  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Used in buildings and data centers</li>
+    <li>Lower cost optics for shorter runs</li>
+    <li>Wider core allows multiple light angles (modes) to enter the fiber</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
+
+### Fiber Ethernet Standards (IEEE 802.3)
+
+<hr class="dividerSection" />
+
+Fiber Ethernet speeds are also defined by <span class="emphasis">IEEE 802.3</span> standards, with maximum distance varying by fiber mode.
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Standard</th>
+      <th class="tableCellHeader">Speed and Max Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell">1000BASE-LX (802.3z)</td>
+      <td class="tableCell">1 Gbps: 550 m multimode, 5 km single-mode</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">10GBASE-SR (802.3ae)</td>
+      <td class="tableCell">10 Gbps: up to 400 m, multimode</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">10GBASE-LR (802.3ae)</td>
+      <td class="tableCell">10 Gbps: up to 10 km, single-mode</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">10GBASE-ER (802.3ae)</td>
+      <td class="tableCell">10 Gbps: up to 30 km, single-mode</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/networking/switching/basics/hardware-and-port-types/ethernet-speed-history" target="_blank" rel="noopener noreferrer">Switching → Hardware & Port Types → Ethernet Speed History</a>
+</div>
+
+<hr class="dividerSection" />
+
 ### Fiber Connectors
----
+
+<hr class="dividerSection" />
 
 Common fiber connectors include:
 
-- <span class="emphasis">LC (Lucent Connector)</span>
-- <span class="emphasis">SC (Subscriber Connector)</span>
-- ST (Straight Tip) in legacy systems
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">LC (Lucent Connector)</span></li>
+    <li><span class="emphasis">SC (Subscriber Connector)</span></li>
+    <li>ST (Straight Tip) in legacy systems</li>
+  </ul>
+</div>
 
 LC connectors are commonly used in:
 
-- SFP modules  
-- High-density switch ports  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>SFP modules</li>
+    <li>High-density switch ports</li>
+  </ul>
+</div>
 
 SC connectors are often found in:
 
-- Older installations  
-- Some residential ONT connections  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Older installations</li>
+    <li>Some residential ONT connections</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
+
 ### Transceivers (SFP Modules)
----
+
+<hr class="dividerSection" />
 
 Fiber interfaces typically require pluggable transceivers.
 
@@ -137,63 +212,87 @@ Common module types:
 
 The transceiver converts:
 
-- Electrical signals from a switch  
-- Into optical signals for transmission  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Electrical signals from a switch</li>
+    <li>Into optical signals for transmission</li>
+  </ul>
+</div>
 
 And vice versa.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/switching/basics/hardware-and-port-types/switches-and-connectors">
-    Switching → Hardware & Port Types → Switches and Connectors
-  </a>
+  <a href="/networking/switching/basics/hardware-and-port-types/switches-and-connectors" target="_blank" rel="noopener noreferrer">Switching → Hardware & Port Types → Switches and Connectors</a>
 </div>
 
----
+<hr class="dividerSection" />
+
 ### How Signals Travel in Fiber
----
+
+<hr class="dividerSection" />
 
 Fiber transmits data as pulses of light generated by:
 
-- Laser diodes (long distance)  
-- LEDs (short distance)
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Laser diodes (long distance)</li>
+    <li>LEDs (short distance)</li>
+  </ul>
+</div>
 
 Light pulses represent digital bits:
 
-- Light on → 1  
-- Light off → 0  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Light on, 1</li>
+    <li>Light off, 0</li>
+  </ul>
+</div>
 
 Because fiber does not use electrical current:
 
-- It is immune to electromagnetic interference (EMI)  
-- It is not affected by electrical noise  
-- It does not radiate signals  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>It is immune to electromagnetic interference (EMI)</li>
+    <li>It is not affected by electrical noise</li>
+    <li>It does not radiate signals</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
+
 ### Why Fiber Scales Better
----
+
+<hr class="dividerSection" />
 
 Compared to copper-based media:
 
-- Fiber supports significantly higher theoretical bandwidth
-- Fiber experiences lower signal attenuation over long distances
-- Fiber is more secure against signal tapping
-- Fiber does not suffer from electrical interference
-- <span class="emphasis">Distance</span>: copper Ethernet is typically limited to <span class="emphasis">100 meters</span>, while fiber can span <span class="secondEmphasis">kilometers</span> depending on type.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Fiber supports significantly higher theoretical bandwidth</li>
+    <li>Fiber experiences lower signal attenuation over long distances</li>
+    <li>Fiber is more secure against signal tapping</li>
+    <li>Fiber does not suffer from electrical interference</li>
+    <li><span class="emphasis">Distance</span>, copper Ethernet is typically limited to <span class="emphasis">100 meters</span>, while fiber can span <span class="secondEmphasis">kilometers</span> depending on type.</li>
+  </ul>
+</div>
 
 In residential deployments:
 
-- Fiber may terminate at an <span class="emphasis">Optical Network Terminal (ONT)</span>
-- The ONT converts light signals into Ethernet
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Fiber may terminate at an <span class="emphasis">Optical Network Terminal (ONT)</span></li>
+    <li>The ONT converts light signals into Ethernet</li>
+  </ul>
+</div>
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/foundations/basics/devices-and-models/fundamentals/home-network-architecture">
-    Foundations → Devices & Models → Home Network Architecture
-  </a>
+  <a href="/networking/foundations/basics/devices-and-models/fundamentals/home-network-architecture" target="_blank" rel="noopener noreferrer">Foundations → Devices & Models → Home Network Architecture</a>
 </div>
 
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">

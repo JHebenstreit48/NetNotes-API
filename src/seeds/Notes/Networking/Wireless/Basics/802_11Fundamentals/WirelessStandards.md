@@ -1,19 +1,20 @@
-
-<hr class="dividerMain">
-
 # Wireless Communication Standards
 
-<hr class="dividerMain">
+<hr class="dividerSection" />
 
 A number of standards have been developed to ensure that wireless devices can communicate reliably and consistently.
 
 These standards define the:
 
-- <span class="emphasis">radio frequency (RF)</span> spectrum used  
-- <span class="emphasis">Data transmission rates</span>
-- <span class="emphasis">Modulation methods</span>
-- <span class="emphasis">Channel structure</span>
-- <span class="emphasis">Interoperability requirements</span>
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Radio frequency (RF)</span> spectrum used</li>
+    <li><span class="emphasis">Data transmission rates</span></li>
+    <li><span class="emphasis">Modulation methods</span></li>
+    <li><span class="emphasis">Channel structure</span></li>
+    <li><span class="emphasis">Interoperability requirements</span></li>
+  </ul>
+</div>
 
 Without standardized rules, devices from different manufacturers would not be able to communicate effectively.
 
@@ -29,15 +30,23 @@ The IEEE 802.11 standard governs the <span class="emphasis">Wireless LAN (WLAN)<
 
 The 802.11 standard includes multiple amendments that define:
 
-- Improvements in speed  
-- Efficiency enhancements  
-- Security updates  
-- New frequency band usage  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Improvements in speed</li>
+    <li>Efficiency enhancements</li>
+    <li>Security updates</li>
+    <li>New frequency band usage</li>
+  </ul>
+</div>
 
 Wireless LAN standards commonly operate in:
 
-- 2.4 GHz  
-- 5 GHz  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>2.4 GHz</li>
+    <li>5 GHz</li>
+  </ul>
+</div>
 
 Newer generations expand into additional frequency ranges, but 2.4 GHz and 5 GHz remain foundational bands in WLAN environments.
 
@@ -53,9 +62,13 @@ While the IEEE creates technical standards, another organization known as the <s
 
 The Wi-Fi Alliance:
 
-- Tests wireless devices from different manufacturers  
-- Verifies compliance with IEEE standards  
-- Ensures cross-vendor compatibility  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Tests wireless devices from different manufacturers</li>
+    <li>Verifies compliance with IEEE standards</li>
+    <li>Ensures cross-vendor compatibility</li>
+  </ul>
+</div>
 
 If a device displays the <span class="emphasis">Wi-Fi logo</span>, it means the equipment has been certified and should operate properly with other Wi-Fi certified devices.
 
@@ -67,23 +80,35 @@ If a device displays the <span class="emphasis">Wi-Fi logo</span>, it means the 
 
 Wireless standards continuously evolve to improve:
 
-- Speed  
-- Efficiency  
-- Capacity  
-- Security  
-- Spectrum utilization  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Speed</li>
+    <li>Efficiency</li>
+    <li>Capacity</li>
+    <li>Security</li>
+    <li>Spectrum utilization</li>
+  </ul>
+</div>
 
 Manufacturers rapidly adopt new standards in their products, which makes it important to stay aware of:
 
-- Which standards your equipment supports  
-- Compatibility between devices  
-- Performance expectations  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Which standards your equipment supports</li>
+    <li>Compatibility between devices</li>
+    <li>Performance expectations</li>
+  </ul>
+</div>
 
 Understanding wireless standards helps with:
 
-- Router selection  
-- Network upgrades  
-- Troubleshooting compatibility issues
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Router selection</li>
+    <li>Network upgrades</li>
+    <li>Troubleshooting compatibility issues</li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 
@@ -95,10 +120,14 @@ Wireless access points can be configured to support specific 802.11 standards.
 
 Examples include:
 
-- 802.11b  
-- 802.11g  
-- 802.11n  
-- Mixed mode  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>802.11b</li>
+    <li>802.11g</li>
+    <li>802.11n</li>
+    <li>Mixed mode</li>
+  </ul>
+</div>
 
 If all wireless devices use the same 802.11 standard, maximum performance for that standard can be achieved.
 
@@ -116,35 +145,37 @@ This improves compatibility but may reduce overall efficiency depending on devic
 
 Consider the following:
 
-- Do you have a wireless network in your home?
-- What IEEE 802.11 standards does your wireless router support?
-- Are your client devices capable of using the same standards?
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Do you have a wireless network in your home?</li>
+    <li>What IEEE 802.11 standards does your wireless router support?</li>
+    <li>Are your client devices capable of using the same standards?</li>
+  </ul>
+</div>
 
 Knowing this information helps evaluate performance limits and upgrade opportunities.
 
 <hr class="dividerSubsection1" />
 
-### 📎 Related Topics
+### Related Topics
 
 <hr class="dividerSubsection1" />
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/mobile/basics/fundamentals/radios-at-a-glance">
-    Mobile → Basics → Fundamentals → Radios at a Glance
-  </a>
+  <a href="/networking/mobile/basics/fundamentals/radios-at-a-glance" target="_blank" rel="noopener noreferrer">Mobile → Basics → Fundamentals → Radios at a Glance</a>
 </div>
 
 <hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/routing-protocols/advanced/egps/policy-and-path-selection">← Back</a>
-    <div class="xrefTitle">Topic: Routing Protocols - Advanced - EGPs - Policy & Path Selection</div>
+    <a class="xrefBtn" href="/networking/servers/advanced/data-center/cooling-and-power">← Back</a>
+    <div class="xrefTitle">Topic: Servers - Advanced - Data Center - Cooling & Power</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/wireless/basics/80211/frequencies-and-channels">Next →</a>
-    <div class="xrefTitle"> Wireless - 802.11 Fundamentals - Frequencies & Channels</div>
+    <a class="xrefBtn" href="/networking/wireless/basics/80211/frequencies-and-channels">Next →</a>
+    <div class="xrefTitle">Wireless - 802.11 Fundamentals - Frequencies & Channels</div>
   </div>
 </div>
