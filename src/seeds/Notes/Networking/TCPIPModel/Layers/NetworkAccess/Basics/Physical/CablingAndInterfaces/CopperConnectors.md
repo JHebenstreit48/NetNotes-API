@@ -15,6 +15,8 @@ Copper Ethernet cables use a standardized connector commonly referred to as:
 
 <span class="emphasis">RJ45</span> is the <span class="secondEmphasis">common</span> <span class="emphasis">physical connector</span> used for <span class="emphasis">twisted-pair</span> Ethernet cabling.
 
+<span class="emphasis">Industry standards</span> exist between <span class="emphasis">manufacturers</span> of <span class="emphasis">network devices</span> and <span class="emphasis">network cables</span> so that <span class="emphasis">connectors</span> and <span class="emphasis">ports</span> <span class="secondEmphasis">agree</span> on <span class="emphasis">size</span> and <span class="emphasis">shape</span>, ensuring a cable from <span class="emphasis">one vendor</span> will <span class="emphasis">physically fit</span> a <span class="emphasis">device</span> from <span class="emphasis">another vendor</span>. This is why there are both <span class="emphasis">physical standards</span>, like <span class="emphasis">cable</span> and <span class="emphasis">connector design</span>, and <span class="emphasis">logical standards</span>, like <span class="emphasis">IP</span> (<span class="secondEmphasis">Internet Protocol</span>).
+
 <hr class="dividerSection" />
 
 ### Plug vs Jack
