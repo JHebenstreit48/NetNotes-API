@@ -70,14 +70,14 @@ Most home internet services provide faster download speeds than upload speeds.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">
     Physical - Bandwidth & Throughput - Bandwidth
   </a>
 </div>
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">
     Physical - Transmission Concepts - Data Transmission Methods
   </a>
 </div>
@@ -86,12 +86,12 @@ Most home internet services provide faster download speeds than upload speeds.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">← Back</a>
     <div class="xrefTitle">Physical - Bandwidth & Throughput - Bandwidth</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/encap-deencap/encapsulation">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/encap-deencap/encapsulation">Next →</a>
     <div class="xrefTitle">Section: Physical - Encap/De-encap - Encapsulation</div>
   </div>
 </div>

@@ -171,7 +171,7 @@ Layer 2 switches perform three primary actions:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/advanced/physical/noise-and-distance/crosstalk-and-emi">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/advanced/physical/noise-and-distance/crosstalk-and-emi">← Back</a>
     <div class="xrefTitle">Topic: TCP/IP Model - Advanced - Physical - Crosstalk & EMI</div>
   </div>
 

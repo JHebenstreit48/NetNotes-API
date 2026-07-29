@@ -79,12 +79,12 @@ In modern home networks, coax typically terminates at a <span class="emphasis">c
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories">← Back</a>
     <div class="xrefTitle">Physical - Cabling & Interfaces - Ethernet Cabling Categories</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors">Next →</a>
     <div class="xrefTitle">Physical - Cabling & Interfaces - Copper Connectors (RJ45 / 8P8C)</div>
   </div>
 </div>

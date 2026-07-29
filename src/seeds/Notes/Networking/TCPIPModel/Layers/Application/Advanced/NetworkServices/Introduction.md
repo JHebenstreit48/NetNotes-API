@@ -33,10 +33,10 @@ For in-depth explanations, message formats, and operation:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/layers/internet/basics/fundamentals/dhcp" target="_blank" rel="noopener noreferrer">TCP/IP Model → Internet Layer → Basics → Fundamentals → DHCP</a><br />
-  <a href="/tcpip-model/layers/application/advanced/network-services/ntp" target="_blank" rel="noopener noreferrer">Network Services → NTP</a><br />
-  <a href="/tcpip-model/layers/application/advanced/network-services/snmp" target="_blank" rel="noopener noreferrer">Network Services → SNMP</a><br />
-  <a href="/tcpip-model/layers/application/advanced/network-services/ftp" target="_blank" rel="noopener noreferrer">Network Services → FTP/SFTP</a>
+  <a href="/networking/tcp-ip-model/layers/internet/basics/fundamentals/dhcp" target="_blank" rel="noopener noreferrer">TCP/IP Model → Internet Layer → Basics → Fundamentals → DHCP</a><br />
+  <a href="/networking/tcp-ip-model/layers/application/advanced/network-services/ntp" target="_blank" rel="noopener noreferrer">Network Services → NTP</a><br />
+  <a href="/networking/tcp-ip-model/layers/application/advanced/network-services/snmp" target="_blank" rel="noopener noreferrer">Network Services → SNMP</a><br />
+  <a href="/networking/tcp-ip-model/layers/application/advanced/network-services/ftp" target="_blank" rel="noopener noreferrer">Network Services → FTP/SFTP</a>
 </div>
 
 These services illustrate how the Application layer supports broader network functionality and user needs.
@@ -45,12 +45,12 @@ These services illustrate how the Application layer supports broader network fun
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/advanced/introduction">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/advanced/introduction">← Back</a>
     <div class="xrefTitle">Application Layer - Advanced - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/advanced/network-services/ntp">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/advanced/network-services/ntp">Next →</a>
     <div class="xrefTitle">Network Services - NTP</div>
   </div>
 </div>

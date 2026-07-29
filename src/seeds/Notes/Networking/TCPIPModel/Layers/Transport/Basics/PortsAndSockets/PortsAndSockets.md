@@ -166,10 +166,10 @@ netstat helps troubleshoot connectivity, identify listening services, and detect
 
 <div class="xrefBox">
   <span class="emphasis">See also:</span><br />
-  <a href="/tcpip-model/layers/transport/basics/ports/port-ranges">
+  <a href="/networking/tcp-ip-model/layers/transport/basics/ports/port-ranges">
     Port Ranges (well-known, registered, and dynamic port categories)
   </a><br />
-  <a href="/tcpip-model/layers/transport/advanced/multiplexing/process-demultiplexing">
+  <a href="/networking/tcp-ip-model/layers/transport/advanced/multiplexing/process-demultiplexing">
     Process Demultiplexing and Socket Pairs (advanced details)
   </a>
 </div>
@@ -178,12 +178,12 @@ netstat helps troubleshoot connectivity, identify listening services, and detect
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/transport/basics/fundamentals/tcp-vs-udp">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/transport/basics/fundamentals/tcp-vs-udp">← Back</a>
     <div class="xrefTitle">Transport - Basics - Fundamentals - TCP vs UDP</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/transport/basics/ports/port-ranges">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/transport/basics/ports/port-ranges">Next →</a>
     <div class="xrefTitle">Transport - Basics - Ports & Sockets - Port Ranges</div>
   </div>
 </div>

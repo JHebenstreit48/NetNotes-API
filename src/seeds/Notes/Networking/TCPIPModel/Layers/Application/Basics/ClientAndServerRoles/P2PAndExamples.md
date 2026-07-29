@@ -136,12 +136,12 @@ After peers discover each other, some communication or data transfer may happen 
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/client-and-server-roles/fundamentals">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/client-and-server-roles/fundamentals">← Back</a>
     <div class="xrefTitle">Client & Server Roles - Fundamentals</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/email-and-communication/smtp">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/email-and-communication/smtp">Next →</a>
     <div class="xrefTitle">Section: Email & Communication - SMTP</div>
   </div>
 </div>

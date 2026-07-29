@@ -31,7 +31,7 @@ A number of standalone text message clients also exist, available across a wide 
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/email-and-communication/imap">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/email-and-communication/imap">← Back</a>
     <div class="xrefTitle">Email & Communication → IMAP</div>
   </div>
 

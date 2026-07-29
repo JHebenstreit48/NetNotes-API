@@ -145,7 +145,7 @@ In each case, subnets use longer prefix lengths to identify smaller networks.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv4-subnetting" target="_blank" rel="noopener noreferrer">IPv4 Subnetting</a>
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv4-subnetting" target="_blank" rel="noopener noreferrer">IPv4 Subnetting</a>
 </div>
 
 <div class="xrefBox">
@@ -157,12 +157,12 @@ In each case, subnets use longer prefix lengths to identify smaller networks.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/subnet-masks-and-cidr">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/subnet-masks-and-cidr">← Back</a>
     <div class="xrefTitle">Internet Layer - Basics - IP Addressing - Subnetting & Gateways - Subnet Masks & CIDR</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables">Next →</a>
     <div class="xrefTitle">Internet Layer - Basics - IP Addressing - Subnetting & Gateways - Default Gateway & Routing Tables</div>
   </div>
 </div>

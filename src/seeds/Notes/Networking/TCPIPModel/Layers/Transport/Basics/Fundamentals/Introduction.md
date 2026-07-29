@@ -47,13 +47,13 @@ These mechanisms enable efficient and flexible communication across diverse netw
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/layers/transport/basics/fundamentals/tcp-vs-udp">
+  <a href="/networking/tcp-ip-model/layers/transport/basics/fundamentals/tcp-vs-udp">
     TCP vs UDP (detailed comparison of the two protocols)
   </a><br />
-  <a href="/tcpip-model/layers/transport/basics/ports/ports-and-sockets">
+  <a href="/networking/tcp-ip-model/layers/transport/basics/ports/ports-and-sockets">
     Ports & Sockets (how port numbers enable multiplexing)
   </a><br />
-  <a href="/tcpip-model/layers/transport/basics/reliability/reliable-delivery-flow-control">
+  <a href="/networking/tcp-ip-model/layers/transport/basics/reliability/reliable-delivery-flow-control">
     Reliable Delivery and Flow Control (TCP-specific mechanisms)
   </a>
 </div>
@@ -72,12 +72,12 @@ These mechanisms enable efficient and flexible communication across diverse netw
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/advanced/user-data/privacy-in-protocols">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/advanced/user-data/privacy-in-protocols">← Back</a>
     <div class="xrefTitle">Topic: TCP/IP Model - Application - Advanced - User Data & Privacy - Privacy in Application Protocols</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/transport/basics/fundamentals/tcp-vs-udp">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/transport/basics/fundamentals/tcp-vs-udp">Next →</a>
     <div class="xrefTitle">Transport - Basics - Fundamentals - TCP vs UDP</div>
   </div>
 </div>

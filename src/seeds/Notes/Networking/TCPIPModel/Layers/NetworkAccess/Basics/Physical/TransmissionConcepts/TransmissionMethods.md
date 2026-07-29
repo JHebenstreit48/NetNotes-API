@@ -161,12 +161,12 @@ Media choices are usually driven by:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/communication-standards">← Back</a>
     <div class="xrefTitle">Transmission Concepts - Communication Standards</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories">Next →</a>
     <div class="xrefTitle">Section: Cabling & Interfaces - Ethernet Cabling Categories</div>
   </div>
 </div>

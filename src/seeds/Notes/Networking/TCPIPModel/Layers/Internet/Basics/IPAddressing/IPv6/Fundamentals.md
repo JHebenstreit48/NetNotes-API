@@ -14,7 +14,7 @@ The long-term goal of IPv6 is native end-to-end communication from source to des
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition">
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition">
     IPv4 Exhaustion & Transition
   </a>
 </div>
@@ -218,12 +218,12 @@ Practice converting IPv6 addresses between preferred (full) and shortened forms 
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison">← Back</a>
     <div class="xrefTitle">Section: Internet Layer - Basics - IP Addressing - IPv4 - IPv4 vs IPv6 Comparison</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv6/address-types-and-scope">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv6/address-types-and-scope">Next →</a>
     <div class="xrefTitle">Internet Layer - Basics - IP Addressing - IPv6 - Address Types & Scope</div>
   </div>
 </div>

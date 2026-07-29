@@ -58,7 +58,7 @@ ARP resolves IP to MAC using a request-reply mechanism with broadcast containmen
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">
     Internet Layer → Basics → IP Addressing → Subnetting & Gateways → Broadcast Domains & Segmentation
   </a>
 </div>
@@ -188,7 +188,7 @@ It’s essential for local packet delivery and Layer 2 accuracy.
 
 <div class="xrefBox">
   <span class="emphasis">See related concepts:</span><br />
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">
     Internet Layer → Basics → IP Addressing → Subnetting & Gateways → Broadcast Domains & Segmentation
   </a>
 </div>
@@ -197,12 +197,12 @@ It’s essential for local packet delivery and Layer 2 accuracy.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation">← Back</a>
     <div class="xrefTitle">Data Link - Core Concepts De-encapsulation</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing">Next →</a>
     <div class="xrefTitle">Section: Data Link - Frames & Addressing - MAC Addressing</div>
   </div>
 </div>

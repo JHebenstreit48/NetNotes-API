@@ -48,7 +48,7 @@ Broadcast traffic uses network resources and forces every receiving device to pr
 
 <div class="xrefBox">
   <span class="emphasis">See broadcast domain details and segmentation:</span><br />
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">
     Internet Layer → Basics → IP Addressing → Subnetting & Gateways → Broadcast Domains & Segmentation
   </a>
 </div>
@@ -158,12 +158,12 @@ Only subscribed devices (e.g., 172.16.4.3 and 172.16.4.4) process the packet.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/address-structure">← Back</a>
     <div class="xrefTitle">Internet Layer - Basics - IP Addressing - IPv4 - Address Structure</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison">Next →</a>
     <div class="xrefTitle">Internet Layer - Basics - IP Addressing - IPv4 - IPv4 vs IPv6 Comparison</div>
   </div>
 </div>

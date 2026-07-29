@@ -16,12 +16,12 @@ ICMP is commonly used to help determine:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/subnetting-and-gateways/default-gateway-and-routing-tables">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/subnetting-and-gateways/default-gateway-and-routing-tables">← Back</a>
     <div class="xrefTitle">Section: Internet Layer - Subnetting & Gateways - Default Gateway & Routing Tables</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/icmp-and-commands/ipconfig">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/ipconfig">Next →</a>
     <div class="xrefTitle">Internet Layer - ICMP & Diagnostics - ipconfig</div>
   </div>
 </div>

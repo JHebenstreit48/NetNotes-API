@@ -241,7 +241,7 @@ Cable is widely available in suburban and urban areas.
 
 <div class="xrefBox">
   <span class="emphasis">Physical Media Details:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable" target="_blank" rel="noopener noreferrer">TCP/IP Model → Network Access → Physical → Cabling & Interfaces → Coaxial Cable</a>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable" target="_blank" rel="noopener noreferrer">TCP/IP Model → Network Access → Physical → Cabling & Interfaces → Coaxial Cable</a>
 </div>
 
 <hr class="dividerSubsection1" />
@@ -395,7 +395,7 @@ For More on Speed Evolution
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth" target="_blank" rel="noopener noreferrer">TCP/IP Model → Network Access → Physical → Bandwidth</a>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth" target="_blank" rel="noopener noreferrer">TCP/IP Model → Network Access → Physical → Bandwidth</a>
 </div>
 
 <hr class="dividerSection" />

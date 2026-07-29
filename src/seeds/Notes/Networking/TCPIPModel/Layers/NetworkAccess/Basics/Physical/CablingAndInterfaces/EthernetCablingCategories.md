@@ -2,6 +2,8 @@
 
 <hr class="dividerSection" />
 
+<span class="emphasis">Ethernet</span> is a <span class="secondEmphasis">collection</span> of <span class="emphasis">network protocols</span> and <span class="emphasis">standards</span> rather than a single protocol.
+
 Most wired Ethernet networks use <span class="emphasis">twisted-pair copper cabling</span>.
 
 Because Ethernet is the foundation of most local area networks (LANs), twisted-pair cabling is the most commonly deployed network medium, particularly for connecting PC workstations and other end devices in an office or home LAN.
@@ -177,12 +179,12 @@ Wired links provide:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">← Back</a>
     <div class="xrefTitle">Section: Physical - Transmission - Data Transmission Methods</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">Next →</a>
     <div class="xrefTitle">Physical - Cabling & Interfaces - Coaxial Cable</div>
   </div>
 </div>

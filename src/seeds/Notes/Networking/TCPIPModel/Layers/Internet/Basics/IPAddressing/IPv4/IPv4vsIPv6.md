@@ -118,12 +118,12 @@ Both identify devices on networks, but they differ in structure, capacity, and d
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition">← Back</a>
     <div class="xrefTitle">Internet Layer - IP Addressing - IPv4 - IPv4 Exhaustion and Transition</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv6/fundamentals">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv6/fundamentals">Next →</a>
     <div class="xrefTitle">Section: IP Addressing - IPv6 - Fundamentals</div>
   </div>
 </div>

@@ -117,7 +117,7 @@ Bandwidth is measured in <span class="emphasis">bits per second (bps)</span> and
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">
     TCP/IP Model → Network Access → Physical → Data Transmission Methods
   </a>
 </div>
@@ -126,12 +126,12 @@ Bandwidth is measured in <span class="emphasis">bits per second (bps)</span> and
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/wiring-standards/terminating-ethernet">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/wiring-standards/terminating-ethernet">← Back</a>
     <div class="xrefTitle">Section: Physical - Wiring Standards - Terminating Ethernet (Crimp & Punchdown)</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput">Next →</a>
     <div class="xrefTitle">Physical - Bandwidth & Throughput - Throughput</div>
   </div>
 </div>

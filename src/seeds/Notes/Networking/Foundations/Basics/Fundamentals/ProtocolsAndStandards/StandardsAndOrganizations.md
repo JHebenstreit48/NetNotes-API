@@ -52,7 +52,7 @@ Examples include:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/communication-standards">
     TCP/IP Model → Network Access → Physical → Transmission Concepts → Communication Standards
   </a>
 </div>

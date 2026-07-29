@@ -94,10 +94,10 @@ Most efficient for small networks with limited public addresses.
 
 <div class="xrefBox">
   <span class="emphasis">For full concepts, operation details, small-network examples, and use cases/limits, see:</span><br />
-  <a href="/tcpip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
+  <a href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
     TCP/IP Model → Internet Layer → Advanced → NAT & PAT → Concepts & Types
   </a><br />
-  <a href="/tcpip-model/layers/internet/advanced/nat-and-pat/use-cases-and-limits">
+  <a href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/use-cases-and-limits">
     TCP/IP Model → Internet Layer → Advanced → NAT & PAT → Use Cases & Limits
   </a>
 </div>

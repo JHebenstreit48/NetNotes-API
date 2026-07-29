@@ -39,11 +39,11 @@ For more details on MAC format, uniqueness, and NICs:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia">
     TCP/IP Model → Network Access → Data Link → Frames & Addressing → Burned-In Address (BIA)
   </a>
   <br />
-  <a href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing">
     TCP/IP Model → Network Access → Data Link → Frames & Addressing → MAC Addressing
   </a>
 </div>
@@ -61,7 +61,7 @@ To explore ARP tables and command-line tools:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/arp">
     TCP/IP Model → Network Access → Data Link → Core Concepts → Address Resolution Protocol (ARP)
   </a>
 </div>
@@ -111,12 +111,12 @@ It wraps data into frames, labels it with MAC addresses, and ensures reliable de
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/advanced/multicast-fundamentals/pim-sm-dm-concepts">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/advanced/multicast-fundamentals/pim-sm-dm-concepts">← Back</a>
     <div class="xrefTitle">Topic: TCP/IP Model - Internet - Advanced - Multicast Fundamentals - PIM SM/DM (Concepts)</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/encapsulation">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/encapsulation">Next →</a>
     <div class="xrefTitle">Data Link - Core Concepts - Encapsulation</div>
   </div>
 </div>

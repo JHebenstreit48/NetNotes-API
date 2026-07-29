@@ -131,10 +131,10 @@ The choice between TCP and UDP depends on the application's requirements: reliab
 
 <div class="xrefBox">
   <span class="emphasis">See also:</span><br />
-  <a href="/tcpip-model/layers/transport/basics/ports/ports-and-sockets">
+  <a href="/networking/tcp-ip-model/layers/transport/basics/ports/ports-and-sockets">
     Ports & Sockets (how ports identify conversations)
   </a><br />
-  <a href="/tcpip-model/layers/transport/basics/reliability/reliable-delivery-flow-control">
+  <a href="/networking/tcp-ip-model/layers/transport/basics/reliability/reliable-delivery-flow-control">
     Reliable Delivery and Flow Control (TCP mechanisms in detail)
   </a>
 </div>
@@ -143,12 +143,12 @@ The choice between TCP and UDP depends on the application's requirements: reliab
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/transport/basics/fundamentals/introduction">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/transport/basics/fundamentals/introduction">← Back</a>
     <div class="xrefTitle">Transport - Basics - Fundamentals - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/transport/basics/ports/ports-and-sockets">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/transport/basics/ports/ports-and-sockets">Next →</a>
     <div class="xrefTitle">Section: Transport - Basics - Ports & Sockets - Ports/Sockets</div>
   </div>
 </div>

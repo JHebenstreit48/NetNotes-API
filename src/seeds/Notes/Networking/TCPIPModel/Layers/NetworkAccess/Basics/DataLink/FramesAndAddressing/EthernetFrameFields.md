@@ -231,12 +231,12 @@ Together, these fields enable reliable NIC-to-NIC communication on a local netwo
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing">← Back</a>
     <div class="xrefTitle">Data Link - Frames & Addressing - MAC Addressing</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia">Next →</a>
     <div class="xrefTitle">Data Link - Frames & Addressing - Burned-In Address (BIA)</div>
   </div>
 </div>

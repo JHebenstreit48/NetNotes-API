@@ -48,7 +48,7 @@ This layer serves as the **interface between network services and applications**
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/http-https">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/web-and-name/http-https">Next →</a>
     <div class="xrefTitle">Application Layer - Web & Name Resolution - HTTP/HTTPS</div>
   </div>
 </div>

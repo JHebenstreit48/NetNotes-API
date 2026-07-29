@@ -86,7 +86,7 @@ Several application protocols are used in processing email, including SMTP, POP3
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/email-and-communication/imap">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/email-and-communication/imap">Next →</a>
     <div class="xrefTitle">Email & Communication → IMAP</div>
   </div>
 </div>

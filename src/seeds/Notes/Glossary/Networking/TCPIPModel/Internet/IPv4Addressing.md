@@ -179,7 +179,7 @@ Detailed NAT concepts are covered in Advanced → NAT & PAT.
 
 <div class="xrefBox">
   <span class="emphasis">See Advanced for full details:</span>
-  <a href="/tcpip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
+  <a href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
     Advanced → NAT & PAT → Concepts & Types
   </a>
 </div>

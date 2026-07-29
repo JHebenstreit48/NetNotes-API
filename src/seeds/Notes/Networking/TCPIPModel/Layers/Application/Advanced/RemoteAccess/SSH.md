@@ -108,12 +108,12 @@ Terminal emulator software, such as <span class="emphasis">Tera Term</span>, pro
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/advanced/network-services/ftp">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/advanced/network-services/ftp">← Back</a>
     <div class="xrefTitle">Section: Network Services → FTP/SFTP</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/advanced/remote-access/ssh-best-practices">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/advanced/remote-access/ssh-best-practices">Next →</a>
     <div class="xrefTitle">Remote Access → Best Practices</div>
   </div>
 </div>

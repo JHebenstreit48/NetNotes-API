@@ -209,7 +209,7 @@ Detailed DHCPv4 configuration on routers is covered in Advanced → NAT & PAT.
 
 <div class="xrefBox">
   <span class="emphasis">See Advanced for full details:</span><br />
-  <a href="/tcpip-model/layers/internet/advanced/nat-and-pat/concepts-and-types" target="_blank" rel="noopener noreferrer">Advanced → NAT & PAT → Concepts & Types</a>
+  <a href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/concepts-and-types" target="_blank" rel="noopener noreferrer">Advanced → NAT & PAT → Concepts & Types</a>
 </div>
 
 <hr class="dividerSection" />
@@ -231,7 +231,7 @@ When a device receives configuration from DHCP, it typically receives:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/layers/internet/basics/subnetting-and-gateways/subnet-masks-and-cidr" target="_blank" rel="noopener noreferrer">Internet Layer → Subnetting & Gateways → Subnet Masks & CIDR</a>
+  <a href="/networking/tcp-ip-model/layers/internet/basics/subnetting-and-gateways/subnet-masks-and-cidr" target="_blank" rel="noopener noreferrer">Internet Layer → Subnetting & Gateways → Subnet Masks & CIDR</a>
 </div>
 
 <hr class="dividerSection" />
@@ -310,12 +310,12 @@ In most home and small office networks:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/fundamentals/introduction">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/fundamentals/introduction">← Back</a>
     <div class="xrefTitle">Internet Layer - Fundamentals - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/address-structure">Next →</a>
     <div class="xrefTitle">Section: IP Addressing - IPv4 - Address Structure</div>
   </div>
 </div>

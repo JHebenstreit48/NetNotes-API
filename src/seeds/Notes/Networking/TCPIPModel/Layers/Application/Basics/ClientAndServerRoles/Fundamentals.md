@@ -187,12 +187,12 @@ Every URL is a URI, but not every URI is a URL.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/dns">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/web-and-name/dns">← Back</a>
     <div class="xrefTitle">Section: Application - Web & Name Resolution - DNS</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/client-and-server-roles/p2p-and-examples">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/client-and-server-roles/p2p-and-examples">Next →</a>
     <div class="xrefTitle">Application - Client & Server Roles - P2P & Examples</div>
   </div>
 </div>

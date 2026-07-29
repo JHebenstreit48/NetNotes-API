@@ -23,12 +23,12 @@ Many different email servers exist for the various network operating system plat
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/email-and-communication/smtp">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/email-and-communication/smtp">← Back</a>
     <div class="xrefTitle">Email & Communication → SMTP</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/email-and-communication/text-messaging">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/email-and-communication/text-messaging">Next →</a>
     <div class="xrefTitle">Email & Communication → Text Messaging</div>
   </div>
 </div>

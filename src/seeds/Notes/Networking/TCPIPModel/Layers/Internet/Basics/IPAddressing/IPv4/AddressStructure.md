@@ -115,7 +115,7 @@ Another example of hierarchical addressing is the telephone system: the country 
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/subnet-masks-and-cidr" target="_blank" rel="noopener noreferrer">IP Addressing → Subnetting & Gateways → Subnet Masks & CIDR</a>
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/subnet-masks-and-cidr" target="_blank" rel="noopener noreferrer">IP Addressing → Subnetting & Gateways → Subnet Masks & CIDR</a>
 </div>
 
 <hr class="dividerSection" />
@@ -154,19 +154,19 @@ ifconfig
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/icmp-and-commands/ipconfig" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → ICMP & Commands → ipconfig (Viewing & Renewing IP Configuration)</a>
+  <a href="/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/ipconfig" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → ICMP & Commands → ipconfig (Viewing & Renewing IP Configuration)</a>
 </div>
 
 <hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/fundamentals/dhcp">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/fundamentals/dhcp">← Back</a>
     <div class="xrefTitle">Section: Internet Layer - Basics - Fundamentals - DHCP</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses">Next →</a>
     <div class="xrefTitle">Internet Layer - IP Addressing - IPv4 - Types of Addresses</div>
   </div>
 </div>

@@ -127,12 +127,12 @@ Some FTP servers are configured to allow public access without requiring real cr
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/advanced/network-services/snmp">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/advanced/network-services/snmp">← Back</a>
     <div class="xrefTitle">TCP/IP Model → Application Layer → Advanced → Network Services → SNMP</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/advanced/remote-access/ssh">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/advanced/remote-access/ssh">Next →</a>
     <div class="xrefTitle">Section: TCP/IP Model → Application Layer → Advanced → Remote Access → SSH</div>
   </div>
 </div>

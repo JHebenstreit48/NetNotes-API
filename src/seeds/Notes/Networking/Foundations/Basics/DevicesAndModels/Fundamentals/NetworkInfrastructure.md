@@ -93,22 +93,22 @@ Examples include:
   <span class="emphasis">For deeper detail, see:</span>
   <ul>
     <li>
-      <a href="/tcpip-model/layers/network-access/basics/physical/signals-and-media/introduction">
+      <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/signals-and-media/introduction">
         TCP/IP Model → Network Access → Physical → Signals & Media → Introduction
       </a>
     </li>
     <li>
-      <a href="/tcpip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals">
+      <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals">
         TCP/IP Model → Network Access → Physical → Signals & Media → Bit/Digital Signals
       </a>
     </li>
     <li>
-      <a href="/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards">
+      <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/communication-standards">
         TCP/IP Model → Network Access → Physical → Transmission Concepts → Communication Standards
       </a>
     </li>
     <li>
-      <a href="/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">
+      <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">
         TCP/IP Model → Network Access → Physical → Transmission Concepts → Data Transmission Methods
       </a>
     </li>

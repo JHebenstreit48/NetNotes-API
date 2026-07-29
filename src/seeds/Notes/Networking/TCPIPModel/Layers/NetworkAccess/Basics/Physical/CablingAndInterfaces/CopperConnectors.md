@@ -1,8 +1,4 @@
-# How RJ45 Connectors Terminate Copper Ethernet Cabling
-
-<hr class="dividerSection" />
-
-### Copper Ethernet Connectors
+# RJ-45 and Copper Ethernet Connectors
 
 <hr class="dividerSection" />
 
@@ -15,7 +11,9 @@ Copper Ethernet cables use a standardized connector commonly referred to as:
   </ul>
 </div>
 
-RJ45 is the common physical connector used for twisted-pair Ethernet cabling.
+<span class="emphasis">RJ</span> stands for <span class="secondEmphasis">Registered Jack</span>.
+
+<span class="emphasis">RJ45</span> is the <span class="secondEmphasis">common</span> <span class="emphasis">physical connector</span> used for <span class="emphasis">twisted-pair</span> Ethernet cabling.
 
 <hr class="dividerSection" />
 
@@ -81,7 +79,7 @@ These standards define the order of the wire pairs inside the connector.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b" target="_blank" rel="noopener noreferrer">Physical → Wiring Standards → T568A vs T568B</a>
+  <a href="/networking/tcpip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b" target="_blank" rel="noopener noreferrer">Physical → Wiring Standards → T568A vs T568B</a>
 </div>
 
 <hr class="dividerSection" />
@@ -127,19 +125,19 @@ Because copper carries electrical current, it is:
 
 <div class="xrefBox">
   <span class="emphasis">Compare With:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers" target="_blank" rel="noopener noreferrer">Fiber Connectors & Transceivers</a>
+  <a href="/networking/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers" target="_blank" rel="noopener noreferrer">Fiber Connectors & Transceivers</a>
 </div>
 
 <hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">← Back</a>
+    <a class="xrefBtn" href="/networking/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">← Back</a>
     <div class="xrefTitle">Physical - Cabling & Interfaces - Coaxial Cable</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers">Next →</a>
+    <a class="xrefBtn" href="/networking/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers">Next →</a>
     <div class="xrefTitle">Physical - Cabling & Interfaces - Fiber Connectors & Transceivers</div>
   </div>
 </div>

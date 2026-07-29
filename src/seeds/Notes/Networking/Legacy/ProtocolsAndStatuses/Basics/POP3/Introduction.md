@@ -16,7 +16,7 @@ POP3 is now widely considered a legacy protocol, most major providers still supp
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/layers/application/basics/email-and-communication/imap" target="_blank" rel="noopener noreferrer">Application Layer → Email & Communication → IMAP</a>
+  <a href="/networking/tcp-ip-model/layers/application/basics/email-and-communication/imap" target="_blank" rel="noopener noreferrer">Application Layer → Email & Communication → IMAP</a>
 </div>
 
 <hr class="dividerSection" />

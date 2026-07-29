@@ -5,7 +5,7 @@ Need a refresher on what Mbps, Gbps, or Tbps mean?
 
 <div class="xrefBox">
 <span class="emphasis">See:</span>
-<a href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Bandwidth</a>
+<a href="/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Bandwidth</a>
 </div>
 
 ## Original Ethernet  
