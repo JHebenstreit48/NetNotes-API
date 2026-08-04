@@ -113,7 +113,7 @@ The next page explains how real protocols (like Ethernet, IP, TCP, and HTTP) map
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/basics/fundamentals/protocol-stack">Next →</a>
+    <a class="xrefBtn" href="/tcp-ip-model/basics/fundamentals/protocol-stack">Next →</a>
     <div class="xrefTitle">TCP/IP Model - Fundamentals - Protocol Stack</div>
   </div>
 </div>

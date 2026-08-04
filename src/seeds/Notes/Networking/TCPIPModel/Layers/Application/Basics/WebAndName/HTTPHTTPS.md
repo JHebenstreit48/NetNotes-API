@@ -179,12 +179,12 @@ Once DNS has resolved a domain name to an IP address, HTTP is what carries the a
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/introduction">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/web-and-name/introduction">← Back</a>
     <div class="xrefTitle">Application Layer - Web & Name Resolution - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/dns">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/web-and-name/dns">Next →</a>
     <div class="xrefTitle">Application Layer - Web & Name Resolution - DNS</div>
   </div>
 </div>

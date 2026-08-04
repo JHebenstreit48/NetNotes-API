@@ -109,7 +109,7 @@ Destination IPv4: 10.1.1.10 (PC2) — unchanged.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-    <a href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing">
+    <a href="/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing">
     Data Link - Frames & Addressing - MAC Addressing (hop-by-hop MAC change)
     </a>
 </div>
@@ -133,12 +133,12 @@ Destination IPv4: 10.1.1.10 (PC2) — unchanged.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/encapsulation">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/encapsulation">← Back</a>
     <div class="xrefTitle">Data Link - Core Concepts - Encapsulation</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/arp">Next →</a>
     <div class="xrefTitle">Data Link - Core Concepts - Address Resolution Protocol (ARP)</div>
   </div>
 </div>

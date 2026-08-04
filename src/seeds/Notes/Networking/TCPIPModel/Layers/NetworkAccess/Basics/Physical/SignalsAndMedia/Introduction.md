@@ -89,12 +89,12 @@ Without Layer 1, no higher-layer communication can occur, regardless of protocol
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia">← Back</a>
     <div class="xrefTitle">Section: Data Link - Frames & Addressing - BIA</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals">Next →</a>
     <div class="xrefTitle">Signals & Media - Bit/Digital Signals</div>
   </div>
 </div>

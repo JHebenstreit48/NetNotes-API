@@ -17,11 +17,13 @@ Packet Tracer is distributed through <span class="emphasis">Cisco NetAcad</span>
     </ul>
   </div>
 
-  2. **Access the Resource Hub**
+  2. **Search the NetAcad learning catalog**
 
   <div class="centeredBullet">
     <ul class="diamondBullets fullWidthBullet">
-      <li>Once logged in, the Resource Hub (Resources → Lab Downloads) provides the Packet Tracer installer for your platform (commonly Windows, macOS, and Linux), alongside other course resources such as virtual machines.</li>
+      <li>Once logged in, search the learning catalog for "packet tracer download" or "packet tracer."</li>
+      <li>Among the results is a free course called <span class="emphasis">Getting Started with Cisco Packet Tracer</span>, which provides the actual download.</li>
+      <li>The same search also surfaces news articles announcing the latest Packet Tracer release (for example, "Time to Download Cisco Packet Tracer 9.0.1"), which link directly to the installer for that version.</li>
     </ul>
   </div>
 
@@ -41,7 +43,24 @@ Packet Tracer is distributed through <span class="emphasis">Cisco NetAcad</span>
 
 <hr class="dividerSubsection1" />
 
-Packet Tracer's interface can appear incorrectly on monitors larger than 24 inches, particularly when using dark mode. Settings may need to be manually adjusted to correct this.
+Packet Tracer's interface can appear incorrectly on monitors larger than 24 inches, particularly when using dark mode.  
+
+Settings may need to be manually adjusted to correct this.
+
+These settings live under <span class="emphasis">Options → Preferences → Font</span>.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Application</span>, a size slider controlling the overall interface scale (in pt)</li>
+    <li><span class="emphasis">CLI</span>, font and size used in the command line interface</li>
+    <li><span class="emphasis">Tooltips</span>, font and size used for on-screen tooltips</li>
+    <li><span class="emphasis">Colors</span>, text and background colors for Router IOS, PC console, and tooltips</li>
+  </ul>
+</div>
+
+Adjusting these values can correct display issues such as text being too small or colors being hard to read on larger, higher-resolution monitors.  
+
+Once you choose your appropriate settings you would hit "Apply" and then "OK".
 
 <hr class="dividerSubsection1" />
 
@@ -54,7 +73,7 @@ If you get stuck during download, install, or first launch, these official resou
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
     <li>NetAcad Help / FAQs</li>
-    <li>NetAcad Resource Hub / Lab Downloads</li>
+    <li>Searching the NetAcad learning catalog directly for "packet tracer"</li>
   </ul>
 </div>
 
@@ -118,14 +137,32 @@ A simple first goal is to learn where to:
 
 <hr class="dividerSection" />
 
+### Connecting Devices
+
+<hr class="dividerSection" />
+
+The <span class="emphasis">Connections</span> category in the device palette is represented by a lightning bolt icon.
+
+Selecting the automatic option lets Packet Tracer choose the appropriate connection type for you when connecting two devices.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Holding <span class="emphasis">Ctrl</span> (Windows) or <span class="emphasis">Command</span> (Mac, expected but unconfirmed) after selecting a device or connection type keeps that selection active.</li>
+    <li>This means you do not have to reselect the same device or connection type every time you want to place another one.</li>
+    <li>This applies to any selection, not just the automatic connection type, manually selected devices and cable types work the same way.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/tools/cisco-packet-tracer/basics/fundamentals/introduction">← Back</a>
-    <div class="xrefTitle">Fundamentals - Introduction</div>
+    <div class="xrefTitle">Packet Tracer - Basics - Fundamentals - Introduction</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/tools/cisco-packet-tracer/basics/fundamentals/projects-and-saves">Next →</a>
-    <div class="xrefTitle">Fundamentals - Projects & Saves</div>
+    <div class="xrefTitle">Packet Tracer - Basics - Fundamentals - Projects & Saves</div>
   </div>
 </div>

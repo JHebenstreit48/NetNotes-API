@@ -66,7 +66,7 @@ Accurate IP address, subnet mask, and default gateway configuration is essential
   <a href="/foundations/basics/devices-and-models/routers/interfaces">
     Routers → Interfaces (how interface IP becomes default gateway)
   </a><br />
-  <a href="/tcpip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
+  <a href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
     Advanced → NAT & PAT → Concepts & Types (gateway role in small network Internet access)
   </a>
 </div>

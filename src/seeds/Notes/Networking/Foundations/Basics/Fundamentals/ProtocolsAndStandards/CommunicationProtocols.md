@@ -55,7 +55,7 @@ Note: these organizations are referenced again in specific sections (Ethernet, W
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards" target="_blank" rel="noopener noreferrer">TCP/IP Model → Network Access → Physical → Transmission Concepts → Communication Standards</a><br />
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/communication-standards" target="_blank" rel="noopener noreferrer">TCP/IP Model → Network Access → Physical → Transmission Concepts → Communication Standards</a><br />
   <a href="/wireless/basics/80211/wireless-standards" target="_blank" rel="noopener noreferrer">Wireless → 802.11 Fundamentals → Wireless Standards</a>
 </div>
 

@@ -12,12 +12,12 @@ Content pending.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">← Back</a>
     <div class="xrefTitle">NAT & PAT - Concepts & Types</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/advanced/multicast-fundamentals/igmp-and-mld">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/advanced/multicast-fundamentals/igmp-and-mld">Next →</a>
     <div class="xrefTitle">Section: Multicast Fundamentals - IGMP & MLD</div>
   </div>
 </div>

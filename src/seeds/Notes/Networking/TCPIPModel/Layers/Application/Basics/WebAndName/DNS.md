@@ -81,7 +81,7 @@ DNS is a server-based system that associates a domain name, or a host name, with
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/layers/application/basics/web-and-name/http-https" target="_blank" rel="noopener noreferrer">Application Layer → Web & Name Resolution → HTTP/HTTPS</a>
+  <a href="/networking/tcp-ip-model/layers/application/basics/web-and-name/http-https" target="_blank" rel="noopener noreferrer">Application Layer → Web & Name Resolution → HTTP/HTTPS</a>
 </div>
 
 </div>
@@ -342,12 +342,12 @@ Address: 2607:f8b0:4000:812::2004
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/http-https">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/web-and-name/http-https">← Back</a>
     <div class="xrefTitle">Application Layer - Web & Name Resolution - HTTP/HTTPS</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/client-and-server-roles/fundamentals">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/client-and-server-roles/fundamentals">Next →</a>
     <div class="xrefTitle">Section: Application Layer - Client & Server Roles - Fundamentals</div>
   </div>
 </div>

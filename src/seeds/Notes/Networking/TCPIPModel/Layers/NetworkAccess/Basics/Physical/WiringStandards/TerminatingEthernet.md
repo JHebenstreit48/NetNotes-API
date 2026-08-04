@@ -34,7 +34,7 @@ Typical steps for terminating an Ethernet cable:
 2. Untwist wire pairs
 3. Arrange wires in the correct order
 4. Trim wires evenly
-5. Insert into RJ45 connector
+5. Insert into RJ-45 connector
 6. Crimp connector
 7. Test the cable
 
@@ -42,12 +42,12 @@ Typical steps for terminating an Ethernet cable:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/wiring-standards/straight-through-vs-crossover">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/wiring-standards/straight-through-vs-crossover">← Back</a>
     <div class="xrefTitle">Physical - Wiring Standards - Straight-Through vs Crossover</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Next →</a>
     <div class="xrefTitle">Section: Physical - Bandwidth & Throughput - Bandwidth</div>
   </div>
 </div>

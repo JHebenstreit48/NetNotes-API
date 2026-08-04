@@ -178,12 +178,12 @@ traceroute google.com
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/icmp-and-commands/ipconfig">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/ipconfig">← Back</a>
     <div class="xrefTitle">ICMP & Commands - ipconfig</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/advanced/fragmentation-and-mtu/ipv4-df-mf-and-reassembly">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/advanced/fragmentation-and-mtu/ipv4-df-mf-and-reassembly">Next →</a>
     <div class="xrefTitle">Section: Internet Layer - Fragmentation & MTU - IPv4 DF/MF & Reassembly</div>
   </div>
 </div>

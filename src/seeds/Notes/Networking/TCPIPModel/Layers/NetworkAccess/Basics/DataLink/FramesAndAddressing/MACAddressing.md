@@ -49,7 +49,7 @@ Both are required for complete communication across networks.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → IP Addressing → IPv4 → Address Structure</a>
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/address-structure" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → IP Addressing → IPv4 → Address Structure</a>
 </div>
 
 <hr class="dividerSection" />
@@ -142,8 +142,8 @@ MAC changes hop-by-hop; IP remains constant.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation" target="_blank" rel="noopener noreferrer">Data Link - Core Concepts - De-encapsulation (router behavior)</a><br />
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → IP Addressing → Subnetting & Gateways → Default Gateway & Routing Tables</a>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation" target="_blank" rel="noopener noreferrer">Data Link - Core Concepts - De-encapsulation (router behavior)</a><br />
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → IP Addressing → Subnetting & Gateways → Default Gateway & Routing Tables</a>
 </div>
 
 <hr class="dividerSection" />
@@ -183,7 +183,7 @@ For more information on ipconfig:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/icmp-and-commands/ipconfig" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → ICMP & Commands → ipconfig (Viewing & Renewing IP Configuration)</a>
+  <a href="/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/ipconfig" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → ICMP & Commands → ipconfig (Viewing & Renewing IP Configuration)</a>
 </div>
 
 MAC addresses appear as:
@@ -234,12 +234,12 @@ Without MAC addresses, switches would have no way to forward frames within a net
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/arp">← Back</a>
     <div class="xrefTitle">Section: Data Link - Core Concepts - Address Resolution Protocol (ARP)</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields">Next →</a>
     <div class="xrefTitle">Data Link - Frames & Addressing - Ethernet Frame Fields</div>
   </div>
 </div>

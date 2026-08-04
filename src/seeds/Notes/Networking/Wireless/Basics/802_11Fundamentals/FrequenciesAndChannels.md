@@ -1,16 +1,18 @@
-<hr class="dividerMain">
-
 # Wireless Spectrum Basics
 
-<hr class="dividerMain">
+<hr class="dividerSection" />
 
 Wireless networking technologies use portions of the <span class="emphasis">electromagnetic spectrum</span> to transmit data without physical cables.
 
 Different technologies operate at different frequencies depending on:
 
-- Required range  
-- Throughput needs  
-- Regulatory rules  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Required range</li>
+    <li>Throughput needs</li>
+    <li>Regulatory rules</li>
+  </ul>
+</div>
 
 Certain portions of the spectrum can be used without a license, provided devices follow power and protocol limitations.
 
@@ -68,15 +70,23 @@ Most home wireless technologies operate in <span class="emphasis">unlicensed ban
 
 The <span class="emphasis">2.4 GHz</span> band:
 
-- Provides greater range  
-- Has fewer non-overlapping channels  
-- Is more prone to congestion  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Provides greater range</li>
+    <li>Has fewer non-overlapping channels</li>
+    <li>Is more prone to congestion</li>
+  </ul>
+</div>
 
 The <span class="emphasis">5 GHz</span> band:
 
-- Supports more non-overlapping channels  
-- Offers higher throughput potential  
-- Typically provides shorter range than 2.4 GHz  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Supports more non-overlapping channels</li>
+    <li>Offers higher throughput potential</li>
+    <li>Typically provides shorter range than 2.4 GHz</li>
+  </ul>
+</div>
 
 <hr class="dividerSubsection1" />
 
@@ -119,9 +129,13 @@ Channels allow multiple wireless networks to operate within the same band.
 
 Proper channel selection helps reduce:
 
-- Interference  
-- Channel overlap  
-- Performance degradation  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Interference</li>
+    <li>Channel overlap</li>
+    <li>Performance degradation</li>
+  </ul>
+</div>
 
 Channel planning becomes especially important in dense environments such as apartments, offices, and campuses.
 
@@ -133,30 +147,32 @@ Channel planning becomes especially important in dense environments such as apar
 
 Choosing between 2.4 GHz and 5 GHz impacts:
 
-- Speed  
-- Coverage area  
-- Interference levels  
-- Device compatibility  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Speed</li>
+    <li>Coverage area</li>
+    <li>Interference levels</li>
+    <li>Device compatibility</li>
+  </ul>
+</div>
 
 Modern wireless routers may support <span class="emphasis">band steering</span>, encouraging capable devices to connect to 5 GHz when appropriate.
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/wireless/advanced/rf-performance/band-steering-and-load-balance">
-    Wireless → Advanced → RF & Performance → Band Steering & Load Balance
-  </a>
+  <a href="/networking/wireless/advanced/rf-performance/band-steering-and-load-balance" target="_blank" rel="noopener noreferrer">Wireless → Advanced → RF & Performance → Band Steering & Load Balance</a>
 </div>
 
 <hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/wireless/basics/80211/wireless-standards">← Back</a>
+    <a class="xrefBtn" href="/networking/wireless/basics/80211/wireless-standards">← Back</a>
     <div class="xrefTitle">Wireless - 802.11 Fundamentals - Wireless Standards</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/wireless/basics/architecture/bss-ess-ssid">Next →</a>
+    <a class="xrefBtn" href="/networking/wireless/basics/architecture/bss-ess-ssid">Next →</a>
     <div class="xrefTitle">Section: Wireless - WLAN Architecture - BSS/ESS/SSID</div>
   </div>
 </div>

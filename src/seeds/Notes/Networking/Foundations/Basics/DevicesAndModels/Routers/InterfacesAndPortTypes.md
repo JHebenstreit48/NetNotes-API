@@ -50,7 +50,7 @@ All devices plugged into LAN ports:
   </ul>
 </div>
 
-Wired devices typically connect using RJ45 Ethernet cables.
+Wired devices typically connect using RJ-45 Ethernet cables.
 
 <hr class="dividerSubsection1" />
 
@@ -247,7 +247,7 @@ The router serves as the boundary between the internal private network and the e
 <div class="xrefBox">
   <span class="emphasis">See related concepts:</span><br />
   <a href="/foundations/basics/devices-and-models/routers/roles-and-types" target="_blank" rel="noopener noreferrer">Routers → Roles & Types (default gateway concepts and operation)</a><br />
-  <a href="/tcpip-model/layers/internet/advanced/nat-and-pat/concepts-and-types" target="_blank" rel="noopener noreferrer">Advanced → NAT & PAT → Concepts & Types (translation at the boundary for Internet access)</a>
+  <a href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/concepts-and-types" target="_blank" rel="noopener noreferrer">Advanced → NAT & PAT → Concepts & Types (translation at the boundary for Internet access)</a>
 </div>
 
 <hr class="dividerSection" />

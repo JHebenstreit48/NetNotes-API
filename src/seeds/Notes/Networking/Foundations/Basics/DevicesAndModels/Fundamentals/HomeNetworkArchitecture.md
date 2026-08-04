@@ -69,7 +69,7 @@ Cable internet uses a <span class="emphasis">cable modem</span>.
 
 <div class="xrefBox">
   <span class="emphasis">Physical Media Details:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">
     TCP/IP Model → Network Access → Physical → Cabling & Interfaces → Coaxial Cable
   </a>
 </div>

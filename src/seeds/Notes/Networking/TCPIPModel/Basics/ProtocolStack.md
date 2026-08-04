@@ -94,12 +94,12 @@ This structured interaction is what allows complex communication to function rel
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/basics/fundamentals/introduction">← Back</a>
+    <a class="xrefBtn" href="/tcp-ip-model/basics/fundamentals/introduction">← Back</a>
     <div class="xrefTitle">Section: TCP/IP Model - Basics - Fundamentals - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/introduction">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/web-and-name/introduction">Next →</a>
     <div class="xrefTitle">Section: TCP/IP Model - Layers - Application - Introduction</div>
   </div>
 </div>

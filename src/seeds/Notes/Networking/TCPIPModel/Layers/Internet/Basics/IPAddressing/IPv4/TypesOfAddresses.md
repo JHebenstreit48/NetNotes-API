@@ -46,7 +46,7 @@ Network Address Translation (NAT) is performed by the router that connects the i
 
 <div class="xrefBox">
   <span class="emphasis">See Advanced for full NAT details:</span>
-  <a href="/tcpip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
+  <a href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
     Advanced → NAT & PAT → Concepts & Types
   </a>
 </div>
@@ -102,7 +102,7 @@ IPv4 addresses can be assigned in two main ways:
 
 <div class="xrefBox">
   <span class="emphasis">See Fundamentals for DHCP details:</span>
-  <a href="/tcpip-model/layers/internet/basics/fundamentals/dhcp">
+  <a href="/networking/tcp-ip-model/layers/internet/basics/fundamentals/dhcp">
     Fundamentals → DHCP (Address Assignment)
   </a>
 </div>
@@ -118,12 +118,12 @@ IPv4 addresses can be assigned in two main ways:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/transmission-types">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/transmission-types">← Back</a>
     <div class="xrefTitle">Internet Layer - Basics - IP Addressing - IPv4 - Transmission Types</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition">Next →</a>
     <div class="xrefTitle">Internet Layer - Basics - IP Addressing - IPv4 - IPv4 Exhaustion and Transition</div>
   </div>
 </div>

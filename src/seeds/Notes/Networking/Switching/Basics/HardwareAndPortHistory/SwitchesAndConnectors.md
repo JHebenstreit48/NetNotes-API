@@ -21,9 +21,9 @@ This page focuses on:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span><br />
-  <a href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Ethernet Cabling Categories</a><br />
-  <a href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Copper Connectors</a><br />
-  <a href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Fiber Connectors & Transceivers</a>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Ethernet Cabling Categories</a><br />
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Copper Connectors</a><br />
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Fiber Connectors & Transceivers</a>
 </div>
 
 <hr class="dividerSection" />
@@ -126,7 +126,7 @@ Many enterprise switches include:
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
-    <li>RJ45 Ethernet ports (copper)</li>
+    <li>RJ-45 Ethernet ports (copper)</li>
     <li>SFP, SFP+, or SFP28 ports (fiber or copper modules)</li>
   </ul>
 </div>
@@ -157,7 +157,7 @@ SFP ports are commonly used for:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Fiber Connectors & Transceivers</a>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Fiber Connectors & Transceivers</a>
 </div>
 
 <hr class="dividerSection" />

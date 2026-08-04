@@ -1,97 +1,122 @@
 # Throughput
 
----
+<hr class="dividerSection" />
 
-## What is Throughput?
----
+### What is Throughput?
 
-Throughput is the measure of the **actual amount of data** transferred over a network connection during a given period of time. It is similar to bandwidth but accounts for **real-world performance**, not just theoretical capacity.
+<hr class="dividerSection" />
 
-Unlike bandwidth, throughput is often **lower than the maximum bandwidth** due to various influencing factors, such as:
+Throughput is the measure of the <span class="emphasis">actual amount of data</span> transferred over a network connection during a given period of time. It is similar to bandwidth but accounts for <span class="emphasis">real-world performance</span>, not just theoretical capacity.
 
-- The amount of <span class="emphasis">data</span> being <span class="secondEmphasis">sent</span> and <span class="secondEmphasis">received</span>
-- The types of <span class="emphasis">data</span> being <span class="emphasis">transmitted</span>
-- The <span class="emphasis">number</span> of <span class="secondEmphasis">devices</span> and <span class="secondEmphasis">latency</span> between <span class="emphasis">source</span> and <span class="emphasis">destination</span>
+Unlike bandwidth, throughput is often <span class="emphasis">lower than the maximum bandwidth</span> due to various influencing factors, such as:
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The amount of <span class="emphasis">data</span> being <span class="secondEmphasis">sent</span> and <span class="secondEmphasis">received</span></li>
+    <li>The types of <span class="emphasis">data</span> being <span class="emphasis">transmitted</span></li>
+    <li>The <span class="emphasis">number</span> of <span class="secondEmphasis">devices</span> and <span class="secondEmphasis">latency</span> between <span class="emphasis">source</span> and <span class="emphasis">destination</span></li>
+  </ul>
+</div>
 
 Latency refers to the time, including delays, it takes for data to travel from one point to another.
 
----
+<hr class="dividerSection" />
+
 ### Throughput vs Bandwidth
----
 
-While **bandwidth** is the maximum potential capacity of a connection, **throughput** is what you actually get in real-world performance.
+<hr class="dividerSection" />
 
-- Bandwidth describes the size of the “pipe.”  
-- Throughput describes how much data successfully flows through that pipe.
+While <span class="emphasis">bandwidth</span> is the maximum potential capacity of a connection, <span class="emphasis">throughput</span> is what you actually get in real-world performance.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Bandwidth describes the size of the "pipe."</li>
+    <li>Throughput describes how much data successfully flows through that pipe.</li>
+  </ul>
+</div>
 
 Throughput measures the total amount of data transferred, including:
 
-- Useful application content  
-- Background network traffic  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Useful application content</li>
+    <li>Background network traffic</li>
+  </ul>
+</div>
 
 For example:
 
-- Control messages  
-- Error corrections  
-- Retransmitted packets  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Control messages</li>
+    <li>Error corrections</li>
+    <li>Retransmitted packets</li>
+  </ul>
+</div>
 
 All count toward throughput.
 
 This means a high-bandwidth network may still experience poor throughput if congestion, delays, or errors are present.
 
----
-### Practical Limitations
----
+<hr class="dividerSection" />
 
-In networks with multiple segments or paths, throughput is ultimately limited by the **slowest segment** — the weakest link in the chain.
+### Practical Limitations
+
+<hr class="dividerSection" />
+
+In networks with multiple segments or paths, throughput is ultimately limited by the <span class="emphasis">slowest segment</span>, the weakest link in the chain.
 
 Even if most parts of the route support high bandwidth, a single lower-capacity segment can reduce overall end-to-end throughput.
 
----
-### Measuring Throughput
----
+<hr class="dividerSection" />
 
-Throughput is commonly measured in **megabits per second (Mbps)** or **gigabits per second (Gbps)** — the same units used for bandwidth.
+### Measuring Throughput
+
+<hr class="dividerSection" />
+
+Throughput is commonly measured in <span class="emphasis">megabits per second (Mbps)</span> or <span class="emphasis">gigabits per second (Gbps)</span>, the same units used for bandwidth.
 
 A common real-world tool to check network throughput is:
 
-- <span class="emphasis">speedtest.net</span>
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">speedtest.net</span></li>
+  </ul>
+</div>
 
 It measures both:
 
-- <span class="emphasis">Download speed</span> — how fast data is received  
-- <span class="emphasis">Upload speed</span> — how fast data is sent  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Download speed</span>, how fast data is received</li>
+    <li><span class="emphasis">Upload speed</span>, how fast data is sent</li>
+  </ul>
+</div>
 
 Most home internet services provide faster download speeds than upload speeds.
 
----
-## 📎 Related Topics
----
+<hr class="dividerSection" />
+
+### Related Topics
+
+<hr class="dividerSection" />
 
 <div class="xrefBox">
-  <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">
-    Physical - Bandwidth & Throughput - Bandwidth
-  </a>
+  <span class="emphasis">See:</span><br />
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth" target="_blank" rel="noopener noreferrer">Physical - Bandwidth & Throughput - Bandwidth</a><br />
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/data-transmission-methods" target="_blank" rel="noopener noreferrer">Physical - Transmission Concepts - Data Transmission Methods</a>
 </div>
 
-<div class="xrefBox">
-  <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods">
-    Physical - Transmission Concepts - Data Transmission Methods
-  </a>
-</div>
-
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">← Back</a>
     <div class="xrefTitle">Physical - Bandwidth & Throughput - Bandwidth</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/encap-deencap/encapsulation">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/encap-deencap/encapsulation">Next →</a>
     <div class="xrefTitle">Section: Physical - Encap/De-encap - Encapsulation</div>
   </div>
 </div>

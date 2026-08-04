@@ -79,12 +79,12 @@ Powerline adapters are typically used to extend an existing home LAN, rather tha
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers">← Back</a>
     <div class="xrefTitle">Physical - Cabling & Interfaces - Fiber Connectors & Transceivers</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b">Next →</a>
     <div class="xrefTitle">Section: Physical - Wiring Standards - T568A vs T568B</div>
   </div>
 </div>

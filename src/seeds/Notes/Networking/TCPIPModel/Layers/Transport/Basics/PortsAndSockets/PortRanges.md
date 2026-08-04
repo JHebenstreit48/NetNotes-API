@@ -57,7 +57,7 @@ This range ensures clients can open multiple simultaneous connections without po
 
 <div class="xrefBox">
   <span class="emphasis">See also:</span><br />
-  <a href="/tcpip-model/layers/transport/basics/ports/ports-and-sockets">
+  <a href="/networking/tcp-ip-model/layers/transport/basics/ports/ports-and-sockets">
     Ports and Sockets (well-known port examples and multiplexing)
   </a>
 </div>
@@ -66,12 +66,12 @@ This range ensures clients can open multiple simultaneous connections without po
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/transport/basics/ports/ports-and-sockets">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/transport/basics/ports/ports-and-sockets">← Back</a>
     <div class="xrefTitle">Transport - Basics - Ports & Sockets - Ports/Sockets</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/transport/basics/reliability/reliable-delivery-flow-control">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/transport/basics/reliability/reliable-delivery-flow-control">Next →</a>
     <div class="xrefTitle">Transport - Basics - Reliability - Reliable Delivery and Flow Control</div>
   </div>
 </div>

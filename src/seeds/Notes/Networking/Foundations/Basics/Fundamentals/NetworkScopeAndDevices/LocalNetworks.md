@@ -231,7 +231,7 @@ Within a LAN, hosts can be placed on a single local network or divided across mu
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables" target="_blank" rel="noopener noreferrer">Default Gateway & Routing Tables (local/remote determination and routing process)</a>
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables" target="_blank" rel="noopener noreferrer">Default Gateway & Routing Tables (local/remote determination and routing process)</a>
 </div>
 <hr class="dividerSection" />
 

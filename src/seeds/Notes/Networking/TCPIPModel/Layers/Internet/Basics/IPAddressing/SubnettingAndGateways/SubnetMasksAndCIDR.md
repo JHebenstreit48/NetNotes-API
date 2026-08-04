@@ -46,7 +46,7 @@ If a device is moved to a different network without updating its IP address, it 
 
 <div class="xrefBox">
   <span class="emphasis">See also:</span>
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure">
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/address-structure">
     IP Addressing → IPv4 → Address Structure (Network vs Host Concept)
   </a>
 </div>
@@ -55,12 +55,12 @@ If a device is moved to a different network without updating its IP address, it 
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv6/nd-ra-slaac-dad">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv6/nd-ra-slaac-dad">← Back</a>
     <div class="xrefTitle">Section: Internet Layer - IP Addressing - IPv6 ND/RA & SLAAC/DAD</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">Next →</a>
     <div class="xrefTitle">Internet Layer - IP Addressing - Subnetting & Gateways - Broadcast Domains & Segmentation</div>
   </div>
 </div>

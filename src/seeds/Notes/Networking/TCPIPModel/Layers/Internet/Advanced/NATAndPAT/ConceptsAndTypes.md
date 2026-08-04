@@ -38,7 +38,7 @@ Public IPv4 addresses are globally unique and routable across the Internet.
 
 <div class="xrefBox">
   <span class="emphasis">See detailed explanation of public/private addresses, special-use ranges, and allocation:</span><br />
-  <a href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses">
+  <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses">
     Internet Layer → Basics → IP Addressing → IPv4 → Types of Addresses
   </a>
 </div>
@@ -118,12 +118,12 @@ In small networks, PAT overload is the default on wireless routers.
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/advanced/fragmentation-and-mtu/path-mtu-discovery">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/advanced/fragmentation-and-mtu/path-mtu-discovery">← Back</a>
     <div class="xrefTitle">Section: Internet Layer - Advanced - Fragmentation & MTU - Path MTU Discovery</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/advanced/nat-and-pat/use-cases-and-limits">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/use-cases-and-limits">Next →</a>
     <div class="xrefTitle">Internet Layer - Advanced - NAT & PAT - Use Cases & Limits</div>
   </div>
 </div>

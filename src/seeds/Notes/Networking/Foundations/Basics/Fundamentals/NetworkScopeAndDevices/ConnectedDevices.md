@@ -60,7 +60,7 @@ Connected devices may attach to the network in different ways:
   <tbody>
     <tr class="tableRow">
       <td class="tableCell">Wired (Ethernet)</td>
-      <td class="tableCell">Connected using an RJ45 Ethernet cable to a LAN port on a router or switch.</td>
+      <td class="tableCell">Connected using an RJ-45 Ethernet cable to a LAN port on a router or switch.</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Wireless (Wi-Fi)</td>

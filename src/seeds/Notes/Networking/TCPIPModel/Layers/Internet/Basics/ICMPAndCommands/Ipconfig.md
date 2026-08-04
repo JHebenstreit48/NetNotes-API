@@ -188,12 +188,12 @@ C:\>
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/icmp-and-commands/icmp">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/icmp">← Back</a>
     <div class="xrefTitle">ICMP & Commands - ICMP</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/icmp-and-commands/ping-and-traceroute">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/ping-and-traceroute">Next →</a>
     <div class="xrefTitle">ICMP & Commands - Ping & Traceroute</div>
   </div>
 </div>

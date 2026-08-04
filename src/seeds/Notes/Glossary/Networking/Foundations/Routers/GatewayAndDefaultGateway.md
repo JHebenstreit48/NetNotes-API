@@ -79,7 +79,7 @@ The router forms the boundary between the internal private network and the exter
   <a href="/foundations/basics/devices-and-models/routers/interfaces">
     Foundations → Devices & Models → Routers → Interfaces
   </a><br />
-  <a href="/tcpip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
+  <a href="/networking/tcp-ip-model/layers/internet/advanced/nat-and-pat/concepts-and-types">
     TCP/IP Model → Internet Layer → Advanced → NAT & PAT → Concepts & Types
   </a>
 </div>

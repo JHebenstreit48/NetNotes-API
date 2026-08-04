@@ -1,95 +1,195 @@
 # Evolution of Ethernet Speeds
----
+
+<hr class="dividerSection" />
 
 Need a refresher on what Mbps, Gbps, or Tbps mean?
 
 <div class="xrefBox">
-<span class="emphasis">See:</span>
-<a href="/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth">Bandwidth</a>
+  <span class="emphasis">See:</span>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth" target="_blank" rel="noopener noreferrer">Bandwidth</a>
 </div>
 
-## Original Ethernet  
----
+Looking for common names, cable types, or maximum distances for a specific standard instead of its history?
 
-- Introduced in the <span class="emphasis">1970s</span> and formalized in <span class="emphasis">1983</span> under the IEEE 802.3 standard.
-- Provided <span class="emphasis">10 Mbps</span> speed.
+<div class="xrefBox">
+  <span class="emphasis">See:</span><br />
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Copper Connectors</a><br />
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Fiber Connectors & Transceivers</a>
+</div>
 
-## Fast Ethernet  
----
+<hr class="dividerSection" />
 
-- Introduced in <span class="emphasis">1995</span> under the IEEE 802.3u standard.
-- Provided <span class="emphasis">10×</span> the speed of the original Ethernet.
+## Original Ethernet
 
-## Gigabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Introduced in <span class="emphasis">1999</span> under the IEEE 802.3ab standard.
-- Marked the beginning of Gigabit-speed networking for mainstream use.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Introduced in the <span class="emphasis">1970s</span> and formalized in <span class="emphasis">1983</span> under the IEEE 802.3 standard.</li>
+    <li>Provided <span class="emphasis">10 Mbps</span> speed.</li>
+  </ul>
+</div>
 
-## 10 Gigabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Standardized in <span class="emphasis">2002</span> as IEEE 802.3ae.
-- Designed for high-performance enterprise and data center use.
+## Fast Ethernet
 
-## 25 Gigabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Industry initiative launched in <span class="emphasis">2014</span> by the 25G Ethernet Consortium.
-- Standardized as IEEE 802.3by on <span class="emphasis">June 30, 2016</span>.
-- Provided a cost-effective upgrade path from 10 Gbps.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Introduced in <span class="emphasis">1995</span> under the IEEE 802.3u standard.</li>
+    <li>Provided <span class="emphasis">10 times</span> the speed of the original Ethernet.</li>
+  </ul>
+</div>
 
-## 40 Gigabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Standardized in <span class="emphasis">2010</span> under IEEE 802.3ba.
-- Combines four 10 Gbps lanes to reach 40 Gbps.
-- Common in aggregation and core layers of large networks.
+## Gigabit Ethernet
 
-## 100 Gigabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Standardized alongside 40 Gbps Ethernet in <span class="emphasis">2010</span> under IEEE 802.3ba.
-- Adopted in large-scale enterprise, backbone, and cloud environments.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Introduced in <span class="emphasis">1999</span> under the IEEE 802.3ab standard.</li>
+    <li>Marked the beginning of Gigabit-speed networking for mainstream use.</li>
+  </ul>
+</div>
 
-## 50 Gigabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Standardized as IEEE 802.3cd on <span class="emphasis">December 5, 2018</span>.
-- A midpoint between 40 and 100 Gbps, used in high-performance setups.
+## 10 Gigabit Ethernet
 
-## 200 Gigabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Standardized as part of IEEE 802.3bs on <span class="emphasis">December 6, 2017</span>.
-- Offers high capacity for advanced data center applications.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Standardized in <span class="emphasis">2002</span> as IEEE 802.3ae.</li>
+    <li>Designed for high-performance enterprise and data center use.</li>
+  </ul>
+</div>
 
-## 400 Gigabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Standardized alongside 200GbE under IEEE 802.3bs on <span class="emphasis">December 6, 2017</span>.
-- Built for telecom backbones, cloud scale, and hyperscale data centers.
+## 25 Gigabit Ethernet
 
-## 800 Gigabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Approved by the IEEE P802.3df Task Force on <span class="emphasis">February 16, 2024</span>.
-- Targets 5G, AI infrastructure, and research networks.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Industry initiative launched in <span class="emphasis">2014</span> by the 25G Ethernet Consortium.</li>
+    <li>Standardized as IEEE 802.3by on <span class="emphasis">June 30, 2016</span>.</li>
+    <li>Provided a cost-effective upgrade path from 10 Gbps.</li>
+  </ul>
+</div>
 
-## 1 Terabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Still under research and development.
-- Meant to support future workloads like AI, IoT, and global hyperscale platforms.
+## 40 Gigabit Ethernet
 
-## 1.6 Terabit Ethernet  
----
+<hr class="dividerSection" />
 
-- Under development by the IEEE P802.3dj Task Force.
-- Expected to be completed by <span class="emphasis">Spring 2026</span>.
-- Will use 200 Gbps lanes for ultra-high-performance networking.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Standardized in <span class="emphasis">2010</span> under IEEE 802.3ba.</li>
+    <li>Combines four 10 Gbps lanes to reach 40 Gbps.</li>
+    <li>Common in aggregation and core layers of large networks.</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
+
+## 100 Gigabit Ethernet
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Standardized alongside 40 Gbps Ethernet in <span class="emphasis">2010</span> under IEEE 802.3ba.</li>
+    <li>Adopted in large-scale enterprise, backbone, and cloud environments.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+## 50 Gigabit Ethernet
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Standardized as IEEE 802.3cd on <span class="emphasis">December 5, 2018</span>.</li>
+    <li>A midpoint between 40 and 100 Gbps, used in high-performance setups.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+## 200 Gigabit Ethernet
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Standardized as part of IEEE 802.3bs on <span class="emphasis">December 6, 2017</span>.</li>
+    <li>Offers high capacity for advanced data center applications.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+## 400 Gigabit Ethernet
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Standardized alongside 200GbE under IEEE 802.3bs on <span class="emphasis">December 6, 2017</span>.</li>
+    <li>Built for telecom backbones, cloud scale, and hyperscale data centers.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+## 800 Gigabit Ethernet
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Approved by the IEEE P802.3df Task Force on <span class="emphasis">February 16, 2024</span>.</li>
+    <li>Targets 5G, AI infrastructure, and research networks.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+## 1 Terabit Ethernet
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Still under research and development.</li>
+    <li>Meant to support future workloads like AI, IoT, and global hyperscale platforms.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+## 1.6 Terabit Ethernet
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Under development by the IEEE P802.3dj Task Force.</li>
+    <li>Expected to be completed by <span class="emphasis">Spring 2026</span>.</li>
+    <li>Will use 200 Gbps lanes for ultra-high-performance networking.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">

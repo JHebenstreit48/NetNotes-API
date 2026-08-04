@@ -43,12 +43,12 @@ This layer serves as the **interface between network services and applications**
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/basics/fundamentals/protocol-stack">← Back</a>
+    <a class="xrefBtn" href="/tcp-ip-model/basics/fundamentals/protocol-stack">← Back</a>
     <div class="xrefTitle">Section: TCP/IP Model - Basics - Fundamentals - Protocol Stack</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/application/basics/web-and-name/http-https">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/application/basics/web-and-name/http-https">Next →</a>
     <div class="xrefTitle">Application Layer - Web & Name Resolution - HTTP/HTTPS</div>
   </div>
 </div>

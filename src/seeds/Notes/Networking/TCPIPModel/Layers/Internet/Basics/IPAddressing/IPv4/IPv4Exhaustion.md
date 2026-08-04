@@ -73,12 +73,12 @@ IPv4 and IPv6 will coexist for years. Migration techniques include:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses">← Back</a>
     <div class="xrefTitle">Internet Layer - Basics - IP Addressing - IPv4 - Types of Addresses</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison">Next →</a>
     <div class="xrefTitle">Internet Layer - Basics - IP Addressing - IPv4 - IPv4 vs IPv6 Comparison</div>
   </div>
 </div>

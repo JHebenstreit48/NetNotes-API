@@ -98,10 +98,10 @@ When the destination is remote, the host:
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation">
     De-encapsulation (router forwarding process: de-encap, routing decision, re-encap)
   </a><br />
-  <a href="/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp">
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/arp">
     ARP (how host resolves gateway MAC)
   </a>
 </div>
@@ -165,12 +165,12 @@ The routing table enables routers to connect multiple IP networks and direct tra
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation">← Back</a>
     <div class="xrefTitle">Internet Layer - Subnetting & Gateways - Broadcast Domains & Segmentation</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv4-subnetting">Next →</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv4-subnetting">Next →</a>
     <div class="xrefTitle">Internet Layer - Subnetting & Gateways - IPv4 Subnetting</div>
   </div>
 </div>
