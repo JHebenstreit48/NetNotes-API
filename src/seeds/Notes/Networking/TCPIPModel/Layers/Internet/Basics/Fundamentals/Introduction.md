@@ -1,5 +1,3 @@
-<hr class="dividerMain">
-
 # IP Addressing - Fundamentals - Introduction
 
 <hr class="dividerMain">
@@ -18,8 +16,12 @@ The <span class="emphasis">Layer 3 header</span> contains addressing information
 
 It includes:
 
-- <span class="emphasis">Source Address</span> — where the packet originates  
-- <span class="emphasis">Destination Address</span> — where the packet is going  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Source Address</span>, where the packet originates</li>
+    <li><span class="emphasis">Destination Address</span>, where the packet is going</li>
+  </ul>
+</div>
 
 These addresses allow routers to determine how to forward packets between networks.
 
@@ -41,14 +43,26 @@ Every device communicating on an IP network requires an IP address.
 
 IP addresses can be compared to mailing addresses:
 
-- <span class="secondEmphasis">Network Address</span> — like a street name, identifying the general location  
-- <span class="secondEmphasis">Host Address</span> — like a house number, identifying the specific device  
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Network Address</span>, like a street name, identifying the general location</li>
+    <li><span class="emphasis">Host Address</span>, like a house number, identifying the specific device</li>
+  </ul>
+</div>
 
 Example IPv4 address:
 
-- <span class="examples">10.10.0.50</span>  
-  - Network portion: <span class="examples">10.10.0</span>  
-  - Host portion: <span class="examples">.50</span>
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>
+      <span class="codeSnip">10.10.0.50</span>
+      <ul class="nestedHollowBullets">
+        <li>Network portion: <span class="codeSnip">10.10.0</span></li>
+        <li>Host portion: <span class="codeSnip">.50</span></li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 
@@ -58,10 +72,22 @@ Example IPv4 address:
 
 Two primary IP versions exist:
 
-- <span class="emphasis">IPv4</span> — Most common format:  
-  <span class="examples">xxx.xxx.xxx.xxx</span> (e.g., <span class="examples">192.168.1.1</span>)
-
-- <span class="emphasis">IPv6</span> — Uses eight groups of hexadecimal numbers
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>
+      <span class="emphasis">IPv4</span>, most common format:
+      <ul class="nestedHollowBullets">
+        <li><span class="codeSnip">xxx.xxx.xxx.xxx</span> (e.g., <span class="codeSnip">192.168.1.1</span>)</li>
+      </ul>
+    </li>
+    <li>
+      <span class="emphasis">IPv6</span>, uses eight groups of hexadecimal numbers:
+      <ul class="nestedHollowBullets">
+        <li><span class="codeSnip">xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx</span> (e.g., <span class="codeSnip">2001:0db8:85a3:0000:0000:8a2e:0370:7334</span>)</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 

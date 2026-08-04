@@ -6,21 +6,29 @@
 
 <hr class="dividerSection" />
 
-A <span class="emphasis">bit</span> (binary digit) is the smallest unit of data in a network.
+A <span class="emphasis">bit</span> <span class="secondEmphasis">(binary digit)</span> is the <span class="emphasis">smallest unit</span> of <span class="secondEmphasis">data</span> in a network.
 
-At the physical layer, a bit is represented by a physical state, such as:
+This is part of <span class="emphasis">binary code</span>, which is how <span class="secondEmphasis">computers</span> <span class="emphasis">work</span> and <span class="emphasis">read</span> <span class="secondEmphasis">data</span>.
+
+At the <span class="emphasis">physical layer</span>, a <span class="secondEmphasis">bit</span> is represented by a <span class="emphasis">physical state</span>, such as:
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
-    <li>High or low voltage (electrical)</li>
-    <li>Light on or off (fiber)</li>
-    <li>Presence or absence of radio energy (wireless)</li>
+    <li><span class="emphasis">High</span> or <span class="emphasis">low voltage</span> (electrical)</li>
+    <li><span class="emphasis">Light</span> <span class="secondEmphasis">on</span> or <span class="secondEmphasis">off</span> <span class="emphasis">(fiber)</span></li>
+    <li><span class="emphasis">Presence</span> or <span class="emphasis">absence</span> of <span class="secondEmphasis">radio energy</span> <span class="emphasis">(wireless)</span></li>
   </ul>
 </div>
 
 Bits do not exist as numbers at this layer, they exist as measurable physical changes.
 
 When communicating across a copper network cable, a variation in the electrical signal is interpreted by the receiving device as a <span class="emphasis">0</span> or a <span class="emphasis">1</span>.
+
+For example, a byte of data traveling across a wire might look like this:
+
+<span class="codeSnip">01100111</span>
+
+That sequence of 8 bits travels one bit at a time until the full byte is received by the neighboring device.
 
 <hr class="dividerSection" />
 
