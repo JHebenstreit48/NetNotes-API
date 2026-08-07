@@ -169,12 +169,12 @@ Wireless devices:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/network-scope-and-devices/local-networks">← Back</a>
-    <div class="xrefTitle">Foundations - Fundamentals - Network Scope & Devices - Local Networks</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/network-scope/local-networks">← Back</a>
+    <div class="xrefTitle">Section: Foundations - Fundamentals - Network Scope - Local Networks</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/protocols-and-standards/communication-protocols">Next →</a>
-    <div class="xrefTitle">Section: Foundations - Fundamentals - Protocols & Standards - Communication Protocols</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/devices-and-communication/protocols-and-standards">Next →</a>
+    <div class="xrefTitle">Foundations - Fundamentals - Devices & Communication - Protocols & Standards</div>
   </div>
 </div>

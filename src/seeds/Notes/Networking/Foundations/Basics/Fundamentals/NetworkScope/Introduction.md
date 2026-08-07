@@ -120,7 +120,7 @@ Real-world example:
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/network-scope-and-devices/internet">Next →</a>
-    <div class="xrefTitle">Foundations - Fundamentals - Network Scope & Devices - Internet/Networks</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/network-scope/internet">Next →</a>
+    <div class="xrefTitle">Foundations - Fundamentals - Network Scope - Internet/Networks</div>
   </div>
 </div>

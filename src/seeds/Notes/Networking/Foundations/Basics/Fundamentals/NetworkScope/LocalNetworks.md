@@ -252,12 +252,12 @@ While local networks operate independently, they often connect to the internet f
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/network-scope-and-devices/internet">← Back</a>
-    <div class="xrefTitle">Foundations - Fundamentals - Network Scope & Devices - Internet/Networks</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/network-scope/internet">← Back</a>
+    <div class="xrefTitle">Foundations - Fundamentals - Network Scope - Internet/Networks</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/network-scope-and-devices/connected-devices">Next →</a>
-    <div class="xrefTitle">Foundations - Fundamentals - Network Scope & Devices - Connected Devices</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/devices-and-communication/connected-devices">Next →</a>
+    <div class="xrefTitle">Section: Foundations - Fundamentals - Devices & Communication - Connected Devices</div>
   </div>
 </div>
