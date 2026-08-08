@@ -12,7 +12,7 @@ Whether two devices can communicate over a UTP cable depends on which pins each 
 
 <hr class="dividerSection" />
 
-At 10BASE-T and 100BASE-T speeds, two wire pairs are used: pins 1 and 2, and pins 3 and 6.
+At <span class="emphasis">10BASE-T</span> and <span class="emphasis">100BASE-T</span> (<span class="secondEmphasis">Fast Ethernet</span>) speeds, <span class="emphasis">two wire pairs</span> are used: pins <span class="emphasis">1</span> and <span class="emphasis">2</span>, and pins <span class="emphasis">3</span> and <span class="emphasis">6</span>.
 
 Which pins a device transmits versus receives on depends on the device type.
 
