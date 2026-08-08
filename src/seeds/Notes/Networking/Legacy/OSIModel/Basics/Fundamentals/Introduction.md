@@ -77,6 +77,11 @@ The TCP/IP model focuses on <span class="secondEmphasis">how the Internet protoc
   </tbody>
 </table>
 
+<div class="xrefBox">
+  <span class="emphasis">For the full TCP/IP origin story, see:</span>
+  <a href="/networking/tcp-ip-model/basics/fundamentals/history" target="_blank" rel="noopener noreferrer">TCP/IP Model → Fundamentals → History</a>
+</div>
+
 <hr class="dividerSection" />
 
 ### Why Learn OSI If TCP/IP Runs the Internet?
@@ -108,26 +113,7 @@ The <span class="secondEmphasis">OSI model</span> separates these responsibiliti
 
 In other words, OSI describes the <span class="secondEmphasis">necessary functional categories</span>, while TCP/IP describes the <span class="secondEmphasis">specific protocol implementations</span> used on the Internet.
 
-<hr class="dividerSection" />
-
-### How the Models Relate
-
-<hr class="dividerSection" />
-
-The TCP/IP protocol suite can be described using the OSI reference model:
-
-<div class="centeredBullet">
-  <ul class="diamondBullets fullWidthBullet">
-    <li>TCP/IP <span class="emphasis">Internet layer</span> aligns with OSI <span class="emphasis">Network layer (Layer 3)</span></li>
-    <li>TCP/IP <span class="emphasis">Transport layer</span> maps directly to OSI <span class="emphasis">Transport layer (Layer 4)</span></li>
-    <li>TCP/IP <span class="emphasis">Application layer</span> combines OSI <span class="emphasis">Application, Presentation, and Session</span></li>
-    <li>TCP/IP <span class="emphasis">Network Access layer</span> combines OSI <span class="emphasis">Data Link and Physical</span></li>
-  </ul>
-</div>
-
-OSI provides a <span class="secondEmphasis">structured conceptual lens</span>.
-
-TCP/IP provides the <span class="secondEmphasis">operational protocol stack</span>.
+The full layer-by-layer mapping between the two models is covered on the next page.
 
 <hr class="dividerSection" />
 
@@ -149,12 +135,12 @@ OSI is not about memorizing trivia, it is about learning to <span class="secondE
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/cloud/advanced/troubleshooting/remote-packet-capture">← Back</a>
+    <a class="xrefBtn" href="/networking/cloud/advanced/troubleshooting/remote-packet-capture">← Back</a>
     <div class="xrefTitle">Topic: Cloud - Advanced - Troubleshooting - Remote Packet Capture</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/legacy/osi-model/basics/fundamentals/layer-comparison">Next →</a>
-    <div class="xrefTitle">OSI Model - Basics - Fundamentals - Layers Comparison</div>
+    <a class="xrefBtn" href="/networking/legacy/osi-model/basics/fundamentals/services-vs-protocols">Next →</a>
+    <div class="xrefTitle">OSI Model - Basics - Fundamentals - Services vs Protocols</div>
   </div>
 </div>
