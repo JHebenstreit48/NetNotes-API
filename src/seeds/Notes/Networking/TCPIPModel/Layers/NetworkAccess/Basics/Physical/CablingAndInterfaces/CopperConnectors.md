@@ -76,7 +76,7 @@ Each standard has a speed, a common name used in everyday conversation, an offic
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>
-  <a href="/networking/foundations/basics/fundamentals/protocols-and-standards/standards-and-organizations" target="_blank" rel="noopener noreferrer">Foundations → Protocols & Standards → Standards & Organizations</a>
+  <a href="/networking/foundations/basics/fundamentals/devices-and-communication/protocols-and-standards" target="_blank" rel="noopener noreferrer">Foundations → Fundamentals → Devices & Communication → Protocols & Standards</a>
 </div>
 
 <table class="notesTable">
@@ -133,7 +133,7 @@ Each standard has a speed, a common name used in everyday conversation, an offic
   </tbody>
 </table>
 
-All four standards support a maximum cable length of <span class="emphasis">100 meters</span> over twisted-pair copper cabling.
+All four standards support a maximum cable length of <span class="emphasis">100 meters</span> (≈ 328 feet) over twisted-pair copper cabling.
 
 In the informal naming convention, <span class="emphasis">BASE</span> refers to baseband signaling, and <span class="emphasis">T</span> refers to twisted-pair cabling.
 

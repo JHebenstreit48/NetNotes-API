@@ -121,19 +121,19 @@ Fiber Ethernet speeds are also defined by <span class="emphasis">IEEE 802.3</spa
   <tbody>
     <tr class="tableRow">
       <td class="tableCell">1000BASE-LX (802.3z)</td>
-      <td class="tableCell">1 Gbps: 550 m multimode, 5 km single-mode</td>
+      <td class="tableCell">1 Gbps: 550 m (≈ 1,804 ft) multimode, 5 km (≈ 3.1 mi) single-mode</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">10GBASE-SR (802.3ae)</td>
-      <td class="tableCell">10 Gbps: up to 400 m, multimode</td>
+      <td class="tableCell">10 Gbps: up to 400 m (≈ 1,312 ft), multimode</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">10GBASE-LR (802.3ae)</td>
-      <td class="tableCell">10 Gbps: up to 10 km, single-mode</td>
+      <td class="tableCell">10 Gbps: up to 10 km (≈ 6.2 mi), single-mode</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">10GBASE-ER (802.3ae)</td>
-      <td class="tableCell">10 Gbps: up to 30 km, single-mode</td>
+      <td class="tableCell">10 Gbps: up to 30 km (≈ 18.6 mi), single-mode</td>
     </tr>
   </tbody>
 </table>
@@ -274,7 +274,7 @@ Compared to copper-based media:
     <li>Fiber experiences lower signal attenuation over long distances</li>
     <li>Fiber is more secure against signal tapping</li>
     <li>Fiber does not suffer from electrical interference</li>
-    <li><span class="emphasis">Distance</span>, copper Ethernet is typically limited to <span class="emphasis">100 meters</span>, while fiber can span <span class="secondEmphasis">kilometers</span> depending on type.</li>
+    <li><span class="emphasis">Distance</span>, copper Ethernet is typically limited to <span class="emphasis">100 meters</span> (≈ 328 feet), while fiber can span <span class="secondEmphasis">kilometers</span> (up to several miles) depending on type.</li>
   </ul>
 </div>
 
@@ -311,8 +311,8 @@ In residential deployments:
       <td class="tableCell">More expensive cable and ports (SFP)</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell">Maximum distance of 100 meters</td>
-      <td class="tableCell">Supports much longer distances (hundreds of meters to kilometers)</td>
+      <td class="tableCell">Maximum distance of 100 meters (≈ 328 feet)</td>
+      <td class="tableCell">Supports much longer distances (hundreds of meters to kilometers, or roughly 1,000+ feet to several miles)</td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Vulnerable to EMI, though twisting helps reduce it</td>
