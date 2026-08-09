@@ -71,7 +71,13 @@ Used when connecting <span class="emphasis">similar devices</span> directly:
 
 <hr class="dividerSection" />
 
-Gigabit Ethernet and 10 Gigabit Ethernet (<span class="emphasis">1000BASE-T</span> and <span class="emphasis">10GBASE-T</span>) use <span class="emphasis">all 4 wire pairs</span>, adding pairs <span class="emphasis">4</span>/<span class="emphasis">5</span> and <span class="emphasis">7</span>/<span class="emphasis">8</span> to the pairs used at lower speeds.
+Gigabit Ethernet and 10 Gigabit Ethernet (<span class="emphasis">1000BASE-T</span> and <span class="emphasis">10GBASE-T</span>) use <span class="emphasis">all 4 wire pairs</span>, adding pairs <span class="emphasis">4</span>/<span class="emphasis">5</span> and <span class="emphasis">7</span>/<span class="emphasis">8</span> to the pairs used at lower speeds.  
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>This means all four pin pairs are used: <span class="emphasis">1</span>/<span class="emphasis">2</span>, <span class="emphasis">3</span>/<span class="emphasis">6</span>, <span class="emphasis">4</span>/<span class="emphasis">5</span>, and <span class="emphasis">7</span>/<span class="emphasis">8</span>.</li>
+  </ul>
+</div>
 
 Unlike <span class="emphasis">10BASE-T</span> and <span class="emphasis">100BASE-T</span>, each pair in these standards is <span class="emphasis">bidirectional</span>, meaning a pair is not fixed to only transmitting or only receiving.
 
