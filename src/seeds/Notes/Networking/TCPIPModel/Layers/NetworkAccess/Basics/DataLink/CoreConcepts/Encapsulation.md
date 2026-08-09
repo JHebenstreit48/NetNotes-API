@@ -131,6 +131,36 @@ L1: Bits transmitted on the medium...
 
 <hr class="dividerSection" />
 
+### Alternate PDU Naming and Payloads
+
+<hr class="dividerSection" />
+
+Each PDU name can also be described using the term <span class="emphasis">protocol data unit (PDU)</span>, paired with the layer number.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>A segment or datagram is a <span class="emphasis">Layer 4 PDU</span> (L4PDU).</li>
+    <li>A packet is a <span class="emphasis">Layer 3 PDU</span> (L3PDU).</li>
+    <li>A frame is a <span class="emphasis">Layer 2 PDU</span> (L2PDU).</li>
+  </ul>
+</div>
+
+Both naming conventions are common, so it is worth knowing both.
+
+The contents of each PDU, everything encapsulated by that layer's header and trailer, are called the <span class="emphasis">payload</span>.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>A segment or datagram's payload is the application data itself.</li>
+    <li>A packet's payload is a segment or datagram, including the Layer 4 header and the data.</li>
+    <li>A frame's payload is a packet, including the Layer 3 and Layer 4 headers and the data.</li>
+  </ul>
+</div>
+
+The payload is what is inside the PDU, not including that layer's own header or trailer.
+
+<hr class="dividerSection" />
+
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/introduction">← Back</a>

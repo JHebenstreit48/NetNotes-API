@@ -417,13 +417,14 @@ The internet continues to evolve with new technologies:
 <hr class="dividerSection" />
 
 <div class="xrefNav">
+<div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/network-scope-and-devices/introduction">← Back</a>
-    <div class="xrefTitle">Foundations - Fundamentals - Network Scope & Devices - Introduction</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/network-scope/introduction">← Back</a>
+    <div class="xrefTitle">Foundations - Fundamentals - Network Scope - Introduction</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/fundamentals/network-scope-and-devices/local-networks">Next →</a>
-    <div class="xrefTitle">Foundations - Fundamentals - Network Scope & Devices - Local Networks</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/network-scope/local-networks">Next →</a>
+    <div class="xrefTitle">Foundations - Fundamentals - Network Scope - Local Networks</div>
   </div>
 </div>

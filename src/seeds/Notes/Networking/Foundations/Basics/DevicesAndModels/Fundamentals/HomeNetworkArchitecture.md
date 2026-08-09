@@ -1,14 +1,19 @@
+# Anatomy of a Home Network
 
-# Home Network Architecture
+<hr class="dividerSection" />
 
----
-## Public Network vs Private Network
----
+### Public Network vs Private Network
+
+<hr class="dividerSection" />
 
 Most home networks consist of two separate networks:
 
-- The <span class="emphasis">public network</span> (Internet Service Provider / ISP)
-- The <span class="emphasis">private local network</span> inside the home
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The <span class="emphasis">public network</span> (Internet Service Provider / ISP)</li>
+    <li>The <span class="emphasis">private local network</span> inside the home</li>
+  </ul>
+</div>
 
 The public network delivers internet service into the home.
 
@@ -16,9 +21,11 @@ The private network allows devices inside the home to communicate with each othe
 
 A <span class="emphasis">router</span> separates these two networks.
 
----
-## How Internet Service Physically Enters the Home
----
+<hr class="dividerSection" />
+
+### How Internet Service Physically Enters the Home
+
+<hr class="dividerSection" />
 
 Internet service can arrive using different physical technologies depending on the provider.
 
@@ -51,127 +58,208 @@ Internet service can arrive using different physical technologies depending on t
 
 Each delivery type requires a device that converts the ISP signal into standard Ethernet for the home network.
 
----
-## Signal Conversion: Modem vs ONT
----
+<hr class="dividerSection" />
+
+### Signal Conversion: Modem vs ONT
+
+<hr class="dividerSection" />
 
 <hr class="dividerSubsection1" />
 
-### Cable (DOCSIS)
+#### Cable (DOCSIS)
 
 <hr class="dividerSubsection1" />
 
 Cable internet uses a <span class="emphasis">cable modem</span>.
 
-- Coaxial cable enters the home.
-- The modem converts radio-frequency electrical signals into Ethernet.
-- Ethernet connects to the router.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Coaxial cable enters the home.</li>
+    <li>The modem converts radio-frequency electrical signals into Ethernet.</li>
+    <li>Ethernet connects to the router.</li>
+  </ul>
+</div>
 
 <div class="xrefBox">
   <span class="emphasis">Physical Media Details:</span>
-  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable">
-    TCP/IP Model → Network Access → Physical → Cabling & Interfaces → Coaxial Cable
-  </a>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable" target="_blank" rel="noopener noreferrer">TCP/IP Model → Network Access → Physical → Cabling & Interfaces → Coaxial Cable</a>
 </div>
 
----
-### Fiber (GPON / FTTH)
+<hr class="dividerSubsection1" />
+
+#### Fiber (GPON / FTTH)
+
+<hr class="dividerSubsection1" />
 
 Fiber internet uses an <span class="emphasis">Optical Network Terminal (ONT)</span>.
 
-- Fiber optic cable carries light signals into the home.
-- The ONT converts optical signals into Ethernet.
-- Ethernet connects to the router.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Fiber optic cable carries light signals into the home.</li>
+    <li>The ONT converts optical signals into Ethernet.</li>
+    <li>Ethernet connects to the router.</li>
+  </ul>
+</div>
 
 Some providers combine the ONT and router into one integrated device.
 
----
-## WAN vs LAN (Network Separation)
----
+<hr class="dividerSection" />
+
+### WAN vs LAN (Network Separation)
+
+<hr class="dividerSection" />
 
 After signal conversion, the router creates two logical sides:
 
-- <span class="emphasis">WAN (Wide Area Network)</span> → Public Internet
-- <span class="emphasis">LAN (Local Area Network)</span> → Private home network
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">WAN (Wide Area Network)</span>, the public internet</li>
+    <li><span class="emphasis">LAN (Local Area Network)</span>, the private home network</li>
+  </ul>
+</div>
 
 The router performs:
 
-- Network separation
-- NAT (Network Address Translation)
-- Packet forwarding
-- Basic firewall functions
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Network separation</li>
+    <li>NAT (Network Address Translation)</li>
+    <li>Packet forwarding</li>
+    <li>Basic firewall functions</li>
+  </ul>
+</div>
 
 This separation protects internal devices from direct exposure to the public network.
 
----
-## Integrated Home Routers (Gateway Devices)
----
+<hr class="dividerSection" />
+
+### Integrated Home Routers (Gateway Devices)
+
+<hr class="dividerSection" />
 
 Many home networking devices combine multiple functions:
 
-- Modem or ONT
-- Router
-- Ethernet switch
-- Wireless Access Point
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Modem or ONT</li>
+    <li>Router</li>
+    <li>Ethernet switch</li>
+    <li>Wireless Access Point</li>
+  </ul>
+</div>
 
 These are commonly called:
 
-- Wireless routers
-- Gateway devices
-- Modem/router combos
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Wireless routers</li>
+    <li>Gateway devices</li>
+    <li>Modem/router combos</li>
+  </ul>
+</div>
 
 Internally, they still perform separate networking roles even though they appear as one device.
 
----
-## Internal Network Distribution
----
+<hr class="dividerSection" />
+
+### Internal Network Distribution
+
+<hr class="dividerSection" />
 
 Home routers typically include:
 
-- One <span class="emphasis">Internet / WAN port</span>
-- Multiple <span class="emphasis">LAN Ethernet ports</span>
-- Built-in <span class="emphasis">Wireless Access Point (Wi-Fi)</span>
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>One <span class="emphasis">Internet / WAN port</span></li>
+    <li>Multiple <span class="emphasis">LAN Ethernet ports</span></li>
+    <li>Built-in <span class="emphasis">Wireless Access Point (Wi-Fi)</span></li>
+  </ul>
+</div>
 
 Wired and wireless devices usually share the same LAN network.
 
 The router assigns private IP addresses using <span class="emphasis">DHCP</span>.
 
----
-## Basic Traffic Flow Inside a Home
----
+<hr class="dividerSection" />
 
-1. A device connects via Ethernet or Wi-Fi.
-2. The router assigns a private IP address.
-3. Internal LAN traffic stays inside the network.
-4. Internet-bound traffic is sent to the router.
-5. The router forwards traffic to the ISP via the modem or ONT.
+### Basic Traffic Flow Inside a Home
+
+<hr class="dividerSection" />
+
+<div class="centeredNumberedList">
+  1. **Device Connects**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>A device connects via Ethernet or Wi-Fi.</li>
+    </ul>
+  </div>
+
+  2. **IP Address Assigned**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>The router assigns a private IP address.</li>
+    </ul>
+  </div>
+
+  3. **Local Traffic Stays Internal**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Internal LAN traffic stays inside the network.</li>
+    </ul>
+  </div>
+
+  4. **Internet-Bound Traffic Reaches the Router**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Internet-bound traffic is sent to the router.</li>
+    </ul>
+  </div>
+
+  5. **Router Forwards to the ISP**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>The router forwards traffic to the ISP via the modem or ONT.</li>
+    </ul>
+  </div>
+</div>
 
 This architecture allows local communication and internet access while maintaining network separation.
 
----
-## Modern Variation: Mesh Networking
----
+<hr class="dividerSection" />
+
+### Modern Variation: Mesh Networking
+
+<hr class="dividerSection" />
 
 Some homes use <span class="emphasis">mesh networking systems</span>.
 
 In a mesh system:
 
-- One primary node connects to the ISP.
-- Additional nodes extend wireless coverage.
-- All nodes share the same LAN network.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>One primary node connects to the ISP.</li>
+    <li>Additional nodes extend wireless coverage.</li>
+    <li>All nodes share the same LAN network.</li>
+  </ul>
+</div>
 
 Mesh systems improve coverage without changing core network architecture.
 
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-devices">← Back</a>
-    <div class="xrefTitle">Foundations - Devices & Models - Networking Devices</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/devices-and-models/fundamentals/network-devices">← Back</a>
+    <div class="xrefTitle">Foundations - Devices & Models - Fundamentals - Networking Devices</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/network-models">Next →</a>
-    <div class="xrefTitle">Foundations - Devices & Models - Networking Models</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/devices-and-models/fundamentals/network-models">Next →</a>
+    <div class="xrefTitle">Foundations - Devices & Models - Fundamentals - Networking Models</div>
   </div>
 </div>

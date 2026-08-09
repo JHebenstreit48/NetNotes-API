@@ -1,49 +1,101 @@
-### What is the Application Layer
----  
+# What Is the Application Layer?
 
-The Application Layer in the TCP/IP model corresponds to **Layers 5, 6, and 7** of the OSI model. While the OSI model separates these into **Session**, **Presentation**, and **Application** layers, the TCP/IP model consolidates them into one unified layer.
+<hr class="dividerSection" />
 
-This layer serves as the **interface between network services and applications**. It ensures users and applications can interact with the network, sending and receiving data seamlessly.
+The Application Layer in the TCP/IP model corresponds to <span class="emphasis">Layers 5</span>, <span class="emphasis">6</span>, and <span class="emphasis">7</span> of the <span class="emphasis">OSI model</span>.
 
----
+While the OSI model separates these into <span class="emphasis">Session</span>, <span class="emphasis">Presentation</span>, and <span class="emphasis">Application layers</span>, the TCP/IP model consolidates them into one unified layer.
+
+This is why the TCP/IP Application layer is often referred to as <span class="emphasis">Layer 7</span> in many networking resources, more on that distinction elsewhere in these notes.
+
+This layer serves as the <span class="emphasis">interface</span> between <span class="emphasis">network services</span> and <span class="emphasis">applications</span>. It ensures users and applications can interact with the network, sending and receiving data seamlessly.
+
+<hr class="dividerSection" />
 
 ### Key Responsibilities
 
-1. **Interfacing with Applications**:
-   - Provides an interface for applications to utilize network resources.
-   - Examples: Web browsers accessing websites, email clients connecting to mail servers.
+<hr class="dividerSection" />
 
-2. **Protocol Support**:
-   Supports protocols that enable communication and data exchange.
-   Examples of Protocols:
+<div class="centeredNumberedList">
+  1. **Interfacing with Applications**
 
-   - <span class="emphasis">HTTP/HTTPS</span>
-   - <span class="emphasis">DNS</span>
-   - <span class="emphasis">FTP</span>
-   - <span class="emphasis">SMTP</span>
-   - <span class="emphasis">IMAP/POP3</span>
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Provides an interface for applications to utilize network resources.</li>
+      <li>Examples: Web browsers accessing websites, email clients connecting to mail servers.</li>
+    </ul>
+  </div>
 
-3. **User Authentication**:
-   - Handles authentication processes like username/password exchanges during logins.
+  2. **Protocol Support**
 
-4. **Session Management**:
-   - Maintains and manages communication sessions between devices.
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Supports protocols that enable communication and data exchange.</li>
+    </ul>
+  </div>
 
----
+  Examples of Protocols:
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li><span class="emphasis">HTTP/HTTPS</span></li>
+      <li><span class="emphasis">DNS</span></li>
+      <li><span class="emphasis">FTP</span></li>
+      <li><span class="emphasis">SMTP</span></li>
+      <li><span class="emphasis">IMAP/POP3</span></li>
+    </ul>
+  </div>
+
+  3. **User Authentication**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Handles authentication processes like username/password exchanges during logins.</li>
+    </ul>
+  </div>
+
+  4. **Session Management**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Maintains and manages communication sessions between devices.</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="dividerSection" />
 
 ### Supported Protocols
 
-- <span class="emphasis">HTTP/HTTPS</span>: transfers web content between clients and servers (HTTPS adds encryption)  
-- <span class="emphasis">DNS</span>: resolves human-readable domain names into IP addresses  
-- <span class="emphasis">FTP</span>: file transfer between hosts  
-- <span class="emphasis">SMTP</span>: sending email  
-- <span class="emphasis">IMAP/POP3</span>: retrieving email from servers
+<hr class="dividerSection" />
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">HTTP/HTTPS</span>: transfers web content between clients and servers (HTTPS adds encryption)</li>
+    <li><span class="emphasis">DNS</span>: resolves human-readable domain names into IP addresses</li>
+    <li><span class="emphasis">FTP</span>: file transfer between hosts</li>
+    <li><span class="emphasis">SMTP</span>: sending email</li>
+    <li><span class="emphasis">IMAP/POP3</span>: retrieving email from servers</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+### Only the Communicating Hosts Interpret the Data
+
+<hr class="dividerSection" />
+
+Network infrastructure devices, such as routers and switches, do not care about Application-layer details.
+
+They simply move messages across the network without inspecting or interpreting the data those messages carry.
+
+Only the two communicating hosts, the ones actually running the application processes, interpret the Application-layer data itself.
+
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/tcp-ip-model/basics/fundamentals/protocol-stack">← Back</a>
+    <a class="xrefBtn" href="/networking/tcp-ip-model/basics/fundamentals/protocol-stack">← Back</a>
     <div class="xrefTitle">Section: TCP/IP Model - Basics - Fundamentals - Protocol Stack</div>
   </div>
 

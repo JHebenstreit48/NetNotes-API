@@ -1,12 +1,14 @@
-# De-encapsulation
+# What Is De-encapsulation?
 
 <hr class="dividerSection" />
 
-### What Is De-encapsulation?
+<span class="emphasis">De-encapsulation</span> is the <span class="secondEmphasis">reverse process</span> of <span class="emphasis">encapsulation</span>.
 
-<hr class="dividerSection" />
+It occurs when data is <span class="emphasis">received</span> and must be <span class="emphasis">reconstructed</span> for the <span class="emphasis">application</span>.
 
-De-encapsulation is the reverse process of encapsulation. It occurs when data is <span class="emphasis">received</span> and must be reconstructed for the application.
+This process is also commonly called <span class="emphasis">decapsulation</span>.
+
+Both terms refer to the same thing, so you may see either used interchangeably across different resources.
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
@@ -79,7 +81,11 @@ For packets destined to remote networks, routers perform de-encapsulation and re
 
 </div>
 
-Example (remote path):
+<hr class="dividerSubsection1" />
+
+#### Example: Remote Path (PC1 to PC2)
+
+<hr class="dividerSubsection1" />
 
 <table class="notesTable">
   <thead>
@@ -104,8 +110,14 @@ Example (remote path):
   </tbody>
 </table>
 
-Source IPv4: 192.168.10.10 (PC1)  
-Destination IPv4: 10.1.1.10 (PC2) — unchanged.
+Throughout this path, the IP addresses stay constant while the destination MAC changes at every hop:
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Source IPv4</span>: 192.168.10.10 (PC1)</li>
+    <li><span class="emphasis">Destination IPv4</span>: 10.1.1.10 (PC2), unchanged for the entire path</li>
+  </ul>
+</div>
 
 <div class="xrefBox">
   <span class="emphasis">See:</span>

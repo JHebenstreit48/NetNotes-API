@@ -1,22 +1,29 @@
-# Networking Models
+# How Networking Models Organize Complexity
 
----
+<hr class="dividerSection" />
 
-## What Is a Networking Model?
----
+### What Is a Networking Model?
+
+<hr class="dividerSection" />
 
 A <span class="emphasis">networking model</span> provides a structured way to understand how networks are organized and how devices interact.
 
 Models help explain:
-- how communication is structured
-- how responsibilities are divided
-- how networks scale
-- how complexity is managed
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>How communication is structured</li>
+    <li>How responsibilities are divided</li>
+    <li>How networks scale</li>
+    <li>How complexity is managed</li>
+  </ul>
+</div>
 
-## Network Scale and Design
----
+<hr class="dividerSection" />
+
+### Network Scale and Design
+
+<hr class="dividerSection" />
 
 Different environments require different network designs.
 
@@ -40,15 +47,21 @@ Different environments require different network designs.
 </table>
 
 Enterprise networks separate functions across dedicated devices to improve:
-- performance
-- reliability
-- security
-- scalability
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Performance</li>
+    <li>Reliability</li>
+    <li>Security</li>
+    <li>Scalability</li>
+  </ul>
+</div>
 
-## Traffic and Security Differences
----
+<hr class="dividerSection" />
+
+### Traffic and Security Differences
+
+<hr class="dividerSection" />
 
 <table class="notesTable">
   <thead>
@@ -69,56 +82,77 @@ Enterprise networks separate functions across dedicated devices to improve:
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
-## Evolving Network Design
----
+### Evolving Network Design
+
+<hr class="dividerSection" />
 
 Modern networking continues to evolve.
 
 Common trends include:
-- <span class="emphasis">AI-driven optimization</span>
-- <span class="emphasis">Wi-Fi 6 and Wi-Fi 7</span>
-- <span class="emphasis">5G integration</span>
-- cloud-managed infrastructure
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">AI-driven optimization</span></li>
+    <li><span class="emphasis">Wi-Fi 6 and Wi-Fi 7</span></li>
+    <li><span class="emphasis">5G integration</span></li>
+    <li>Cloud-managed infrastructure</li>
+  </ul>
+</div>
 
 As networks grow more complex, structured models become increasingly important.
 
----
+<hr class="dividerSection" />
 
-## Why Models Matter
----
+### Why Models Matter
+
+<hr class="dividerSection" />
 
 Networking models prepare you for deeper frameworks such as:
 
-- The <span class="emphasis">OSI Model</span>
-- The <span class="emphasis">TCP/IP Model</span>
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The <span class="emphasis">OSI Model</span></li>
+    <li>The <span class="emphasis">TCP/IP Model</span></li>
+  </ul>
+</div>
 
 They provide a logical way to:
-- break networking into layers
-- troubleshoot systematically
-- separate hardware and software responsibilities
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Break networking into layers</li>
+    <li>Troubleshoot systematically</li>
+    <li>Separate hardware and software responsibilities</li>
+  </ul>
+</div>
 
-## Summary
----
+<hr class="dividerSection" />
 
-- Networking models organize how networks are structured.
-- Home and enterprise environments differ significantly.
-- Larger networks require dedicated infrastructure.
-- Layered models allow complex systems to be understood logically.
+### Summary
 
----
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Networking models organize how networks are structured.</li>
+    <li>Home and enterprise environments differ significantly.</li>
+    <li>Larger networks require dedicated infrastructure.</li>
+    <li>Layered models allow complex systems to be understood logically.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/fundamentals/home-network-architecture">← Back</a>
-    <div class="xrefTitle">Foundations Basics - Devices & Models - Home Network Architecture</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/devices-and-models/fundamentals/home-network-architecture">← Back</a>
+    <div class="xrefTitle">Foundations - Devices & Models - Fundamentals - Home Network Architecture</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/foundations/basics/devices-and-models/routers/basic-router-setup">Next →</a>
-    <div class="xrefTitle">Next Subtopic: Devices & Models - Routers - Basic Router Setup</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/devices-and-models/routers/basic-router-setup">Next →</a>
+    <div class="xrefTitle">Section: Foundations - Devices & Models - Routers - Basic Router Setup</div>
   </div>
 </div>

@@ -2,10 +2,6 @@
 
 <hr class="dividerSection" />
 
-### What Is the Physical Layer?
-
-<hr class="dividerSection" />
-
 Layer 1 represents the <span class="emphasis">physical components</span> used to transmit data across a network.
 
 This includes:
@@ -37,6 +33,28 @@ The physical layer transmits data using different media:
 </div>
 
 Each medium has unique properties that affect speed, distance, and reliability.
+
+<hr class="dividerSection" />
+
+### What This Layer Includes
+
+<hr class="dividerSection" />
+
+The Physical layer defines things like cables, connectors, signal levels, and link speeds, all of the physical aspects of communication.
+
+Examples include copper UTP cables, fiber-optic cables, Wi-Fi radios and antennas, and network interface cards (NICs).
+
+Each network interface has a NIC inside the device, responsible for actually transmitting and receiving signals.
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span><br />
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Copper Connectors</a><br />
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Fiber Connectors & Transceivers</a>
+</div>
+
+The physical aspects of transmitting data are very complex, involving a great deal of electrical or optical engineering.
+
+Fortunately, network engineers typically do not need to know these low-level details to work effectively with networks.
 
 <hr class="dividerSection" />
 
