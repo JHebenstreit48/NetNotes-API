@@ -93,6 +93,11 @@ Once bits arrive at a device:
 
 Layer 1 does <span class="emphasis">not</span> understand addresses, frames, or protocols, only signals.
 
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/introduction" target="_blank" rel="noopener noreferrer">Data Link → Core Concepts → Introduction (Ethernet's Layer 1 vs. Layer 2 roles)</a>
+</div>
+
 <hr class="dividerSection" />
 
 ### Summary
