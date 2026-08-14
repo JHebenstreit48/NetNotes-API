@@ -110,7 +110,9 @@ At the <span class="emphasis">Application Layer</span>, the message is simply re
 
 The combination of data and a Layer 4 header is called a <span class="emphasis">segment</span> when using TCP, or a <span class="emphasis">datagram</span> when using UDP.
 
-TCP creates segments, and UDP creates datagrams. This naming difference reflects how each protocol treats the data differently, TCP adds reliability features, while UDP does not.
+TCP creates segments, and UDP creates datagrams.  
+
+This naming difference reflects how each protocol treats the data differently, TCP adds reliability features, while UDP does not.
 
 A segment or datagram is also known as a <span class="emphasis">Layer 4 PDU</span> (L4PDU).
 
