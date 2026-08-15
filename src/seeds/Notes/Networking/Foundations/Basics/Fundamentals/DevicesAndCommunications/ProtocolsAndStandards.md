@@ -107,7 +107,7 @@ These organizations are referenced again in specific sections throughout the not
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/networking/foundations/basics/devices-and-models/fundamentals/network-infrastructure">Next →</a>
-    <div class="xrefTitle">Section: Devices & Models - Fundamentals - Network Infrastructure</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/cli/connecting-and-modes">Next →</a>
+    <div class="xrefTitle">Section: Foundations - Fundamentals - CLI - Connecting & Modes</div>
   </div>
 </div>
