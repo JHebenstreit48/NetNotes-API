@@ -86,6 +86,62 @@ L1: Bits transmitted on the medium...
 
 <hr class="dividerSubsection1" />
 
+### What Is a PDU?
+
+<hr class="dividerSubsection1" />
+
+A <span class="emphasis">protocol data unit (PDU)</span> is the general term for a unit of data at a given layer of the network stack, meaning data combined with that layer's own header (and sometimes trailer).
+
+At each stage of encapsulation, the message is given a specific name depending on which layer it is at.
+
+<hr class="dividerSubsection1" />
+
+### Data
+
+<hr class="dividerSubsection1" />
+
+At the <span class="emphasis">Application Layer</span>, the message is simply referred to as <span class="emphasis">data</span>, the raw application content before any transport, network, or link-layer headers have been added.
+
+<hr class="dividerSubsection1" />
+
+### Segment and Datagram
+
+<hr class="dividerSubsection1" />
+
+The combination of data and a Layer 4 header is called a <span class="emphasis">segment</span> when using TCP, or a <span class="emphasis">datagram</span> when using UDP.
+
+TCP creates segments, and UDP creates datagrams.  
+
+This naming difference reflects how each protocol treats the data differently, TCP adds reliability features, while UDP does not.
+
+A segment or datagram is also known as a <span class="emphasis">Layer 4 PDU</span> (L4PDU).
+
+<hr class="dividerSubsection1" />
+
+### Packet
+
+<hr class="dividerSubsection1" />
+
+The combination of a segment or datagram and a Layer 3 header is called a <span class="emphasis">packet</span>.
+
+"Packet" is the most common term used casually when talking about messages sent over a network, but strictly speaking it refers only to the message at this specific stage, after the Layer 3 header has been added.
+
+A packet is also known as a <span class="emphasis">Layer 3 PDU</span> (L3PDU).
+
+<hr class="dividerSubsection1" />
+
+### Frame
+
+<hr class="dividerSubsection1" />
+
+The combination of a packet and a Layer 2 header and trailer is called a <span class="emphasis">frame</span>.
+
+A frame is what is actually transmitted over the wire. A packet, segment, or datagram never travels over the wire by itself, it is always sent inside a frame.
+
+A frame is also known as a <span class="emphasis">Layer 2 PDU</span> (L2PDU).
+
+<hr class="dividerSubsection1" />
+
 ### PDU names and common fields
 
 <hr class="dividerSubsection1" />
@@ -108,7 +164,7 @@ L1: Bits transmitted on the medium...
     <tr class="tableRow">
       <td class="tableCell">Transport</td>
       <td class="tableCell">
-        <span class="emphasis">PDU:</span> Segment<br/>
+        <span class="emphasis">PDU:</span> Segment (TCP) or Datagram (UDP)<br/>
         <span class="emphasis">Key fields:</span> Ports, SEQ/ACK
       </td>
     </tr>
@@ -131,21 +187,9 @@ L1: Bits transmitted on the medium...
 
 <hr class="dividerSection" />
 
-### Alternate PDU Naming and Payloads
+### Payloads
 
 <hr class="dividerSection" />
-
-Each PDU name can also be described using the term <span class="emphasis">protocol data unit (PDU)</span>, paired with the layer number.
-
-<div class="centeredBullet">
-  <ul class="diamondBullets fullWidthBullet">
-    <li>A segment or datagram is a <span class="emphasis">Layer 4 PDU</span> (L4PDU).</li>
-    <li>A packet is a <span class="emphasis">Layer 3 PDU</span> (L3PDU).</li>
-    <li>A frame is a <span class="emphasis">Layer 2 PDU</span> (L2PDU).</li>
-  </ul>
-</div>
-
-Both naming conventions are common, so it is worth knowing both.
 
 The contents of each PDU, everything encapsulated by that layer's header and trailer, are called the <span class="emphasis">payload</span>.
 

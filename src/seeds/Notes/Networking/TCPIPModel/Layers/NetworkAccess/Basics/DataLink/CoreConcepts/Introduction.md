@@ -139,6 +139,17 @@ Layer 2 supports common protocols such as:
 
 These protocols define how devices frame and transmit data at the Data Link layer.
 
+A term like <span class="emphasis">Ethernet</span> actually spans two different layers, and it is worth keeping this distinction clear.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>At Layer 2, Ethernet defines <span class="emphasis">framing and MAC addressing</span>, how devices structure and address messages on the local network.</li>
+    <li>At Layer 1, Ethernet also defines the <span class="emphasis">signaling and physical media</span> used to actually transmit those frames, such as electrical voltage changes over copper cabling.</li>
+  </ul>
+</div>
+
+So "Ethernet" is not a single-layer protocol, it has both a Layer 2 component and a Layer 1 component operating under the same name.
+
 <hr class="dividerSection" />
 
 ### Understanding Framing Through Analogy

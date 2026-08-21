@@ -251,12 +251,12 @@ In many homes, the router is an <span class="emphasis">integrated wireless route
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/devices-and-communication/protocols-and-standards">← Back</a>
-    <div class="xrefTitle">Section: Foundations - Fundamentals - Devices & Communication - Protocols & Standards</div>
+    <a class="xrefBtn" href="/networking/foundations/basics/fundamentals/devices-and-communication/cli-basics">← Back</a>
+    <div class="xrefTitle">Section: Foundations - Fundamentals - Devices & Communication - CLI Basics</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/networking/foundations/basics/devices-and-models/fundamentals/network-devices">Next →</a>
-    <div class="xrefTitle">Foundations - Devices & Models - Networking Devices</div>
+    <div class="xrefTitle">Foundations - Devices & Models - Fundamentals - Networking Devices</div>
   </div>
 </div>

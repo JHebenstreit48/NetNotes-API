@@ -29,7 +29,7 @@
   </div> -->
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/glossary/networking/tcp-ip-model/application/dns">Next →</a>
-    <div class="xrefTitle">Glossary - TCP/IP Model - Application - DNS</div>
+    <a class="xrefBtn" href="/glossary/networking/tcp-ip-model/application/web-and-dns">Next →</a>
+    <div class="xrefTitle">Glossary - TCP/IP Model - Application - Web & DNS</div>
   </div>
 </div>
