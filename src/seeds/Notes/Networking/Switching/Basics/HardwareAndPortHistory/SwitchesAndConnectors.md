@@ -14,6 +14,7 @@ This page focuses on:
   <ul class="diamondBullets fullWidthBullet">
     <li>Switch hardware types</li>
     <li>Port density and scalability</li>
+    <li>Console and management port access</li>
     <li>SFP ports and uplinks</li>
     <li>The role of physical connectivity in Layer 2 switching</li>
   </ul>
@@ -77,6 +78,25 @@ This page focuses on:
     <li><span class="emphasis">Catalyst Switches</span> are <span class="emphasis">Cisco's</span> <span class="secondEmphasis">enterprise-grade</span> line of switches. Models include the <span class="emphasis">Catalyst 9200</span> and <span class="emphasis">Catalyst 3650</span>, commonly deployed at this scale.</li>
   </ul>
 </div>
+
+<hr class="dividerSection" />
+
+## Console / Management Access
+
+<hr class="dividerSection" />
+
+Before a switch can be reached remotely, it must first be configured through a physical <span class="emphasis">console port</span>, separate from the data ports covered throughout the rest of this page.
+
+Most Cisco Catalyst switches include two console ports, an <span class="emphasis">RJ45 port</span> and a <span class="secondEmphasis">USB Mini-B connector</span>, requiring a rollover cable or USB connection respectively.
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span><br />
+  <a href="/networking/foundations/basics/fundamentals/devices-and-communication/cli-basics" target="_blank" rel="noopener noreferrer">Foundations → Fundamentals → Devices & Communication → CLI Basics (rollover cable mechanics)</a>
+</div>
+
+Some newer switch lines have moved to a <span class="secondEmphasis">USB-C</span> console port instead of, or in addition to, the RJ45 and USB Mini-B options, including the <span class="emphasis">Cisco Catalyst 1200</span>, <span class="emphasis">Catalyst 1300</span>, and <span class="emphasis">Catalyst 9500X</span> series.
+
+Once connected, you access the CLI using a <span class="emphasis">terminal emulator</span>, such as <span class="secondEmphasis">PuTTY</span> or <span class="secondEmphasis">Tera Term</span>.
 
 <hr class="dividerSection" />
 

@@ -22,9 +22,21 @@ A <span class="secondEmphasis">GUI</span> (graphical user interface) also exists
 
 The first time you configure a Cisco device, you connect to it using its <span class="emphasis">console port</span>.
 
-Most Cisco Catalyst switches have two console ports, an RJ45 port and a USB mini-B connector.
+The specific console port and cable type varies by device and by how recently it was released, older devices typically use an RJ45 console port requiring a rollover cable, while some newer devices instead include, or exclusively use, a USB console port.
 
-To connect through the RJ45 port, a specific cable is required, known as a <span class="emphasis">rollover cable</span>.
+<div class="xrefBox">
+  <span class="emphasis">See:</span><br />
+  <a href="/networking/switching/basics/hardware-and-port-types/switches-and-connectors" target="_blank" rel="noopener noreferrer">Switching → Basics → Hardware & Port Types → Switches and Connectors</a><br />
+  <a href="/networking/foundations/basics/devices-and-models/routers/interfaces-and-port-types" target="_blank" rel="noopener noreferrer">Foundations → Devices & Models → Routers → Interfaces & Port Types</a>
+</div>
+
+<hr class="dividerSubsection1" />
+
+#### The Rollover Cable
+
+<hr class="dividerSubsection1" />
+
+To connect through an RJ45 console port, a specific cable is required, known as a <span class="emphasis">rollover cable</span>.
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
