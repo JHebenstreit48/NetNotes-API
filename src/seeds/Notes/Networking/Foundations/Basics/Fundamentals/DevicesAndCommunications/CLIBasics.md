@@ -404,6 +404,14 @@ If both <span class="codeSnip">enable password</span> and <span class="codeSnip"
 
 For this reason, <span class="codeSnip">enable secret</span> should always be used instead of <span class="codeSnip">enable password</span> when protecting Privileged EXEC mode.
 
+Since <span class="codeSnip">enable secret</span> is configured from Global Configuration mode, typing <span class="codeSnip">do show running-config</span>, often shortened to <span class="codeSnip">do sh run</span>, allows the result to be checked immediately without first exiting back to Privileged EXEC mode.
+
+```shell  
+Router(config)#do sh run
+```
+
+Doing so would display both the <span class="codeSnip">enable secret</span> line, prefixed with a <span class="secondEmphasis">5</span>, and the earlier <span class="codeSnip">enable password</span> line, prefixed with a <span class="secondEmphasis">7</span>, side by side in the running-config.
+
 <hr class="dividerSection" />
 
 ### Removing a Configured Command

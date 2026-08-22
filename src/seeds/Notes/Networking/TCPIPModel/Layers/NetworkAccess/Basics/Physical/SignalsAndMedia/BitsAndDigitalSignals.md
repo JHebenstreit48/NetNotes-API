@@ -44,6 +44,142 @@ Network speed is measured in <span class="emphasis">bits per second</span>, not 
 
 Data storage (such as on a hard drive) is measured in <span class="emphasis">bytes</span> instead. Because a byte is 8 bits, a gigabyte is 8 times larger than a gigabit.
 
+Bit-based and byte-based units follow the same naming pattern, but always refer to different quantities of data.
+
+<div class="tablePairSideBySide">
+  <div class="tableWrapper">
+    <table class="notesTable">
+      <thead>
+        <tr class="tableHeader">
+          <th class="tableCellHeader">Bit-Based Unit</th>
+          <th class="tableCellHeader">Abbreviation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tableRow">
+          <td class="tableCell">Bit</td>
+          <td class="tableCell">b</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">Kilobit</td>
+          <td class="tableCell">Kb</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">Megabit</td>
+          <td class="tableCell">Mb</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">Gigabit</td>
+          <td class="tableCell">Gb</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">Terabit</td>
+          <td class="tableCell">Tb</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tableWrapper">
+    <table class="notesTable">
+      <thead>
+        <tr class="tableHeader">
+          <th class="tableCellHeader">Bit-Based Unit</th>
+          <th class="tableCellHeader">Total Bits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tableRow">
+          <td class="tableCell">1 Bit</td>
+          <td class="tableCell">1 bit</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">1 Kilobit</td>
+          <td class="tableCell">1,000 bits</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">1 Megabit</td>
+          <td class="tableCell">1,000,000 bits</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">1 Gigabit</td>
+          <td class="tableCell">1,000,000,000 bits</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">1 Terabit</td>
+          <td class="tableCell">1,000,000,000,000 bits</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tableWrapper">
+    <table class="notesTable">
+      <thead>
+        <tr class="tableHeader">
+          <th class="tableCellHeader">Byte-Based Unit</th>
+          <th class="tableCellHeader">Abbreviation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tableRow">
+          <td class="tableCell">Byte</td>
+          <td class="tableCell">B</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">Kilobyte</td>
+          <td class="tableCell">KB</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">Megabyte</td>
+          <td class="tableCell">MB</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">Gigabyte</td>
+          <td class="tableCell">GB</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">Terabyte</td>
+          <td class="tableCell">TB</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tableWrapper">
+    <table class="notesTable">
+      <thead>
+        <tr class="tableHeader">
+          <th class="tableCellHeader">Byte-Based Unit</th>
+          <th class="tableCellHeader">Bit-Based Equivalent</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tableRow">
+          <td class="tableCell">1 Byte</td>
+          <td class="tableCell">8 bits</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">1 Kilobyte</td>
+          <td class="tableCell">8 kilobits</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">1 Megabyte</td>
+          <td class="tableCell">8 megabits</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">1 Gigabyte</td>
+          <td class="tableCell">8 gigabits</td>
+        </tr>
+        <tr class="tableRow">
+          <td class="tableCell">1 Terabyte</td>
+          <td class="tableCell">8 terabits</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
 <hr class="dividerSection" />
 
 ### Digital Signaling
