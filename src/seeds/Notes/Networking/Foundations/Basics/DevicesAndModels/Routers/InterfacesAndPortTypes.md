@@ -168,6 +168,32 @@ Internally, the device performs multiple networking roles even though it appears
 
 <hr class="dividerSection" />
 
+## Console / Management Access
+
+<hr class="dividerSection" />
+
+Separate from a router's <span class="emphasis">WAN</span> and <span class="emphasis">LAN</span> interfaces, a router also includes a dedicated <span class="emphasis">console port</span> used only for local management access.
+
+Connecting to the console port does not place a device onto the router's network, it exists purely to allow direct configuration of the router itself.
+
+The specific console port and cable required vary by router model and by how recently it was released.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Older and many current router lines use an <span class="emphasis">RJ45 console port</span>, requiring a <span class="secondEmphasis">rollover cable</span>.</li>
+    <li>Some newer router lines instead include, or exclusively use, a <span class="emphasis">USB console port</span>, most commonly <span class="secondEmphasis">Mini-B</span> or <span class="secondEmphasis">Micro-B</span>, with certain newer models such as the <span class="secondEmphasis">Cisco Catalyst IR1800 Rugged Series</span> using <span class="secondEmphasis">USB-C</span> instead.</li>
+    <li>A small number of router lines, particularly higher-end platforms, only provide an RJ45 console port with no USB option at all.</li>
+  </ul>
+</div>
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span><br />
+  <a href="/networking/foundations/basics/fundamentals/devices-and-communication/cli-basics" target="_blank" rel="noopener noreferrer">Foundations → Fundamentals → Devices & Communication → CLI Basics (rollover cable mechanics)</a><br />
+  <a href="/networking/switching/basics/hardware-and-port-types/switches-and-connectors" target="_blank" rel="noopener noreferrer">Switching → Basics → Hardware & Port Types → Switches and Connectors (USB-C console port model examples)</a>
+</div>
+
+<hr class="dividerSection" />
+
 ## Router Interfaces as Network Boundaries
 
 <hr class="dividerSection" />
