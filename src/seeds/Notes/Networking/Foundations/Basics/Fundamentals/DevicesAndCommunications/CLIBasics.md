@@ -137,6 +137,164 @@ Typing just <span class="codeSnip">e</span>, however, produces an <span class="s
 
 <hr class="dividerSection" />
 
+### Viewing Available Commands by Mode
+
+<hr class="dividerSection" />
+
+Typing <span class="codeSnip">?</span> in either User EXEC or Privileged EXEC mode lists every command available in that mode.
+
+Every command available in User EXEC mode is also available in Privileged EXEC mode, so the table below lists each command once, noting which mode or modes it belongs to.
+
+Commands already covered in these notes are marked accordingly, the rest are listed for reference and will be added as they're covered.
+
+<div class="tableWrapper">
+  <table class="notesTable">
+    <thead>
+      <tr class="tableHeader">
+        <th class="tableCellHeader">Command</th>
+        <th class="tableCellHeader">Glossary Entry</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="tableRow">
+        <td class="tableCell">auto <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">clear <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">clock <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">configure <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="emphasis">Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">connect <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">copy <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="emphasis">Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">debug <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">delete <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">dir <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">disable <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">disconnect <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">enable <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="emphasis">Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">erase <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">exit <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="emphasis">Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">logout <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">mkdir <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">more <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">no <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="emphasis">Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">ping <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">reload <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">resume <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">rmdir <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">send <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">setup <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">show <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="emphasis">Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">ssh <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">telnet <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">terminal <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">traceroute <span class="secondEmphasis">(User & Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">undebug <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">vlan <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="secondEmphasis">Not Yet Covered</span></td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">write <span class="secondEmphasis">(Privileged EXEC)</span></td>
+        <td class="tableCell"><span class="emphasis">Covered</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span><br />
+  <a href="/glossary/networking/foundations/fundamentals/cli-and-commands" target="_blank" rel="noopener noreferrer">Glossary → Networking → Foundations → Fundamentals → CLI & Commands</a>
+</div>
+
+<hr class="dividerSection" />
+
 ### Running Privileged EXEC Commands from Other Modes
 
 <hr class="dividerSection" />
@@ -166,6 +324,8 @@ The <span class="codeSnip">enable password</span> command, entered in Global Con
 ```shell  
 Router(config)#enable password CCNA
 ```
+
+<span class="codeSnip">CCNA</span> here is simply an example password, any word or string can be used in its place.  
 
 Passwords configured this way are <span class="emphasis">case-sensitive</span>, so <span class="secondEmphasis">CCNA</span> and <span class="secondEmphasis">ccna</span> would be treated as different passwords.
 
