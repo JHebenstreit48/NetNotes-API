@@ -6,6 +6,11 @@ Ethernet devices transmit and receive data on specific pin pairs within an RJ-45
 
 Whether two devices can communicate over a UTP cable depends on which pins each device uses to transmit versus receive, and how the cable itself is wired between the two ends.
 
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors" target="_blank" rel="noopener noreferrer">Physical → Cabling & Interfaces → Copper Connectors (full list of copper Ethernet standards, speeds, and wire pair usage)</a>
+</div>
+
 <hr class="dividerSection" />
 
 ## Device Transmit and Receive Behavior
@@ -130,7 +135,7 @@ The table below summarizes transmit and receive pin behavior at <span class="emp
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Router</td>
-      <td class="tableCell">Transmit: <span class="emphasis">3</span>/<span class="emphasis">6</span>. Receive: <span class="emphasis">1</span>/<span class="emphasis">2</span></td>
+      <td class="tableCell">Transmit: <span class="emphasis">1</span>/<span class="emphasis">2</span>. Receive: <span class="emphasis">3</span>/<span class="emphasis">6</span></td>
     </tr>
     <tr class="tableRow">
       <td class="tableCell">Firewall</td>
@@ -191,72 +196,6 @@ At <span class="emphasis">1000BASE-T</span> and <span class="emphasis">10GBASE-T
     <tr class="tableRow">
       <td class="tableCell">Crossover</td>
       <td class="tableCell">Connecting similar devices directly (PC to PC, Switch to Switch, Router to Router)</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr class="dividerSubsection1" />
-
-#### BASE Standards: Speed
-
-<hr class="dividerSubsection1" />
-
-<table class="notesTable">
-  <thead>
-    <tr class="tableHeader">
-      <th class="tableCellHeader">Standard</th>
-      <th class="tableCellHeader">Speed</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="tableRow">
-      <td class="tableCell">10BASE-T</td>
-      <td class="tableCell">10 Mbps</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">100BASE-T (Fast Ethernet)</td>
-      <td class="tableCell">100 Mbps</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">1000BASE-T (Gigabit Ethernet)</td>
-      <td class="tableCell">1 Gbps</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">10GBASE-T (10 Gigabit Ethernet)</td>
-      <td class="tableCell">10 Gbps</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr class="dividerSubsection1" />
-
-#### BASE Standards: Wire Pairs Used
-
-<hr class="dividerSubsection1" />
-
-<table class="notesTable">
-  <thead>
-    <tr class="tableHeader">
-      <th class="tableCellHeader">Standard</th>
-      <th class="tableCellHeader">Wire Pairs Used</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="tableRow">
-      <td class="tableCell">10BASE-T</td>
-      <td class="tableCell">2 pairs, fixed transmit/receive roles</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">100BASE-T (Fast Ethernet)</td>
-      <td class="tableCell">2 pairs, fixed transmit/receive roles</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">1000BASE-T (Gigabit Ethernet)</td>
-      <td class="tableCell">4 pairs, all bidirectional</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">10GBASE-T (10 Gigabit Ethernet)</td>
-      <td class="tableCell">4 pairs, all bidirectional</td>
     </tr>
   </tbody>
 </table>
