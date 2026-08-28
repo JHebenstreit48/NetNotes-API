@@ -27,6 +27,7 @@ Switches store learned MAC addresses in a hardware table:
   <span class="emphasis">See:</span>
   <a href="/switching/basics/fundamentals/mac-address-table" target="_blank" rel="noopener noreferrer">Switching → Basics → Fundamentals → MAC Address Table</a>
 </div>
+
 <hr class="dividerSection" />
 
 ## MAC Address vs IP Address
@@ -51,6 +52,12 @@ Both are required for complete communication across networks.
   <span class="emphasis">See:</span>
   <a href="/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/address-structure" target="_blank" rel="noopener noreferrer">Internet Layer → Basics → IP Addressing → IPv4 → Address Structure</a>
 </div>
+
+Most MAC addresses are globally unique, assigned to hardware by the manufacturer.
+
+A small number of MAC addresses instead use a <span class="emphasis">locally administered</span> address, which does not need to be globally unique and is not tied to a manufacturer's assigned range.
+
+Locally administered addresses are typically used in specific scenarios such as virtual machines or manually configured (spoofed) addresses, rather than appearing on typical end-user hardware.  
 
 <hr class="dividerSection" />
 
@@ -206,21 +213,6 @@ MAC addresses appear as:
     <li>ether</li>
   </ul>
 </div>
-
-<hr class="dividerSection" />
-
-### MAC Address vs IP Address
-
-<hr class="dividerSection" />
-
-<div class="centeredBullet">
-  <ul class="diamondBullets fullWidthBullet">
-    <li>MAC address, local delivery (Layer 2)</li>
-    <li>IP address, network delivery (Layer 3)</li>
-  </ul>
-</div>
-
-Both are required for complete communication across networks.
 
 <hr class="dividerSection" />
 

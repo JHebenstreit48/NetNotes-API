@@ -10,10 +10,10 @@ An Ethernet frame is the Layer 2 structure used to deliver data from one Network
 
 Each frame is divided into specific fields. These fields control synchronization, addressing, payload identification, and error detection.
 
-The numbers associated with each field represent the size in **bytes**.  
+The numbers associated with each field represent the size in <span class="emphasis">bytes</span>.  
 To convert bytes to bits, multiply by 8.
 
-<hr class="dividerExample">
+<hr class="dividerExample" />
 
 #### Example:
 
@@ -76,6 +76,8 @@ The preamble is used to synchronize the receiving NIC with the incoming bit stre
 
 It prepares the receiving device so it can properly interpret the bits that follow.
 
+The preamble consists of alternating 1s and 0s, the pattern <span class="codeSnip">10101010</span> repeated once for each of its 7 bytes.
+
 <hr class="dividerSection" />
 
 ### Start Frame Delimiter (SFD)
@@ -86,15 +88,17 @@ The Start Frame Delimiter indicates that the actual Ethernet frame is about to b
 
 It signals to the receiving NIC that the next fields will contain meaningful frame information.
 
+The SFD's bit pattern is <span class="codeSnip">10101011</span>, the same alternating pattern as the preamble, except the final bit is a 1 instead of a 0, marking the end of the preamble and the start of the rest of the frame.
+
 <hr class="dividerSection" />
 
 ### Destination and Source MAC Addresses
 
 <hr class="dividerSection" />
 
-The **Destination MAC Address** identifies the intended receiving device on the local network.
+The <span class="emphasis">Destination MAC Address</span> identifies the intended receiving device on the local network.
 
-The **Source MAC Address** identifies the device that originated the frame.
+The <span class="emphasis">Source MAC Address</span> identifies the device that originated the frame.
 
 Switches use these addresses to make forwarding decisions within a Layer 2 network.
 
@@ -106,12 +110,30 @@ Switches use these addresses to make forwarding decisions within a Layer 2 netwo
 
 This 2-byte field can serve one of two purposes:
 
-- **Length** — Indicates the size of the payload (used in IEEE 802.3 framing).
-- **Type** — Identifies the protocol encapsulated inside the payload (used in Ethernet II framing).
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Length</span>, indicates the size of the payload (used in IEEE 802.3 framing).</li>
+    <li><span class="emphasis">Type</span>, identifies the protocol encapsulated inside the payload (used in Ethernet II framing).</li>
+  </ul>
+</div>
+
+Whether the field represents a length or a type depends on its value:
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>A value of 1500 or less indicates the <span class="emphasis">length</span> of the encapsulated payload, in bytes.</li>
+    <li>A value of 1536 or greater indicates the <span class="emphasis">type</span> of the encapsulated payload instead.</li>
+  </ul>
+</div>
 
 Examples of common type values include:
-- IPv4
-- IPv6
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="codeSnip">0x0800</span> (2048 in decimal), IPv4</li>
+    <li><span class="codeSnip">0x86DD</span> (34525 in decimal), IPv6</li>
+  </ul>
+</div>
 
 This allows the receiving device to know what kind of data is being carried inside the frame.
 
@@ -124,10 +146,15 @@ This allows the receiving device to know what kind of data is being carried insi
 The data field contains the encapsulated Layer 3 packet.
 
 This may include:
-- An IPv4 packet
-- An IPv6 packet
-- A TCP segment
-- Application-layer data such as HTTP
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>An IPv4 packet</li>
+    <li>An IPv6 packet</li>
+    <li>A TCP segment</li>
+    <li>Application-layer data such as HTTP</li>
+  </ul>
+</div>
 
 Ethernet itself does not interpret this data.  
 It simply delivers the frame from one NIC to another.
@@ -145,8 +172,7 @@ The Frame Check Sequence provides error detection.
 
 The receiving device performs a calculation to verify that the frame was not corrupted during transmission.
 
-If the calculated value does not match the FCS value:
-- The frame is discarded.
+If the calculated value does not match the FCS value, the frame is discarded.
 
 This mechanism helps ensure reliable communication at Layer 2.
 
@@ -205,11 +231,47 @@ Just like a physical letter must follow a specific format to be delivered correc
 
 <hr class="dividerSubsection1" />
 
-1. The sender writes the message → This represents the payload.  
-2. The sender places the message inside an envelope → This represents encapsulation into a frame.  
-3. The envelope is labeled with the destination and sender addresses → These are the MAC addresses.  
-4. The postal system delivers the envelope → Switches forward the frame based on MAC addresses.  
-5. The recipient verifies the envelope and removes the letter → The receiving NIC checks the FCS and processes the payload.  
+<div class="centeredNumberedList">
+  1. **The sender writes the message**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>This represents the payload.</li>
+    </ul>
+  </div>
+
+  2. **The sender places the message inside an envelope**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>This represents encapsulation into a frame.</li>
+    </ul>
+  </div>
+
+  3. **The envelope is labeled with the destination and sender addresses**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>These are the MAC addresses.</li>
+    </ul>
+  </div>
+
+  4. **The postal system delivers the envelope**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>Switches forward the frame based on MAC addresses.</li>
+    </ul>
+  </div>
+
+  5. **The recipient verifies the envelope and removes the letter**
+
+  <div class="centeredBullet">
+    <ul class="diamondBullets fullWidthBullet">
+      <li>The receiving NIC checks the FCS and processes the payload.</li>
+    </ul>
+  </div>
+</div>  
 
 If the envelope is damaged or incorrectly addressed, the letter may not be delivered.  
 Similarly, if a frame fails the FCS check or has incorrect addressing, it is discarded.
@@ -222,10 +284,14 @@ Similarly, if a frame fails the FCS check or has incorrect addressing, it is dis
 
 An Ethernet frame contains multiple structured fields that allow:
 
-- Synchronization
-- Local addressing
-- Payload identification
-- Error detection
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Synchronization</li>
+    <li>Local addressing</li>
+    <li>Payload identification</li>
+    <li>Error detection</li>
+  </ul>
+</div>
 
 Together, these fields enable reliable NIC-to-NIC communication on a local network.
 
