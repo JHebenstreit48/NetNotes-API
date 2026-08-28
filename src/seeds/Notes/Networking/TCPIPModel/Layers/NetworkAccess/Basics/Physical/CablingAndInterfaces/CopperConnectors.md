@@ -141,8 +141,8 @@ Wire pair usage differs by standard:
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
-    <li>10BASE-T and 100BASE-T use 2 wire pairs (4 of the 8 wires)</li>
-    <li>1000BASE-T and 10GBASE-T use all 4 wire pairs (all 8 wires), with each pair operating bidirectionally</li>
+    <li>10BASE-T and 100BASE-T use 2 wire pairs (4 of the 8 wires), with each pair having a fixed transmit or receive role.</li>
+    <li>1000BASE-T and 10GBASE-T use all 4 wire pairs (all 8 wires), with each pair operating bidirectionally rather than having a fixed transmit or receive role.</li>
   </ul>
 </div>
 

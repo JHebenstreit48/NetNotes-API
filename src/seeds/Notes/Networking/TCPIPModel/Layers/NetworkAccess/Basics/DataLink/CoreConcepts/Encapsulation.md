@@ -45,6 +45,11 @@ L2: Eth dst:00:11:22:33:44:55 src:66:77:88:99:aa:bb type=0x0800
 L1: Bits transmitted on the medium...
 ```
 
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields" target="_blank" rel="noopener noreferrer">Data Link → Frames & Addressing → Ethernet Frame Fields (what the Type field's value, such as 0x0800, actually indicates)</a>
+</div>
+
 <hr class="dividerSection" />
 
 ## OSI vs TCP/IP Mapping

@@ -2,7 +2,7 @@
 
 <hr class="dividerSection" />
 
-A <span class="emphasis">local</span> network is a <span class="emphasis">private</span> network that connects <span class="emphasis">devices</span> within a <span class="emphasis">limited area</span>, such as a <span class="secondEmphasis">home</span>, <span class="secondEmphasis">office</span>, or <span class="secondEmphasis">campus</span>.
+A <span class="emphasis">local</span> network is a <span class="emphasis">private</span> network contained within a <span class="emphasis">relatively small area</span>, such as a <span class="secondEmphasis">floor</span>, <span class="secondEmphasis">office</span>, or <span class="secondEmphasis">home network</span>.
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
@@ -19,59 +19,63 @@ A <span class="emphasis">local</span> network is a <span class="emphasis">privat
 
 Local networks vary in <span class="emphasis">size, purpose, and infrastructure</span>.
 
-<table class="notesTable">
-  <thead>
-    <tr class="tableHeader">
-      <th class="tableCellHeader">Network Type</th>
-      <th class="tableCellHeader">Common Use Case</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="tableRow">
-      <td class="tableCell">Small Home Network</td>
-      <td class="tableCell">Basic internet access and device sharing</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">SOHO (Small Office/Home Office) Network</td>
-      <td class="tableCell">Small business operations and remote work</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Enterprise Network</td>
-      <td class="tableCell">Corporate infrastructure spanning multiple locations</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Campus Network</td>
-      <td class="tableCell">Large educational institutions</td>
-    </tr>
-  </tbody>
-</table>
+<div class="tableWrapper">
+  <table class="notesTable">
+    <thead>
+      <tr class="tableHeader">
+        <th class="tableCellHeader">Network Type</th>
+        <th class="tableCellHeader">Common Use Case</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="tableRow">
+        <td class="tableCell">Small Home Network</td>
+        <td class="tableCell">Basic internet access and device sharing</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">SOHO (Small Office/Home Office) Network</td>
+        <td class="tableCell">Small business operations and remote work</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Enterprise Network</td>
+        <td class="tableCell">Corporate infrastructure spanning multiple locations</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Campus Network</td>
+        <td class="tableCell">Large educational institutions</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-<table class="notesTable">
-  <thead>
-    <tr class="tableHeader">
-      <th class="tableCellHeader">Network Type</th>
-      <th class="tableCellHeader">Example</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="tableRow">
-      <td class="tableCell">Small Home Network</td>
-      <td class="tableCell">Wi-Fi router in a house</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">SOHO (Small Office/Home Office) Network</td>
-      <td class="tableCell">Home office setup with network printers</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Enterprise Network</td>
-      <td class="tableCell">Corporate HQ with data centers and VLANs</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Campus Network</td>
-      <td class="tableCell">University networks connecting departments</td>
-    </tr>
-  </tbody>
-</table>
+<div class="tableWrapper">
+  <table class="notesTable">
+    <thead>
+      <tr class="tableHeader">
+        <th class="tableCellHeader">Network Type</th>
+        <th class="tableCellHeader">Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="tableRow">
+        <td class="tableCell">Small Home Network</td>
+        <td class="tableCell">Wi-Fi router in a house</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">SOHO (Small Office/Home Office) Network</td>
+        <td class="tableCell">Home office setup with network printers</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Enterprise Network</td>
+        <td class="tableCell">Corporate HQ with data centers and VLANs</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Campus Network</td>
+        <td class="tableCell">University networks connecting departments</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <hr class="dividerSection" />
 
@@ -98,59 +102,63 @@ Local networks offer <span class="emphasis">efficient communication</span> by ke
 
 Local networks can range from a <span class="emphasis">simple home setup</span> to <span class="emphasis">complex enterprise infrastructures</span>.
 
-<table class="notesTable">
-  <thead>
-    <tr class="tableHeader">
-      <th class="tableCellHeader">Feature</th>
-      <th class="tableCellHeader">Small Networks</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="tableRow">
-      <td class="tableCell">Scale</td>
-      <td class="tableCell">Few devices, single location</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Security</td>
-      <td class="tableCell">Basic firewall and password protection</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Network Management</td>
-      <td class="tableCell">Basic router settings</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Internet Access</td>
-      <td class="tableCell">Single broadband connection</td>
-    </tr>
-  </tbody>
-</table>
+<div class="tableWrapper">
+  <table class="notesTable">
+    <thead>
+      <tr class="tableHeader">
+        <th class="tableCellHeader">Feature</th>
+        <th class="tableCellHeader">Small Networks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="tableRow">
+        <td class="tableCell">Scale</td>
+        <td class="tableCell">Few devices, single location</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Security</td>
+        <td class="tableCell">Basic firewall and password protection</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Network Management</td>
+        <td class="tableCell">Basic router settings</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Internet Access</td>
+        <td class="tableCell">Single broadband connection</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-<table class="notesTable">
-  <thead>
-    <tr class="tableHeader">
-      <th class="tableCellHeader">Feature</th>
-      <th class="tableCellHeader">Enterprise Networks</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="tableRow">
-      <td class="tableCell">Scale</td>
-      <td class="tableCell">Hundreds to thousands of devices, multiple locations</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Security</td>
-      <td class="tableCell">Advanced firewalls, VPNs, and intrusion detection</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Network Management</td>
-      <td class="tableCell">Managed switches, VLANs, and monitoring tools</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">Internet Access</td>
-      <td class="tableCell">Redundant connections with load balancing</td>
-    </tr>
-  </tbody>
-</table>
+<div class="tableWrapper">
+  <table class="notesTable">
+    <thead>
+      <tr class="tableHeader">
+        <th class="tableCellHeader">Feature</th>
+        <th class="tableCellHeader">Enterprise Networks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="tableRow">
+        <td class="tableCell">Scale</td>
+        <td class="tableCell">Hundreds to thousands of devices, multiple locations</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Security</td>
+        <td class="tableCell">Advanced firewalls, VPNs, and intrusion detection</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Network Management</td>
+        <td class="tableCell">Managed switches, VLANs, and monitoring tools</td>
+      </tr>
+      <tr class="tableRow">
+        <td class="tableCell">Internet Access</td>
+        <td class="tableCell">Redundant connections with load balancing</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <hr class="dividerSection" />
 
@@ -184,7 +192,35 @@ Within a LAN, hosts can be placed on a single local network or divided across mu
   </ul>
 </div>
 
-**Advantages of a Single Local Segment:**
+<hr class="dividerSubsection1" />
+
+### What Determines Where One LAN Ends and Another Begins?
+
+<hr class="dividerSubsection1" />
+
+Adding more switches to a network does not create a new LAN.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Switches connect end hosts and can be connected to one another to expand an existing local network.</li>
+    <li>A group of devices connected through one switch, or through several switches connected together, all leading to the same router interface, is still a single LAN.</li>
+  </ul>
+</div>
+
+What separates one LAN from another is the <span class="emphasis">router interface</span> a group of devices connects to, not the number of switches involved.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Two groups of devices can have identical switch and host layouts, yet still belong to two separate LANs, if each group connects to a different router interface.</li>
+    <li>A single group of devices, even across multiple interconnected switches, remains one LAN as long as it all leads to the same router interface.</li>
+  </ul>
+</div>
+
+<hr class="dividerSubsection1" />
+
+### <span class="emphasis">Advantages of a Single Local Segment</span>
+
+<hr class="dividerSubsection1" />
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
@@ -196,7 +232,11 @@ Within a LAN, hosts can be placed on a single local network or divided across mu
   </ul>
 </div>
 
-**Disadvantages of a Single Local Segment:**
+<hr class="dividerSubsection1" />
+
+### <span class="emphasis">Disadvantages of a Single Local Segment</span>
+
+<hr class="dividerSubsection1" />
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
@@ -206,7 +246,11 @@ Within a LAN, hosts can be placed on a single local network or divided across mu
   </ul>
 </div>
 
-**Advantages of Hosts on Remote Segments:**
+<hr class="dividerSubsection1" />
+
+### <span class="emphasis">Advantages of Hosts on Remote Segments</span>
+
+<hr class="dividerSubsection1" />
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
@@ -219,7 +263,11 @@ Within a LAN, hosts can be placed on a single local network or divided across mu
   </ul>
 </div>
 
-**Disadvantages of Hosts on Remote Segments:**
+<hr class="dividerSubsection1" />
+
+### <span class="emphasis">Disadvantages of Hosts on Remote Segments</span>
+
+<hr class="dividerSubsection1" />
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
